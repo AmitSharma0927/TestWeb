@@ -1,0 +1,1639 @@
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>DOM_XSS</checker>
+<type>xss</type>
+<subtype>audit_dom_xss</subtype>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.access:%COND_fn</function>
+<functionMergeName>!jquery-%VERSION-vsdoc.js!%IIFE:jQuery.access:%COND_fn</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{elem}}}}}}</description>
+<line>533</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{elem}}}{{code{jQuery}}}}}}</description>
+<line>534</line>
+</event>
+<event>
+<main>true</main>
+<tag>dom_xss_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{jQuery}}}{{code{elem}}}}{t{ This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.}}}}</description>
+<line>534</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{The untrusted data reaches a sink that can either lead to HTML injection, JavaScript code execution, or the manipulation of a URL starting with the &quot;javascript:&quot; or &quot;data:&quot; schemes. Any of these can lead to a DOM XSS vulnerability.{ul{HTML injection: Either escape properly the untrusted data or use a safe API to insert this data to the DOM; direct HTML manipulation as text should be avoided.}{JavaScript code execution: Validate any untrusted data against a whitelist so it's not possible for an attacker to have its supplied code executing.}{URL manipulation: Make sure the scheme is whitelisted and doesn't allow for the injection of a URL like: &quot;data:text/html;,&lt;img/src/onerror=alert(1)&gt;&quot;.}}}}}}</description>
+<line>534</line>
+</event>
+<extra>@jQuery:&quot;!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.access:%COND_fn&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>DOM_XSS</checker>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.access:%COND_fn</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>DOM_XSS</checker>
+<type>xss</type>
+<subtype>audit_dom_xss</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/bootstrap.js</file>
+<function>!bootstrap.js!%IIFE%3:Carousel.prototype.cycle</function>
+<functionMergeName>!bootstrap.js!%IIFE:Carousel.prototype.cycle</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>audit_taint</tag>
+<description>{CovLStrv2{{t{{0} invokes an unknown or unresolved function which might return untrusted data.}{{code{$.proxy(this.next, this)}}}}}}</description>
+<line>342</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{$.proxy(this.next, this)}}}{{code{setInterval}}}}}}</description>
+<line>340</line>
+</event>
+<event>
+<main>true</main>
+<tag>dom_xss_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{setInterval}}}{{code{$.proxy(this.next, this)}}}}{t{ This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.}}}}</description>
+<line>340</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{The untrusted data reaches a sink that can either lead to HTML injection, JavaScript code execution, or the manipulation of a URL starting with the &quot;javascript:&quot; or &quot;data:&quot; schemes. Any of these can lead to a DOM XSS vulnerability.{ul{HTML injection: Either escape properly the untrusted data or use a safe API to insert this data to the DOM; direct HTML manipulation as text should be avoided.}{JavaScript code execution: Validate any untrusted data against a whitelist so it's not possible for an attacker to have its supplied code executing.}{URL manipulation: Make sure the scheme is whitelisted and doesn't allow for the injection of a URL like: &quot;data:text/html;,&lt;img/src/onerror=alert(1)&gt;&quot;.}}}}}}</description>
+<line>340</line>
+</event>
+<extra>@&quot;setInterval&quot;:&quot;proxy&quot;,$</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>DOM_XSS</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/bootstrap.js</file>
+<function>!bootstrap.js!%IIFE%3:Carousel.prototype.cycle</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>DOM_XSS</checker>
+<type>xss</type>
+<subtype>audit_dom_xss</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:%IPOL.delay:%IPFE</function>
+<functionMergeName>!jquery-%VERSION.js!%IIFE:%IPOL.delay:%IPFE</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{next}}}}}}</description>
+<line>4020</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{next}}}{{code{setTimeout}}}}}}</description>
+<line>4021</line>
+</event>
+<event>
+<main>true</main>
+<tag>dom_xss_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{setTimeout}}}{{code{next}}}}{t{ This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.}}}}</description>
+<line>4021</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{The untrusted data reaches a sink that can either lead to HTML injection, JavaScript code execution, or the manipulation of a URL starting with the &quot;javascript:&quot; or &quot;data:&quot; schemes. Any of these can lead to a DOM XSS vulnerability.{ul{HTML injection: Either escape properly the untrusted data or use a safe API to insert this data to the DOM; direct HTML manipulation as text should be avoided.}{JavaScript code execution: Validate any untrusted data against a whitelist so it's not possible for an attacker to have its supplied code executing.}{URL manipulation: Make sure the scheme is whitelisted and doesn't allow for the injection of a URL like: &quot;data:text/html;,&lt;img/src/onerror=alert(1)&gt;&quot;.}}}}}}</description>
+<line>4021</line>
+</event>
+<extra>@&quot;setTimeout&quot;:&quot;!jquery-1.10.2.js!%IIFE:%IPOL.delay:%IPFE&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>DOM_XSS</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:%IPOL.delay:%IPFE</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>DOM_XSS</checker>
+<type>xss</type>
+<subtype>audit_dom_xss</subtype>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.delay:%IPFE</function>
+<functionMergeName>!jquery-%VERSION-vsdoc.js!%IIFE:jQuery.prototype.delay:%IPFE</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{next}}}}}}</description>
+<line>3639</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{next}}}{{code{setTimeout}}}}}}</description>
+<line>3640</line>
+</event>
+<event>
+<main>true</main>
+<tag>dom_xss_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{setTimeout}}}{{code{next}}}}{t{ This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.}}}}</description>
+<line>3640</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{The untrusted data reaches a sink that can either lead to HTML injection, JavaScript code execution, or the manipulation of a URL starting with the &quot;javascript:&quot; or &quot;data:&quot; schemes. Any of these can lead to a DOM XSS vulnerability.{ul{HTML injection: Either escape properly the untrusted data or use a safe API to insert this data to the DOM; direct HTML manipulation as text should be avoided.}{JavaScript code execution: Validate any untrusted data against a whitelist so it's not possible for an attacker to have its supplied code executing.}{URL manipulation: Make sure the scheme is whitelisted and doesn't allow for the injection of a URL like: &quot;data:text/html;,&lt;img/src/onerror=alert(1)&gt;&quot;.}}}}}}</description>
+<line>3640</line>
+</event>
+<extra>@&quot;setTimeout&quot;:&quot;!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.delay:%IPFE&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>DOM_XSS</checker>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.delay:%IPFE</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>DOM_XSS</checker>
+<type>xss</type>
+<subtype>audit_dom_xss</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:jQuery.prototype.init</function>
+<functionMergeName>!jquery-%VERSION.js!%IIFE:jQuery.prototype.init</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{context}}}}}}</description>
+<line>138</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{context}}}{{code{this.constructor}}}}}}</description>
+<line>216</line>
+</event>
+<event>
+<main>true</main>
+<tag>dom_xss_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{this.constructor}}}{{code{context}}}}{t{ This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.}}}}</description>
+<line>216</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{The untrusted data reaches a sink that can either lead to HTML injection, JavaScript code execution, or the manipulation of a URL starting with the &quot;javascript:&quot; or &quot;data:&quot; schemes. Any of these can lead to a DOM XSS vulnerability.{ul{HTML injection: Either escape properly the untrusted data or use a safe API to insert this data to the DOM; direct HTML manipulation as text should be avoided.}{JavaScript code execution: Validate any untrusted data against a whitelist so it's not possible for an attacker to have its supplied code executing.}{URL manipulation: Make sure the scheme is whitelisted and doesn't allow for the injection of a URL like: &quot;data:text/html;,&lt;img/src/onerror=alert(1)&gt;&quot;.}}}}}}</description>
+<line>216</line>
+</event>
+<extra>@&quot;constructor&quot;,this:&quot;!jquery-1.10.2.js!%IIFE:jQuery.prototype.init&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>DOM_XSS</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:jQuery.prototype.init</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>DOM_XSS</checker>
+<type>xss</type>
+<subtype>audit_dom_xss</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:%IPOL.add</function>
+<functionMergeName>!jquery-%VERSION.js!%IIFE:%IPOL.add</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{selector}}}}}}</description>
+<line>5836</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{selector}}}{{code{jQuery}}}}}}</description>
+<line>5837</line>
+</event>
+<event>
+<main>true</main>
+<tag>dom_xss_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{jQuery}}}{{code{selector}}}}{t{ This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.}}}}</description>
+<line>5837</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{The untrusted data reaches a sink that can either lead to HTML injection, JavaScript code execution, or the manipulation of a URL starting with the &quot;javascript:&quot; or &quot;data:&quot; schemes. Any of these can lead to a DOM XSS vulnerability.{ul{HTML injection: Either escape properly the untrusted data or use a safe API to insert this data to the DOM; direct HTML manipulation as text should be avoided.}{JavaScript code execution: Validate any untrusted data against a whitelist so it's not possible for an attacker to have its supplied code executing.}{URL manipulation: Make sure the scheme is whitelisted and doesn't allow for the injection of a URL like: &quot;data:text/html;,&lt;img/src/onerror=alert(1)&gt;&quot;.}}}}}}</description>
+<line>5837</line>
+</event>
+<extra>@jQuery:&quot;!jquery-1.10.2.js!%IIFE:%IPOL.add&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>DOM_XSS</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:%IPOL.add</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>DOM_XSS</checker>
+<type>xss</type>
+<subtype>audit_dom_xss</subtype>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.add</function>
+<functionMergeName>!jquery-%VERSION-vsdoc.js!%IIFE:jQuery.prototype.add</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{selector}}}}}}</description>
+<line>2976</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{selector}}}{{code{jQuery}}}}}}</description>
+<line>2993</line>
+</event>
+<event>
+<main>true</main>
+<tag>dom_xss_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{jQuery}}}{{code{selector}}}}{t{ This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.}}}}</description>
+<line>2993</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{The untrusted data reaches a sink that can either lead to HTML injection, JavaScript code execution, or the manipulation of a URL starting with the &quot;javascript:&quot; or &quot;data:&quot; schemes. Any of these can lead to a DOM XSS vulnerability.{ul{HTML injection: Either escape properly the untrusted data or use a safe API to insert this data to the DOM; direct HTML manipulation as text should be avoided.}{JavaScript code execution: Validate any untrusted data against a whitelist so it's not possible for an attacker to have its supplied code executing.}{URL manipulation: Make sure the scheme is whitelisted and doesn't allow for the injection of a URL like: &quot;data:text/html;,&lt;img/src/onerror=alert(1)&gt;&quot;.}}}}}}</description>
+<line>2993</line>
+</event>
+<extra>@jQuery:&quot;!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.add&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>DOM_XSS</checker>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.add</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>DOM_XSS</checker>
+<type>xss</type>
+<subtype>audit_dom_xss</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/bootstrap.js</file>
+<function>!bootstrap.js!%IIFE%11:Affix.prototype.checkPositionWithEventLoop</function>
+<functionMergeName>!bootstrap.js!%IIFE:Affix.prototype.checkPositionWithEventLoop</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>audit_taint</tag>
+<description>{CovLStrv2{{t{{0} invokes an unknown or unresolved function which might return untrusted data.}{{code{$.proxy(this.checkPosition, this)}}}}}}</description>
+<line>1934</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{$.proxy(this.checkPosition, this)}}}{{code{setTimeout}}}}}}</description>
+<line>1934</line>
+</event>
+<event>
+<main>true</main>
+<tag>dom_xss_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{setTimeout}}}{{code{$.proxy(this.checkPosition, this)}}}}{t{ This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.}}}}</description>
+<line>1934</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{The untrusted data reaches a sink that can either lead to HTML injection, JavaScript code execution, or the manipulation of a URL starting with the &quot;javascript:&quot; or &quot;data:&quot; schemes. Any of these can lead to a DOM XSS vulnerability.{ul{HTML injection: Either escape properly the untrusted data or use a safe API to insert this data to the DOM; direct HTML manipulation as text should be avoided.}{JavaScript code execution: Validate any untrusted data against a whitelist so it's not possible for an attacker to have its supplied code executing.}{URL manipulation: Make sure the scheme is whitelisted and doesn't allow for the injection of a URL like: &quot;data:text/html;,&lt;img/src/onerror=alert(1)&gt;&quot;.}}}}}}</description>
+<line>1934</line>
+</event>
+<extra>@&quot;setTimeout&quot;:&quot;proxy&quot;,$</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>DOM_XSS</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/bootstrap.js</file>
+<function>!bootstrap.js!%IIFE%11:Affix.prototype.checkPositionWithEventLoop</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>DOM_XSS</checker>
+<type>xss</type>
+<subtype>audit_dom_xss</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:%IIFE%1</function>
+<functionMergeName>!jquery-%VERSION.js!%IIFE:%IIFE</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{support}}}}}}</description>
+<line>3333</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{support}}}{{code{jQuery}}}}}}</description>
+<line>3475</line>
+</event>
+<event>
+<main>true</main>
+<tag>dom_xss_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{jQuery}}}{{code{support}}}}{t{ This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.}}}}</description>
+<line>3475</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{The untrusted data reaches a sink that can either lead to HTML injection, JavaScript code execution, or the manipulation of a URL starting with the &quot;javascript:&quot; or &quot;data:&quot; schemes. Any of these can lead to a DOM XSS vulnerability.{ul{HTML injection: Either escape properly the untrusted data or use a safe API to insert this data to the DOM; direct HTML manipulation as text should be avoided.}{JavaScript code execution: Validate any untrusted data against a whitelist so it's not possible for an attacker to have its supplied code executing.}{URL manipulation: Make sure the scheme is whitelisted and doesn't allow for the injection of a URL like: &quot;data:text/html;,&lt;img/src/onerror=alert(1)&gt;&quot;.}}}}}}</description>
+<line>3475</line>
+</event>
+<extra>@jQuery:&quot;!jquery-1.10.2.js!%IIFE:%IIFE%1&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>DOM_XSS</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:%IIFE%1</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>DOM_XSS</checker>
+<type>xss</type>
+<subtype>dom_xss</subtype>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.load:%COND_%IPFE</function>
+<functionMergeName>!jquery-%VERSION-vsdoc.js!%IIFE:jQuery.prototype.load:%COND_%IPFE</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>function</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{ul{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.parseHTML}}}{{code{parseHTML}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQueryjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.load}}}{{code{fn}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}}}}</description>
+<line>37</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE</function>
+<key>3c8c03c8e52df3dbbf5a845af9799b9c</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<tag>event_handler</tag>
+<description>{CovLStrv2{{t{Calling at a later point {0}.}{{code{jQuery.prototype.load}}}}{ul{{t{This call registers an event handler (through {0}).}{{code{jQuery.ajax({L}&quot;url&quot; : url, &quot;typ...}}}}}{{t{This call assigns {0} to captured variable {1}.}{{code{jQuery}}}{{code{jQuery}}}}}}}}</description>
+<line>4708</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.load</function>
+<key>6ad693cce85c68c4e8858888836c1d1c</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<tag>argument_taint</tag>
+<description>{CovLStrv2{{t{Parameter {0} is tainted when the callback function is called.}{{code{responseText}}}}}}</description>
+<line>4761</line>
+</event>
+<event>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling at a later point {0}.}{{code{&lt;anonymous&gt;}}}}{t{ This call uses {0} for sensitive computation.}{{code{responseText}}}}}}</description>
+<line>4708</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{responseText}}}{{code{jQuery.parseHTML}}}}}}</description>
+<line>4766</line>
+</event>
+<event>
+<main>true</main>
+<tag>dom_xss_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{jQuery.parseHTML}}}{{code{responseText}}}}{t{ This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.}}}}</description>
+<line>4766</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{The untrusted data reaches a sink that can either lead to HTML injection, JavaScript code execution, or the manipulation of a URL starting with the &quot;javascript:&quot; or &quot;data:&quot; schemes. Any of these can lead to a DOM XSS vulnerability.{ul{HTML injection: Either escape properly the untrusted data or use a safe API to insert this data to the DOM; direct HTML manipulation as text should be avoided.}{JavaScript code execution: Validate any untrusted data against a whitelist so it's not possible for an attacker to have its supplied code executing.}{URL manipulation: Make sure the scheme is whitelisted and doesn't allow for the injection of a URL like: &quot;data:text/html;,&lt;img/src/onerror=alert(1)&gt;&quot;.}}}}}}</description>
+<line>4766</line>
+</event>
+<extra>&quot;parseHTML&quot;,jQuery:responseText</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>DOM_XSS</checker>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>DOM_XSS</checker>
+<type>xss</type>
+<subtype>dom_xss</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:jQuery.fn.load:%COND_%IPFE</function>
+<functionMergeName>!jquery-%VERSION.js!%IIFE:jQuery.fn.load:%COND_%IPFE</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>function</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{ul{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2.js!%IIFE:jQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2.js!%IIFE:%COND_jQuery.cssHooks.opacity.setjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2.js!%IIFE:jQuery.fn.load}}}{{code{fn}}}{{code{function!jquery-1.10.2.js!%IIFE:jQuery}}}}}}}}</description>
+<line>28</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE</function>
+<key>7142a0e0676e8de1f2b6f350abe3b7d1</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<tag>event_handler</tag>
+<description>{CovLStrv2{{t{Calling at a later point {0}.}{{code{jQuery.fn.load}}}}{ul{{t{This call registers an event handler (through {0}).}{{code{jQuery.ajax({L}&quot;url&quot; : url, &quot;typ...}}}}}{{t{This call assigns {0} to captured variable {1}.}{{code{jQuery}}}{{code{jQuery}}}}}}}}</description>
+<line>7731</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:jQuery.fn.load</function>
+<key>6dc589ef0b33947c11ccc6632874ee24</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<tag>argument_taint</tag>
+<description>{CovLStrv2{{t{Parameter {0} is tainted when the callback function is called.}{{code{responseText}}}}}}</description>
+<line>7766</line>
+</event>
+<event>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling at a later point {0}.}{{code{&lt;anonymous&gt;}}}}{t{ This call uses {0} for sensitive computation.}{{code{responseText}}}}}}</description>
+<line>7731</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{responseText}}}{{code{jQuery.parseHTML}}}}}}</description>
+<line>7771</line>
+</event>
+<event>
+<main>true</main>
+<tag>dom_xss_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{jQuery.parseHTML}}}{{code{responseText}}}}{t{ This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.}}}}</description>
+<line>7771</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{The untrusted data reaches a sink that can either lead to HTML injection, JavaScript code execution, or the manipulation of a URL starting with the &quot;javascript:&quot; or &quot;data:&quot; schemes. Any of these can lead to a DOM XSS vulnerability.{ul{HTML injection: Either escape properly the untrusted data or use a safe API to insert this data to the DOM; direct HTML manipulation as text should be avoided.}{JavaScript code execution: Validate any untrusted data against a whitelist so it's not possible for an attacker to have its supplied code executing.}{URL manipulation: Make sure the scheme is whitelisted and doesn't allow for the injection of a URL like: &quot;data:text/html;,&lt;img/src/onerror=alert(1)&gt;&quot;.}}}}}}</description>
+<line>7771</line>
+</event>
+<extra>&quot;parseHTML&quot;,jQuery:responseText</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>DOM_XSS</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>DOM_XSS</checker>
+<type>xss</type>
+<subtype>audit_dom_xss</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/modernizr-2.6.2.js</file>
+<function>!modernizr-2.6.2.js!%IIFE:injectElementWithStyles</function>
+<functionMergeName>!modernizr-%VERSION.js!%IIFE:injectElementWithStyles</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{rule}}}}}}</description>
+<line>120</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = {1}.}{{code{&lt;storage from new&gt;[4]}}}{{code{rule}}}}}}</description>
+<line>144</line>
+</event>
+<event>
+<tag>pass_through</tag>
+<description>{CovLStrv2{{t{Calling {0} passes {1} to its return value.}{{code{([&quot;&amp;#173;&quot;, &quot;&lt;style id=\&quot;s&quot;, mod, &quot;\&quot;&gt;&quot;, rule, &quot;&lt;/style&gt;&quot;]).join(&quot;&quot;)}}}{{code{[&quot;&amp;#173;&quot;, &quot;&lt;style id=\&quot;s&quot;, mod, &quot;\&quot;&gt;&quot;, rule, &quot;&lt;/style&gt;&quot;][*]}}}}}}</description>
+<line>144</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = {1}.}{{code{style}}}{{code{([&quot;&amp;#173;&quot;, &quot;&lt;style id=\&quot;s&quot;, mod, &quot;\&quot;&gt;&quot;, rule, &quot;&lt;/style&gt;&quot;]).join(&quot;&quot;)}}}}}}</description>
+<line>144</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Appending {0} to {1}.}{{code{style}}}{{code{(body ? div : fakeBody).innerHTML}}}}}}</description>
+<line>148</line>
+</event>
+<event>
+<main>true</main>
+<tag>dom_xss_sink</tag>
+<description>{CovLStrv2{{t{Writing the tainted value to property {0} of {1}.}{{code{innerHTML}}}{{code{body ? div : fakeBody}}}}{t{ This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.}}}}</description>
+<line>148</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{The untrusted data reaches a sink that can either lead to HTML injection, JavaScript code execution, or the manipulation of a URL starting with the &quot;javascript:&quot; or &quot;data:&quot; schemes. Any of these can lead to a DOM XSS vulnerability.{ul{HTML injection: Either escape properly the untrusted data or use a safe API to insert this data to the DOM; direct HTML manipulation as text should be avoided.}{JavaScript code execution: Validate any untrusted data against a whitelist so it's not possible for an attacker to have its supplied code executing.}{URL manipulation: Make sure the scheme is whitelisted and doesn't allow for the injection of a URL like: &quot;data:text/html;,&lt;img/src/onerror=alert(1)&gt;&quot;.}}}}}}</description>
+<line>148</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>48</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/modernizr-2.6.2.js</file>
+<function>!modernizr-2.6.2.js!%IIFE</function>
+<key>7fa4951242f0bbce913f63054ecb3b15</key>
+<id>4</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>function</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{ul{{t{This call assigns {0} to captured variable {1}.}{{code{this.document}}}{{code{document}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!modernizr-2.6.2.js!%IIFE:%IIFE:isEventSupporteddocument}}}{{code{document}}}}}{{t{This call assigns a reference to {0} to {1}.}{{code{function!modernizr-2.6.2.js!%IIFE:injectElementWithStyles}}}{{code{&lt;return value&gt;.testStyles}}}}}}}}</description>
+<line>48</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/modernizr-2.6.2.js</file>
+<function>!modernizr-2.6.2.js!%IIFE</function>
+<key>88d9a9ca1ec92b8ae597e36a5b952359</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling at a later point {0}.}{{code{injectElementWithStyles}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>120</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/modernizr-2.6.2.js</file>
+<function>!modernizr-2.6.2.js!%IIFE:injectElementWithStyles</function>
+<key>8411b709991feb6c011996d15d6e48f2</key>
+<id>9</id>
+</model_ptr>
+</event>
+<extra>@&quot;innerHTML&quot;,body,div,fakeBody:&quot;!modernizr-2.6.2.js!%IIFE:injectElementWithStyles&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>DOM_XSS</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/modernizr-2.6.2.js</file>
+<function>!modernizr-2.6.2.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>DOM_XSS</checker>
+<type>xss</type>
+<subtype>audit_dom_xss</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:jQuery</function>
+<functionMergeName>!jquery-%VERSION.js!%IIFE:jQuery</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{selector}}}}}}</description>
+<line>75</line>
+</event>
+<event>
+<main>true</main>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{jQuery.fn.init}}}}{t{ This call uses {0} for sensitive computation.}{{code{selector}}}}}}</description>
+<line>77</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:jQuery.prototype.init</function>
+<key>9344a0ccd832a7af0336d72a293444f1</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{The untrusted data reaches a sink that can either lead to HTML injection, JavaScript code execution, or the manipulation of a URL starting with the &quot;javascript:&quot; or &quot;data:&quot; schemes. Any of these can lead to a DOM XSS vulnerability.{ul{HTML injection: Either escape properly the untrusted data or use a safe API to insert this data to the DOM; direct HTML manipulation as text should be avoided.}{JavaScript code execution: Validate any untrusted data against a whitelist so it's not possible for an attacker to have its supplied code executing.}{URL manipulation: Make sure the scheme is whitelisted and doesn't allow for the injection of a URL like: &quot;data:text/html;,&lt;img/src/onerror=alert(1)&gt;&quot;.}}}}}}</description>
+<line>77</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>28</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE</function>
+<key>a9f6d63964f7989ffafa9ce1d012a154</key>
+<id>27</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>function</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{ul{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2.js!%IIFE:jQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2.js!%IIFE:%COND_jQuery.cssHooks.opacity.setjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2.js!%IIFE:jQuery.prototype.init}}}{{code{fn}}}{{code{function!jquery-1.10.2.js!%IIFE:jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2.js!%IIFE:%COND_jQuery.cssHooks.opacity.setjQuery}}}{{code{jQuery}}}}}}}}</description>
+<line>28</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE</function>
+<key>4226bd911f7aeae8e60e4c68792442f1</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling at a later point {0}.}{{code{jQuery}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>75</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:jQuery</function>
+<key>8cd449aec9b8a398bf8ba5dc83f577d0</key>
+<id>5</id>
+</model_ptr>
+</event>
+<extra>@&quot;fn&quot;,&quot;init&quot;,jQuery:&quot;!jquery-1.10.2.js!%IIFE:jQuery&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>DOM_XSS</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>DOM_XSS</checker>
+<type>xss</type>
+<subtype>audit_dom_xss</subtype>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.init</function>
+<functionMergeName>!jquery-%VERSION-vsdoc.js!%IIFE:jQuery.prototype.init</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{selector}}}}}}</description>
+<line>4387</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = {1}.}{{code{&lt;storage from new&gt;[1]}}}{{code{selector}}}}}}</description>
+<line>4400</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = {1}.}{{code{match}}}{{code{[null, selector, null]}}}}}}</description>
+<line>4400</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{match[1]}}}{{code{jQuery.parseHTML}}}}}}</description>
+<line>4414</line>
+</event>
+<event>
+<main>true</main>
+<tag>dom_xss_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{jQuery.parseHTML}}}{{code{match[1]}}}}{t{ This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.}}}}</description>
+<line>4414</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{The untrusted data reaches a sink that can either lead to HTML injection, JavaScript code execution, or the manipulation of a URL starting with the &quot;javascript:&quot; or &quot;data:&quot; schemes. Any of these can lead to a DOM XSS vulnerability.{ul{HTML injection: Either escape properly the untrusted data or use a safe API to insert this data to the DOM; direct HTML manipulation as text should be avoided.}{JavaScript code execution: Validate any untrusted data against a whitelist so it's not possible for an attacker to have its supplied code executing.}{URL manipulation: Make sure the scheme is whitelisted and doesn't allow for the injection of a URL like: &quot;data:text/html;,&lt;img/src/onerror=alert(1)&gt;&quot;.}}}}}}</description>
+<line>4414</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>function</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{ul{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.parseHTML}}}{{code{parseHTML}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQueryjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.init}}}{{code{fn}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}}}}</description>
+<line>37</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE</function>
+<key>5c4d6171656cb199697186ddc54b18a7</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling at a later point {0}.}{{code{jQuery.prototype.init}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>4387</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.init</function>
+<key>8d4b5ecc065a5c35aa05709aab581e85</key>
+<id>17</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>function</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{ul{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.parseHTML}}}{{code{parseHTML}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQueryjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.init}}}{{code{fn}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}}}}</description>
+<line>37</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE</function>
+<key>b1f9f1f0b7c9ec184a80c1cd098ecee1</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling at a later point {0}.}{{code{jQuery}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>38</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery</function>
+<key>7654dd201c21fa4339d9dce192db70cd</key>
+<id>15</id>
+</model_ptr>
+</event>
+<event>
+<event_set>3</event_set>
+<tag>function</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{ul{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.parseHTML}}}{{code{parseHTML}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQueryjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.init}}}{{code{fn}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQueryjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.ajax}}}{{code{ajax}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}}}}</description>
+<line>37</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE</function>
+<key>b3f80003ddc4736a7d3bc09ed822520b</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<event_set>3</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling at a later point {0}.}{{code{jQuery.ajax}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>555</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.ajax</function>
+<key>ed5d776ecb4e8d7dc3b0daa9769932ae</key>
+<id>16</id>
+</model_ptr>
+</event>
+<event>
+<event_set>4</event_set>
+<tag>function</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{ul{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.parseHTML}}}{{code{parseHTML}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQueryjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.init}}}{{code{fn}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQueryjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.ajax}}}{{code{ajax}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQueryjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery._evalUrl}}}{{code{_evalUrl}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}}}}</description>
+<line>37</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE</function>
+<key>5f38b233b05585ad9a2bd232ce3a9275</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<event_set>4</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling at a later point {0}.}{{code{jQuery._evalUrl}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>466</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery._evalUrl</function>
+<key>12de0635473de58997b34b61ceea4e69</key>
+<id>15</id>
+</model_ptr>
+</event>
+<event>
+<event_set>5</event_set>
+<tag>function</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{ul{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.parseHTML}}}{{code{parseHTML}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQueryjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.init}}}{{code{fn}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQueryjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.ajax}}}{{code{ajax}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQueryjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery._evalUrl}}}{{code{_evalUrl}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQueryjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.domManip}}}{{code{fn}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}}}}</description>
+<line>37</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE</function>
+<key>adb997f14d7e1b13b5d9231506d72c89</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<event_set>5</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling at a later point {0}.}{{code{jQuery.prototype.domManip}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>3693</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.domManip</function>
+<key>9b6a1b03439f540b633c29ac6f89fa88</key>
+<id>30</id>
+</model_ptr>
+</event>
+<extra>@&quot;parseHTML&quot;,jQuery:&quot;!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.init&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>DOM_XSS</checker>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>DOM_XSS</checker>
+<type>xss</type>
+<subtype>audit_dom_xss</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:jQuery.prototype.init</function>
+<functionMergeName>!jquery-%VERSION.js!%IIFE:jQuery.prototype.init</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{selector}}}}}}</description>
+<line>138</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = {1}.}{{code{&lt;storage from new&gt;[1]}}}{{code{selector}}}}}}</description>
+<line>150</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = {1}.}{{code{match}}}{{code{[null, selector, null]}}}}}}</description>
+<line>150</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{match[1]}}}{{code{jQuery.parseHTML}}}}}}</description>
+<line>164</line>
+</event>
+<event>
+<main>true</main>
+<tag>dom_xss_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{jQuery.parseHTML}}}{{code{match[1]}}}}{t{ This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.}}}}</description>
+<line>164</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{The untrusted data reaches a sink that can either lead to HTML injection, JavaScript code execution, or the manipulation of a URL starting with the &quot;javascript:&quot; or &quot;data:&quot; schemes. Any of these can lead to a DOM XSS vulnerability.{ul{HTML injection: Either escape properly the untrusted data or use a safe API to insert this data to the DOM; direct HTML manipulation as text should be avoided.}{JavaScript code execution: Validate any untrusted data against a whitelist so it's not possible for an attacker to have its supplied code executing.}{URL manipulation: Make sure the scheme is whitelisted and doesn't allow for the injection of a URL like: &quot;data:text/html;,&lt;img/src/onerror=alert(1)&gt;&quot;.}}}}}}</description>
+<line>164</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>28</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE</function>
+<key>a9f6d63964f7989ffafa9ce1d012a154</key>
+<id>41</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>function</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{ul{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2.js!%IIFE:jQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2.js!%IIFE:%COND_jQuery.cssHooks.opacity.setjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2.js!%IIFE:jQuery.prototype.init}}}{{code{fn}}}{{code{function!jquery-1.10.2.js!%IIFE:jQuery}}}}}}}}</description>
+<line>28</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE</function>
+<key>cc975bec3200162950939c9e37fed21b</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling at a later point {0}.}{{code{jQuery.prototype.init}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>138</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:jQuery.prototype.init</function>
+<key>9344a0ccd832a7af0336d72a293444f1</key>
+<id>2</id>
+</model_ptr>
+</event>
+<extra>@&quot;parseHTML&quot;,jQuery:&quot;!jquery-1.10.2.js!%IIFE:jQuery.prototype.init&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>DOM_XSS</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>DOM_XSS</checker>
+<type>xss</type>
+<subtype>audit_dom_xss</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/modernizr-2.6.2.js</file>
+<function>!modernizr-2.6.2.js!%IIFE:%IIFE%1:addStyleSheet</function>
+<functionMergeName>!modernizr-%VERSION.js!%IIFE:%IIFE:addStyleSheet</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{cssText}}}}}}</description>
+<line>1090</line>
+</event>
+<event>
+<tag>concat</tag>
+<description>{CovLStrv2{{t{Creating a tainted string using {0}.}{{code{cssText}}}}}}</description>
+<line>1094</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning a tainted string to {0}.}{{code{p.innerHTML}}}}}}</description>
+<line>1094</line>
+</event>
+<event>
+<main>true</main>
+<tag>dom_xss_sink</tag>
+<description>{CovLStrv2{{t{Writing the tainted value to property {0} of {1}.}{{code{innerHTML}}}{{code{p}}}}{t{ This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.}}}}</description>
+<line>1094</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{The untrusted data reaches a sink that can either lead to HTML injection, JavaScript code execution, or the manipulation of a URL starting with the &quot;javascript:&quot; or &quot;data:&quot; schemes. Any of these can lead to a DOM XSS vulnerability.{ul{HTML injection: Either escape properly the untrusted data or use a safe API to insert this data to the DOM; direct HTML manipulation as text should be avoided.}{JavaScript code execution: Validate any untrusted data against a whitelist so it's not possible for an attacker to have its supplied code executing.}{URL manipulation: Make sure the scheme is whitelisted and doesn't allow for the injection of a URL like: &quot;data:text/html;,&lt;img/src/onerror=alert(1)&gt;&quot;.}}}}}}</description>
+<line>1094</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>48</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/modernizr-2.6.2.js</file>
+<function>!modernizr-2.6.2.js!%IIFE</function>
+<key>7fa4951242f0bbce913f63054ecb3b15</key>
+<id>3</id>
+</model_ptr>
+</event>
+<extra>@&quot;innerHTML&quot;,p:&quot;!modernizr-2.6.2.js!%IIFE:%IIFE%1:addStyleSheet&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>DOM_XSS</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/modernizr-2.6.2.js</file>
+<function>!modernizr-2.6.2.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>DOM_XSS</checker>
+<type>xss</type>
+<subtype>audit_dom_xss</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/respond.js</file>
+<function>!respond.js!%IIFE:%ANONYMOUS</function>
+<functionMergeName>!respond.js!%IIFE:%ANONYMOUS</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{q}}}}}}</description>
+<line>31</line>
+</event>
+<event>
+<tag>concat</tag>
+<description>{CovLStrv2{{t{Creating a tainted string using {0}.}{{code{q}}}}}}</description>
+<line>33</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning a tainted string to {0}.}{{code{div.innerHTML}}}}}}</description>
+<line>33</line>
+</event>
+<event>
+<main>true</main>
+<tag>dom_xss_sink</tag>
+<description>{CovLStrv2{{t{Writing the tainted value to property {0} of {1}.}{{code{innerHTML}}}{{code{div}}}}{t{ This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.}}}}</description>
+<line>33</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{The untrusted data reaches a sink that can either lead to HTML injection, JavaScript code execution, or the manipulation of a URL starting with the &quot;javascript:&quot; or &quot;data:&quot; schemes. Any of these can lead to a DOM XSS vulnerability.{ul{HTML injection: Either escape properly the untrusted data or use a safe API to insert this data to the DOM; direct HTML manipulation as text should be avoided.}{JavaScript code execution: Validate any untrusted data against a whitelist so it's not possible for an attacker to have its supplied code executing.}{URL manipulation: Make sure the scheme is whitelisted and doesn't allow for the injection of a URL like: &quot;data:text/html;,&lt;img/src/onerror=alert(1)&gt;&quot;.}}}}}}</description>
+<line>33</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>17</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/respond.js</file>
+<function>!respond.js!%IIFE</function>
+<key>060ce38636879c991f4bfa6c38c7780d</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>function</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{ul{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{doc.createElement(&quot;div&quot;)}}}{{code{div}}}}}{{t{This call returns a reference to {0}.}{{code{function!respond.js!%IIFE:%ANONYMOUS}}}}}}}}</description>
+<line>17</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/respond.js</file>
+<function>!respond.js!%IIFE</function>
+<key>6c433996c5899c5bb392906390a7a237</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning {0} to {1}.}{{code{function(document)}}}{{code{window.matchMedia}}}}}}</description>
+<line>17</line>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling at a later point {0}.}{{code{&lt;anonymous&gt;}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>31</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/respond.js</file>
+<function>!respond.js!%IIFE:%ANONYMOUS</function>
+<key>f0c800b34b3a41c414345823f62263fd</key>
+<id>2</id>
+</model_ptr>
+</event>
+<extra>@&quot;innerHTML&quot;,div:&quot;!respond.js!%IIFE:%ANONYMOUS&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>DOM_XSS</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/respond.js</file>
+<function>!respond.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>DOM_XSS</checker>
+<type>xss</type>
+<subtype>audit_dom_xss</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:%IPOL.globalEval</function>
+<functionMergeName>!jquery-%VERSION.js!%IIFE:%IPOL.globalEval</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{data}}}}}}</description>
+<line>620</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{data}}}{{code{window.execScript || function}}}}}}</description>
+<line>625</line>
+</event>
+<event>
+<main>true</main>
+<tag>dom_xss_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{window.execScript || function}}}{{code{data}}}}{t{ This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.}}}}</description>
+<line>625</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{The untrusted data reaches a sink that can either lead to HTML injection, JavaScript code execution, or the manipulation of a URL starting with the &quot;javascript:&quot; or &quot;data:&quot; schemes. Any of these can lead to a DOM XSS vulnerability.{ul{HTML injection: Either escape properly the untrusted data or use a safe API to insert this data to the DOM; direct HTML manipulation as text should be avoided.}{JavaScript code execution: Validate any untrusted data against a whitelist so it's not possible for an attacker to have its supplied code executing.}{URL manipulation: Make sure the scheme is whitelisted and doesn't allow for the injection of a URL like: &quot;data:text/html;,&lt;img/src/onerror=alert(1)&gt;&quot;.}}}}}}</description>
+<line>625</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>28</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE</function>
+<key>a9f6d63964f7989ffafa9ce1d012a154</key>
+<id>49</id>
+</model_ptr>
+</event>
+<extra>@&quot;execScript&quot;,window:&quot;!jquery-1.10.2.js!%IIFE:%IPOL.globalEval&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>DOM_XSS</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>DOM_XSS</checker>
+<type>xss</type>
+<subtype>audit_dom_xss</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:%IPOL.add</function>
+<functionMergeName>!jquery-%VERSION.js!%IIFE:%IPOL.add</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{selector}}}}}}</description>
+<line>5836</line>
+</event>
+<event>
+<main>true</main>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{jQuery}}}}{t{ This call uses {0} for sensitive computation.}{{code{selector}}}}}}</description>
+<line>5837</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:jQuery</function>
+<key>8cd449aec9b8a398bf8ba5dc83f577d0</key>
+<id>2</id>
+</model_ptr>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{The untrusted data reaches a sink that can either lead to HTML injection, JavaScript code execution, or the manipulation of a URL starting with the &quot;javascript:&quot; or &quot;data:&quot; schemes. Any of these can lead to a DOM XSS vulnerability.{ul{HTML injection: Either escape properly the untrusted data or use a safe API to insert this data to the DOM; direct HTML manipulation as text should be avoided.}{JavaScript code execution: Validate any untrusted data against a whitelist so it's not possible for an attacker to have its supplied code executing.}{URL manipulation: Make sure the scheme is whitelisted and doesn't allow for the injection of a URL like: &quot;data:text/html;,&lt;img/src/onerror=alert(1)&gt;&quot;.}}}}}}</description>
+<line>5837</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>28</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE</function>
+<key>a9f6d63964f7989ffafa9ce1d012a154</key>
+<id>47</id>
+</model_ptr>
+</event>
+<extra>@jQuery:&quot;!jquery-1.10.2.js!%IIFE:%IPOL.add&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>DOM_XSS</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>DOM_XSS</checker>
+<type>xss</type>
+<subtype>audit_dom_xss</subtype>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.globalEval</function>
+<functionMergeName>!jquery-%VERSION-vsdoc.js!%IIFE:jQuery.globalEval</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{data}}}}}}</description>
+<line>1856</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{data}}}{{code{window.execScript || function}}}}}}</description>
+<line>1868</line>
+</event>
+<event>
+<main>true</main>
+<tag>dom_xss_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{window.execScript || function}}}{{code{data}}}}{t{ This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.}}}}</description>
+<line>1868</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{The untrusted data reaches a sink that can either lead to HTML injection, JavaScript code execution, or the manipulation of a URL starting with the &quot;javascript:&quot; or &quot;data:&quot; schemes. Any of these can lead to a DOM XSS vulnerability.{ul{HTML injection: Either escape properly the untrusted data or use a safe API to insert this data to the DOM; direct HTML manipulation as text should be avoided.}{JavaScript code execution: Validate any untrusted data against a whitelist so it's not possible for an attacker to have its supplied code executing.}{URL manipulation: Make sure the scheme is whitelisted and doesn't allow for the injection of a URL like: &quot;data:text/html;,&lt;img/src/onerror=alert(1)&gt;&quot;.}}}}}}</description>
+<line>1868</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>37</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE</function>
+<key>28a4da42d23f0fb498d1f39f15ea7342</key>
+<id>74</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>function</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{ul{{t{This call assigns {0} to captured variable {1}.}{{code{window}}}{{code{undefined}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.Callbacksundefined}}}{{code{window}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.globalEval}}}{{code{globalEval}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}}}}</description>
+<line>37</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE</function>
+<key>f6cd052fe7fee4511dfa59b5811cb499</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling at a later point {0}.}{{code{jQuery.globalEval}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>1856</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.globalEval</function>
+<key>31910e16e9e2b51aea7332c9184e94a8</key>
+<id>1</id>
+</model_ptr>
+</event>
+<event>
+<event_set>3</event_set>
+<tag>function</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{ul{{t{This call assigns {0} to captured variable {1}.}{{code{window}}}{{code{undefined}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.Callbacksundefined}}}{{code{window}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.globalEval}}}{{code{globalEval}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQueryjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.domManip}}}{{code{fn}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}}}}</description>
+<line>37</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE</function>
+<key>a6bb0c09d9914464d30b079381604e18</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<event_set>3</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling at a later point {0}.}{{code{jQuery.prototype.domManip}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>3693</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.domManip</function>
+<key>9b6a1b03439f540b633c29ac6f89fa88</key>
+<id>38</id>
+</model_ptr>
+</event>
+<extra>@&quot;execScript&quot;,window:&quot;!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.globalEval&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>DOM_XSS</checker>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>DOM_XSS</checker>
+<type>xss</type>
+<subtype>audit_dom_xss</subtype>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.load:%COND_%IPFE</function>
+<functionMergeName>!jquery-%VERSION-vsdoc.js!%IIFE:jQuery.prototype.load:%COND_%IPFE</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{responseText}}}}}}</description>
+<line>4761</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{responseText}}}{{code{jQuery.parseHTML}}}}}}</description>
+<line>4766</line>
+</event>
+<event>
+<main>true</main>
+<tag>dom_xss_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{jQuery.parseHTML}}}{{code{responseText}}}}{t{ This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.}}}}</description>
+<line>4766</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{The untrusted data reaches a sink that can either lead to HTML injection, JavaScript code execution, or the manipulation of a URL starting with the &quot;javascript:&quot; or &quot;data:&quot; schemes. Any of these can lead to a DOM XSS vulnerability.{ul{HTML injection: Either escape properly the untrusted data or use a safe API to insert this data to the DOM; direct HTML manipulation as text should be avoided.}{JavaScript code execution: Validate any untrusted data against a whitelist so it's not possible for an attacker to have its supplied code executing.}{URL manipulation: Make sure the scheme is whitelisted and doesn't allow for the injection of a URL like: &quot;data:text/html;,&lt;img/src/onerror=alert(1)&gt;&quot;.}}}}}}</description>
+<line>4766</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>37</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE</function>
+<key>28a4da42d23f0fb498d1f39f15ea7342</key>
+<id>58</id>
+</model_ptr>
+</event>
+<extra>@&quot;parseHTML&quot;,jQuery:&quot;!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.load:%COND_%IPFE&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>DOM_XSS</checker>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>DOM_XSS</checker>
+<type>xss</type>
+<subtype>audit_dom_xss</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:jQuery.fn.load:%COND_%IPFE</function>
+<functionMergeName>!jquery-%VERSION.js!%IIFE:jQuery.fn.load:%COND_%IPFE</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{responseText}}}}}}</description>
+<line>7766</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{responseText}}}{{code{jQuery.parseHTML}}}}}}</description>
+<line>7771</line>
+</event>
+<event>
+<main>true</main>
+<tag>dom_xss_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{jQuery.parseHTML}}}{{code{responseText}}}}{t{ This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.}}}}</description>
+<line>7771</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{The untrusted data reaches a sink that can either lead to HTML injection, JavaScript code execution, or the manipulation of a URL starting with the &quot;javascript:&quot; or &quot;data:&quot; schemes. Any of these can lead to a DOM XSS vulnerability.{ul{HTML injection: Either escape properly the untrusted data or use a safe API to insert this data to the DOM; direct HTML manipulation as text should be avoided.}{JavaScript code execution: Validate any untrusted data against a whitelist so it's not possible for an attacker to have its supplied code executing.}{URL manipulation: Make sure the scheme is whitelisted and doesn't allow for the injection of a URL like: &quot;data:text/html;,&lt;img/src/onerror=alert(1)&gt;&quot;.}}}}}}</description>
+<line>7771</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>28</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE</function>
+<key>a9f6d63964f7989ffafa9ce1d012a154</key>
+<id>23</id>
+</model_ptr>
+</event>
+<extra>@&quot;parseHTML&quot;,jQuery:&quot;!jquery-1.10.2.js!%IIFE:jQuery.fn.load:%COND_%IPFE&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>DOM_XSS</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>DOM_XSS</checker>
+<type>xss</type>
+<subtype>audit_dom_xss</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:%IPOL.converters.text?0020script</function>
+<functionMergeName>!jquery-%VERSION.js!%IIFE:%IPOL.converters.text?0020script</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{text}}}}}}</description>
+<line>8464</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{text}}}{{code{jQuery.globalEval}}}}}}</description>
+<line>8465</line>
+</event>
+<event>
+<main>true</main>
+<tag>dom_xss_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{jQuery.globalEval}}}{{code{text}}}}{t{ This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.}}}}</description>
+<line>8465</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{The untrusted data reaches a sink that can either lead to HTML injection, JavaScript code execution, or the manipulation of a URL starting with the &quot;javascript:&quot; or &quot;data:&quot; schemes. Any of these can lead to a DOM XSS vulnerability.{ul{HTML injection: Either escape properly the untrusted data or use a safe API to insert this data to the DOM; direct HTML manipulation as text should be avoided.}{JavaScript code execution: Validate any untrusted data against a whitelist so it's not possible for an attacker to have its supplied code executing.}{URL manipulation: Make sure the scheme is whitelisted and doesn't allow for the injection of a URL like: &quot;data:text/html;,&lt;img/src/onerror=alert(1)&gt;&quot;.}}}}}}</description>
+<line>8465</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>28</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE</function>
+<key>a9f6d63964f7989ffafa9ce1d012a154</key>
+<id>15</id>
+</model_ptr>
+</event>
+<extra>@&quot;globalEval&quot;,jQuery:&quot;!jquery-1.10.2.js!%IIFE:%IPOL.converters.text?0020script&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>DOM_XSS</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>

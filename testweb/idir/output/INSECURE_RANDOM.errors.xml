@@ -1,0 +1,50 @@
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>INSECURE_RANDOM</checker>
+<type>insecure_random</type>
+<subtype>insecure_random_value</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:%IIFE:matcherFromGroupMatchers:superMatcher</function>
+<functionMergeName>!jquery-%VERSION.js!%IIFE:%IIFE:matcherFromGroupMatchers:superMatcher</functionMergeName>
+<ordered>true</ordered>
+<event>
+<main>true</main>
+<tag>insecure_random</tag>
+<description>{CovLStrv2{{t{Calling {0} creates an insecure random value.}{{code{Math.random}}}}}}</description>
+<line>2738</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{Use a cryptographically secure PRNG implementation such as {code{crypto.randomBytes()}} to generate random values for security-sensitive contexts.}}}}</description>
+<line>2738</line>
+</event>
+<extra>&quot;Math&quot;,&quot;random&quot;</extra>
+<subcategory>insecure_random_value</subcategory>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>INSECURE_RANDOM</checker>
+<type>insecure_random</type>
+<subtype>insecure_random_value</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE</function>
+<functionMergeName>!jquery-%VERSION.js!%IIFE</functionMergeName>
+<ordered>true</ordered>
+<event>
+<main>true</main>
+<tag>insecure_random</tag>
+<description>{CovLStrv2{{t{Calling {0} creates an insecure random value.}{{code{Math.random}}}}}}</description>
+<line>395</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{Use a cryptographically secure PRNG implementation such as {code{crypto.randomBytes()}} to generate random values for security-sensitive contexts.}}}}</description>
+<line>395</line>
+</event>
+<extra>&quot;Math&quot;,&quot;random&quot;</extra>
+<subcategory>insecure_random_value</subcategory>
+</error>

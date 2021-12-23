@@ -1,0 +1,336 @@
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>REGEX_INJECTION</checker>
+<type>regex_injection</type>
+<subtype>audit</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery.validate.js</file>
+<function>!jquery.validate.js!%IIFE:$.validator.format:%IPFE</function>
+<functionMergeName>!jquery.validate.js!%IIFE:$.validator.format:%IPFE</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{i}}}}}}</description>
+<line>218</line>
+</event>
+<event>
+<tag>concat</tag>
+<description>{CovLStrv2{{t{Creating a tainted string using {0}.}{{code{i}}}}}}</description>
+<line>219</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{&quot;\\{L}&quot; + i + &quot;\\{R}&quot;}}}{{code{RegExp}}}}}}</description>
+<line>219</line>
+</event>
+<event>
+<main>true</main>
+<tag>regex_injection_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{RegExp}}}{{code{&quot;\\{L}&quot; + i + &quot;\\{R}&quot;}}}}{t{ This constructs a regular expression using the tainted value and may thus allow an attacker to retrieve sensitive information or alter the behavior of the program.}}}}</description>
+<line>219</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{Regular expression injection vulnerabilities can be addressed by validating that the user-controllable input conforms to expectations.}}}}</description>
+<line>219</line>
+</event>
+<extra>@&quot;RegExp&quot;:&quot;!jquery.validate.js!%IIFE:$.validator.format:%IPFE&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>REGEX_INJECTION</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery.validate.js</file>
+<function>!jquery.validate.js!%IIFE:$.validator.format:%IPFE</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>REGEX_INJECTION</checker>
+<type>regex_injection</type>
+<subtype>audit</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery.validate.unobtrusive.js</file>
+<function>!jquery.validate.unobtrusive.js!%IIFE:%IPFE%1</function>
+<functionMergeName>!jquery.validate.unobtrusive.js!%IIFE:%IPFE</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{params}}}}}}</description>
+<line>342</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{params}}}{{code{RegExp}}}}}}</description>
+<line>348</line>
+</event>
+<event>
+<main>true</main>
+<tag>regex_injection_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{RegExp}}}{{code{params}}}}{t{ This constructs a regular expression using the tainted value and may thus allow an attacker to retrieve sensitive information or alter the behavior of the program.}}}}</description>
+<line>348</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{Regular expression injection vulnerabilities can be addressed by validating that the user-controllable input conforms to expectations.}}}}</description>
+<line>348</line>
+</event>
+<extra>@&quot;RegExp&quot;:&quot;!jquery.validate.unobtrusive.js!%IIFE:%IPFE%1&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>REGEX_INJECTION</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery.validate.unobtrusive.js</file>
+<function>!jquery.validate.unobtrusive.js!%IIFE:%IPFE%1</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>REGEX_INJECTION</checker>
+<type>regex_injection</type>
+<subtype>audit</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:jQuery.event.trigger</function>
+<functionMergeName>!jquery-%VERSION.js!%IIFE:jQuery.event.trigger</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{event}}}}}}</description>
+<line>4935</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning {0} to {1}.}{{code{event.type}}}{{code{type}}}}}}</description>
+<line>4939</line>
+</event>
+<event>
+<tag>pass_through</tag>
+<description>{CovLStrv2{{t{Calling {0} passes {1} to all the properties of its return value.}{{code{type.split(&quot;.&quot;)}}}{{code{type}}}}}}</description>
+<line>4956</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = {1}.}{{code{namespaces}}}{{code{type.split(&quot;.&quot;)}}}}}}</description>
+<line>4956</line>
+</event>
+<event>
+<tag>pass_through</tag>
+<description>{CovLStrv2{{t{Calling {0} passes {1} to {2}.}{{code{namespaces.sort()}}}{{code{namespaces[*]}}}{{code{namespaces[*]}}}}}}</description>
+<line>4958</line>
+</event>
+<event>
+<tag>pass_through</tag>
+<description>{CovLStrv2{{t{Calling {0} passes {1} to its return value.}{{code{namespaces.join(&quot;\\.(?:.*\\.|)&quot;)}}}{{code{namespaces[*]}}}}}}</description>
+<line>4970</line>
+</event>
+<event>
+<tag>concat</tag>
+<description>{CovLStrv2{{t{Creating a tainted string using {0}.}{{code{namespaces.join(&quot;\\.(?:.*\\.|)&quot;)}}}}}}</description>
+<line>4970</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{&quot;(^|\\.)&quot; + namespaces.join(&quot;\\.(?:.*\\.|)&quot;) + &quot;(\\.|$)&quot;}}}{{code{RegExp}}}}}}</description>
+<line>4970</line>
+</event>
+<event>
+<main>true</main>
+<tag>regex_injection_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{RegExp}}}{{code{&quot;(^|\\.)&quot; + namespaces.join(&quot;\\.(?:.*\\.|)&quot;) + &quot;(\\.|$)&quot;}}}}{t{ This constructs a regular expression using the tainted value and may thus allow an attacker to retrieve sensitive information or alter the behavior of the program.}}}}</description>
+<line>4970</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{Regular expression injection vulnerabilities can be addressed by validating that the user-controllable input conforms to expectations.}}}}</description>
+<line>4970</line>
+</event>
+<extra>@&quot;RegExp&quot;:&quot;!jquery-1.10.2.js!%IIFE:jQuery.event.trigger&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>REGEX_INJECTION</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:jQuery.event.trigger</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>REGEX_INJECTION</checker>
+<type>regex_injection</type>
+<subtype>audit</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:%IIFE:Sizzle.selectors.filter.CLASS</function>
+<functionMergeName>!jquery-%VERSION.js!%IIFE:%IIFE:Sizzle.selectors.filter.CLASS</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{className}}}}}}</description>
+<line>2037</line>
+</event>
+<event>
+<tag>concat</tag>
+<description>{CovLStrv2{{t{Creating a tainted string using {0}.}{{code{className}}}}}}</description>
+<line>2040</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{&quot;(^|&quot; + whitespace + &quot;)&quot; + className + &quot;(&quot; + whitespace + &quot;|$)&quot;}}}{{code{RegExp}}}}}}</description>
+<line>2040</line>
+</event>
+<event>
+<main>true</main>
+<tag>regex_injection_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{RegExp}}}{{code{&quot;(^|&quot; + whitespace + &quot;)&quot; + className + &quot;(&quot; + whitespace + &quot;|$)&quot;}}}}{t{ This constructs a regular expression using the tainted value and may thus allow an attacker to retrieve sensitive information or alter the behavior of the program.}}}}</description>
+<line>2040</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{Regular expression injection vulnerabilities can be addressed by validating that the user-controllable input conforms to expectations.}}}}</description>
+<line>2040</line>
+</event>
+<extra>@&quot;RegExp&quot;:&quot;!jquery-1.10.2.js!%IIFE:%IIFE:Sizzle.selectors.filter.CLASS&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>REGEX_INJECTION</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:%IIFE:Sizzle.selectors.filter.CLASS</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>REGEX_INJECTION</checker>
+<type>regex_injection</type>
+<subtype>audit</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/Scripts/jquery.validate-vsdoc.js</file>
+<function>!jquery.validate-vsdoc.js!%IIFE:$.validator.format:%IPFE</function>
+<functionMergeName>!jquery.validate-vsdoc.js!%IIFE:$.validator.format:%IPFE</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{i}}}}}}</description>
+<line>262</line>
+</event>
+<event>
+<tag>concat</tag>
+<description>{CovLStrv2{{t{Creating a tainted string using {0}.}{{code{i}}}}}}</description>
+<line>263</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{&quot;\\{L}&quot; + i + &quot;\\{R}&quot;}}}{{code{RegExp}}}}}}</description>
+<line>263</line>
+</event>
+<event>
+<main>true</main>
+<tag>regex_injection_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{RegExp}}}{{code{&quot;\\{L}&quot; + i + &quot;\\{R}&quot;}}}}{t{ This constructs a regular expression using the tainted value and may thus allow an attacker to retrieve sensitive information or alter the behavior of the program.}}}}</description>
+<line>263</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{Regular expression injection vulnerabilities can be addressed by validating that the user-controllable input conforms to expectations.}}}}</description>
+<line>263</line>
+</event>
+<extra>@&quot;RegExp&quot;:&quot;!jquery.validate-vsdoc.js!%IIFE:$.validator.format:%IPFE&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>REGEX_INJECTION</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/Scripts/jquery.validate-vsdoc.js</file>
+<function>!jquery.validate-vsdoc.js!%IIFE:$.validator.format:%IPFE</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>REGEX_INJECTION</checker>
+<type>regex_injection</type>
+<subtype>audit</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/Scripts/jquery.validate-vsdoc.js</file>
+<function>!jquery.validate-vsdoc.js!%IIFE:%IPOL.methods.accept</function>
+<functionMergeName>!jquery.validate-vsdoc.js!%IIFE:%IPOL.methods.accept</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{param}}}}}}</description>
+<line>1202</line>
+</event>
+<event>
+<tag>pass_through</tag>
+<description>{CovLStrv2{{t{Calling {0} passes {1} to its return value.}{{code{param.replace(/,/g, &quot;|&quot;)}}}{{code{param}}}}}}</description>
+<line>1203</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning {0} to {1}.}{{code{param.replace(/,/g, &quot;|&quot;)}}}{{code{param}}}}}}</description>
+<line>1203</line>
+</event>
+<event>
+<tag>concat</tag>
+<description>{CovLStrv2{{t{Creating a tainted string using {0}.}{{code{param}}}}}}</description>
+<line>1204</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{&quot;.(&quot; + param + &quot;)$&quot;}}}{{code{RegExp}}}}}}</description>
+<line>1204</line>
+</event>
+<event>
+<main>true</main>
+<tag>regex_injection_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{RegExp}}}{{code{&quot;.(&quot; + param + &quot;)$&quot;}}}}{t{ This constructs a regular expression using the tainted value and may thus allow an attacker to retrieve sensitive information or alter the behavior of the program.}}}}</description>
+<line>1204</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{Regular expression injection vulnerabilities can be addressed by validating that the user-controllable input conforms to expectations.}}}}</description>
+<line>1204</line>
+</event>
+<extra>@&quot;RegExp&quot;:&quot;!jquery.validate-vsdoc.js!%IIFE:%IPOL.methods.accept&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>REGEX_INJECTION</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/Scripts/jquery.validate-vsdoc.js</file>
+<function>!jquery.validate-vsdoc.js!%IIFE:%IPOL.methods.accept</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>

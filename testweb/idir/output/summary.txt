@@ -1,0 +1,25 @@
+"C:\Program Files\Coverity\Coverity Static Analysis\bin\cov-analyze" --dir C:\AEP\AppScantool\testweb\idir --strip-path C:\AEP\AppScantool\testweb --webapp-security --distrust-all --enable-audit-mode 
+Analysis summary report:
+------------------------
+Files analyzed                 : 170 Total
+    C#                         : 34
+    JavaScript                 : 56
+    Text                       : 80
+Total LoC input to cov-analyze : 193894
+Functions analyzed             : 3061
+Paths analyzed                 : 44240
+Time taken by analysis         : 00:04:12
+Defect occurrences found       : 76 Total
+                                  1 ASPNET_MVC_VERSION_HEADER
+                                 10 CONFIG.ASPNET_VERSION_HEADER
+                                 10 CONFIG.COOKIES_MISSING_HTTPONLY
+                                  3 CONFIG.ENABLED_DEBUG_MODE
+                                  1 CONFIG.HARDCODED_CREDENTIALS_AUDIT
+                                  2 CSS_INJECTION
+                                 23 DOM_XSS
+                                  2 INSECURE_RANDOM
+                                  1 LOCALSTORAGE_WRITE
+                                  2 NULL_RETURNS
+                                  6 REGEX_INJECTION
+                                  4 SCRIPT_CODE_INJECTION
+                                 11 URL_MANIPULATION

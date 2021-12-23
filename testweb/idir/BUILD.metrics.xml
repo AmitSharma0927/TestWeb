@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverity SYSTEM "config.dtd">
+<coverity>
+
+<metrics>
+    <metric>
+        <name>time</name>
+        <value>4</value>
+    </metric>
+    <metric>
+        <name>args</name>
+        <value>C:\Program Files\Coverity\Coverity Static Analysis\bin\cov-build --dir C:\AEP\AppScantool\testweb\idir -c C:\AEP\AppScantool\testweb\idir\point-and-scan\nonbuild-compiler-configs\coverity_config.xml --append-log --fs-capture-list C:\AEP\AppScantool\testweb\idir\point-and-scan\config-file-list-796960961 --no-command --no-security-da</value>
+    </metric>
+    <metric>
+        <name>host</name>
+        <value>VMW10MCS02505</value>
+    </metric>
+    <metric>
+        <name>short-platform</name>
+        <value>win64</value>
+    </metric>
+    <metric>
+        <name>platform</name>
+        <value>Windows 10 Enterprise, 64-bit (build 19042)</value>
+    </metric>
+    <metric>
+        <name>ident</name>
+        <value>2021.9.0 (build fd8aadda49 p-2021.9-push-681)</value>
+    </metric>
+    <metric>
+        <name>user</name>
+        <value>s343416</value>
+    </metric>
+    <metric>
+        <name>cwd</name>
+        <value>C:\Program Files\Coverity\Coverity Static Analysis\bin</value>
+    </metric>
+    <metric>
+        <name>config</name>
+        <value>C:\AEP\AppScantool\testweb\idir\point-and-scan\nonbuild-compiler-configs\coverity_config.xml</value>
+    </metric>
+    <metric>
+        <name>intermediatedir</name>
+        <value>C:\AEP\AppScantool\testweb\idir</value>
+    </metric>
+    <metric>
+        <name>outputdir</name>
+        <value>C:\AEP\AppScantool\testweb\idir\output</value>
+    </metric>
+    <metric>
+        <name>emitdir</name>
+        <value>C:\AEP\AppScantool\testweb\idir\emit</value>
+    </metric>
+    <metric>
+        <name>force</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>cygwin</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>failures</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>successes</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>recoverable-errors</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapps-detected</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapp-successes</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapp-compilation-secs</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>buildcmd</name>
+        <value>C:\Program Files\Coverity\Coverity Static Analysis\bin\cov-build.exe</value>
+    </metric>
+</metrics>
+</coverity>

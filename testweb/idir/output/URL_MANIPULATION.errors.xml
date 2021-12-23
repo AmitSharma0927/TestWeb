@@ -1,0 +1,919 @@
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>URL_MANIPULATION</checker>
+<type>url_manipulation</type>
+<subtype>audit</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:%IPOL.getScript</function>
+<functionMergeName>!jquery-%VERSION.js!%IIFE:%IPOL.getScript</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{url}}}}}}</description>
+<line>8282</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{url}}}{{code{jQuery.get}}}}}}</description>
+<line>8283</line>
+</event>
+<event>
+<main>true</main>
+<tag>url_manipulation_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{jQuery.get}}}{{code{url}}}}{t{ Constructing a URL using a tainted value. This may allow an attacker to access or modify critical or sensitive files, or redirect to a malicious website.}}}}</description>
+<line>8283</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{URL manipulation vulnerabilities can be addressed by proper input validation. Allow listing the allowed scheme and authority, and deny listing characters that allow unsafe path traversal in the path and query parts of the URL can improve security.}}}}</description>
+<line>8283</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>28</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE</function>
+<key>41a927f9450dc95fc509016be3f315fb</key>
+<id>2</id>
+</model_ptr>
+</event>
+<extra>@&quot;get&quot;,jQuery:&quot;!jquery-1.10.2.js!%IIFE:%IPOL.getScript&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>URL_MANIPULATION</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>URL_MANIPULATION</checker>
+<type>url_manipulation</type>
+<subtype>audit</subtype>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery._evalUrl</function>
+<functionMergeName>!jquery-%VERSION-vsdoc.js!%IIFE:jQuery._evalUrl</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{url}}}}}}</description>
+<line>466</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = {1}.}{{code{&lt;storage from new&gt;[&quot;url&quot;]}}}{{code{url}}}}}}</description>
+<line>469</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{{L}&quot;url&quot; : url, &quot;type&quot; : &quot;GET&quot;, &quot;dataType&quot; : &quot;script&quot;, &quot;async&quot; : false, &quot;global&quot; : false, &quot;throws&quot; : true{R}}}}{{code{jQuery.ajax}}}}}}</description>
+<line>468</line>
+</event>
+<event>
+<main>true</main>
+<tag>url_manipulation_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in property {1} of {2}.}{{code{jQuery.ajax}}}{{code{url}}}{{code{{L}&quot;url&quot; : url, &quot;type&quot; : &quot;GET&quot;, &quot;dataType&quot; : &quot;script&quot;, &quot;async&quot; : false, &quot;global&quot; : false, &quot;throws&quot; : true{R}}}}}{t{ Constructing a URL using a tainted value. This may allow an attacker to access or modify critical or sensitive files, or redirect to a malicious website.}}}}</description>
+<line>468</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{URL manipulation vulnerabilities can be addressed by proper input validation. Allow listing the allowed scheme and authority, and deny listing characters that allow unsafe path traversal in the path and query parts of the URL can improve security.}}}}</description>
+<line>468</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>37</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE</function>
+<key>3bdf28de7e2e95fe7bbecc8ae1d32ce8</key>
+<id>4</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>function</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{ul{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.ajax}}}{{code{ajax}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQueryjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery._evalUrl}}}{{code{_evalUrl}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}}}}</description>
+<line>37</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE</function>
+<key>27cd0d06b43b9dce840341612e8cc80f</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling at a later point {0}.}{{code{jQuery._evalUrl}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>466</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery._evalUrl</function>
+<key>bd4fa2e5f65731d57c5bfe7315c16597</key>
+<id>6</id>
+</model_ptr>
+</event>
+<event>
+<event_set>3</event_set>
+<tag>function</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{ul{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.ajax}}}{{code{ajax}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQueryjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery._evalUrl}}}{{code{_evalUrl}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQueryjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.domManip}}}{{code{fn}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}}}}</description>
+<line>37</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE</function>
+<key>19fea04b9f63237ccee1f91bedc80a61</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<event_set>3</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling at a later point {0}.}{{code{jQuery.prototype.domManip}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>3693</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.domManip</function>
+<key>e28fd2e4aa87a767ae0a7503479d39ea</key>
+<id>7</id>
+</model_ptr>
+</event>
+<extra>@&quot;ajax&quot;,jQuery:&quot;!jquery-1.10.2-vsdoc.js!%IIFE:jQuery._evalUrl&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>URL_MANIPULATION</checker>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>URL_MANIPULATION</checker>
+<type>url_manipulation</type>
+<subtype>audit</subtype>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.getScript</function>
+<functionMergeName>!jquery-%VERSION-vsdoc.js!%IIFE:jQuery.getScript</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{url}}}}}}</description>
+<line>1843</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{url}}}{{code{jQuery.get}}}}}}</description>
+<line>1854</line>
+</event>
+<event>
+<main>true</main>
+<tag>url_manipulation_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{jQuery.get}}}{{code{url}}}}{t{ Constructing a URL using a tainted value. This may allow an attacker to access or modify critical or sensitive files, or redirect to a malicious website.}}}}</description>
+<line>1854</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{URL manipulation vulnerabilities can be addressed by proper input validation. Allow listing the allowed scheme and authority, and deny listing characters that allow unsafe path traversal in the path and query parts of the URL can improve security.}}}}</description>
+<line>1854</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>37</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE</function>
+<key>3bdf28de7e2e95fe7bbecc8ae1d32ce8</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>function</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{ul{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.get}}}{{code{get}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQueryjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.getScript}}}{{code{getScript}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}}}}</description>
+<line>37</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE</function>
+<key>11996b71a280970c9f6d7812b0c6915d</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling at a later point {0}.}{{code{jQuery.getScript}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>1843</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.getScript</function>
+<key>cf83430e1c0bf65cda9411387b53176d</key>
+<id>5</id>
+</model_ptr>
+</event>
+<extra>@&quot;get&quot;,jQuery:&quot;!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.getScript&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>URL_MANIPULATION</checker>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>URL_MANIPULATION</checker>
+<type>url_manipulation</type>
+<subtype>audit</subtype>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.getJSON</function>
+<functionMergeName>!jquery-%VERSION-vsdoc.js!%IIFE:jQuery.getJSON</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{url}}}}}}</description>
+<line>1827</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{url}}}{{code{jQuery.get}}}}}}</description>
+<line>1841</line>
+</event>
+<event>
+<main>true</main>
+<tag>url_manipulation_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{jQuery.get}}}{{code{url}}}}{t{ Constructing a URL using a tainted value. This may allow an attacker to access or modify critical or sensitive files, or redirect to a malicious website.}}}}</description>
+<line>1841</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{URL manipulation vulnerabilities can be addressed by proper input validation. Allow listing the allowed scheme and authority, and deny listing characters that allow unsafe path traversal in the path and query parts of the URL can improve security.}}}}</description>
+<line>1841</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>37</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE</function>
+<key>3bdf28de7e2e95fe7bbecc8ae1d32ce8</key>
+<id>1</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>function</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{ul{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.get}}}{{code{get}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQueryjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.getJSON}}}{{code{getJSON}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}}}}</description>
+<line>37</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE</function>
+<key>8904a5bef19fbae96ef89a5f9358082d</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling at a later point {0}.}{{code{jQuery.getJSON}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>1827</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.getJSON</function>
+<key>e42f8bdaea55e05b92e5c611ff3d8ff3</key>
+<id>5</id>
+</model_ptr>
+</event>
+<extra>@&quot;get&quot;,jQuery:&quot;!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.getJSON&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>URL_MANIPULATION</checker>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>URL_MANIPULATION</checker>
+<type>url_manipulation</type>
+<subtype>audit</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:jQuery.fn.load</function>
+<functionMergeName>!jquery-%VERSION.js!%IIFE:jQuery.fn.load</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{url}}}}}}</description>
+<line>7731</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = {1}.}{{code{&lt;storage from new&gt;[&quot;url&quot;]}}}{{code{url}}}}}}</description>
+<line>7760</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{{L}&quot;url&quot; : url, &quot;type&quot; : type, &quot;dataType&quot; : &quot;html&quot;, &quot;data&quot; : params{R}}}}{{code{jQuery.ajax}}}}}}</description>
+<line>7759</line>
+</event>
+<event>
+<main>true</main>
+<tag>url_manipulation_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in property {1} of {2}.}{{code{jQuery.ajax}}}{{code{url}}}{{code{{L}&quot;url&quot; : url, &quot;type&quot; : type, &quot;dataType&quot; : &quot;html&quot;, &quot;data&quot; : params{R}}}}}{t{ Constructing a URL using a tainted value. This may allow an attacker to access or modify critical or sensitive files, or redirect to a malicious website.}}}}</description>
+<line>7759</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{URL manipulation vulnerabilities can be addressed by proper input validation. Allow listing the allowed scheme and authority, and deny listing characters that allow unsafe path traversal in the path and query parts of the URL can improve security.}}}}</description>
+<line>7759</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>28</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE</function>
+<key>41a927f9450dc95fc509016be3f315fb</key>
+<id>10</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>function</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{ul{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2.js!%IIFE:jQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2.js!%IIFE:%COND_jQuery.cssHooks.opacity.setjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2.js!%IIFE:jQuery.fn.load}}}{{code{fn}}}{{code{function!jquery-1.10.2.js!%IIFE:jQuery}}}}}}}}</description>
+<line>28</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE</function>
+<key>7142a0e0676e8de1f2b6f350abe3b7d1</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling at a later point {0}.}{{code{jQuery.fn.load}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>7731</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:jQuery.fn.load</function>
+<key>e7d69d71236f486c2812d6ee7285864e</key>
+<id>2</id>
+</model_ptr>
+</event>
+<extra>@&quot;ajax&quot;,jQuery:&quot;!jquery-1.10.2.js!%IIFE:jQuery.fn.load&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>URL_MANIPULATION</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>URL_MANIPULATION</checker>
+<type>url_manipulation</type>
+<subtype>audit</subtype>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.load</function>
+<functionMergeName>!jquery-%VERSION-vsdoc.js!%IIFE:jQuery.prototype.load</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{url}}}}}}</description>
+<line>4708</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = {1}.}{{code{&lt;storage from new&gt;[&quot;url&quot;]}}}{{code{url}}}}}}</description>
+<line>4755</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{{L}&quot;url&quot; : url, &quot;type&quot; : type, &quot;dataType&quot; : &quot;html&quot;, &quot;data&quot; : params{R}}}}{{code{jQuery.ajax}}}}}}</description>
+<line>4754</line>
+</event>
+<event>
+<main>true</main>
+<tag>url_manipulation_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in property {1} of {2}.}{{code{jQuery.ajax}}}{{code{url}}}{{code{{L}&quot;url&quot; : url, &quot;type&quot; : type, &quot;dataType&quot; : &quot;html&quot;, &quot;data&quot; : params{R}}}}}{t{ Constructing a URL using a tainted value. This may allow an attacker to access or modify critical or sensitive files, or redirect to a malicious website.}}}}</description>
+<line>4754</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{URL manipulation vulnerabilities can be addressed by proper input validation. Allow listing the allowed scheme and authority, and deny listing characters that allow unsafe path traversal in the path and query parts of the URL can improve security.}}}}</description>
+<line>4754</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>37</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE</function>
+<key>3bdf28de7e2e95fe7bbecc8ae1d32ce8</key>
+<id>9</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>function</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{ul{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.ajax}}}{{code{ajax}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQueryjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.load}}}{{code{fn}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}}}}</description>
+<line>37</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE</function>
+<key>dc6c1e0c367f16720943f14e6c7ce92f</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling at a later point {0}.}{{code{jQuery.prototype.load}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>4708</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.load</function>
+<key>efc67a9c4d3aba33a13c377313477861</key>
+<id>2</id>
+</model_ptr>
+</event>
+<extra>@&quot;ajax&quot;,jQuery:&quot;!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.load&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>URL_MANIPULATION</checker>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>URL_MANIPULATION</checker>
+<type>url_manipulation</type>
+<subtype>audit</subtype>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.get</function>
+<functionMergeName>!jquery-%VERSION-vsdoc.js!%IIFE:jQuery.get</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{url}}}}}}</description>
+<line>1795</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = {1}.}{{code{&lt;storage from new&gt;[&quot;url&quot;]}}}{{code{url}}}}}}</description>
+<line>1820</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{{L}&quot;url&quot; : url, &quot;type&quot; : method, &quot;dataType&quot; : type, &quot;data&quot; : data, &quot;success&quot; : callback{R}}}}{{code{jQuery.ajax}}}}}}</description>
+<line>1819</line>
+</event>
+<event>
+<main>true</main>
+<tag>url_manipulation_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in property {1} of {2}.}{{code{jQuery.ajax}}}{{code{url}}}{{code{{L}&quot;url&quot; : url, &quot;type&quot; : method, &quot;dataType&quot; : type, &quot;data&quot; : data, &quot;success&quot; : callback{R}}}}}{t{ Constructing a URL using a tainted value. This may allow an attacker to access or modify critical or sensitive files, or redirect to a malicious website.}}}}</description>
+<line>1819</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{URL manipulation vulnerabilities can be addressed by proper input validation. Allow listing the allowed scheme and authority, and deny listing characters that allow unsafe path traversal in the path and query parts of the URL can improve security.}}}}</description>
+<line>1819</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>37</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE</function>
+<key>3bdf28de7e2e95fe7bbecc8ae1d32ce8</key>
+<id>6</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>function</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{ul{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.ajax}}}{{code{ajax}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQueryjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.get}}}{{code{get}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}}}}</description>
+<line>37</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE</function>
+<key>f2ba49a7e05f28302ae3297aa33f2d88</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling at a later point {0}.}{{code{jQuery.get}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>1795</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.get</function>
+<key>060199aa9a35265c2dd8cab4234f3919</key>
+<id>1</id>
+</model_ptr>
+</event>
+<extra>@&quot;ajax&quot;,jQuery:&quot;!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.get&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>URL_MANIPULATION</checker>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>URL_MANIPULATION</checker>
+<type>url_manipulation</type>
+<subtype>audit</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:%IPFE%12:%ANONYMOUS</function>
+<functionMergeName>!jquery-%VERSION.js!%IIFE:%IPFE:%ANONYMOUS</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{url}}}}}}</description>
+<line>8288</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = {1}.}{{code{&lt;storage from new&gt;[&quot;url&quot;]}}}{{code{url}}}}}}</description>
+<line>8297</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{{L}&quot;url&quot; : url, &quot;type&quot; : method, &quot;dataType&quot; : type, &quot;data&quot; : data, &quot;success&quot; : callback{R}}}}{{code{jQuery.ajax}}}}}}</description>
+<line>8296</line>
+</event>
+<event>
+<main>true</main>
+<tag>url_manipulation_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in property {1} of {2}.}{{code{jQuery.ajax}}}{{code{url}}}{{code{{L}&quot;url&quot; : url, &quot;type&quot; : method, &quot;dataType&quot; : type, &quot;data&quot; : data, &quot;success&quot; : callback{R}}}}}{t{ Constructing a URL using a tainted value. This may allow an attacker to access or modify critical or sensitive files, or redirect to a malicious website.}}}}</description>
+<line>8296</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{URL manipulation vulnerabilities can be addressed by proper input validation. Allow listing the allowed scheme and authority, and deny listing characters that allow unsafe path traversal in the path and query parts of the URL can improve security.}}}}</description>
+<line>8296</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>28</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE</function>
+<key>41a927f9450dc95fc509016be3f315fb</key>
+<id>8</id>
+</model_ptr>
+</event>
+<extra>@&quot;ajax&quot;,jQuery:&quot;!jquery-1.10.2.js!%IIFE:%IPFE%12:%ANONYMOUS&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>URL_MANIPULATION</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>URL_MANIPULATION</checker>
+<type>url_manipulation</type>
+<subtype>audit</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:%IPOL.getJSON</function>
+<functionMergeName>!jquery-%VERSION.js!%IIFE:%IPOL.getJSON</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{url}}}}}}</description>
+<line>8278</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{url}}}{{code{jQuery.get}}}}}}</description>
+<line>8279</line>
+</event>
+<event>
+<main>true</main>
+<tag>url_manipulation_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{jQuery.get}}}{{code{url}}}}{t{ Constructing a URL using a tainted value. This may allow an attacker to access or modify critical or sensitive files, or redirect to a malicious website.}}}}</description>
+<line>8279</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{URL manipulation vulnerabilities can be addressed by proper input validation. Allow listing the allowed scheme and authority, and deny listing characters that allow unsafe path traversal in the path and query parts of the URL can improve security.}}}}</description>
+<line>8279</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>28</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE</function>
+<key>41a927f9450dc95fc509016be3f315fb</key>
+<id>3</id>
+</model_ptr>
+</event>
+<extra>@&quot;get&quot;,jQuery:&quot;!jquery-1.10.2.js!%IIFE:%IPOL.getJSON&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>URL_MANIPULATION</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>URL_MANIPULATION</checker>
+<type>url_manipulation</type>
+<subtype>audit</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:%IPOL._evalUrl</function>
+<functionMergeName>!jquery-%VERSION.js!%IIFE:%IPOL._evalUrl</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{url}}}}}}</description>
+<line>6731</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = {1}.}{{code{&lt;storage from new&gt;[&quot;url&quot;]}}}{{code{url}}}}}}</description>
+<line>6733</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{{L}&quot;url&quot; : url, &quot;type&quot; : &quot;GET&quot;, &quot;dataType&quot; : &quot;script&quot;, &quot;async&quot; : false, &quot;global&quot; : false, &quot;throws&quot; : true{R}}}}{{code{jQuery.ajax}}}}}}</description>
+<line>6732</line>
+</event>
+<event>
+<main>true</main>
+<tag>url_manipulation_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in property {1} of {2}.}{{code{jQuery.ajax}}}{{code{url}}}{{code{{L}&quot;url&quot; : url, &quot;type&quot; : &quot;GET&quot;, &quot;dataType&quot; : &quot;script&quot;, &quot;async&quot; : false, &quot;global&quot; : false, &quot;throws&quot; : true{R}}}}}{t{ Constructing a URL using a tainted value. This may allow an attacker to access or modify critical or sensitive files, or redirect to a malicious website.}}}}</description>
+<line>6732</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{URL manipulation vulnerabilities can be addressed by proper input validation. Allow listing the allowed scheme and authority, and deny listing characters that allow unsafe path traversal in the path and query parts of the URL can improve security.}}}}</description>
+<line>6732</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>28</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE</function>
+<key>41a927f9450dc95fc509016be3f315fb</key>
+<id>7</id>
+</model_ptr>
+</event>
+<extra>@&quot;ajax&quot;,jQuery:&quot;!jquery-1.10.2.js!%IIFE:%IPOL._evalUrl&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>URL_MANIPULATION</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>URL_MANIPULATION</checker>
+<type>url_manipulation</type>
+<subtype>audit</subtype>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.post</function>
+<functionMergeName>!jquery-%VERSION-vsdoc.js!%IIFE:jQuery.post</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{url}}}}}}</description>
+<line>2353</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = {1}.}{{code{&lt;storage from new&gt;[&quot;url&quot;]}}}{{code{url}}}}}}</description>
+<line>2378</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{{L}&quot;url&quot; : url, &quot;type&quot; : method, &quot;dataType&quot; : type, &quot;data&quot; : data, &quot;success&quot; : callback{R}}}}{{code{jQuery.ajax}}}}}}</description>
+<line>2377</line>
+</event>
+<event>
+<main>true</main>
+<tag>url_manipulation_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in property {1} of {2}.}{{code{jQuery.ajax}}}{{code{url}}}{{code{{L}&quot;url&quot; : url, &quot;type&quot; : method, &quot;dataType&quot; : type, &quot;data&quot; : data, &quot;success&quot; : callback{R}}}}}{t{ Constructing a URL using a tainted value. This may allow an attacker to access or modify critical or sensitive files, or redirect to a malicious website.}}}}</description>
+<line>2377</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{URL manipulation vulnerabilities can be addressed by proper input validation. Allow listing the allowed scheme and authority, and deny listing characters that allow unsafe path traversal in the path and query parts of the URL can improve security.}}}}</description>
+<line>2377</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>37</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE</function>
+<key>3bdf28de7e2e95fe7bbecc8ae1d32ce8</key>
+<id>7</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>function</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{ul{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.ajax}}}{{code{ajax}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to captured variable {1}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQueryjQuery}}}{{code{jQuery}}}}}{{t{This call assigns a reference to {0} to property {1} of {2}.}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.post}}}{{code{post}}}{{code{function!jquery-1.10.2-vsdoc.js!%IIFE:jQuery}}}}}}}}</description>
+<line>37</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE</function>
+<key>789ac89cccc4968be461191b43b3b6d5</key>
+<id>0</id>
+</model_ptr>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling at a later point {0}.}{{code{jQuery.post}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>2353</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.post</function>
+<key>642111214cfd5de95004266b3ae72942</key>
+<id>1</id>
+</model_ptr>
+</event>
+<extra>@&quot;ajax&quot;,jQuery:&quot;!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.post&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>URL_MANIPULATION</checker>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>

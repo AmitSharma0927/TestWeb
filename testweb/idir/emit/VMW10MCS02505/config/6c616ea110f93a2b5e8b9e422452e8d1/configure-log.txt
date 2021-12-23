@@ -1,0 +1,4 @@
+Native Compiler invocation: C:/Program Files (x86)/dotnet/dotnet.exe exec C:\Program Files (x86)\dotnet\sdk\2.1.202\MSBuild.dll /m /v:m /t:Restore;Clean;Build C:\AEP\AppScantool\testweb\testweb.sln
+Working directory: C:\AEP\AppScantool\testweb
+Comptype: dotnet
+* Configuring C:\Program Files (x86)\dotnet\dotnet as a C# compiler

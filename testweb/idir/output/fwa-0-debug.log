@@ -1,0 +1,1041 @@
+2021-12-14 15:50:58,358 [plugins:INFO] Scanning plug-in dir = C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\code\plugins\builtin
+2021-12-14 15:50:58,363 [plugins:INFO] Scanning plug-in dir = C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\code\plugins\test
+2021-12-14 15:50:58,518 [plugins:INFO] Scan root = C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0
+2021-12-14 15:50:58,519 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\ClassLibrary1\bin\Debug\netstandard2.0\ClassLibrary1.deps.json
+2021-12-14 15:50:58,519 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\ClassLibrary1\obj\project.assets.json
+2021-12-14 15:50:58,521 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\ClassLibrary1\obj\Debug\netstandard2.0\ClassLibrary1.csproj.FileListAbsolute.txt
+2021-12-14 15:50:58,522 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.ApplicationInsights.2.2.0\lib\net40\Microsoft.ApplicationInsights.XML
+2021-12-14 15:50:58,522 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.ApplicationInsights.2.2.0\lib\net45\Microsoft.ApplicationInsights.XML
+2021-12-14 15:50:58,523 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.ApplicationInsights.2.2.0\lib\net46\Microsoft.ApplicationInsights.XML
+2021-12-14 15:50:58,523 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.ApplicationInsights.2.2.0\lib\netstandard1.5\Microsoft.ApplicationInsights.XML
+2021-12-14 15:50:58,524 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net40\Microsoft.AI.DependencyCollector.XML
+2021-12-14 15:50:58,524 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net45\Microsoft.AI.DependencyCollector.XML
+2021-12-14 15:50:58,524 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net40\Microsoft.AI.Web.XML
+2021-12-14 15:50:58,525 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net45\Microsoft.AI.Web.XML
+2021-12-14 15:50:58,526 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net40\Microsoft.AI.WindowsServer.XML
+2021-12-14 15:50:58,526 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net45\Microsoft.AI.WindowsServer.XML
+2021-12-14 15:50:58,527 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net40\Microsoft.AI.ServerTelemetryChannel.XML
+2021-12-14 15:50:58,527 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.XML
+2021-12-14 15:50:58,528 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.xml
+2021-12-14 15:50:58,528 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.xml
+2021-12-14 15:50:58,529 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\system.web.optimization.xml
+2021-12-14 15:50:58,530 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.xml
+2021-12-14 15:50:58,530 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.xml
+2021-12-14 15:50:58,530 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.xml
+2021-12-14 15:50:58,530 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.xml
+2021-12-14 15:50:58,531 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+2021-12-14 15:50:58,532 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Newtonsoft.Json.6.0.4\lib\net20\Newtonsoft.Json.xml
+2021-12-14 15:50:58,532 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Newtonsoft.Json.6.0.4\lib\net35\Newtonsoft.Json.xml
+2021-12-14 15:50:58,533 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Newtonsoft.Json.6.0.4\lib\net40\Newtonsoft.Json.xml
+2021-12-14 15:50:58,533 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.xml
+2021-12-14 15:50:58,533 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Newtonsoft.Json.6.0.4\lib\netcore45\Newtonsoft.Json.xml
+2021-12-14 15:50:58,534 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Newtonsoft.Json.6.0.4\lib\portable-net40%2Bsl5%2Bwp80%2Bwin8%2Bwpa81\Newtonsoft.Json.xml
+2021-12-14 15:50:58,534 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Newtonsoft.Json.6.0.4\lib\portable-net45%2Bwp80%2Bwin8%2Bwpa81\Newtonsoft.Json.xml
+2021-12-14 15:50:58,534 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\seeker\seeker.properties
+2021-12-14 15:50:58,535 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\ApplicationInsights.config
+2021-12-14 15:50:58,535 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\packages.config
+2021-12-14 15:50:58,536 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\Web.config
+2021-12-14 15:50:58,536 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\Web.Debug.config
+2021-12-14 15:50:58,536 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\Web.Release.config
+2021-12-14 15:50:58,537 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\ApplicationInsights.config
+2021-12-14 15:50:58,537 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\Microsoft.AI.DependencyCollector.xml
+2021-12-14 15:50:58,537 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+2021-12-14 15:50:58,537 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\Microsoft.AI.Web.xml
+2021-12-14 15:50:58,538 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\Microsoft.AI.WindowsServer.xml
+2021-12-14 15:50:58,538 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\Microsoft.ApplicationInsights.xml
+2021-12-14 15:50:58,538 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+2021-12-14 15:50:58,538 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\Newtonsoft.Json.xml
+2021-12-14 15:50:58,539 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\System.Web.Helpers.xml
+2021-12-14 15:50:58,539 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\System.Web.Mvc.xml
+2021-12-14 15:50:58,539 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\System.Web.Optimization.xml
+2021-12-14 15:50:58,539 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\System.Web.Razor.xml
+2021-12-14 15:50:58,539 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\System.Web.WebPages.Deployment.xml
+2021-12-14 15:50:58,540 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\System.Web.WebPages.Razor.xml
+2021-12-14 15:50:58,540 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\System.Web.WebPages.xml
+2021-12-14 15:50:58,540 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\testweb.dll.config
+2021-12-14 15:50:58,540 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\roslyn\csc.exe.config
+2021-12-14 15:50:58,540 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\roslyn\csi.exe.config
+2021-12-14 15:50:58,540 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\roslyn\vbc.exe.config
+2021-12-14 15:50:58,541 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\roslyn\VBCSCompiler.exe.config
+2021-12-14 15:50:58,541 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\Content\bootstrap.css
+2021-12-14 15:50:58,541 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\Content\bootstrap.min.css
+2021-12-14 15:50:58,541 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\Content\Site.css
+2021-12-14 15:50:58,542 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\obj\Debug\testweb.csproj.FileListAbsolute.txt
+2021-12-14 15:50:58,542 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\obj\Release\testweb.csproj.FileListAbsolute.txt
+2021-12-14 15:50:58,542 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\obj\Release\_WPPLastBuildInfo.txt
+2021-12-14 15:50:58,542 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\obj\Release\Package\PackageTmp\ApplicationInsights.config
+2021-12-14 15:50:58,543 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\obj\Release\Package\PackageTmp\Web.config
+2021-12-14 15:50:58,543 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\obj\Release\Package\PackageTmp\bin\ApplicationInsights.config
+2021-12-14 15:50:58,543 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\obj\Release\Package\PackageTmp\bin\roslyn\csc.exe.config
+2021-12-14 15:50:58,543 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\obj\Release\Package\PackageTmp\bin\roslyn\csi.exe.config
+2021-12-14 15:50:58,544 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\obj\Release\Package\PackageTmp\bin\roslyn\vbc.exe.config
+2021-12-14 15:50:58,544 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\obj\Release\Package\PackageTmp\bin\roslyn\VBCSCompiler.exe.config
+2021-12-14 15:50:58,544 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\obj\Release\Package\PackageTmp\Content\bootstrap.css
+2021-12-14 15:50:58,544 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\obj\Release\Package\PackageTmp\Content\bootstrap.min.css
+2021-12-14 15:50:58,544 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\obj\Release\Package\PackageTmp\Content\Site.css
+2021-12-14 15:50:58,545 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\obj\Release\Package\PackageTmp\Views\Web.config
+2021-12-14 15:50:58,545 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\obj\Release\TransformWebConfig\assist\Web.config
+2021-12-14 15:50:58,545 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\obj\Release\TransformWebConfig\original\Web.config
+2021-12-14 15:50:58,546 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\obj\Release\TransformWebConfig\transformed\Web.config
+2021-12-14 15:50:58,546 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\Views\Web.config
+2021-12-14 15:50:58,546 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\WindowsFormsApp1\App.config
+2021-12-14 15:50:58,547 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+2021-12-14 15:50:58,547 [plugins:DEBUG]      * C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.FileListAbsolute.txt
+2021-12-14 15:50:58,548 [plugins:INFO] Scan found 1 files
+2021-12-14 15:50:58,570 [plugins:INFO] -------------- Running plug-in JSP (priority=60) --------------
+2021-12-14 15:50:58,570 [plugins:DEBUG] JSP.main: Start
+2021-12-14 15:50:58,571 [plugins:DEBUG] JSP.main: webapp_root = C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0
+2021-12-14 15:50:58,571 [plugins:DEBUG] JSP.main: Num JSP files: 0
+2021-12-14 15:50:58,571 [plugins:INFO] -------------- Running plug-in Facelets2 (priority=50) --------------
+2021-12-14 15:50:58,571 [plugins:INFO] -------------- Running plug-in MyBatis (priority=50) --------------
+2021-12-14 15:50:58,571 [plugins:DEBUG] MyBatis.main: Start
+2021-12-14 15:50:58,572 [plugins:DEBUG] Skipping MyBatis analysis. Framework not detected.
+2021-12-14 15:50:58,572 [plugins:INFO] -------------- Running plug-in MyBatisXML (priority=50) --------------
+2021-12-14 15:50:58,573 [plugins:DEBUG] MyBatis.main: Start
+2021-12-14 15:50:58,585 [plugins:WARNING] MyBatisXML: Exception when handling C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.xml : UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 13795: character maps to <undefined>
+2021-12-14 15:50:58,659 [plugins:WARNING] MyBatisXML: Exception when handling C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\System.Web.Razor.xml : UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 13795: character maps to <undefined>
+2021-12-14 15:50:58,662 [plugins:DEBUG] MyBatis.main: End
+2021-12-14 15:50:58,662 [plugins:INFO] -------------- Running plug-in SpringQuery (priority=50) --------------
+2021-12-14 15:50:58,663 [plugins:DEBUG] SpringQuery.main: Start
+2021-12-14 15:50:58,666 [plugins:DEBUG] Skipping SpringQuery analysis. Framework not detected.
+2021-12-14 15:50:58,667 [plugins:INFO] -------------- Running plug-in Struts2Xml (priority=50) --------------
+2021-12-14 15:50:58,667 [plugins:INFO] Struts2Xml.main: Start
+2021-12-14 15:50:58,678 [plugins:INFO] Struts2Xml.main: could not read text file C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.xml
+2021-12-14 15:50:58,738 [plugins:INFO] Struts2Xml.main: could not read text file C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\System.Web.Razor.xml
+2021-12-14 15:50:58,741 [plugins:INFO] -------------- Skipping disabled plug-in: Test_BogusClassName
+2021-12-14 15:50:58,741 [plugins:INFO] -------------- Skipping disabled plug-in: Test_Failure
+2021-12-14 15:50:58,742 [plugins:INFO] -------------- Running plug-in Tiles (priority=50) --------------
+2021-12-14 15:50:58,742 [plugins:DEBUG] Tiles.main: Start
+2021-12-14 15:50:58,742 [plugins:DEBUG] Tiles.main: webapp_root='C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0', working_dir='C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0.tmp'
+2021-12-14 15:50:58,742 [plugins:DEBUG] Tiles.main: 0 JSPs, 29 XML files
+2021-12-14 15:50:58,752 [plugins:WARNING] Tiles: unable to read C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.xml : UnicodeDecodeError
+2021-12-14 15:50:58,817 [plugins:WARNING] Tiles: unable to read C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\System.Web.Razor.xml : UnicodeDecodeError
+2021-12-14 15:50:58,820 [plugins:DEBUG] Tiles::consumeDefinitions- JSP files set:
+[]
+2021-12-14 15:50:58,820 [plugins:DEBUG] Ordered tiles ref: []
+2021-12-14 15:50:58,820 [plugins:DEBUG] After propagation: {}
+2021-12-14 15:50:58,820 [plugins:DEBUG] Tiles::main- Found 0 tiles
+2021-12-14 15:50:58,820 [plugins:DEBUG] Tiles::main- Generated tiles structure
+{}
+2021-12-14 15:50:58,820 [plugins:DEBUG] Tiles::addViewsToConfiguration- 0 tiles defs with 0 views
+2021-12-14 15:50:58,820 [plugins:INFO] -------------- Running plug-in SpringBeans (priority=20) --------------
+2021-12-14 15:50:58,820 [plugins:DEBUG] SpringBeans.main: Start
+2021-12-14 15:50:58,830 [plugins:WARNING] SpringBeans: unable to read C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.xml : UnicodeDecodeError
+2021-12-14 15:50:58,896 [plugins:WARNING] SpringBeans: unable to read C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\System.Web.Razor.xml : UnicodeDecodeError
+2021-12-14 15:50:58,899 [plugins:INFO] -------------- Running plug-in Struts1Xml (priority=20) --------------
+2021-12-14 15:50:58,899 [plugins:INFO] Struts1Xml.main: Start
+2021-12-14 15:50:58,909 [plugins:WARNING] Struts1Xml: unable to read C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.xml : UnicodeDecodeError
+2021-12-14 15:50:58,968 [plugins:WARNING] Struts1Xml: unable to read C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\System.Web.Razor.xml : UnicodeDecodeError
+2021-12-14 15:50:58,971 [plugins:INFO] -------------- Running plug-in DWR (priority=10) --------------
+2021-12-14 15:50:58,971 [plugins:INFO] DWR.main: Start
+2021-12-14 15:50:58,974 [plugins:INFO] -------------- Running plug-in JavaHttpServer (priority=10) --------------
+2021-12-14 15:50:58,974 [plugins:DEBUG] JavaHttpServer.main: Start
+2021-12-14 15:50:58,974 [plugins:INFO] -------------- Running plug-in Restlet (priority=10) --------------
+2021-12-14 15:50:58,974 [plugins:DEBUG] Restlet.main: Start
+2021-12-14 15:50:58,978 [plugins:DEBUG] Skipping Restlet. Framework not detected.
+2021-12-14 15:50:58,978 [plugins:INFO] -------------- Skipping disabled plug-in: Seam
+2021-12-14 15:50:58,978 [plugins:INFO] -------------- Running plug-in SpringBoot (priority=10) --------------
+2021-12-14 15:50:58,978 [plugins:DEBUG] SpringBoot.main: Start
+2021-12-14 15:50:58,981 [plugins:DEBUG] Skipping SpringBoot analysis. Framework not detected.
+2021-12-14 15:50:58,981 [plugins:INFO] -------------- Running plug-in SpringMVC3 (priority=10) --------------
+2021-12-14 15:50:58,981 [plugins:DEBUG] SpringMVC3.main: Start
+2021-12-14 15:50:58,983 [plugins:DEBUG] Skipping SpringMVC3 analysis. Framework not detected.
+2021-12-14 15:50:58,983 [plugins:INFO] -------------- Running plug-in SpringWS (priority=10) --------------
+2021-12-14 15:50:58,983 [plugins:DEBUG] SpringWS.main: Start
+2021-12-14 15:50:58,984 [plugins:DEBUG] Skipping SpringWS analysis. Framework not detected.
+2021-12-14 15:50:58,984 [plugins:INFO] -------------- Running plug-in Struts1 (priority=10) --------------
+2021-12-14 15:50:58,984 [plugins:DEBUG] Struts1.main: Start
+2021-12-14 15:50:58,984 [plugins:DEBUG] Struts1.mapActionsToForms: {}
+2021-12-14 15:50:58,985 [plugins:DEBUG] findEntryPointViaImplicitMethod:: Class extending: org.apache.struts.action.Action
+[]
+2021-12-14 15:50:58,985 [plugins:DEBUG] findEntryPointViaImplicitMethod:: Class extending: org.apache.struts.actions.BaseAction
+[]
+2021-12-14 15:50:58,986 [plugins:DEBUG] findEntryPointViaImplicitMethod:: Class extending: org.apache.struts.actions.DownloadAction
+[]
+2021-12-14 15:50:58,986 [plugins:DEBUG] findEntryPointViaImplicitMethod:: Class extending: org.apache.struts.actions.ForwardAction
+[]
+2021-12-14 15:50:58,987 [plugins:DEBUG] findEntryPointViaImplicitMethod:: Class extending: org.apache.struts.actions.IncludeAction
+[]
+2021-12-14 15:50:58,987 [plugins:DEBUG] findEntryPointViaImplicitMethod:: Class extending: org.apache.struts.actions.SwitchAction
+[]
+2021-12-14 15:50:58,988 [plugins:DEBUG] findEntryPointViaImplicitMethod:: Class extending: org.apache.struts.actions.LocaleAction
+[]
+2021-12-14 15:50:58,989 [plugins:DEBUG] findEntryPointViaImplicitMethod:: Class extending: jp.terasoluna.fw.web.struts.actions.ActionEx
+[]
+2021-12-14 15:50:58,990 [plugins:DEBUG] findEntryPointViaImplicitMethod:: Class extending: jp.terasoluna.fw.web.struts.actions.AbstractBLogicAction
+[]
+2021-12-14 15:50:58,990 [plugins:DEBUG] findEntryPointViaImplicitMethod:: Class extending: jp.terasoluna.fw.web.struts.actions.ClearSessionAction
+[]
+2021-12-14 15:50:58,991 [plugins:DEBUG] findEntryPointViaImplicitMethod:: Class extending: jp.terasoluna.fw.web.struts.actions.DispatchAction
+[]
+2021-12-14 15:50:58,991 [plugins:DEBUG] findEntryPointViaImplicitMethod:: Class extending: jp.terasoluna.fw.web.struts.actions.ForwardAction
+[]
+2021-12-14 15:50:58,992 [plugins:DEBUG] findEntryPointViaImplicitMethod:: Class extending: jp.terasoluna.fw.web.struts.actions.LogoffAction
+[]
+2021-12-14 15:50:58,992 [plugins:DEBUG] findEntryPointViaImplicitMethod:: Class extending: jp.terasoluna.fw.web.struts.actions.MakeSessionDirectoryAction
+[]
+2021-12-14 15:50:58,993 [plugins:DEBUG] findEntryPointViaImplicitMethod:: Class extending: jp.terasoluna.fw.web.struts.actions.ReloadCodeListAction
+[]
+2021-12-14 15:50:58,996 [plugins:INFO] -------------- Running plug-in Terasoluna (priority=10) --------------
+2021-12-14 15:50:58,996 [plugins:DEBUG] Terasoluna::main- Start
+2021-12-14 15:50:58,999 [plugins:DEBUG] %s::main- Framework classes not found.
+2021-12-14 15:50:58,999 [plugins:INFO] -------------- Running plug-in Android (priority=5) --------------
+2021-12-14 15:50:58,999 [plugins:DEBUG] Android: main: Start
+2021-12-14 15:50:58,999 [plugins:DEBUG] Android: main: emit_app_root: 'C:\\AEP\\AppScantool\\testweb'
+2021-12-14 15:50:58,999 [plugins:DEBUG] Android: main: unpacked_app_root='C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0'
+2021-12-14 15:50:59,000 [plugins:DEBUG] Android: main: temp_dir='C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0.tmp'
+2021-12-14 15:50:59,001 [plugins:DEBUG] Android: Module roots: []
+2021-12-14 15:50:59,002 [plugins:INFO] Working in fallback mode
+2021-12-14 15:50:59,002 [plugins:ERROR] Android: No valid manifests found!
+2021-12-14 15:50:59,002 [plugins:DEBUG] Android: AndroidManifest.xml files: []
+2021-12-14 15:50:59,002 [plugins:DEBUG] Android: layout files: ['C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\packages\\Microsoft.AspNet.Mvc.5.2.3\\lib\\net45\\System.Web.Mvc.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\packages\\Microsoft.AspNet.Razor.3.2.3\\lib\\net45\\System.Web.Razor.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\packages\\Microsoft.AspNet.Web.Optimization.1.1.3\\lib\\net40\\system.web.optimization.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\packages\\Microsoft.AspNet.WebPages.3.2.3\\lib\\net45\\System.Web.Helpers.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\packages\\Microsoft.AspNet.WebPages.3.2.3\\lib\\net45\\System.Web.WebPages.Deployment.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\packages\\Microsoft.AspNet.WebPages.3.2.3\\lib\\net45\\System.Web.WebPages.Razor.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\packages\\Microsoft.AspNet.WebPages.3.2.3\\lib\\net45\\System.Web.WebPages.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\\lib\\net45\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\packages\\Newtonsoft.Json.6.0.4\\lib\\net20\\Newtonsoft.Json.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\packages\\Newtonsoft.Json.6.0.4\\lib\\net35\\Newtonsoft.Json.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\packages\\Newtonsoft.Json.6.0.4\\lib\\net40\\Newtonsoft.Json.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\packages\\Newtonsoft.Json.6.0.4\\lib\\net45\\Newtonsoft.Json.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\packages\\Newtonsoft.Json.6.0.4\\lib\\netcore45\\Newtonsoft.Json.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\packages\\Newtonsoft.Json.6.0.4\\lib\\portable-net40%2Bsl5%2Bwp80%2Bwin8%2Bwpa81\\Newtonsoft.Json.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\packages\\Newtonsoft.Json.6.0.4\\lib\\portable-net45%2Bwp80%2Bwin8%2Bwpa81\\Newtonsoft.Json.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\testweb\\bin\\Microsoft.AI.DependencyCollector.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\testweb\\bin\\Microsoft.AI.ServerTelemetryChannel.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\testweb\\bin\\Microsoft.AI.Web.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\testweb\\bin\\Microsoft.AI.WindowsServer.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\testweb\\bin\\Microsoft.ApplicationInsights.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\testweb\\bin\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\testweb\\bin\\Newtonsoft.Json.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\testweb\\bin\\System.Web.Helpers.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\testweb\\bin\\System.Web.Mvc.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\testweb\\bin\\System.Web.Optimization.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\testweb\\bin\\System.Web.Razor.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\testweb\\bin\\System.Web.WebPages.Deployment.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\testweb\\bin\\System.Web.WebPages.Razor.xml', 'C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0\\testweb\\bin\\System.Web.WebPages.xml']
+2021-12-14 15:50:59,002 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.xml
+2021-12-14 15:50:59,004 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.xml
+2021-12-14 15:50:59,006 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\system.web.optimization.xml
+2021-12-14 15:50:59,006 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.xml
+2021-12-14 15:50:59,006 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.xml
+2021-12-14 15:50:59,007 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.xml
+2021-12-14 15:50:59,007 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.xml
+2021-12-14 15:50:59,008 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+2021-12-14 15:50:59,008 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Newtonsoft.Json.6.0.4\lib\net20\Newtonsoft.Json.xml
+2021-12-14 15:50:59,009 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Newtonsoft.Json.6.0.4\lib\net35\Newtonsoft.Json.xml
+2021-12-14 15:50:59,010 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Newtonsoft.Json.6.0.4\lib\net40\Newtonsoft.Json.xml
+2021-12-14 15:50:59,011 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.xml
+2021-12-14 15:50:59,012 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Newtonsoft.Json.6.0.4\lib\netcore45\Newtonsoft.Json.xml
+2021-12-14 15:50:59,013 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Newtonsoft.Json.6.0.4\lib\portable-net40%2Bsl5%2Bwp80%2Bwin8%2Bwpa81\Newtonsoft.Json.xml
+2021-12-14 15:50:59,013 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\packages\Newtonsoft.Json.6.0.4\lib\portable-net45%2Bwp80%2Bwin8%2Bwpa81\Newtonsoft.Json.xml
+2021-12-14 15:50:59,014 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\Microsoft.AI.DependencyCollector.xml
+2021-12-14 15:50:59,014 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+2021-12-14 15:50:59,015 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\Microsoft.AI.Web.xml
+2021-12-14 15:50:59,015 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\Microsoft.AI.WindowsServer.xml
+2021-12-14 15:50:59,015 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\Microsoft.ApplicationInsights.xml
+2021-12-14 15:50:59,016 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+2021-12-14 15:50:59,016 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\Newtonsoft.Json.xml
+2021-12-14 15:50:59,018 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\System.Web.Helpers.xml
+2021-12-14 15:50:59,018 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\System.Web.Mvc.xml
+2021-12-14 15:50:59,020 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\System.Web.Optimization.xml
+2021-12-14 15:50:59,021 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\System.Web.Razor.xml
+2021-12-14 15:50:59,022 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\System.Web.WebPages.Deployment.xml
+2021-12-14 15:50:59,023 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\System.Web.WebPages.Razor.xml
+2021-12-14 15:50:59,023 [plugins:DEBUG] Android: analyzeLayout: C:\Temp\cov-s343416\c9cd92f7ceb2e46709a3d33f5e9dbb71\fwa\dom-0\testweb\bin\System.Web.WebPages.xml
+2021-12-14 15:50:59,024 [plugins:INFO] -------------- Running plug-in Axis1 (priority=5) --------------
+2021-12-14 15:50:59,024 [plugins:INFO] Axis1.main: Start
+2021-12-14 15:50:59,024 [plugins:INFO] -------------- Running plug-in Cordova (priority=5) --------------
+2021-12-14 15:50:59,042 [plugins:DEBUG] Cordova framelet.main: No Cordova project files (config.xml or package.json) present in emit.
+2021-12-14 15:50:59,043 [plugins:INFO] -------------- Running plug-in DotNetMVC (priority=5) --------------
+2021-12-14 15:50:59,043 [plugins:INFO] DotNetMVC.main: Start
+2021-12-14 15:50:59,043 [plugins:DEBUG] DotNetMVC.main: Phase: Setup
+2021-12-14 15:50:59,043 [plugins:DEBUG] DotNetMVC.main: Setup: Create type hierarchy
+2021-12-14 15:50:59,049 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.Controller (tu 284)' ==has child=> 'testweb.Controllers.StudentController (tu 14)'
+2021-12-14 15:50:59,050 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.Controller (tu 284)' ==has child=> 'testweb.Controllers.HomeController (tu 13)'
+2021-12-14 15:50:59,050 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.Controller (tu 284)' ==has child=> 'System.Web.Mvc.AsyncController (tu 284)'
+2021-12-14 15:50:59,053 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.WebViewPage (tu 284)' ==has child=> 'System.Web.Mvc.WebViewPage`1 (tu 284)'
+2021-12-14 15:50:59,058 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.WebViewPage`1 (tu 284)' ==has child=> 'ASP._Page_obj_Release_Package_PackageTmp_Views_Shared__Layout_cshtml (tu 28)'
+2021-12-14 15:50:59,058 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.WebViewPage`1 (tu 284)' ==has child=> 'ASP._Page_obj_Release_Package_PackageTmp_Views_Home_About_cshtml (tu 25)'
+2021-12-14 15:50:59,058 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.WebViewPage`1 (tu 284)' ==has child=> 'ASP._Page_Views_Shared_Error_cshtml (tu 8)'
+2021-12-14 15:50:59,058 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.WebViewPage`1 (tu 284)' ==has child=> 'ASP._Page_Views_Home_Index_cshtml (tu 19)'
+2021-12-14 15:50:59,058 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.WebViewPage`1 (tu 284)' ==has child=> 'ASP._Page_obj_Release_Package_PackageTmp_Views_Home_Index_cshtml (tu 27)'
+2021-12-14 15:50:59,058 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.WebViewPage`1 (tu 284)' ==has child=> 'ASP._Page_obj_Release_Package_PackageTmp_Views_Home_Contact_cshtml (tu 26)'
+2021-12-14 15:50:59,059 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.WebViewPage`1 (tu 284)' ==has child=> 'ASP._Page_Views_Home_About_cshtml (tu 17)'
+2021-12-14 15:50:59,059 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.WebViewPage`1 (tu 284)' ==has child=> 'ASP._Page_Views_Shared__Layout_cshtml (tu 20)'
+2021-12-14 15:50:59,059 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.WebViewPage`1 (tu 284)' ==has child=> 'ASP._Page_Views_Home_Contact_cshtml (tu 18)'
+2021-12-14 15:50:59,059 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.WebViewPage`1 (tu 284)' ==has child=> 'ASP._Page_obj_Release_Package_PackageTmp_Views_Shared_Error_cshtml (tu 9)'
+2021-12-14 15:50:59,068 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.WebPages.WebPageExecutingBase (tu 288)' ==has child=> 'System.Web.WebPages.WebPageRenderingBase (tu 288)'
+2021-12-14 15:50:59,068 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.WebPages.WebPageExecutingBase (tu 288)' ==has child=> 'System.Web.WebPages.ApplicationStartPage (tu 288)'
+2021-12-14 15:50:59,071 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.WebPages.WebPageRenderingBase (tu 288)' ==has child=> 'System.Web.WebPages.WebPageBase (tu 288)'
+2021-12-14 15:50:59,071 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.WebPages.WebPageRenderingBase (tu 288)' ==has child=> 'System.Web.WebPages.StartPage (tu 288)'
+2021-12-14 15:50:59,073 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.WebPages.WebPageBase (tu 288)' ==has child=> 'System.Web.Mvc.WebViewPage (tu 284)'
+2021-12-14 15:50:59,073 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.WebPages.WebPageBase (tu 288)' ==has child=> 'System.Web.WebPages.WebPage (tu 288)'
+2021-12-14 15:50:59,074 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.WebPages.StartPage (tu 288)' ==has child=> 'System.Web.Mvc.ViewStartPage (tu 284)'
+2021-12-14 15:50:59,074 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.WebViewPage (tu 284)' ==has child=> 'System.Web.Mvc.WebViewPage`1 (tu 284)'
+2021-12-14 15:50:59,076 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.ViewStartPage (tu 284)' ==has child=> 'ASP._Page_obj_Release_Package_PackageTmp_Views__ViewStart_cshtml (tu 29)'
+2021-12-14 15:50:59,076 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.ViewStartPage (tu 284)' ==has child=> 'ASP._Page_Views__ViewStart_cshtml (tu 21)'
+2021-12-14 15:50:59,077 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.WebViewPage`1 (tu 284)' ==has child=> 'ASP._Page_obj_Release_Package_PackageTmp_Views_Shared__Layout_cshtml (tu 28)'
+2021-12-14 15:50:59,077 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.WebViewPage`1 (tu 284)' ==has child=> 'ASP._Page_obj_Release_Package_PackageTmp_Views_Home_About_cshtml (tu 25)'
+2021-12-14 15:50:59,077 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.WebViewPage`1 (tu 284)' ==has child=> 'ASP._Page_Views_Shared_Error_cshtml (tu 8)'
+2021-12-14 15:50:59,077 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.WebViewPage`1 (tu 284)' ==has child=> 'ASP._Page_Views_Home_Index_cshtml (tu 19)'
+2021-12-14 15:50:59,077 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.WebViewPage`1 (tu 284)' ==has child=> 'ASP._Page_obj_Release_Package_PackageTmp_Views_Home_Index_cshtml (tu 27)'
+2021-12-14 15:50:59,077 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.WebViewPage`1 (tu 284)' ==has child=> 'ASP._Page_obj_Release_Package_PackageTmp_Views_Home_Contact_cshtml (tu 26)'
+2021-12-14 15:50:59,077 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.WebViewPage`1 (tu 284)' ==has child=> 'ASP._Page_Views_Home_About_cshtml (tu 17)'
+2021-12-14 15:50:59,077 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.WebViewPage`1 (tu 284)' ==has child=> 'ASP._Page_Views_Shared__Layout_cshtml (tu 20)'
+2021-12-14 15:50:59,078 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.WebViewPage`1 (tu 284)' ==has child=> 'ASP._Page_Views_Home_Contact_cshtml (tu 18)'
+2021-12-14 15:50:59,078 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.WebViewPage`1 (tu 284)' ==has child=> 'ASP._Page_obj_Release_Package_PackageTmp_Views_Shared_Error_cshtml (tu 9)'
+2021-12-14 15:50:59,090 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.FilterAttribute (tu 284)' ==has child=> 'System.Web.Mvc.ActionFilterAttribute (tu 284)'
+2021-12-14 15:50:59,090 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.FilterAttribute (tu 284)' ==has child=> 'System.Web.Mvc.AuthorizeAttribute (tu 284)'
+2021-12-14 15:50:59,090 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.FilterAttribute (tu 284)' ==has child=> 'System.Web.Mvc.HandleErrorAttribute (tu 284)'
+2021-12-14 15:50:59,090 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.FilterAttribute (tu 284)' ==has child=> 'System.Web.Mvc.ChildActionOnlyAttribute (tu 284)'
+2021-12-14 15:50:59,090 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.FilterAttribute (tu 284)' ==has child=> 'System.Web.Mvc.OverrideAuthorizationAttribute (tu 284)'
+2021-12-14 15:50:59,090 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.FilterAttribute (tu 284)' ==has child=> 'System.Web.Mvc.OverrideActionFiltersAttribute (tu 284)'
+2021-12-14 15:50:59,090 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.FilterAttribute (tu 284)' ==has child=> 'System.Web.Mvc.ValidateInputAttribute (tu 284)'
+2021-12-14 15:50:59,091 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.FilterAttribute (tu 284)' ==has child=> 'System.Web.Mvc.OverrideResultFiltersAttribute (tu 284)'
+2021-12-14 15:50:59,091 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.FilterAttribute (tu 284)' ==has child=> 'System.Web.Mvc.ValidateAntiForgeryTokenAttribute (tu 284)'
+2021-12-14 15:50:59,091 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.FilterAttribute (tu 284)' ==has child=> 'System.Web.Mvc.OverrideExceptionFiltersAttribute (tu 284)'
+2021-12-14 15:50:59,091 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.FilterAttribute (tu 284)' ==has child=> 'System.Web.Mvc.OverrideAuthenticationAttribute (tu 284)'
+2021-12-14 15:50:59,091 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.FilterAttribute (tu 284)' ==has child=> 'System.Web.Mvc.RequireHttpsAttribute (tu 284)'
+2021-12-14 15:50:59,093 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.ActionFilterAttribute (tu 284)' ==has child=> 'System.Web.Mvc.OutputCacheAttribute (tu 284)'
+2021-12-14 15:50:59,094 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.ActionFilterAttribute (tu 284)' ==has child=> 'System.Web.Mvc.AsyncTimeoutAttribute (tu 284)'
+2021-12-14 15:50:59,100 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.AsyncTimeoutAttribute (tu 284)' ==has child=> 'System.Web.Mvc.NoAsyncTimeoutAttribute (tu 284)'
+2021-12-14 15:50:59,101 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.ActionFilterAttribute (tu 284)' ==has child=> 'System.Web.Mvc.OutputCacheAttribute (tu 284)'
+2021-12-14 15:50:59,101 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.ActionFilterAttribute (tu 284)' ==has child=> 'System.Web.Mvc.AsyncTimeoutAttribute (tu 284)'
+2021-12-14 15:50:59,102 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Web.Mvc.AsyncTimeoutAttribute (tu 284)' ==has child=> 'System.Web.Mvc.NoAsyncTimeoutAttribute (tu 284)'
+2021-12-14 15:50:59,104 [plugins:DEBUG] DotNetMVC.main: Setup: Collapse 'AsyncController' into 'Controller'.
+2021-12-14 15:50:59,104 [plugins:DEBUG] DotNetMVC.collapseAsyncController: Collapsing System.Web.Mvc.AsyncController (tu 284) into System.Web.Mvc.Controller (tu ).
+2021-12-14 15:50:59,104 [plugins:DEBUG] DotNetMVC.main: Phase: Create Controller Entry Points
+2021-12-14 15:50:59,104 [plugins:DEBUG] DotNetMVC.doControllerEntryPoints: Entry Point Methods: Compute which methods are Entry Points.
+2021-12-14 15:50:59,105 [plugins:DEBUG] DotNetMVC.findEntryPointMethods: Filter: Remove methods that cannot be entry points (pass 1)
+2021-12-14 15:50:59,106 [plugins:DEBUG] DotNetMVC.removeNonActionMethods_Pass1: Removing non-public method: testweb.Controllers.HomeController::.ctor()System.Void (tu 13).
+2021-12-14 15:50:59,110 [plugins:DEBUG] DotNetMVC.removeNonActionMethods_Pass1: Removing non-public method: testweb.Controllers.StudentController::.ctor()System.Void (tu 14).
+2021-12-14 15:50:59,114 [plugins:DEBUG] DotNetMVC.findEntryPointMethods: Inherited Entry Points: Compute entry points inherited from parent
+2021-12-14 15:50:59,114 [plugins:DEBUG] DotNetMVC.findEntryPointMethods: Filter: Remove methods that cannot be entry points (pass 2)
+2021-12-14 15:50:59,114 [plugins:DEBUG] DotNetMVC.doControllerEntryPoints: CSRF Protected Methods: Compute which methods are CSRF protected.
+2021-12-14 15:50:59,116 [plugins:DEBUG] DotNetMVC.doControllerEntryPoints: Include/Exclude Paths: Compute taint paths (whitelists).
+2021-12-14 15:50:59,185 [plugins:DEBUG] DotNetMVC.doControllerEntryPoints: Finish: Create EntryPoint Directives.
+2021-12-14 15:50:59,185 [plugins:DEBUG] DotNetMVC.createEntryPointDirectives: Creating entry point for testweb.Controllers.HomeController::Index()System.Web.Mvc.ActionResult
+2021-12-14 15:50:59,185 [plugins:DEBUG] DotNetMVC.createEntryPointDirectives: Creating entry point for testweb.Controllers.HomeController::Contact()System.Web.Mvc.ActionResult
+2021-12-14 15:50:59,185 [plugins:DEBUG] DotNetMVC.createEntryPointDirectives: Creating entry point for testweb.Controllers.HomeController::About()System.Web.Mvc.ActionResult
+2021-12-14 15:50:59,185 [plugins:DEBUG] DotNetMVC.createEntryPointDirectives: Creating entry point for testweb.Controllers.StudentController::Create()System.Web.Mvc.ActionResult
+2021-12-14 15:50:59,186 [plugins:DEBUG] DotNetMVC.createEntryPointDirectives: Creating entry point for testweb.Controllers.StudentController::Delete(System.Int32)System.Web.Mvc.ActionResult
+2021-12-14 15:50:59,186 [plugins:DEBUG] DotNetMVC.createEntryPointDirectives: Creating entry point for testweb.Controllers.StudentController::Edit(System.Int32)System.Web.Mvc.ActionResult
+2021-12-14 15:50:59,186 [plugins:DEBUG] DotNetMVC.createEntryPointDirectives: Creating entry point for testweb.Controllers.StudentController::Edit(System.Int32,System.Web.Mvc.FormCollection)System.Web.Mvc.ActionResult
+2021-12-14 15:50:59,186 [plugins:DEBUG] DotNetMVC.createEntryPointDirectives: Creating entry point for testweb.Controllers.StudentController::Index()System.Web.Mvc.ActionResult
+2021-12-14 15:50:59,186 [plugins:DEBUG] DotNetMVC.createEntryPointDirectives: Creating entry point for testweb.Controllers.StudentController::Details(System.Int32)System.Web.Mvc.ActionResult
+2021-12-14 15:50:59,186 [plugins:DEBUG] DotNetMVC.createEntryPointDirectives: Creating entry point for testweb.Controllers.StudentController::Create(System.Web.Mvc.FormCollection)System.Web.Mvc.ActionResult
+2021-12-14 15:50:59,186 [plugins:DEBUG] DotNetMVC.createEntryPointDirectives: Creating entry point for testweb.Controllers.StudentController::Delete(System.Int32,System.Web.Mvc.FormCollection)System.Web.Mvc.ActionResult
+2021-12-14 15:50:59,186 [plugins:DEBUG] DotNetMVC.createEntryPointDirectives: Total controller entry points: 11
+2021-12-14 15:50:59,186 [plugins:DEBUG] DotNetMVC.doControllerEntryPoints: Entry Point Methods: Compute which methods are Entry Points.
+2021-12-14 15:50:59,186 [plugins:DEBUG] DotNetMVC.findEntryPointMethods: Filter: Remove methods that cannot be entry points (pass 1)
+2021-12-14 15:50:59,186 [plugins:DEBUG] DotNetMVC.findEntryPointMethods: Inherited Entry Points: Compute entry points inherited from parent
+2021-12-14 15:50:59,187 [plugins:DEBUG] DotNetMVC.findEntryPointMethods: Filter: Remove methods that cannot be entry points (pass 2)
+2021-12-14 15:50:59,187 [plugins:DEBUG] DotNetMVC.doControllerEntryPoints: CSRF Protected Methods: Compute which methods are CSRF protected.
+2021-12-14 15:50:59,187 [plugins:DEBUG] DotNetMVC.doControllerEntryPoints: Include/Exclude Paths: Compute taint paths (whitelists).
+2021-12-14 15:50:59,187 [plugins:DEBUG] DotNetMVC.doControllerEntryPoints: Finish: Create EntryPoint Directives.
+2021-12-14 15:50:59,187 [plugins:DEBUG] DotNetMVC.createEntryPointDirectives: Total controller entry points: 0
+2021-12-14 15:50:59,187 [plugins:DEBUG] DotNetMVC.main: Phase: Create Razor Entry Points
+2021-12-14 15:50:59,189 [plugins:DEBUG] DotNetMVC.doRazorEntryPoints: Detect Views: Heuristically Detect Whether Class Is View.
+2021-12-14 15:50:59,189 [plugins:DEBUG] DotNetMVC.doRazorEntryPoints: Finish: Create Razor Entry Points for View Classes.
+2021-12-14 15:50:59,196 [plugins:DEBUG] DotNetMVC.doRazorEntryPoints: Creating Razor view entry point for ASP._Page_obj_Release_Package_PackageTmp_Views__ViewStart_cshtml::Execute()System.Void
+2021-12-14 15:50:59,196 [plugins:DEBUG] DotNetMVC.doRazorEntryPoints: Creating Razor view entry point for ASP._Page_Views__ViewStart_cshtml::Execute()System.Void
+2021-12-14 15:50:59,196 [plugins:DEBUG] DotNetMVC.doRazorEntryPoints: Creating Razor view entry point for ASP._Page_obj_Release_Package_PackageTmp_Views_Shared__Layout_cshtml::Execute()System.Void
+2021-12-14 15:50:59,196 [plugins:DEBUG] DotNetMVC.doRazorEntryPoints: Creating Razor view entry point for ASP._Page_obj_Release_Package_PackageTmp_Views_Home_About_cshtml::Execute()System.Void
+2021-12-14 15:50:59,196 [plugins:DEBUG] DotNetMVC.doRazorEntryPoints: Creating Razor view entry point for ASP._Page_Views_Shared_Error_cshtml::Execute()System.Void
+2021-12-14 15:50:59,196 [plugins:DEBUG] DotNetMVC.doRazorEntryPoints: Creating Razor view entry point for ASP._Page_Views_Home_Index_cshtml::Execute()System.Void
+2021-12-14 15:50:59,196 [plugins:DEBUG] DotNetMVC.doRazorEntryPoints: Creating Razor view entry point for ASP._Page_obj_Release_Package_PackageTmp_Views_Home_Index_cshtml::Execute()System.Void
+2021-12-14 15:50:59,196 [plugins:DEBUG] DotNetMVC.doRazorEntryPoints: Creating Razor view entry point for ASP._Page_obj_Release_Package_PackageTmp_Views_Home_Contact_cshtml::Execute()System.Void
+2021-12-14 15:50:59,196 [plugins:DEBUG] DotNetMVC.doRazorEntryPoints: Creating Razor view entry point for ASP._Page_Views_Home_About_cshtml::Execute()System.Void
+2021-12-14 15:50:59,196 [plugins:DEBUG] DotNetMVC.doRazorEntryPoints: Creating Razor view entry point for ASP._Page_Views_Shared__Layout_cshtml::Execute()System.Void
+2021-12-14 15:50:59,196 [plugins:DEBUG] DotNetMVC.doRazorEntryPoints: Creating Razor view entry point for ASP._Page_Views_Home_Contact_cshtml::Execute()System.Void
+2021-12-14 15:50:59,196 [plugins:DEBUG] DotNetMVC.doRazorEntryPoints: Creating Razor view entry point for ASP._Page_obj_Release_Package_PackageTmp_Views_Shared_Error_cshtml::Execute()System.Void
+2021-12-14 15:50:59,196 [plugins:DEBUG] DotNetMVC.doRazorEntryPoints: Total Razor View entry points: 12
+2021-12-14 15:50:59,197 [plugins:DEBUG] DotNetMVC.doRazorEntryPoints: Detect Views: Heuristically Detect Whether Class Is View.
+2021-12-14 15:50:59,197 [plugins:DEBUG] DotNetMVC.doRazorEntryPoints: Finish: Create Razor Entry Points for View Classes.
+2021-12-14 15:50:59,197 [plugins:DEBUG] DotNetMVC.doRazorEntryPoints: Total Razor View entry points: 0
+2021-12-14 15:50:59,197 [plugins:DEBUG] DotNetMVC.main: Phase: Create Views
+2021-12-14 15:50:59,197 [plugins:DEBUG] DotNetMVC.doMvcViews: Detect Views: Heuristically Detect Whether Class Is View.
+2021-12-14 15:50:59,198 [plugins:DEBUG] DotNetMVC.doMvcViews: Finish: Parse Class to Create View Directive.
+2021-12-14 15:50:59,198 [plugins:DEBUG] DotNetMVC.doMvcViews: Creating view: ~/Views/Home/About.cshtml
+2021-12-14 15:50:59,198 [plugins:DEBUG] DotNetMVC.doMvcViews: Creating view: ~/Views/Home/Contact.cshtml
+2021-12-14 15:50:59,198 [plugins:DEBUG] DotNetMVC.doMvcViews: Creating view: ~/Views/Home/Index.cshtml
+2021-12-14 15:50:59,198 [plugins:DEBUG] DotNetMVC.doMvcViews: Creating view: ~/Views/Shared/Error.cshtml
+2021-12-14 15:50:59,198 [plugins:DEBUG] DotNetMVC.doMvcViews: Creating view: ~/Views/Shared/_Layout.cshtml
+2021-12-14 15:50:59,198 [plugins:DEBUG] DotNetMVC.doMvcViews: Creating view: ~/obj/Release/Package/PackageTmp/Views/Home/About.cshtml
+2021-12-14 15:50:59,198 [plugins:DEBUG] DotNetMVC.doMvcViews: Creating view: ~/obj/Release/Package/PackageTmp/Views/Home/Contact.cshtml
+2021-12-14 15:50:59,198 [plugins:DEBUG] DotNetMVC.doMvcViews: Creating view: ~/obj/Release/Package/PackageTmp/Views/Home/Index.cshtml
+2021-12-14 15:50:59,198 [plugins:DEBUG] DotNetMVC.doMvcViews: Creating view: ~/obj/Release/Package/PackageTmp/Views/Shared/Error.cshtml
+2021-12-14 15:50:59,198 [plugins:DEBUG] DotNetMVC.doMvcViews: Creating view: ~/obj/Release/Package/PackageTmp/Views/Shared/_Layout.cshtml
+2021-12-14 15:50:59,198 [plugins:DEBUG] DotNetMVC.doMvcViews: Detect Views: Heuristically Detect Whether Class Is View.
+2021-12-14 15:50:59,199 [plugins:DEBUG] DotNetMVC.doMvcViews: Finish: Parse Class to Create View Directive.
+2021-12-14 15:50:59,199 [plugins:DEBUG] DotNetMVC.main: Phase: Create Filters
+2021-12-14 15:50:59,200 [plugins:DEBUG] DotNetUtils.doFilters: Number of Filter classes: 15
+2021-12-14 15:50:59,201 [plugins:DEBUG] DotNetUtils.doFilters: Number of Filter classes: 15
+2021-12-14 15:50:59,201 [plugins:DEBUG] DotNetUtils.doFilters: Number of Filter classes: 0
+2021-12-14 15:50:59,250 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Helpers.Chart/<gen>Delegate1 (tu 283)'
+2021-12-14 15:50:59,250 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CallbackVisitor/<gen>Delegate45 (tu 286)'
+2021-12-14 15:50:59,250 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationUtility/CollectionReplacer/<gen>Delegate17 (tu 179)'
+2021-12-14 15:50:59,250 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Mvc.Async.TaskAsyncActionDescriptor/<gen>Delegate22 (tu 284)'
+2021-12-14 15:50:59,251 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate78 (tu 286)'
+2021-12-14 15:50:59,251 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate84 (tu 286)'
+2021-12-14 15:50:59,251 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.UnobservedExceptionTelemetryModule/<gen>Delegate16 (tu 176)'
+2021-12-14 15:50:59,251 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Helpers.WebGridRenderer/<gen>Delegate34 (tu 283)'
+2021-12-14 15:50:59,251 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate90 (tu 286)'
+2021-12-14 15:50:59,251 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate79 (tu 286)'
+2021-12-14 15:50:59,251 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate95 (tu 286)'
+2021-12-14 15:50:59,251 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationUtility/CollectionReplacer/<gen>Delegate5 (tu 179)'
+2021-12-14 15:50:59,251 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate82 (tu 286)'
+2021-12-14 15:50:59,251 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.StatementCodeGenerator/<gen>Delegate35 (tu 286)'
+2021-12-14 15:50:59,251 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.HtmlMarkupParser/<gen>Delegate115 (tu 286)'
+2021-12-14 15:50:59,251 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationUtility/CollectionReplacer/<gen>Delegate7 (tu 179)'
+2021-12-14 15:50:59,251 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.UnhandledExceptionTelemetryModule/<gen>Delegate11 (tu 176)'
+2021-12-14 15:50:59,251 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Channel.Transmission/<SendAsync>d__36/<gen>Delegate35 (tu 177)'
+2021-12-14 15:50:59,251 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.SectionCodeGenerator/<gen>Delegate33 (tu 286)'
+2021-12-14 15:50:59,251 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.UnobservedExceptionTelemetryModule/<gen>Delegate17 (tu 176)'
+2021-12-14 15:50:59,251 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.DynamicAttributeBlockCodeGenerator/<gen>Delegate9 (tu 286)'
+2021-12-14 15:50:59,251 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Helpers.Chart/<gen>Delegate0 (tu 283)'
+2021-12-14 15:50:59,252 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.MarkupCodeGenerator/<gen>Delegate28 (tu 286)'
+2021-12-14 15:50:59,252 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.HtmlMarkupParser/<gen>Delegate103 (tu 286)'
+2021-12-14 15:50:59,252 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.QuickPulse.QuickPulseTelemetryModule/<gen>Delegate7 (tu 173)'
+2021-12-14 15:50:59,252 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Mvc.OutputCacheAttribute/<gen>Delegate266 (tu 284)'
+2021-12-14 15:50:59,252 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Helpers.WebGridRenderer/<gen>Delegate33 (tu 283)'
+2021-12-14 15:50:59,252 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.WebPages.WebPageBase/<gen>Delegate67 (tu 288)'
+2021-12-14 15:50:59,252 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.WebPages.ApplicationStartPage/<gen>Delegate10 (tu 288)'
+2021-12-14 15:50:59,252 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.Implementation.QuickPulse.QuickPulseServiceClient/<gen>Delegate30 (tu 173)'
+2021-12-14 15:50:59,252 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CallbackVisitor/<gen>Delegate43 (tu 286)'
+2021-12-14 15:50:59,252 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.ResolveUrlCodeGenerator/<gen>Delegate29 (tu 286)'
+2021-12-14 15:50:59,252 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.CodeGeneratorContext/<gen>Delegate19 (tu 286)'
+2021-12-14 15:50:59,252 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.CSharpCodeWriter/<gen>Delegate23 (tu 286)'
+2021-12-14 15:50:59,252 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.SectionCodeGenerator/<gen>Delegate34 (tu 286)'
+2021-12-14 15:50:59,252 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.RazorCommentCodeGenerator/<gen>Delegate14 (tu 286)'
+2021-12-14 15:50:59,252 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.TokenizerBackedParser`3/<gen>Delegate54 (tu 286)'
+2021-12-14 15:50:59,252 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Mvc.ModelBinderDictionary/<gen>Delegate231 (tu 284)'
+2021-12-14 15:50:59,252 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Channel.InMemoryTransmitter/<gen>Delegate13 (tu 177)'
+2021-12-14 15:50:59,252 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.AttributeBlockCodeGenerator/<gen>Delegate5 (tu 286)'
+2021-12-14 15:50:59,253 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.LiteralAttributeCodeGenerator/<gen>Delegate13 (tu 286)'
+2021-12-14 15:50:59,253 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.HelperCodeGenerator/<gen>Delegate31 (tu 286)'
+2021-12-14 15:50:59,253 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.Implementation.ExceptionHandler/<gen>Delegate15`1 (tu 174)'
+2021-12-14 15:50:59,253 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate80 (tu 286)'
+2021-12-14 15:50:59,253 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationUtility/CollectionReplacer/<gen>Delegate14 (tu 179)'
+2021-12-14 15:50:59,253 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.VBCodeParser/<gen>Delegate128 (tu 286)'
+2021-12-14 15:50:59,253 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.ExpressionCodeGenerator/<gen>Delegate25 (tu 286)'
+2021-12-14 15:50:59,253 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.WebPages.ApplicationStartPage/<gen>Delegate11 (tu 288)'
+2021-12-14 15:50:59,253 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CallbackVisitor/<gen>Delegate41 (tu 286)'
+2021-12-14 15:50:59,253 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.Implementation.WebAppPerformanceCollector.WebAppPerformanceCollector/<gen>Delegate20 (tu 173)'
+2021-12-14 15:50:59,253 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.LiteralAttributeCodeGenerator/<gen>Delegate12 (tu 286)'
+2021-12-14 15:50:59,253 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.VBCodeParser/<gen>Delegate134 (tu 286)'
+2021-12-14 15:50:59,253 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.WebPages.WebPageHttpModule/<gen>Delegate59 (tu 288)'
+2021-12-14 15:50:59,253 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate101 (tu 286)'
+2021-12-14 15:50:59,253 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate100 (tu 286)'
+2021-12-14 15:50:59,253 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.Implementation.QuickPulse.QuickPulseServiceClient/<gen>Delegate31 (tu 173)'
+2021-12-14 15:50:59,253 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.VBCodeParser/<gen>Delegate127 (tu 286)'
+2021-12-14 15:50:59,253 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationUtility/CollectionReplacer/<gen>Delegate9 (tu 179)'
+2021-12-14 15:50:59,254 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.TemplateBlockCodeGenerator/<gen>Delegate37 (tu 286)'
+2021-12-14 15:50:59,254 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.Implementation.WebApplicationLifecycle/<gen>Delegate52 (tu 174)'
+2021-12-14 15:50:59,254 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.VBCodeParser/<gen>Delegate133 (tu 286)'
+2021-12-14 15:50:59,254 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.CodeGeneratorContext/<gen>Delegate20 (tu 286)'
+2021-12-14 15:50:59,254 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.WebPages.WebPageBase/<gen>Delegate65 (tu 288)'
+2021-12-14 15:50:59,254 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.TokenizerBackedParser`3/<gen>Delegate64 (tu 286)'
+2021-12-14 15:50:59,254 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.ExpressionCodeGenerator/<gen>Delegate26 (tu 286)'
+2021-12-14 15:50:59,254 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate92 (tu 286)'
+2021-12-14 15:50:59,254 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.WebPages.ApplicationStartPage/<gen>Delegate12 (tu 288)'
+2021-12-14 15:50:59,255 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.HtmlMarkupParser/<gen>Delegate112 (tu 286)'
+2021-12-14 15:50:59,255 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.VBCodeParser/<gen>Delegate131 (tu 286)'
+2021-12-14 15:50:59,255 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate99 (tu 286)'
+2021-12-14 15:50:59,255 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.Implementation.ExceptionHandler/<gen>Delegate14 (tu 174)'
+2021-12-14 15:50:59,255 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.VBCodeParser/<gen>Delegate129 (tu 286)'
+2021-12-14 15:50:59,255 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Helpers.ObjectInfo/<gen>Delegate21 (tu 283)'
+2021-12-14 15:50:59,255 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.SetBaseTypeCodeGenerator/<gen>Delegate30 (tu 286)'
+2021-12-14 15:50:59,255 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Helpers.WebGridRenderer/<gen>Delegate32 (tu 283)'
+2021-12-14 15:50:59,255 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.WebPages.WebPageBase/<gen>Delegate68 (tu 288)'
+2021-12-14 15:50:59,255 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.CodeGeneratorContext/<gen>Delegate22 (tu 286)'
+2021-12-14 15:50:59,255 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.AttributeBlockCodeGenerator/<gen>Delegate6 (tu 286)'
+2021-12-14 15:50:59,255 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.WebPages.Deployment.PreApplicationStartCode/<gen>Delegate20 (tu 287)'
+2021-12-14 15:50:59,255 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationUtility/CollectionReplacer/<gen>Delegate11 (tu 179)'
+2021-12-14 15:50:59,255 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate83 (tu 286)'
+2021-12-14 15:50:59,255 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.TemplateBlockCodeGenerator/<gen>Delegate36 (tu 286)'
+2021-12-14 15:50:59,255 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate81 (tu 286)'
+2021-12-14 15:50:59,255 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Helpers.Chart/<gen>Delegate2 (tu 283)'
+2021-12-14 15:50:59,256 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Mvc.ExpressionUtil.ExpressionFingerprintChain/<gen>Delegate62 (tu 284)'
+2021-12-14 15:50:59,256 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.VBCodeParser/<gen>Delegate132 (tu 286)'
+2021-12-14 15:50:59,256 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.DynamicAttributeBlockCodeGenerator/<gen>Delegate8 (tu 286)'
+2021-12-14 15:50:59,256 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.WebPages.WebPageBase/<gen>Delegate66 (tu 288)'
+2021-12-14 15:50:59,256 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.DynamicAttributeBlockCodeGenerator/<gen>Delegate10 (tu 286)'
+2021-12-14 15:50:59,256 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.DynamicAttributeBlockCodeGenerator/<gen>Delegate11 (tu 286)'
+2021-12-14 15:50:59,256 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.VBCodeWriter/<gen>Delegate40 (tu 286)'
+2021-12-14 15:50:59,256 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CallbackVisitor/<gen>Delegate44 (tu 286)'
+2021-12-14 15:50:59,256 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate74 (tu 286)'
+2021-12-14 15:50:59,256 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.Implementation.StandardPerformanceCollector.StandardPerformanceCollector/<gen>Delegate26 (tu 173)'
+2021-12-14 15:50:59,256 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Helpers.WebGridRenderer/<gen>Delegate35 (tu 283)'
+2021-12-14 15:50:59,256 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.VBCodeWriter/<gen>Delegate39 (tu 286)'
+2021-12-14 15:50:59,256 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.WebPages.Instrumentation.PageInstrumentationServiceAdapter/_CallSite_IsEnabled_1/<gen>Delegate28 (tu 288)'
+2021-12-14 15:50:59,256 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.WebPages.RequestResourceTracker/<gen>Delegate46 (tu 288)'
+2021-12-14 15:50:59,256 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Razor.Generator.TypeMemberCodeGenerator/<gen>Delegate38 (tu 286)'
+2021-12-14 15:50:59,256 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'System.Web.Mvc.ReflectedParameterBindingInfo/<gen>Delegate238 (tu 284)'
+2021-12-14 15:50:59,256 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Action`1 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.UnhandledExceptionTelemetryModule/<gen>Delegate12 (tu 176)'
+2021-12-14 15:50:59,532 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Razor.WebRazorHostFactory/<gen>Delegate1 (tu 289)'
+2021-12-14 15:50:59,533 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.Implementation.ExceptionConverter/<gen>Delegate24 (tu 177)'
+2021-12-14 15:50:59,533 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ActionMethodDispatcherCache/<gen>Delegate224 (tu 284)'
+2021-12-14 15:50:59,533 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.AssociatedMetadataProvider/<gen>Delegate37 (tu 284)'
+2021-12-14 15:50:59,533 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.ObjectVisitor/<gen>Delegate14 (tu 283)'
+2021-12-14 15:50:59,533 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.ReflectionUtils/<gen>Delegate121 (tu 182)'
+2021-12-14 15:50:59,533 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ControllerActionInvoker/<>c__DisplayClass3/<gen>Delegate304 (tu 284)'
+2021-12-14 15:50:59,533 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Serialization.JsonSerializerInternalReader/<gen>Delegate69 (tu 182)'
+2021-12-14 15:50:59,533 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate72 (tu 286)'
+2021-12-14 15:50:59,533 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate75 (tu 286)'
+2021-12-14 15:50:59,533 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.QuickPulse.QuickPulseTelemetryModule/<gen>Delegate10 (tu 173)'
+2021-12-14 15:50:59,533 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Razor.WebPageRazorHost/<gen>Delegate5 (tu 289)'
+2021-12-14 15:50:59,533 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Generator.CodeGeneratorContext/<gen>Delegate18 (tu 286)'
+2021-12-14 15:50:59,533 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Serialization.DefaultContractResolver/<gen>Delegate47 (tu 182)'
+2021-12-14 15:50:59,533 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.VBCodeParser/<gen>Delegate141 (tu 286)'
+2021-12-14 15:50:59,533 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Converters.StringEnumConverter/<gen>Delegate2 (tu 182)'
+2021-12-14 15:50:59,534 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory/<gen>Delegate110`1 (tu 182)'
+2021-12-14 15:50:59,534 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.DataAnnotationsModelMetadataProvider/<gen>Delegate166 (tu 284)'
+2021-12-14 15:50:59,534 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate200 (tu 284)'
+2021-12-14 15:50:59,534 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.JsonValidatingReader/<gen>Delegate17 (tu 182)'
+2021-12-14 15:50:59,534 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.DependencyCollector.DependencyTrackingTelemetryModule/<gen>Delegate0 (tu 172)'
+2021-12-14 15:50:59,534 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ControllerTypeCache/<gen>Delegate282 (tu 284)'
+2021-12-14 15:50:59,534 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.JsonValidatingReader/SchemaScope/<gen>Delegate25 (tu 182)'
+2021-12-14 15:50:59,534 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Converters.XmlNodeWrapper/<gen>Delegate3 (tu 182)'
+2021-12-14 15:50:59,534 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.Implementation.WeakConcurrentRandom/<gen>Delegate26 (tu 177)'
+2021-12-14 15:50:59,534 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.AuthorizeAttribute/<gen>Delegate221 (tu 284)'
+2021-12-14 15:50:59,534 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Routing.AttributeRoutingMapper/<gen>Delegate55 (tu 284)'
+2021-12-14 15:50:59,534 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate198 (tu 284)'
+2021-12-14 15:50:59,534 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.ObjectVisitor/<gen>Delegate15 (tu 283)'
+2021-12-14 15:50:59,534 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate211 (tu 284)'
+2021-12-14 15:50:59,534 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Deployment.AssemblyUtils/<gen>Delegate4 (tu 287)'
+2021-12-14 15:50:59,534 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate203 (tu 284)'
+2021-12-14 15:50:59,534 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.Implementation.PlatformFolder/<gen>Delegate22 (tu 174)'
+2021-12-14 15:50:59,535 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate188 (tu 284)'
+2021-12-14 15:50:59,535 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Web.Implementation.RequestTrackingExtensions/<gen>Delegate3 (tu 175)'
+2021-12-14 15:50:59,535 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Html.HtmlHelper/<gen>Delegate50 (tu 288)'
+2021-12-14 15:50:59,535 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.Tokenizer`2/<gen>Delegate167 (tu 286)'
+2021-12-14 15:50:59,535 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Deployment.AssemblyUtils/<gen>Delegate11 (tu 287)'
+2021-12-14 15:50:59,535 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Web.Implementation.RequestTrackingExtensions/<gen>Delegate2 (tu 175)'
+2021-12-14 15:50:59,535 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.ObjectVisitor/<gen>Delegate9 (tu 283)'
+2021-12-14 15:50:59,535 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.AuthorizeAttribute/<gen>Delegate218 (tu 284)'
+2021-12-14 15:50:59,535 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.ObjectVisitor/<gen>Delegate18 (tu 283)'
+2021-12-14 15:50:59,535 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.Implementation.TransmissionStorage/<gen>Delegate31 (tu 174)'
+2021-12-14 15:50:59,535 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.ImmutableCollectionsUtils/<gen>Delegate103 (tu 182)'
+2021-12-14 15:50:59,535 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.CSharpTokenizer/<gen>Delegate186 (tu 286)'
+2021-12-14 15:50:59,535 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.TokenizerBackedParser`3/<gen>Delegate57 (tu 286)'
+2021-12-14 15:50:59,535 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.ImmutableCollectionsUtils/<gen>Delegate101 (tu 182)'
+2021-12-14 15:50:59,535 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.ObjectVisitor/<gen>Delegate16 (tu 283)'
+2021-12-14 15:50:59,535 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.ObjectVisitor/<gen>Delegate20 (tu 283)'
+2021-12-14 15:50:59,535 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Schema.JsonSchemaGenerator/<gen>Delegate38 (tu 182)'
+2021-12-14 15:50:59,536 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.DictionaryWrapper`2/<gen>Delegate76 (tu 182)'
+2021-12-14 15:50:59,536 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.ApplicationPart/<gen>Delegate2 (tu 288)'
+2021-12-14 15:50:59,536 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Routing.RouteParser/<gen>Delegate1 (tu 284)'
+2021-12-14 15:50:59,536 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.ObjectVisitor/<gen>Delegate8 (tu 283)'
+2021-12-14 15:50:59,536 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.BuildInfoConfigComponentVersionTelemetryInitializer/<gen>Delegate6 (tu 176)'
+2021-12-14 15:50:59,536 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.OutputCacheAttribute/<gen>Delegate265 (tu 284)'
+2021-12-14 15:50:59,536 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ModelMetadata/<gen>Delegate45 (tu 284)'
+2021-12-14 15:50:59,536 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.DependencyCollector.Implementation.ProfilerRuntimeInstrumentation/<gen>Delegate28 (tu 172)'
+2021-12-14 15:50:59,536 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.Implementation.Transmitter/<gen>Delegate47 (tu 174)'
+2021-12-14 15:50:59,536 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.JsonValidatingReader/<gen>Delegate19 (tu 182)'
+2021-12-14 15:50:59,536 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.ReflectionUtils/<gen>Delegate117 (tu 182)'
+2021-12-14 15:50:59,536 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.CSharpTokenizer/<gen>Delegate172 (tu 286)'
+2021-12-14 15:50:59,536 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate97 (tu 286)'
+2021-12-14 15:50:59,536 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.ConditionalAttributeCollapser/<gen>Delegate49 (tu 286)'
+2021-12-14 15:50:59,536 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.OutputCacheAttribute/<gen>Delegate267 (tu 284)'
+2021-12-14 15:50:59,536 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Razor.MvcVBRazorCodeParser/<gen>Delegate68 (tu 284)'
+2021-12-14 15:50:59,536 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate189 (tu 284)'
+2021-12-14 15:50:59,537 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.HtmlMarkupParser/<gen>Delegate104 (tu 286)'
+2021-12-14 15:50:59,537 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Routing.DirectRouteCandidate/<gen>Delegate13 (tu 284)'
+2021-12-14 15:50:59,537 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.DataAnnotationsModelMetadataProvider/<gen>Delegate167 (tu 284)'
+2021-12-14 15:50:59,537 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Schema.JsonSchemaResolver/<gen>Delegate41 (tu 182)'
+2021-12-14 15:50:59,537 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.TokenizerBackedParser`3/<>c__DisplayClass5/<gen>Delegate244 (tu 286)'
+2021-12-14 15:50:59,537 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.HtmlMarkupParser/<gen>Delegate113 (tu 286)'
+2021-12-14 15:50:59,537 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.ApplicationParts.ApplicationPartRegistry/<gen>Delegate7 (tu 288)'
+2021-12-14 15:50:59,538 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Routing.AttributeRoutingMapper/<gen>Delegate53 (tu 284)'
+2021-12-14 15:50:59,538 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.QuickPulse.QuickPulseTelemetryModule/<gen>Delegate11 (tu 173)'
+2021-12-14 15:50:59,538 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ViewEngineCollection/<gen>Delegate298 (tu 284)'
+2021-12-14 15:50:59,538 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.SelectExtensions/<gen>Delegate253 (tu 284)'
+2021-12-14 15:50:59,538 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.DefaultModelBinder/<gen>Delegate247 (tu 284)'
+2021-12-14 15:50:59,538 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Optimization.BundleDirectoryItem/<gen>Delegate14 (tu 285)'
+2021-12-14 15:50:59,538 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Routing.AttributeRoutingMapper/<gen>Delegate52 (tu 284)'
+2021-12-14 15:50:59,538 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.Implementation.WeakConcurrentRandom/<gen>Delegate27 (tu 177)'
+2021-12-14 15:50:59,538 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Routing.DirectRouteCandidate/<gen>Delegate11 (tu 284)'
+2021-12-14 15:50:59,538 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Deployment.AssemblyUtils/<gen>Delegate17 (tu 287)'
+2021-12-14 15:50:59,538 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ReflectedControllerDescriptor/<gen>Delegate239 (tu 284)'
+2021-12-14 15:50:59,538 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.CSharpTokenizer/<gen>Delegate180 (tu 286)'
+2021-12-14 15:50:59,538 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.WebGrid/<gen>Delegate24 (tu 283)'
+2021-12-14 15:50:59,538 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.DynamicJsonObject/<gen>Delegate7 (tu 283)'
+2021-12-14 15:50:59,538 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.Implementation.PerformanceCounterUtility/<gen>Delegate14 (tu 173)'
+2021-12-14 15:50:59,538 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.DefaultEditorTemplates/<gen>Delegate177 (tu 284)'
+2021-12-14 15:50:59,538 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Deployment.AppDomainHelper/RemoteAssemblyLoader/<gen>Delegate3 (tu 287)'
+2021-12-14 15:50:59,538 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.Symbols.SymbolExtensions/<gen>Delegate159 (tu 286)'
+2021-12-14 15:50:59,539 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate215 (tu 284)'
+2021-12-14 15:50:59,539 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Serialization.DefaultContractResolver/<gen>Delegate50 (tu 182)'
+2021-12-14 15:50:59,539 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.ApplicationPart/<gen>Delegate1 (tu 288)'
+2021-12-14 15:50:59,539 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.ValidationExtensions/<gen>Delegate255 (tu 284)'
+2021-12-14 15:50:59,539 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.VBTokenizer/<gen>Delegate221 (tu 286)'
+2021-12-14 15:50:59,539 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.DependencyCollector.Implementation.ProfilerRuntimeInstrumentation/<gen>Delegate40 (tu 172)'
+2021-12-14 15:50:59,539 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.HtmlAttributePropertyHelper/<gen>Delegate34 (tu 288)'
+2021-12-14 15:50:59,539 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.PropertyHelper/<gen>Delegate32 (tu 288)'
+2021-12-14 15:50:59,539 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Converters.XmlNodeWrapper/<gen>Delegate4 (tu 182)'
+2021-12-14 15:50:59,539 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate89 (tu 286)'
+2021-12-14 15:50:59,539 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Linq.JObject/JObjectDynamicProxy/<gen>Delegate34 (tu 182)'
+2021-12-14 15:50:59,539 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.ConvertUtils/<gen>Delegate75 (tu 182)'
+2021-12-14 15:50:59,539 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate204 (tu 284)'
+2021-12-14 15:50:59,539 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.Implementation.WebApplicationLifecycle/<gen>Delegate51 (tu 174)'
+2021-12-14 15:50:59,539 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.VBCodeParser/<gen>Delegate139 (tu 286)'
+2021-12-14 15:50:59,540 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.MultiSelectList/<gen>Delegate289 (tu 284)'
+2021-12-14 15:50:59,540 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.ObjectVisitor/<gen>Delegate17 (tu 283)'
+2021-12-14 15:50:59,540 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.HtmlMarkupParser/<gen>Delegate105 (tu 286)'
+2021-12-14 15:50:59,540 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.Implementation.TransmissionStorage/<gen>Delegate30 (tu 174)'
+2021-12-14 15:50:59,540 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.DependencyCollector.Implementation.ProfilerRuntimeInstrumentation/<gen>Delegate2 (tu 172)'
+2021-12-14 15:50:59,540 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ControllerTypeCache/<gen>Delegate277 (tu 284)'
+2021-12-14 15:50:59,540 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Serialization.JsonDynamicContract/<gen>Delegate63 (tu 182)'
+2021-12-14 15:50:59,540 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.ValidationHelper/<gen>Delegate43 (tu 288)'
+2021-12-14 15:50:59,540 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.CSharpTokenizer/<gen>Delegate178 (tu 286)'
+2021-12-14 15:50:59,540 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ControllerActionInvoker/<gen>Delegate80 (tu 284)'
+2021-12-14 15:50:59,540 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.ApplicationParts.ApplicationPartRegistry/<gen>Delegate6 (tu 288)'
+2021-12-14 15:50:59,540 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.ValidationHelper/<gen>Delegate37 (tu 288)'
+2021-12-14 15:50:59,540 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate73 (tu 286)'
+2021-12-14 15:50:59,541 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.HttpFileCollectionValueProvider/<gen>Delegate118 (tu 284)'
+2021-12-14 15:50:59,541 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.FSharpUtils/<>c__DisplayClass3`2/<gen>Delegate125 (tu 182)'
+2021-12-14 15:50:59,541 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.WebGrid/<gen>Delegate26 (tu 283)'
+2021-12-14 15:50:59,541 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Serialization.JsonSerializerInternalReader/<gen>Delegate64 (tu 182)'
+2021-12-14 15:50:59,541 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.VirtualPathProviderViewEngine/<gen>Delegate27 (tu 284)'
+2021-12-14 15:50:59,541 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.Implementation.TelemetryConfigurationFactory/<gen>Delegate21 (tu 177)'
+2021-12-14 15:50:59,541 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Serialization.DefaultContractResolver/<gen>Delegate45 (tu 182)'
+2021-12-14 15:50:59,541 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ExpressionUtil.CachedExpressionCompiler/Compiler`2/<gen>Delegate56 (tu 284)'
+2021-12-14 15:50:59,541 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.WebGridRow/<gen>Delegate36 (tu 283)'
+2021-12-14 15:50:59,541 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.VBTokenizer/<gen>Delegate225 (tu 286)'
+2021-12-14 15:50:59,541 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.Internal.Web.Utils.CommonResources/<gen>Delegate0 (tu 289)'
+2021-12-14 15:50:59,541 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Optimization.AssetManager/<gen>Delegate2 (tu 285)'
+2021-12-14 15:50:59,541 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ReaderWriterCache`2/<gen>Delegate223 (tu 284)'
+2021-12-14 15:50:59,541 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.TextReaderExtensions/<>c__DisplayClass5/<gen>Delegate247 (tu 286)'
+2021-12-14 15:50:59,541 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Deployment.AssemblyUtils/<gen>Delegate9 (tu 287)'
+2021-12-14 15:50:59,541 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.WebGrid/<gen>Delegate25 (tu 283)'
+2021-12-14 15:50:59,541 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ModelBindingContext/<gen>Delegate249 (tu 284)'
+2021-12-14 15:50:59,541 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.PerformanceCollectorModule/<gen>Delegate2 (tu 173)'
+2021-12-14 15:50:59,542 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Linq.JsonPath.FieldMultipleFilter/<ExecuteFilter>d__2/<gen>Delegate124 (tu 182)'
+2021-12-14 15:50:59,542 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Razor.WebCodeRazorHost/<gen>Delegate6 (tu 289)'
+2021-12-14 15:50:59,542 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.MultiSelectList/<gen>Delegate287 (tu 284)'
+2021-12-14 15:50:59,542 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Routing.DirectRouteCandidate/<gen>Delegate12 (tu 284)'
+2021-12-14 15:50:59,542 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Generator.ExpressionCodeGenerator/<gen>Delegate27 (tu 286)'
+2021-12-14 15:50:59,542 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.CSharpTokenizer/<gen>Delegate188 (tu 286)'
+2021-12-14 15:50:59,542 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.AntiXsrf.ClaimUidExtractor/<gen>Delegate19 (tu 288)'
+2021-12-14 15:50:59,542 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.Implementation.ApplicationStoppingEventArgs/<gen>Delegate11 (tu 174)'
+2021-12-14 15:50:59,542 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.DependencyCollector.Implementation.ProfilerRuntimeInstrumentation/<gen>Delegate12 (tu 172)'
+2021-12-14 15:50:59,542 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.Claims.ClaimsIdentity/ClaimsIdentityImpl`2/<gen>Delegate21 (tu 288)'
+2021-12-14 15:50:59,542 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ExpressionHelper/<gen>Delegate165 (tu 284)'
+2021-12-14 15:50:59,542 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Deployment.PreApplicationStartCode/<gen>Delegate23 (tu 287)'
+2021-12-14 15:50:59,542 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.ParserContext/<gen>Delegate234 (tu 286)'
+2021-12-14 15:50:59,542 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ValueProviderCollection/<gen>Delegate146 (tu 284)'
+2021-12-14 15:50:59,542 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.ReflectionUtils/<gen>Delegate120 (tu 182)'
+2021-12-14 15:50:59,542 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.SessionStateUtil/<>c__DisplayClass3/<gen>Delegate72 (tu 288)'
+2021-12-14 15:50:59,542 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate197 (tu 284)'
+2021-12-14 15:50:59,542 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Editor.ImplicitExpressionEditHandler/<gen>Delegate15 (tu 286)'
+2021-12-14 15:50:59,543 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Schema.JsonSchemaBuilder/<gen>Delegate37 (tu 182)'
+2021-12-14 15:50:59,543 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Async.ReflectedAsyncActionDescriptor/<>c__DisplayClass7/<gen>Delegate313 (tu 284)'
+2021-12-14 15:50:59,543 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Async.AsyncActionMethodSelector/<gen>Delegate78 (tu 284)'
+2021-12-14 15:50:59,543 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.SelectExtensions/<gen>Delegate251 (tu 284)'
+2021-12-14 15:50:59,543 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.SessionStateUtil/<>c__DisplayClass3/<gen>Delegate71 (tu 288)'
+2021-12-14 15:50:59,543 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate214 (tu 284)'
+2021-12-14 15:50:59,543 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.TypeCacheSerializer/<gen>Delegate126 (tu 284)'
+2021-12-14 15:50:59,543 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Generator.AddImportCodeGenerator/<gen>Delegate17 (tu 286)'
+2021-12-14 15:50:59,543 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.VBTokenizer/<gen>Delegate223 (tu 286)'
+2021-12-14 15:50:59,543 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.VBCodeParser/<>c__DisplayClass4/<gen>Delegate248 (tu 286)'
+2021-12-14 15:50:59,543 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.PropertyHelper/<gen>Delegate33 (tu 288)'
+2021-12-14 15:50:59,543 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.JsonValidatingReader/<gen>Delegate16 (tu 182)'
+2021-12-14 15:50:59,543 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Deployment.AppDomainHelper/<gen>Delegate2 (tu 287)'
+2021-12-14 15:50:59,543 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.Implementation.Transmitter/<gen>Delegate43 (tu 174)'
+2021-12-14 15:50:59,543 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Linq.Extensions/<gen>Delegate32`2 (tu 182)'
+2021-12-14 15:50:59,543 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.Implementation.Transmitter/<gen>Delegate46 (tu 174)'
+2021-12-14 15:50:59,543 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Utils.EnumeratorExtensions/<gen>Delegate238`1 (tu 286)'
+2021-12-14 15:50:59,543 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.Implementation.StandardPerformanceCollector.StandardPerformanceCollector/<gen>Delegate23 (tu 173)'
+2021-12-14 15:50:59,544 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.ValidationHelper/<gen>Delegate45 (tu 288)'
+2021-12-14 15:50:59,544 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.OutputCacheAttribute/<gen>Delegate268 (tu 284)'
+2021-12-14 15:50:59,544 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Serialization.JsonSerializerInternalReader/<gen>Delegate66 (tu 182)'
+2021-12-14 15:50:59,544 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Deployment.AssemblyUtils/<gen>Delegate8 (tu 287)'
+2021-12-14 15:50:59,544 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.Tokenizer`2/<gen>Delegate164 (tu 286)'
+2021-12-14 15:50:59,544 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.TokenizerBackedParser`3/<gen>Delegate50 (tu 286)'
+2021-12-14 15:50:59,544 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Compiler/<gen>Delegate0 (tu 178)'
+2021-12-14 15:50:59,544 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.TokenizerBackedParser`3/<>c__DisplayClass2d/<gen>Delegate246 (tu 286)'
+2021-12-14 15:50:59,544 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ExpressionUtil.CachedExpressionCompiler/Compiler`2/<gen>Delegate61 (tu 284)'
+2021-12-14 15:50:59,544 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ModelStateDictionary/<gen>Delegate260 (tu 284)'
+2021-12-14 15:50:59,544 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.StringUtils/<gen>Delegate122`1 (tu 182)'
+2021-12-14 15:50:59,544 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.HtmlMarkupParser/<gen>Delegate107 (tu 286)'
+2021-12-14 15:50:59,544 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.ValidationExtensions/<gen>Delegate254 (tu 284)'
+2021-12-14 15:50:59,544 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Serialization.JsonSerializerInternalReader/<gen>Delegate70 (tu 182)'
+2021-12-14 15:50:59,544 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.VBTokenizer/<gen>Delegate219 (tu 286)'
+2021-12-14 15:50:59,544 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ModelMetadata/<gen>Delegate43 (tu 284)'
+2021-12-14 15:50:59,544 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.SyntaxTree.Span/<gen>Delegate240 (tu 286)'
+2021-12-14 15:50:59,545 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Generator.RazorCodeGenerator/<gen>Delegate153 (tu 286)'
+2021-12-14 15:50:59,545 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Converters.XElementWrapper/<gen>Delegate6 (tu 182)'
+2021-12-14 15:50:59,545 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.CachedDataAnnotationsMetadataAttributes/<gen>Delegate40 (tu 284)'
+2021-12-14 15:50:59,545 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Async.TaskAsyncActionDescriptor/<gen>Delegate24 (tu 284)'
+2021-12-14 15:50:59,545 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.ReflectionUtils/<gen>Delegate114 (tu 182)'
+2021-12-14 15:50:59,545 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.CachedDataAnnotationsMetadataAttributes/<gen>Delegate41 (tu 284)'
+2021-12-14 15:50:59,545 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ValueProviderCollection/<gen>Delegate144 (tu 284)'
+2021-12-14 15:50:59,545 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Serialization.JsonTypeReflector/<gen>Delegate73 (tu 182)'
+2021-12-14 15:50:59,545 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.JsonValidatingReader/SchemaScope/<gen>Delegate28 (tu 182)'
+2021-12-14 15:50:59,545 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ControllerTypeCache/<gen>Delegate281 (tu 284)'
+2021-12-14 15:50:59,545 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Html.HtmlHelper/<gen>Delegate49 (tu 288)'
+2021-12-14 15:50:59,545 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.VBCodeParser/<>c__DisplayClass1c/<gen>Delegate250 (tu 286)'
+2021-12-14 15:50:59,545 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.Internal.Web.Utils.CommonResources/<gen>Delegate0 (tu 287)'
+2021-12-14 15:50:59,545 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.ConvertUtils/<gen>Delegate74 (tu 182)'
+2021-12-14 15:50:59,545 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.ValidationHelper/<gen>Delegate44 (tu 288)'
+2021-12-14 15:50:59,545 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Schema.JsonSchemaWriter/<gen>Delegate43 (tu 182)'
+2021-12-14 15:50:59,545 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Generator.ExpressionCodeGenerator/<gen>Delegate24 (tu 286)'
+2021-12-14 15:50:59,546 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.TypeCacheUtil/<gen>Delegate123 (tu 284)'
+2021-12-14 15:50:59,546 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.Diagnostics.Instrumentation.Extensions.Intercept.Functions/<gen>Delegate3 (tu 171)'
+2021-12-14 15:50:59,546 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ExpressionUtil.CachedExpressionCompiler/Compiler`2/<gen>Delegate59 (tu 284)'
+2021-12-14 15:50:59,546 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate94 (tu 286)'
+2021-12-14 15:50:59,546 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Optimization.HttpContextCache/<gen>Delegate0 (tu 285)'
+2021-12-14 15:50:59,546 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Serialization.CachedAttributeGetter`1/<gen>Delegate44 (tu 182)'
+2021-12-14 15:50:59,546 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<GetViewNames>d__4/<gen>Delegate315 (tu 284)'
+2021-12-14 15:50:59,546 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.WebPage/<gen>Delegate70 (tu 288)'
+2021-12-14 15:50:59,546 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.Implementation.WebAppPerformanceCollector.WebAppPerformanceCollector/<gen>Delegate17 (tu 173)'
+2021-12-14 15:50:59,546 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Utils/<gen>Delegate2 (tu 177)'
+2021-12-14 15:50:59,546 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.DependencyCollector.Implementation.ProfilerRuntimeInstrumentation/<gen>Delegate16 (tu 172)'
+2021-12-14 15:50:59,546 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.VBTokenizer/<gen>Delegate214 (tu 286)'
+2021-12-14 15:50:59,546 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Linq.Extensions/<gen>Delegate29`1 (tu 182)'
+2021-12-14 15:50:59,546 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.VBCodeParser/<gen>Delegate130 (tu 286)'
+2021-12-14 15:50:59,546 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate185 (tu 284)'
+2021-12-14 15:50:59,546 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ControllerTypeCache/<gen>Delegate279 (tu 284)'
+2021-12-14 15:50:59,546 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.FileExistenceCache/<gen>Delegate23 (tu 288)'
+2021-12-14 15:50:59,546 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Optimization.BundleManifest/<gen>Delegate6 (tu 285)'
+2021-12-14 15:50:59,547 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Serialization.DefaultContractResolver/<gen>Delegate56 (tu 182)'
+2021-12-14 15:50:59,547 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.Implementation.TelemetryConfigurationFactory/<gen>Delegate22 (tu 177)'
+2021-12-14 15:50:59,547 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Serialization.DefaultContractResolver/<gen>Delegate49 (tu 182)'
+2021-12-14 15:50:59,547 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.Implementation.WebAppPerformanceCollector.WebAppPerformanceCollector/<gen>Delegate18 (tu 173)'
+2021-12-14 15:50:59,547 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Converters.XmlNodeConverter/<gen>Delegate7 (tu 182)'
+2021-12-14 15:50:59,547 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.DependencyCollector.DependencyTrackingTelemetryModule/<gen>Delegate1 (tu 172)'
+2021-12-14 15:50:59,547 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.BuildInfoConfigComponentVersionTelemetryInitializer/<gen>Delegate8 (tu 176)'
+2021-12-14 15:50:59,547 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.JsonValidatingReader/<gen>Delegate18 (tu 182)'
+2021-12-14 15:50:59,547 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Linq.Extensions/<gen>Delegate31 (tu 182)'
+2021-12-14 15:50:59,547 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Optimization.IgnoreList/<gen>Delegate9 (tu 285)'
+2021-12-14 15:50:59,547 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Optimization.BundleManifest/<gen>Delegate4 (tu 285)'
+2021-12-14 15:50:59,547 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate202 (tu 284)'
+2021-12-14 15:50:59,547 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Converters.StringEnumConverter/<gen>Delegate1 (tu 182)'
+2021-12-14 15:50:59,547 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.Implementation.WebAppPerformanceCollector.SumUpCountersGauge/<gen>Delegate15 (tu 173)'
+2021-12-14 15:50:59,547 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate199 (tu 284)'
+2021-12-14 15:50:59,547 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.ValidationExtensions/<gen>Delegate256 (tu 284)'
+2021-12-14 15:50:59,547 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.QuickPulse.QuickPulseTelemetryProcessor/<gen>Delegate13 (tu 173)'
+2021-12-14 15:50:59,547 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.EnumUtils/<gen>Delegate95 (tu 182)'
+2021-12-14 15:50:59,548 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.Tokenizer`2/<gen>Delegate162 (tu 286)'
+2021-12-14 15:50:59,548 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.DependencyCollector.Implementation.ProfilerRuntimeInstrumentation/<gen>Delegate22 (tu 172)'
+2021-12-14 15:50:59,548 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.WhiteSpaceRewriter/<gen>Delegate151 (tu 286)'
+2021-12-14 15:50:59,548 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Generator.DynamicAttributeBlockCodeGenerator/<gen>Delegate7 (tu 286)'
+2021-12-14 15:50:59,548 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.SyntaxTree.Span/<gen>Delegate241 (tu 286)'
+2021-12-14 15:50:59,548 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.Tokenizer`2/<gen>Delegate166 (tu 286)'
+2021-12-14 15:50:59,548 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.TypeCacheSerializer/<gen>Delegate125 (tu 284)'
+2021-12-14 15:50:59,548 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ActionMethodSelectorBase/<gen>Delegate7 (tu 284)'
+2021-12-14 15:50:59,548 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.VirtualPathFactoryManager/<gen>Delegate63`1 (tu 288)'
+2021-12-14 15:50:59,548 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate192 (tu 284)'
+2021-12-14 15:50:59,548 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Instrumentation.InstrumentationService/<gen>Delegate24 (tu 288)'
+2021-12-14 15:50:59,548 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Editor.SpanEditHandler/<gen>Delegate1 (tu 286)'
+2021-12-14 15:50:59,548 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Converters.XmlNodeConverter/<gen>Delegate10 (tu 182)'
+2021-12-14 15:50:59,548 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Linq.JObject/<gen>Delegate33 (tu 182)'
+2021-12-14 15:50:59,548 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Razor.WebPageRazorHost/<gen>Delegate4 (tu 289)'
+2021-12-14 15:50:59,548 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.JsonValidatingReader/<gen>Delegate21 (tu 182)'
+2021-12-14 15:50:59,548 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.HttpFileCollectionValueProvider/<gen>Delegate120 (tu 284)'
+2021-12-14 15:50:59,548 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Optimization.DefaultBundleOrderer/<gen>Delegate15 (tu 285)'
+2021-12-14 15:50:59,549 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Converters.XmlNodeConverter/<gen>Delegate11 (tu 182)'
+2021-12-14 15:50:59,549 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate183 (tu 284)'
+2021-12-14 15:50:59,549 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Deployment.AssemblyUtils/<gen>Delegate10 (tu 287)'
+2021-12-14 15:50:59,549 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.Implementation.WebAppPerformanceCollector.WebAppPerformanceCollector/<gen>Delegate21 (tu 173)'
+2021-12-14 15:50:59,549 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ReflectedAttributeCache/CachedDelegates`2/<gen>Delegate51 (tu 284)'
+2021-12-14 15:50:59,549 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.ObjectVisitor/<gen>Delegate13 (tu 283)'
+2021-12-14 15:50:59,549 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Async.TaskAsyncActionDescriptor/<gen>Delegate19 (tu 284)'
+2021-12-14 15:50:59,549 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate184 (tu 284)'
+2021-12-14 15:50:59,549 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.Implementation.TelemetryConfigurationFactory/<gen>Delegate15 (tu 177)'
+2021-12-14 15:50:59,549 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.DefaultDisplayTemplates/<gen>Delegate173 (tu 284)'
+2021-12-14 15:50:59,549 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.HtmlMarkupParser/<gen>Delegate109 (tu 286)'
+2021-12-14 15:50:59,549 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.Implementation.Transmitter/<gen>Delegate48 (tu 174)'
+2021-12-14 15:50:59,549 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.ValidationExtensions/<gen>Delegate257 (tu 284)'
+2021-12-14 15:50:59,549 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.TokenizerBackedParser`3/<gen>Delegate59 (tu 286)'
+2021-12-14 15:50:59,549 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.Implementation.TaskTimer/<gen>Delegate25 (tu 177)'
+2021-12-14 15:50:59,549 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate186 (tu 284)'
+2021-12-14 15:50:59,549 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.JsonValidatingReader/<gen>Delegate20 (tu 182)'
+2021-12-14 15:50:59,549 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Optimization.BundleDirectoryItem/<gen>Delegate12 (tu 285)'
+2021-12-14 15:50:59,550 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.VBTokenizer/<gen>Delegate226 (tu 286)'
+2021-12-14 15:50:59,550 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ViewEngineCollection/<gen>Delegate297 (tu 284)'
+2021-12-14 15:50:59,550 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Serialization.DefaultContractResolver/<gen>Delegate46 (tu 182)'
+2021-12-14 15:50:59,550 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.Channel.Implementation.WeakConcurrentRandom/<gen>Delegate6 (tu 174)'
+2021-12-14 15:50:59,550 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.Implementation.Transmitter/<gen>Delegate45 (tu 174)'
+2021-12-14 15:50:59,550 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.Implementation.Transmitter/<gen>Delegate39 (tu 174)'
+2021-12-14 15:50:59,550 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Deployment.WebPagesDeployment/<gen>Delegate19 (tu 287)'
+2021-12-14 15:50:59,550 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate187 (tu 284)'
+2021-12-14 15:50:59,550 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.Implementation.StandardPerformanceCollector.StandardPerformanceCollector/<gen>Delegate25 (tu 173)'
+2021-12-14 15:50:59,550 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.TokenizerBackedParser`3/<gen>Delegate51 (tu 286)'
+2021-12-14 15:50:59,550 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.Tokenizer`2/<gen>Delegate160 (tu 286)'
+2021-12-14 15:50:59,550 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Routing.DefaultInlineConstraintResolver/<gen>Delegate3 (tu 284)'
+2021-12-14 15:50:59,550 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.Web.Infrastructure.KillBitHelper/<gen>Delegate1 (tu 179)'
+2021-12-14 15:50:59,550 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.SessionStateUtil/<gen>Delegate35 (tu 288)'
+2021-12-14 15:50:59,550 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Deployment.AssemblyUtils/<gen>Delegate16 (tu 287)'
+2021-12-14 15:50:59,550 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.VBCodeParser/<gen>Delegate148 (tu 286)'
+2021-12-14 15:50:59,550 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.HtmlMarkupParser/<gen>Delegate117 (tu 286)'
+2021-12-14 15:50:59,550 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Optimization.IgnoreList/<gen>Delegate10 (tu 285)'
+2021-12-14 15:50:59,551 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.ValidationHelper/<gen>Delegate40 (tu 288)'
+2021-12-14 15:50:59,551 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.ReflectionObject/<gen>Delegate92 (tu 182)'
+2021-12-14 15:50:59,551 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ActionDescriptorHelper/<gen>Delegate17 (tu 284)'
+2021-12-14 15:50:59,551 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.DynamicJsonArray/<gen>Delegate5 (tu 283)'
+2021-12-14 15:50:59,551 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.TelemetryProcessorChainBuilderExtensions/<gen>Delegate0 (tu 174)'
+2021-12-14 15:50:59,551 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.MultiSelectList/<gen>Delegate286 (tu 284)'
+2021-12-14 15:50:59,551 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.SyntaxTree.SpanBuilder/<gen>Delegate120 (tu 286)'
+2021-12-14 15:50:59,551 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Routing.DirectRouteCandidate/<gen>Delegate14 (tu 284)'
+2021-12-14 15:50:59,551 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate209 (tu 284)'
+2021-12-14 15:50:59,551 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.DataTypeUtil/<gen>Delegate48 (tu 284)'
+2021-12-14 15:50:59,551 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Deployment.AssemblyUtils/<gen>Delegate6 (tu 287)'
+2021-12-14 15:50:59,551 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.Implementation.TelemetryConfigurationFactory/<gen>Delegate18 (tu 177)'
+2021-12-14 15:50:59,551 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate195 (tu 284)'
+2021-12-14 15:50:59,551 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ViewEngineCollection/<gen>Delegate299 (tu 284)'
+2021-12-14 15:50:59,551 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.JsonValidatingReader/SchemaScope/<gen>Delegate24 (tu 182)'
+2021-12-14 15:50:59,551 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Scope.ScopeStorageDictionary/<gen>Delegate52 (tu 288)'
+2021-12-14 15:50:59,551 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.DependencyResolver/CacheDependencyResolver/<gen>Delegate115 (tu 284)'
+2021-12-14 15:50:59,551 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.TokenizerBackedParser`3/<gen>Delegate62 (tu 286)'
+2021-12-14 15:50:59,552 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.Implementation.Transmitter/<gen>Delegate41 (tu 174)'
+2021-12-14 15:50:59,552 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.Symbols.SymbolExtensions/<gen>Delegate158 (tu 286)'
+2021-12-14 15:50:59,552 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate91 (tu 286)'
+2021-12-14 15:50:59,552 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate196 (tu 284)'
+2021-12-14 15:50:59,552 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.Implementation.Transmitter/<gen>Delegate35 (tu 174)'
+2021-12-14 15:50:59,552 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.Tokenizer`2/<gen>Delegate161 (tu 286)'
+2021-12-14 15:50:59,552 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Async.ReflectedAsyncActionDescriptor/<>c__DisplayClass7/<gen>Delegate310 (tu 284)'
+2021-12-14 15:50:59,552 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.ConditionalAttributeCollapser/<gen>Delegate47 (tu 286)'
+2021-12-14 15:50:59,552 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate201 (tu 284)'
+2021-12-14 15:50:59,552 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.Implementation.StandardPerformanceCollector.StandardPerformanceCollector/<gen>Delegate22 (tu 173)'
+2021-12-14 15:50:59,552 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.JsonValidatingReader/SchemaScope/<gen>Delegate23 (tu 182)'
+2021-12-14 15:50:59,552 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.WebGrid/<gen>Delegate31 (tu 283)'
+2021-12-14 15:50:59,552 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.HtmlMarkupParser/<gen>Delegate111 (tu 286)'
+2021-12-14 15:50:59,552 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Serialization.DefaultSerializationBinder/<gen>Delegate59 (tu 182)'
+2021-12-14 15:50:59,552 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.DynamicJsonObject/<gen>Delegate6 (tu 283)'
+2021-12-14 15:50:59,552 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.DefaultModelBinder/<gen>Delegate248 (tu 284)'
+2021-12-14 15:50:59,552 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.JsonValidatingReader/SchemaScope/<gen>Delegate27 (tu 182)'
+2021-12-14 15:50:59,552 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.ParserHelpers/<gen>Delegate119 (tu 286)'
+2021-12-14 15:50:59,553 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Deployment.AssemblyUtils/<gen>Delegate5 (tu 287)'
+2021-12-14 15:50:59,553 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.WebGrid/<gen>Delegate27 (tu 283)'
+2021-12-14 15:50:59,553 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate207 (tu 284)'
+2021-12-14 15:50:59,553 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Routing.AttributeRoutingMapper/<gen>Delegate54 (tu 284)'
+2021-12-14 15:50:59,553 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.DependencyResolver/CacheDependencyResolver/<gen>Delegate116 (tu 284)'
+2021-12-14 15:50:59,553 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ExpressionUtil.CachedExpressionCompiler/Compiler`2/<gen>Delegate57 (tu 284)'
+2021-12-14 15:50:59,553 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.HtmlHelper/<gen>Delegate228 (tu 284)'
+2021-12-14 15:50:59,553 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ValueProviderCollection/<gen>Delegate145 (tu 284)'
+2021-12-14 15:50:59,553 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.Implementation.Transmitter/<gen>Delegate37 (tu 174)'
+2021-12-14 15:50:59,554 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Serialization.JsonDynamicContract/<gen>Delegate62 (tu 182)'
+2021-12-14 15:50:59,554 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Schema.JsonSchemaNode/<gen>Delegate40 (tu 182)'
+2021-12-14 15:50:59,554 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.HtmlMarkupParser/<gen>Delegate114 (tu 286)'
+2021-12-14 15:50:59,554 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.Internal.Web.Utils.CommonResources/<gen>Delegate0 (tu 288)'
+2021-12-14 15:50:59,554 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ModelStateDictionary/<gen>Delegate259 (tu 284)'
+2021-12-14 15:50:59,554 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate77 (tu 286)'
+2021-12-14 15:50:59,554 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.BuildInfoConfigComponentVersionTelemetryInitializer/<gen>Delegate7 (tu 176)'
+2021-12-14 15:50:59,554 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.HttpFileCollectionValueProvider/<gen>Delegate119 (tu 284)'
+2021-12-14 15:50:59,554 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.TelemetryProcessorChainBuilderExtensions/<gen>Delegate3 (tu 174)'
+2021-12-14 15:50:59,554 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.ObjectVisitor/<gen>Delegate10 (tu 283)'
+2021-12-14 15:50:59,554 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Serialization.DefaultContractResolver/<gen>Delegate53 (tu 182)'
+2021-12-14 15:50:59,554 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.MvcHandler/<gen>Delegate139 (tu 284)'
+2021-12-14 15:50:59,554 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Async.TaskAsyncActionDescriptor/<gen>Delegate23 (tu 284)'
+2021-12-14 15:50:59,554 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.DefaultModelBinder/<gen>Delegate244 (tu 284)'
+2021-12-14 15:50:59,554 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ViewEngineCollection/<gen>Delegate300 (tu 284)'
+2021-12-14 15:50:59,554 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.Implementation.TelemetryConfigurationFactory/<gen>Delegate19 (tu 177)'
+2021-12-14 15:50:59,554 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Converters.KeyValuePairConverter/<gen>Delegate0 (tu 182)'
+2021-12-14 15:50:59,554 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Scope.ScopeStorageDictionary/<gen>Delegate51 (tu 288)'
+2021-12-14 15:50:59,555 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.VBTokenizer/<gen>Delegate222 (tu 286)'
+2021-12-14 15:50:59,555 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.Implementation.TelemetryConfigurationFactory/<gen>Delegate20 (tu 177)'
+2021-12-14 15:50:59,555 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.VBCodeParser/<gen>Delegate126 (tu 286)'
+2021-12-14 15:50:59,555 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.UnobtrusiveValidationAttributesGenerator/<gen>Delegate31 (tu 288)'
+2021-12-14 15:50:59,555 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.ImmutableCollectionsUtils/<gen>Delegate100 (tu 182)'
+2021-12-14 15:50:59,555 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.SyntaxTree.Block/<gen>Delegate231 (tu 286)'
+2021-12-14 15:50:59,555 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.WebImage/<gen>Delegate40 (tu 283)'
+2021-12-14 15:50:59,555 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate86 (tu 286)'
+2021-12-14 15:50:59,555 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.ReflectionUtils/<gen>Delegate118 (tu 182)'
+2021-12-14 15:50:59,555 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.CSharpTokenizer/<gen>Delegate185 (tu 286)'
+2021-12-14 15:50:59,555 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.ReflectionUtils/<gen>Delegate116 (tu 182)'
+2021-12-14 15:50:59,555 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate205 (tu 284)'
+2021-12-14 15:50:59,555 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.ValidationHelper/<gen>Delegate36 (tu 288)'
+2021-12-14 15:50:59,555 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.VBTokenizer/<gen>Delegate218 (tu 286)'
+2021-12-14 15:50:59,555 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Routing.SubRouteCollection/<gen>Delegate4 (tu 284)'
+2021-12-14 15:50:59,555 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.OutputCacheAttribute/<gen>Delegate269 (tu 284)'
+2021-12-14 15:50:59,555 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.HtmlMarkupParser/<gen>Delegate116 (tu 286)'
+2021-12-14 15:50:59,556 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate191 (tu 284)'
+2021-12-14 15:50:59,556 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Optimization.BundleManifest/<gen>Delegate3 (tu 285)'
+2021-12-14 15:50:59,556 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Html.HtmlHelper/<gen>Delegate48 (tu 288)'
+2021-12-14 15:50:59,556 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.VBCodeParser/<ReadVBSpacesLazy>d__e/<gen>Delegate249 (tu 286)'
+2021-12-14 15:50:59,556 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.TelemetryProcessorChainBuilderExtensions/<gen>Delegate1 (tu 174)'
+2021-12-14 15:50:59,556 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.ReflectionUtils/<gen>Delegate119 (tu 182)'
+2021-12-14 15:50:59,556 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.ObjectVisitor/<gen>Delegate19 (tu 283)'
+2021-12-14 15:50:59,556 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.SyntaxTree.Span/<gen>Delegate242 (tu 286)'
+2021-12-14 15:50:59,556 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ControllerActionInvoker/<gen>Delegate79 (tu 284)'
+2021-12-14 15:50:59,556 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Schema.JsonSchemaResolver/<gen>Delegate42 (tu 182)'
+2021-12-14 15:50:59,556 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.SelectExtensions/<gen>Delegate252 (tu 284)'
+2021-12-14 15:50:59,556 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Deployment.AppDomainHelper/<gen>Delegate1 (tu 287)'
+2021-12-14 15:50:59,556 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.Implementation.TransmissionSender/<gen>Delegate28 (tu 174)'
+2021-12-14 15:50:59,556 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.Implementation.TransmissionStorage/<gen>Delegate29 (tu 174)'
+2021-12-14 15:50:59,556 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Html.ModelStateDictionary/<gen>Delegate60 (tu 288)'
+2021-12-14 15:50:59,556 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Deployment.AssemblyUtils/<gen>Delegate7 (tu 287)'
+2021-12-14 15:50:59,556 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.TokenizerBackedParser`3/<gen>Delegate63 (tu 286)'
+2021-12-14 15:50:59,557 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.GlobalFilterCollection/<gen>Delegate64 (tu 284)'
+2021-12-14 15:50:59,557 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Serialization.JsonSerializerInternalReader/<gen>Delegate68 (tu 182)'
+2021-12-14 15:50:59,557 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate210 (tu 284)'
+2021-12-14 15:50:59,557 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.CSharpTokenizer/<gen>Delegate189 (tu 286)'
+2021-12-14 15:50:59,557 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.Implementation.QuickPulse.QuickPulseDataSample/<gen>Delegate28 (tu 173)'
+2021-12-14 15:50:59,557 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.Implementation.QuickPulse.QuickPulseDataSample/<gen>Delegate29 (tu 173)'
+2021-12-14 15:50:59,557 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.ChildActionExtensions/<gen>Delegate135 (tu 284)'
+2021-12-14 15:50:59,557 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.Implementation.TelemetryConfigurationFactory/<gen>Delegate16`1 (tu 177)'
+2021-12-14 15:50:59,557 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Async.ReflectedAsyncControllerDescriptor/<gen>Delegate131 (tu 284)'
+2021-12-14 15:50:59,557 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.FilterAttribute/<gen>Delegate50 (tu 284)'
+2021-12-14 15:50:59,557 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Deployment.AssemblyUtils/<gen>Delegate13 (tu 287)'
+2021-12-14 15:50:59,557 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.JsonValidatingReader/SchemaScope/<gen>Delegate26 (tu 182)'
+2021-12-14 15:50:59,557 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.Internal.Web.Utils.CommonResources/<gen>Delegate0 (tu 286)'
+2021-12-14 15:50:59,557 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Serialization.JsonSerializerInternalReader/<gen>Delegate67 (tu 182)'
+2021-12-14 15:50:59,557 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.ReflectionUtils/<gen>Delegate115 (tu 182)'
+2021-12-14 15:50:59,557 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.ValidationHelper/<gen>Delegate39 (tu 288)'
+2021-12-14 15:50:59,557 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.WebImage/<gen>Delegate39 (tu 283)'
+2021-12-14 15:50:59,557 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.Implementation.TypeHelpers/<gen>Delegate18 (tu 176)'
+2021-12-14 15:50:59,558 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.Implementation.TelemetryConfigurationFactory/<gen>Delegate17 (tu 177)'
+2021-12-14 15:50:59,558 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ExpressionUtil.CachedExpressionCompiler/Compiler`2/<gen>Delegate60 (tu 284)'
+2021-12-14 15:50:59,558 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate213 (tu 284)'
+2021-12-14 15:50:59,558 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Deployment.AssemblyUtils/<gen>Delegate12 (tu 287)'
+2021-12-14 15:50:59,558 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.VirtualPathProviderViewEngine/<gen>Delegate30 (tu 284)'
+2021-12-14 15:50:59,558 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Converters.XContainerWrapper/<gen>Delegate5 (tu 182)'
+2021-12-14 15:50:59,558 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate193 (tu 284)'
+2021-12-14 15:50:59,558 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.VBTokenizer/<gen>Delegate227 (tu 286)'
+2021-12-14 15:50:59,558 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.ValidationHelper/<gen>Delegate41 (tu 288)'
+2021-12-14 15:50:59,558 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.VBTokenizer/<gen>Delegate224 (tu 286)'
+2021-12-14 15:50:59,558 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Instrumentation.PageInstrumentationServiceAdapter/<gen>Delegate26 (tu 288)'
+2021-12-14 15:50:59,558 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Razor.WebRazorHostFactory/<gen>Delegate2 (tu 289)'
+2021-12-14 15:50:59,558 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Deployment.AssemblyUtils/<gen>Delegate18 (tu 287)'
+2021-12-14 15:50:59,558 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.WebGrid/<gen>Delegate29 (tu 283)'
+2021-12-14 15:50:59,558 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.TokenizerBackedParser`3/<gen>Delegate56 (tu 286)'
+2021-12-14 15:50:59,558 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.HtmlMarkupParser/<gen>Delegate110 (tu 286)'
+2021-12-14 15:50:59,558 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.WebPageBase/<>c__DisplayClass3/<gen>Delegate73 (tu 288)'
+2021-12-14 15:50:59,559 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.UnobtrusiveValidationAttributesGenerator/<gen>Delegate30 (tu 288)'
+2021-12-14 15:50:59,559 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.TokenizerBackedParser`3/<gen>Delegate55 (tu 286)'
+2021-12-14 15:50:59,559 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.HtmlMarkupParser/<gen>Delegate108 (tu 286)'
+2021-12-14 15:50:59,559 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.WebGrid/<gen>Delegate30 (tu 283)'
+2021-12-14 15:50:59,559 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.EnumUtils/<gen>Delegate96 (tu 182)'
+2021-12-14 15:50:59,559 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate102 (tu 286)'
+2021-12-14 15:50:59,559 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.StringUtils/<gen>Delegate123`1 (tu 182)'
+2021-12-14 15:50:59,559 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.AntiXsrf.ClaimUidExtractor/<gen>Delegate20 (tu 288)'
+2021-12-14 15:50:59,559 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ControllerTypeCache/<gen>Delegate283 (tu 284)'
+2021-12-14 15:50:59,559 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Razor.WebRazorHostFactory/<gen>Delegate3 (tu 289)'
+2021-12-14 15:50:59,559 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate212 (tu 284)'
+2021-12-14 15:50:59,559 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Routing.DirectRouteCandidate/<gen>Delegate9 (tu 284)'
+2021-12-14 15:50:59,559 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.WebGrid/<gen>Delegate28 (tu 283)'
+2021-12-14 15:50:59,559 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.EnumUtils/<gen>Delegate94`1 (tu 182)'
+2021-12-14 15:50:59,559 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Converters.XmlNodeConverter/<gen>Delegate8 (tu 182)'
+2021-12-14 15:50:59,560 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate76 (tu 286)'
+2021-12-14 15:50:59,560 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.TokenizerBackedParser`3/<gen>Delegate61 (tu 286)'
+2021-12-14 15:50:59,560 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.AuthorizeAttribute/<gen>Delegate222 (tu 284)'
+2021-12-14 15:50:59,560 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.Implementation.TransmissionSender/<gen>Delegate27 (tu 174)'
+2021-12-14 15:50:59,560 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.TelemetryProcessorChainBuilderExtensions/<gen>Delegate2 (tu 174)'
+2021-12-14 15:50:59,560 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.ObjectVisitor/<gen>Delegate12 (tu 283)'
+2021-12-14 15:50:59,560 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ActionMethodSelectorBase/<gen>Delegate6 (tu 284)'
+2021-12-14 15:50:59,560 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Optimization.BundleDirectoryItem/<gen>Delegate13 (tu 285)'
+2021-12-14 15:50:59,560 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate93 (tu 286)'
+2021-12-14 15:50:59,560 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Converters.XmlNodeConverter/<gen>Delegate9 (tu 182)'
+2021-12-14 15:50:59,560 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate208 (tu 284)'
+2021-12-14 15:50:59,560 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.DependencyCollector.Implementation.ProfilerRuntimeInstrumentation/<gen>Delegate37 (tu 172)'
+2021-12-14 15:50:59,560 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Deployment.AssemblyUtils/<gen>Delegate14 (tu 287)'
+2021-12-14 15:50:59,560 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.Implementation.StandardPerformanceCollector.StandardPerformanceCollector/<gen>Delegate27 (tu 173)'
+2021-12-14 15:50:59,560 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.CachedAssociatedMetadataProvider`1/<gen>Delegate39 (tu 284)'
+2021-12-14 15:50:59,560 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.HttpFileCollectionValueProvider/<gen>Delegate121 (tu 284)'
+2021-12-14 15:50:59,560 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.JsonValidatingReader/<gen>Delegate22 (tu 182)'
+2021-12-14 15:50:59,560 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ControllerTypeCache/<gen>Delegate280 (tu 284)'
+2021-12-14 15:50:59,561 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.MultiSelectList/<gen>Delegate288 (tu 284)'
+2021-12-14 15:50:59,561 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.DisplayModeProvider/<gen>Delegate17 (tu 288)'
+2021-12-14 15:50:59,561 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.Html.HtmlHelper/<gen>Delegate47 (tu 288)'
+2021-12-14 15:50:59,561 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Schema.JsonSchemaNode/<gen>Delegate39 (tu 182)'
+2021-12-14 15:50:59,561 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.CSharpTokenizer/<gen>Delegate182 (tu 286)'
+2021-12-14 15:50:59,561 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.DefaultControllerFactory/<gen>Delegate290 (tu 284)'
+2021-12-14 15:50:59,561 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.TypeCacheUtil/<gen>Delegate124 (tu 284)'
+2021-12-14 15:50:59,561 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.ImmutableCollectionsUtils/<gen>Delegate102 (tu 182)'
+2021-12-14 15:50:59,561 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.Implementation.WebAppPerformanceCollector.WebAppPerformanceCollector/<gen>Delegate19 (tu 173)'
+2021-12-14 15:50:59,561 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.Implementation.StandardPerformanceCollector.StandardPerformanceCollector/<gen>Delegate24 (tu 173)'
+2021-12-14 15:50:59,561 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Linq.Extensions/<gen>Delegate30`1 (tu 182)'
+2021-12-14 15:50:59,561 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.PerformanceCollectorModule/<gen>Delegate3 (tu 173)'
+2021-12-14 15:50:59,561 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate98 (tu 286)'
+2021-12-14 15:50:59,561 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate88 (tu 286)'
+2021-12-14 15:50:59,561 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.WebImage/<gen>Delegate38 (tu 283)'
+2021-12-14 15:50:59,561 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.DependencyCollector.Implementation.ProfilerRuntimeInstrumentation/<gen>Delegate44 (tu 172)'
+2021-12-14 15:50:59,561 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.Implementation.WebAppPerformanceCollector.WebAppPerformanceCollector/<gen>Delegate16 (tu 173)'
+2021-12-14 15:50:59,562 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.DataAnnotationsModelValidatorProvider/<gen>Delegate147 (tu 284)'
+2021-12-14 15:50:59,562 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.CSharpTokenizer/<gen>Delegate190 (tu 286)'
+2021-12-14 15:50:59,562 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.VirtualPathProviderViewEngine/<gen>Delegate28 (tu 284)'
+2021-12-14 15:50:59,562 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.AntiXsrf.ClaimUidExtractor/<gen>Delegate18 (tu 288)'
+2021-12-14 15:50:59,562 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.WindowsServer.Channel.Implementation.WeakConcurrentRandom/<gen>Delegate5 (tu 174)'
+2021-12-14 15:50:59,562 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Serialization.DefaultContractResolver/<gen>Delegate54 (tu 182)'
+2021-12-14 15:50:59,562 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.ConditionalAttributeCollapser/<gen>Delegate48 (tu 286)'
+2021-12-14 15:50:59,562 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.TokenizerBackedParser`3/<>c__DisplayClass1e/<gen>Delegate245 (tu 286)'
+2021-12-14 15:50:59,562 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.VBCodeParser/<gen>Delegate140 (tu 286)'
+2021-12-14 15:50:59,562 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.TokenizerBackedParser`3/<gen>Delegate58 (tu 286)'
+2021-12-14 15:50:59,562 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Optimization.BundleDirectoryItem/<gen>Delegate11 (tu 285)'
+2021-12-14 15:50:59,562 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate194 (tu 284)'
+2021-12-14 15:50:59,562 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Razor.MvcCSharpRazorCodeParser/<gen>Delegate66 (tu 284)'
+2021-12-14 15:50:59,562 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Serialization.JsonTypeReflector/<gen>Delegate72 (tu 182)'
+2021-12-14 15:50:59,562 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.ValidationHelper/<gen>Delegate42 (tu 288)'
+2021-12-14 15:50:59,562 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Tokenizer.CSharpTokenizer/<gen>Delegate187 (tu 286)'
+2021-12-14 15:50:59,562 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.HtmlMarkupParser/<gen>Delegate106 (tu 286)'
+2021-12-14 15:50:59,562 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Routing.DefaultInlineConstraintResolver/<gen>Delegate2 (tu 284)'
+2021-12-14 15:50:59,562 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate206 (tu 284)'
+2021-12-14 15:50:59,563 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Serialization.DefaultContractResolver/<gen>Delegate55 (tu 182)'
+2021-12-14 15:50:59,563 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.TokenizerBackedParser`3/<gen>Delegate60 (tu 286)'
+2021-12-14 15:50:59,563 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.ExpressionUtil.CachedExpressionCompiler/Compiler`2/<gen>Delegate58 (tu 284)'
+2021-12-14 15:50:59,563 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Razor.Parser.ParserHelpers/<gen>Delegate118 (tu 286)'
+2021-12-14 15:50:59,563 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Routing.DirectRouteCandidate/<gen>Delegate10 (tu 284)'
+2021-12-14 15:50:59,563 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.WebPages.VirtualPathFactoryManager/<gen>Delegate62 (tu 288)'
+2021-12-14 15:50:59,563 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.AuthorizeAttribute/<gen>Delegate220 (tu 284)'
+2021-12-14 15:50:59,563 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.Implementation.QuickPulse.QuickPulseServiceClient/<gen>Delegate32 (tu 173)'
+2021-12-14 15:50:59,563 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory/<gen>Delegate111`1 (tu 182)'
+2021-12-14 15:50:59,563 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Utilities.DynamicProxyMetaObject`1/<gen>Delegate90 (tu 182)'
+2021-12-14 15:50:59,563 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Helpers.ObjectVisitor/<gen>Delegate11 (tu 283)'
+2021-12-14 15:50:59,563 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'Newtonsoft.Json.Serialization.JsonSerializerInternalReader/<gen>Delegate65 (tu 182)'
+2021-12-14 15:50:59,563 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.ValidationExtensions/<gen>Delegate258 (tu 284)'
+2021-12-14 15:50:59,564 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`2 (tu 302)' ==has child=> 'System.Web.Mvc.Html.TemplateHelpers/<gen>Delegate190 (tu 284)'
+2021-12-14 15:50:59,799 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`3 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.Extensibility.Implementation.ExceptionConverter/<gen>Delegate23 (tu 177)'
+2021-12-14 15:50:59,799 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`3 (tu 302)' ==has child=> 'System.Web.Mvc.ReflectedControllerDescriptor/<gen>Delegate240 (tu 284)'
+2021-12-14 15:50:59,799 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`3 (tu 302)' ==has child=> 'System.Web.Helpers.WebGridDataSource/<gen>Delegate23 (tu 283)'
+2021-12-14 15:50:59,799 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`3 (tu 302)' ==has child=> 'System.Web.Optimization.AssetManager/<gen>Delegate1 (tu 285)'
+2021-12-14 15:50:59,799 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`3 (tu 302)' ==has child=> 'System.Collections.Generic.DictionaryExtensions/<gen>Delegate0`2 (tu 284)'
+2021-12-14 15:50:59,799 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`3 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.DependencyCollector.Implementation.ProfilerRuntimeInstrumentation/<gen>Delegate5 (tu 172)'
+2021-12-14 15:50:59,799 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`3 (tu 302)' ==has child=> 'System.Web.WebPages.Deployment.AssemblyUtils/<gen>Delegate15 (tu 287)'
+2021-12-14 15:50:59,799 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`3 (tu 302)' ==has child=> 'System.Web.Mvc.ControllerActionInvoker/<gen>Delegate83 (tu 284)'
+2021-12-14 15:50:59,799 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`3 (tu 302)' ==has child=> 'System.Web.Razor.Parser.CSharpCodeParser/<gen>Delegate71 (tu 286)'
+2021-12-14 15:50:59,799 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`3 (tu 302)' ==has child=> 'System.Web.Helpers.PreComputedGridDataSource/<gen>Delegate22 (tu 283)'
+2021-12-14 15:50:59,799 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`3 (tu 302)' ==has child=> 'System.Web.Mvc.ActionDescriptorHelper/<gen>Delegate18 (tu 284)'
+2021-12-14 15:50:59,799 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`3 (tu 302)' ==has child=> 'Microsoft.Diagnostics.Instrumentation.Extensions.Intercept.Functions/<gen>Delegate1 (tu 171)'
+2021-12-14 15:50:59,799 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`3 (tu 302)' ==has child=> 'System.Web.Razor.Parser.SyntaxTree.Span/<gen>Delegate239 (tu 286)'
+2021-12-14 15:50:59,800 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`3 (tu 302)' ==has child=> 'System.Web.Mvc.ControllerActionInvoker/<gen>Delegate85 (tu 284)'
+2021-12-14 15:50:59,800 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`3 (tu 302)' ==has child=> 'Microsoft.Diagnostics.Instrumentation.Extensions.Intercept.Functions/<gen>Delegate6 (tu 171)'
+2021-12-14 15:50:59,800 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`3 (tu 302)' ==has child=> 'Microsoft.ApplicationInsights.DependencyCollector.Implementation.ProfilerRuntimeInstrumentation/<gen>Delegate23 (tu 172)'
+2021-12-14 15:50:59,800 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`3 (tu 302)' ==has child=> 'System.Web.Mvc.HtmlHelper/<gen>Delegate229 (tu 284)'
+2021-12-14 15:50:59,800 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`3 (tu 302)' ==has child=> 'System.Web.Mvc.TempDataDictionary/<gen>Delegate294 (tu 284)'
+2021-12-14 15:50:59,800 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`3 (tu 302)' ==has child=> 'System.Web.Mvc.ControllerActionInvoker/<gen>Delegate84 (tu 284)'
+2021-12-14 15:50:59,800 [plugins:DEBUG] DotNetUtils.getClassChildrenDict: 'System.Func`3 (tu 302)' ==has child=> 'System.Web.Mvc.ExpressionHelper/<gen>Delegate164 (tu 284)'
+2021-12-14 15:50:59,811 [plugins:INFO] -------------- Running plug-in DotNetWebServices (priority=5) --------------
+2021-12-14 15:50:59,811 [plugins:INFO] DotNetWebServices.main: Start
+2021-12-14 15:50:59,811 [plugins:DEBUG] DotNetWebServices.main: Web API 2 Controllers
+2021-12-14 15:50:59,812 [plugins:DEBUG] DotNetWebServices.main: WCF Services
+2021-12-14 15:50:59,812 [plugins:DEBUG] DotNetWebServices.doWcfServices: WCF operation impls = 0
+2021-12-14 15:50:59,812 [plugins:DEBUG] DotNetWebServices.main: ASMX Web Services
+2021-12-14 15:50:59,814 [plugins:DEBUG] DotNetWebServices.doAsmxServices: ASMX service methods = 0
+2021-12-14 15:50:59,814 [plugins:DEBUG] DotNetWebServices.main: Create Filters
+2021-12-14 15:50:59,814 [plugins:DEBUG] DotNetUtils.doFilters: Number of Filter classes: 0
+2021-12-14 15:50:59,815 [plugins:INFO] -------------- Running plug-in EJB (priority=5) --------------
+2021-12-14 15:50:59,815 [plugins:INFO] [WARN] EJB.main: Start
+2021-12-14 15:50:59,816 [plugins:INFO] [DEBUG] EJB - total entry points: 0
+2021-12-14 15:50:59,816 [plugins:INFO] -------------- Running plug-in GWTCallbacks (priority=5) --------------
+2021-12-14 15:50:59,816 [plugins:INFO] GWTCallbacks.main: Start
+2021-12-14 15:50:59,817 [plugins:DEBUG] GWTCallbacks::main- Types ('com.google.gwt.user.client.rpc.AsyncCallback', 'com.google.gwt.http.client.RequestCallback') not found.
+2021-12-14 15:50:59,817 [plugins:INFO] -------------- Running plug-in GWTRPC (priority=5) --------------
+2021-12-14 15:50:59,817 [plugins:INFO] GWTRPC.main: Start
+2021-12-14 15:50:59,818 [plugins:DEBUG] GWTRPC.processRemoteServiceServlets: found implementors of RemoteService but no extenders of RemoteServiceServlet. This might be a custom GWT RPC framework.
+2021-12-14 15:50:59,818 [plugins:DEBUG] GWTRPC.processRemoteServiceServlets: found implementors of RemoteService but no extenders of RemoteServiceServlet. This might be a custom GWT RPC framework.
+2021-12-14 15:50:59,819 [plugins:DEBUG] GWTRPC.processRemoteServiceServlets: found implementors of RemoteService but no extenders of RemoteServiceServlet. This might be a custom GWT RPC framework.
+2021-12-14 15:50:59,819 [plugins:INFO] GWTRPC - total entry points: 0
+2021-12-14 15:50:59,819 [plugins:INFO] -------------- Running plug-in GWTRequestFactory (priority=5) --------------
+2021-12-14 15:50:59,819 [plugins:INFO] GWTRequestFactory.main: Start
+2021-12-14 15:50:59,819 [plugins:INFO] -------------- Running plug-in JSF2 (priority=5) --------------
+2021-12-14 15:50:59,820 [plugins:INFO] JSF2.main: Start
+2021-12-14 15:50:59,820 [plugins:INFO] -------------- Running plug-in JaxRS (priority=5) --------------
+2021-12-14 15:50:59,824 [plugins:DEBUG] JaxRS::main- Types ('javax.ws.rs.Path', 'javax.ws.rs.Consumes', 'javax.ws.rs.Produces', 'javax.ws.rs.GET', 'javax.ws.rs.PUT', 'javax.ws.rs.HEAD', 'javax.ws.rs.POST', 'javax.ws.rs.OPTIONS', 'javax.ws.rs.DELETE', 'javax.ws.rs.CookieParam', 'javax.ws.rs.FormParam', 'javax.ws.rs.HeaderParam', 'javax.ws.rs.MatrixParam', 'javax.ws.rs.PathParam', 'javax.ws.rs.QueryParam', 'javax.ws.rs.BeanParam') not found.
+2021-12-14 15:50:59,825 [plugins:INFO] -------------- Running plug-in JaxWS (priority=5) --------------
+2021-12-14 15:50:59,825 [plugins:DEBUG] JaxWS.main: Application does not contain WS annotations, exiting.
+2021-12-14 15:50:59,826 [plugins:INFO] -------------- Skipping disabled plug-in: Skeleton
+2021-12-14 15:50:59,826 [plugins:INFO] -------------- Running plug-in Struts2 (priority=5) --------------
+2021-12-14 15:50:59,826 [plugins:INFO] Struts2.main: Start
+2021-12-14 15:50:59,845 [plugins:INFO] -------------- Running plug-in Symfony (priority=5) --------------
+2021-12-14 15:50:59,846 [plugins:DEBUG] Symfony: main: Start
+2021-12-14 15:50:59,846 [plugins:DEBUG] Symfony: main: emit_app_root: 'C:\\AEP\\AppScantool\\testweb'
+2021-12-14 15:50:59,846 [plugins:DEBUG] Symfony: main: unpacked_app_root='C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0'
+2021-12-14 15:50:59,846 [plugins:DEBUG] Symfony: main: temp_dir='C:\\Temp\\cov-s343416\\c9cd92f7ceb2e46709a3d33f5e9dbb71\\fwa\\dom-0.tmp'
+2021-12-14 15:50:59,847 [plugins:DEBUG] Symfony: Handling Symfony YML Routes.
+2021-12-14 15:50:59,847 [plugins:DEBUG] Symfony: Handling Symfony Route Annotations.
+2021-12-14 15:51:00,994 [plugins:INFO] -------------- Running plug-in Vertx (priority=5) --------------
+2021-12-14 15:51:00,994 [plugins:INFO] Vertx.main: Start
+2021-12-14 15:51:00,996 [plugins:DEBUG] Vertx::main- Types ('io.vertx.core.AbstractVerticle', 'io.vertx.rxjava.ext.web.RoutingContext') not found.
+2021-12-14 15:51:00,996 [plugins:INFO] -------------- Skipping disabled plug-in: WSXmlRpc
+2021-12-14 15:51:00,996 [plugins:INFO] -------------- Running plug-in WebForms (priority=5) --------------
+2021-12-14 15:51:00,996 [plugins:INFO] WebForms.main: Start
+2021-12-14 15:51:01,003 [plugins:DEBUG] WebForms.createEntryPoints: Control class System.Web.Mvc.ViewType
+2021-12-14 15:51:01,003 [plugins:DEBUG] WebForms.createEntryPoints: Control class System.Web.Mvc.HttpHandlerUtil/ServerExecuteHttpHandlerWrapper
+2021-12-14 15:51:01,003 [plugins:DEBUG] WebForms.createEntryPoints: Control class System.Web.Mvc.OutputCacheAttribute/OutputCachedPage
+2021-12-14 15:51:01,003 [plugins:DEBUG] WebForms.createEntryPoints: Control class System.Web.Mvc.ViewPage
+2021-12-14 15:51:01,003 [plugins:DEBUG] WebForms.createEntryPoints: Control class System.Web.Mvc.HttpHandlerUtil/ServerExecuteHttpHandlerAsyncWrapper
+2021-12-14 15:51:01,003 [plugins:DEBUG] WebForms.createEntryPoints: Control class System.Web.Mvc.ViewPage`1
+2021-12-14 15:51:01,003 [plugins:DEBUG] WebForms.createEntryPoints: Control class System.Web.Mvc.ViewUserControl/ViewUserControlContainerPage
+2021-12-14 15:51:01,003 [plugins:DEBUG] WebForms.createEntryPoints: Control class System.Web.Mvc.ViewMasterPage
+2021-12-14 15:51:01,003 [plugins:DEBUG] WebForms.createEntryPoints: Control class System.Web.Mvc.ViewMasterPage`1
+2021-12-14 15:51:01,004 [plugins:INFO] -------------- Running plug-in WebSockets (priority=5) --------------
+2021-12-14 15:51:01,004 [plugins:INFO] WebSockets.main: Start
+2021-12-14 15:51:01,005 [plugins:DEBUG] WebSockets::main- Types ('javax.websocket.server.ServerEndpoint', 'javax.websocket.ClientEndpoint', 'javax.websocket.OnMessage') not found.

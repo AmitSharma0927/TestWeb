@@ -1,0 +1,97 @@
+C:\AEP\AppScan tool\testweb\testweb\bin\ApplicationInsights.config
+C:\AEP\AppScan tool\testweb\testweb\bin\testweb.dll.config
+C:\AEP\AppScan tool\testweb\testweb\bin\testweb.dll
+C:\AEP\AppScan tool\testweb\testweb\bin\testweb.pdb
+C:\AEP\AppScan tool\testweb\testweb\bin\Antlr3.Runtime.dll
+C:\AEP\AppScan tool\testweb\testweb\bin\Microsoft.AI.Agent.Intercept.dll
+C:\AEP\AppScan tool\testweb\testweb\bin\Microsoft.AI.DependencyCollector.dll
+C:\AEP\AppScan tool\testweb\testweb\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\AEP\AppScan tool\testweb\testweb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\AEP\AppScan tool\testweb\testweb\bin\Microsoft.AI.Web.dll
+C:\AEP\AppScan tool\testweb\testweb\bin\Microsoft.AI.WindowsServer.dll
+C:\AEP\AppScan tool\testweb\testweb\bin\Microsoft.ApplicationInsights.dll
+C:\AEP\AppScan tool\testweb\testweb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\AEP\AppScan tool\testweb\testweb\bin\Microsoft.Web.Infrastructure.dll
+C:\AEP\AppScan tool\testweb\testweb\bin\Newtonsoft.Json.dll
+C:\AEP\AppScan tool\testweb\testweb\bin\System.Web.Helpers.dll
+C:\AEP\AppScan tool\testweb\testweb\bin\System.Web.Mvc.dll
+C:\AEP\AppScan tool\testweb\testweb\bin\System.Web.Optimization.dll
+C:\AEP\AppScan tool\testweb\testweb\bin\System.Web.Razor.dll
+C:\AEP\AppScan tool\testweb\testweb\bin\System.Web.WebPages.Deployment.dll
+C:\AEP\AppScan tool\testweb\testweb\bin\System.Web.WebPages.dll
+C:\AEP\AppScan tool\testweb\testweb\bin\System.Web.WebPages.Razor.dll
+C:\AEP\AppScan tool\testweb\testweb\bin\WebGrease.dll
+C:\AEP\AppScan tool\testweb\testweb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\AEP\AppScan tool\testweb\testweb\bin\System.Web.Helpers.xml
+C:\AEP\AppScan tool\testweb\testweb\bin\System.Web.Mvc.xml
+C:\AEP\AppScan tool\testweb\testweb\bin\System.Web.Optimization.xml
+C:\AEP\AppScan tool\testweb\testweb\bin\System.Web.Razor.xml
+C:\AEP\AppScan tool\testweb\testweb\bin\System.Web.WebPages.xml
+C:\AEP\AppScan tool\testweb\testweb\bin\System.Web.WebPages.Deployment.xml
+C:\AEP\AppScan tool\testweb\testweb\bin\System.Web.WebPages.Razor.xml
+C:\AEP\AppScan tool\testweb\testweb\bin\Antlr3.Runtime.pdb
+C:\AEP\AppScan tool\testweb\testweb\bin\Newtonsoft.Json.xml
+C:\AEP\AppScan tool\testweb\testweb\bin\Microsoft.ApplicationInsights.xml
+C:\AEP\AppScan tool\testweb\testweb\bin\Microsoft.AI.DependencyCollector.xml
+C:\AEP\AppScan tool\testweb\testweb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\AEP\AppScan tool\testweb\testweb\bin\Microsoft.AI.WindowsServer.xml
+C:\AEP\AppScan tool\testweb\testweb\bin\Microsoft.AI.Web.xml
+C:\AEP\AppScan tool\testweb\testweb\obj\Debug\testweb.csprojResolveAssemblyReference.cache
+C:\AEP\AppScan tool\testweb\testweb\obj\Debug\testweb.csproj.CoreCompileInputs.cache
+C:\AEP\AppScan tool\testweb\testweb\obj\Debug\testweb.dll
+C:\AEP\AppScan tool\testweb\testweb\obj\Debug\testweb.pdb
+C:\AEP\AppScantool\testweb\testweb\bin\ApplicationInsights.config
+C:\AEP\AppScantool\testweb\testweb\bin\testweb.dll.config
+C:\AEP\AppScantool\testweb\testweb\bin\testweb.dll
+C:\AEP\AppScantool\testweb\testweb\bin\testweb.pdb
+C:\AEP\AppScantool\testweb\testweb\bin\Antlr3.Runtime.dll
+C:\AEP\AppScantool\testweb\testweb\bin\Microsoft.AI.Agent.Intercept.dll
+C:\AEP\AppScantool\testweb\testweb\bin\Microsoft.AI.DependencyCollector.dll
+C:\AEP\AppScantool\testweb\testweb\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\AEP\AppScantool\testweb\testweb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\AEP\AppScantool\testweb\testweb\bin\Microsoft.AI.Web.dll
+C:\AEP\AppScantool\testweb\testweb\bin\Microsoft.AI.WindowsServer.dll
+C:\AEP\AppScantool\testweb\testweb\bin\Microsoft.ApplicationInsights.dll
+C:\AEP\AppScantool\testweb\testweb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\AEP\AppScantool\testweb\testweb\bin\Microsoft.Web.Infrastructure.dll
+C:\AEP\AppScantool\testweb\testweb\bin\Newtonsoft.Json.dll
+C:\AEP\AppScantool\testweb\testweb\bin\System.Web.Helpers.dll
+C:\AEP\AppScantool\testweb\testweb\bin\System.Web.Mvc.dll
+C:\AEP\AppScantool\testweb\testweb\bin\System.Web.Optimization.dll
+C:\AEP\AppScantool\testweb\testweb\bin\System.Web.Razor.dll
+C:\AEP\AppScantool\testweb\testweb\bin\System.Web.WebPages.Deployment.dll
+C:\AEP\AppScantool\testweb\testweb\bin\System.Web.WebPages.dll
+C:\AEP\AppScantool\testweb\testweb\bin\System.Web.WebPages.Razor.dll
+C:\AEP\AppScantool\testweb\testweb\bin\WebGrease.dll
+C:\AEP\AppScantool\testweb\testweb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\AEP\AppScantool\testweb\testweb\bin\System.Web.Helpers.xml
+C:\AEP\AppScantool\testweb\testweb\bin\System.Web.Mvc.xml
+C:\AEP\AppScantool\testweb\testweb\bin\System.Web.Optimization.xml
+C:\AEP\AppScantool\testweb\testweb\bin\System.Web.Razor.xml
+C:\AEP\AppScantool\testweb\testweb\bin\System.Web.WebPages.xml
+C:\AEP\AppScantool\testweb\testweb\bin\System.Web.WebPages.Deployment.xml
+C:\AEP\AppScantool\testweb\testweb\bin\System.Web.WebPages.Razor.xml
+C:\AEP\AppScantool\testweb\testweb\bin\Antlr3.Runtime.pdb
+C:\AEP\AppScantool\testweb\testweb\bin\Newtonsoft.Json.xml
+C:\AEP\AppScantool\testweb\testweb\bin\Microsoft.ApplicationInsights.xml
+C:\AEP\AppScantool\testweb\testweb\bin\Microsoft.AI.DependencyCollector.xml
+C:\AEP\AppScantool\testweb\testweb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\AEP\AppScantool\testweb\testweb\bin\Microsoft.AI.WindowsServer.xml
+C:\AEP\AppScantool\testweb\testweb\bin\Microsoft.AI.Web.xml
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\ClassLibrary1.csproj\ApplicationInsights.config
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\ClassLibrary1.csproj\testweb.dll.config
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\ClassLibrary1.csproj\testweb.dll
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\ClassLibrary1.csproj\testweb.pdb
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\WindowsFormsApp1.csproj\ApplicationInsights.config
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\WindowsFormsApp1.csproj\testweb.dll.config
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\WindowsFormsApp1.csproj\testweb.dll
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\WindowsFormsApp1.csproj\testweb.pdb
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\testweb.csproj\ApplicationInsights.config
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\testweb.csproj\testweb.dll.config
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\testweb.csproj\testweb.dll
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\testweb.csproj\testweb.pdb
+C:\AEP\AppScantool\testweb\testweb\obj\Debug\testweb.csprojAssemblyReference.cache
+C:\AEP\AppScantool\testweb\testweb\obj\Debug\testweb.csproj.CoreCompileInputs.cache
+C:\AEP\AppScantool\testweb\testweb\obj\Debug\testweb.csproj.CopyComplete
+C:\AEP\AppScantool\testweb\testweb\obj\Debug\testweb.dll
+C:\AEP\AppScantool\testweb\testweb\obj\Debug\testweb.pdb

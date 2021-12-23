@@ -1,0 +1,2830 @@
+{
+  "header" : {
+    "format" : "commit preview report",
+    "version" : 2
+  },
+  "analysisInfo" : {
+    "ownerAssignmentRule" : "default_component_owner",
+    "comparisonSnapshotId" : null,
+    "reportTimestamp" : "2021-12-14T10:25:04.756Z",
+    "user" : "admin",
+    "command" : "C:\\Program Files\\Coverity\\Coverity Static Analysis\\bin\\cov-analyze --dir C:\\AEP\\AppScantool\\testweb\\idir --strip-path C:\\AEP\\AppScantool\\testweb --webapp-security --distrust-all --enable-audit-mode"
+  },
+  "issueInfo" : [ {
+    "cid" : 356381,
+    "mergeKey" : "6109e74425805a40af4421b1348bd89e",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "CONFIG.ASPNET_VERSION_HEADER",
+      "file" : "/testweb/obj/Release/TransformWebConfig/transformed/Web.config",
+      "function" : "unknown",
+      "extra" : "/transformed/Web.config",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 13,
+      "mainEventDescription" : "The Web.config configuration file does not set the \"enableVersionHeader\" flag to false in the \"<httpRuntime>\" element. When \"<httpRuntime>\" element is not explicitly defined, the default value of \"enableVersionHeader\" is true.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358452,
+    "mergeKey" : "13b3badf3a403046ca8c237d7ae5bd80",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "DOM_XSS",
+      "file" : "/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js",
+      "function" : "!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.access:%COND_fn",
+      "extra" : "@jQuery:\"!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.access:%COND_fn\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 534,
+      "mainEventDescription" : "Calling \"jQuery\" with the tainted value in \"elem\". This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358453,
+    "mergeKey" : "16c1a691e3fc399e34ad3cdd5b0006d1",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "DOM_XSS",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js",
+      "function" : "!jquery-1.10.2.js!%IIFE:%IIFE%1",
+      "extra" : "@jQuery:\"!jquery-1.10.2.js!%IIFE:%IIFE%1\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 3475,
+      "mainEventDescription" : "Calling \"jQuery\" with the tainted value in \"support\". This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358454,
+    "mergeKey" : "f9542537c49176ee828e045b7715c283",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "CONFIG.COOKIES_MISSING_HTTPONLY",
+      "file" : "/testweb/Web.Debug.config",
+      "function" : "unknown",
+      "extra" : "/testweb/Web.Debug.config",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 18,
+      "mainEventDescription" : "The Web.Debug.config configuration file does not set the \"HttpOnly\" flag in the cookies.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358455,
+    "mergeKey" : "aa1bc6bd0560446450323e5780aeff87",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "CONFIG.ENABLED_DEBUG_MODE",
+      "file" : "/testweb/Web.config",
+      "function" : "unknown",
+      "extra" : "/testweb/Web.config",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 14,
+      "mainEventDescription" : "Debug is enabled for the web application via the Web.config configuration file. Debug information will be displayed when the application is deployed into production. Because potentially sensitive data such as server configuration and internal state is included in this information, debug should be disabled in production applications.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358456,
+    "mergeKey" : "e71ae2c2fc66f7437fcb477c086b2522",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "DOM_XSS",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js",
+      "function" : "!jquery-1.10.2.js!%IIFE:jQuery.fn.load:%COND_%IPFE",
+      "extra" : "@\"parseHTML\",jQuery:\"!jquery-1.10.2.js!%IIFE:jQuery.fn.load:%COND_%IPFE\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 7771,
+      "mainEventDescription" : "Calling \"jQuery.parseHTML\" with the tainted value in \"responseText\". This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358457,
+    "mergeKey" : "8b1c50499255fc18761fc67fafc921bb",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "CONFIG.ASPNET_VERSION_HEADER",
+      "file" : "/testweb/Web.Debug.config",
+      "function" : "unknown",
+      "extra" : "/testweb/Web.Debug.config",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 18,
+      "mainEventDescription" : "The Web.Debug.config configuration file does not set the \"enableVersionHeader\" flag to false in the \"<httpRuntime>\" element. When \"<httpRuntime>\" element is not explicitly defined, the default value of \"enableVersionHeader\" is true.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358458,
+    "mergeKey" : "fa01c013842cfb5ec36e4266f453754a",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "CONFIG.ASPNET_VERSION_HEADER",
+      "file" : "/testweb/Web.Release.config",
+      "function" : "unknown",
+      "extra" : "/testweb/Web.Release.config",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 18,
+      "mainEventDescription" : "The Web.Release.config configuration file does not set the \"enableVersionHeader\" flag to false in the \"<httpRuntime>\" element. When \"<httpRuntime>\" element is not explicitly defined, the default value of \"enableVersionHeader\" is true.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356357,
+    "mergeKey" : "682a9eb5e8051b116a1687be1ed55325",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "NULL_RETURNS",
+      "file" : "/testweb/Scripts/jquery.validate-vsdoc.js",
+      "function" : "!jquery.validate-vsdoc.js!%IIFE:%IPOL.prototype.formatAndAdd",
+      "extra" : "defaultMessage,this",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 684,
+      "mainEventDescription" : "Accessing a property of null-like value \"message\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356251,
+    "mergeKey" : "b9a9d883a66e961aee39252fcf066ef8",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "CONFIG.ASPNET_VERSION_HEADER",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Web.config",
+      "function" : "unknown",
+      "extra" : "/PackageTmp/Web.config",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 13,
+      "mainEventDescription" : "The Web.config configuration file does not set the \"enableVersionHeader\" flag to false in the \"<httpRuntime>\" element. When \"<httpRuntime>\" element is not explicitly defined, the default value of \"enableVersionHeader\" is true.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356358,
+    "mergeKey" : "f14a176610df44dd8da907f234aa91b3",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "CONFIG.ASPNET_VERSION_HEADER",
+      "file" : "/testweb/obj/Release/TransformWebConfig/original/Web.config",
+      "function" : "unknown",
+      "extra" : "/original/Web.config",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 13,
+      "mainEventDescription" : "The Web.config configuration file does not set the \"enableVersionHeader\" flag to false in the \"<httpRuntime>\" element. When \"<httpRuntime>\" element is not explicitly defined, the default value of \"enableVersionHeader\" is true.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358459,
+    "mergeKey" : "ba38f51fbcb923170970f0171a38ace6",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "ASPNET_MVC_VERSION_HEADER",
+      "file" : "/testweb/Global.asax.cs",
+      "function" : "System.Void testweb.MvcApplication::Application_Start()",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 13,
+      "mainEventDescription" : "\"MvcHandler.DisableMvcResponseHeader\" should be set to \"true\" in method \"Application_Start\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358460,
+    "mergeKey" : "bb4d7ccf939e5500eb656add92a00c4c",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "DOM_XSS",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js",
+      "function" : "!jquery-1.10.2.js!%IIFE:jQuery.fn.load:%COND_%IPFE",
+      "extra" : "\"parseHTML\",jQuery:responseText",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 7771,
+      "mainEventDescription" : "Calling \"jQuery.parseHTML\" with the tainted value in \"responseText\". This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356255,
+    "mergeKey" : "123bda4f8d612cc03187a97630a2daca",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "CONFIG.COOKIES_MISSING_HTTPONLY",
+      "file" : "/testweb/obj/Release/TransformWebConfig/assist/Web.config",
+      "function" : "unknown",
+      "extra" : "/assist/Web.config",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 18,
+      "mainEventDescription" : "The Web.config configuration file does not set the \"HttpOnly\" flag in the cookies.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356775,
+    "mergeKey" : "754cfc1a52fd2d9b6b220d76aa973963",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "CONFIG.ASPNET_VERSION_HEADER",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Views/Web.config",
+      "function" : "unknown",
+      "extra" : "/Views/Web.config",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 36,
+      "mainEventDescription" : "The Web.config configuration file does not set the \"enableVersionHeader\" flag to false in the \"<httpRuntime>\" element. When \"<httpRuntime>\" element is not explicitly defined, the default value of \"enableVersionHeader\" is true.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    }, {
+      "checker" : "CONFIG.ASPNET_VERSION_HEADER",
+      "file" : "/testweb/Views/Web.config",
+      "function" : "unknown",
+      "extra" : "/Views/Web.config",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 36,
+      "mainEventDescription" : "The Web.config configuration file does not set the \"enableVersionHeader\" flag to false in the \"<httpRuntime>\" element. When \"<httpRuntime>\" element is not explicitly defined, the default value of \"enableVersionHeader\" is true.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358461,
+    "mergeKey" : "6826f4de14dc9087e7de728a79069616",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "DOM_XSS",
+      "file" : "/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js",
+      "function" : "!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.globalEval",
+      "extra" : "@\"execScript\",window:\"!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.globalEval\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 1868,
+      "mainEventDescription" : "Calling \"window.execScript || function\" with the tainted value in \"data\". This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358462,
+    "mergeKey" : "7b33ce4beab729a63fe91b3d9576cb67",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "URL_MANIPULATION",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js",
+      "function" : "!jquery-1.10.2.js!%IIFE:%IPOL._evalUrl",
+      "extra" : "@\"ajax\",jQuery:\"!jquery-1.10.2.js!%IIFE:%IPOL._evalUrl\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 6732,
+      "mainEventDescription" : "Calling \"jQuery.ajax\" with the tainted value in property \"url\" of \"{\"url\" : url, \"type\" : \"GET\", \"dataType\" : \"script\", \"async\" : false, \"global\" : false, \"throws\" : true}\". Constructing a URL using a tainted value. This may allow an attacker to access or modify critical or sensitive files, or redirect to a malicious website.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356448,
+    "mergeKey" : "47c9159020ed657317da222db28ad721",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "CSS_INJECTION",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/modernizr-2.6.2.js",
+      "function" : "!modernizr-2.6.2.js!%IIFE:setCss",
+      "extra" : "@\"cssText\",mStyle:\"!modernizr-2.6.2.js!%IIFE:setCss\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 313,
+      "mainEventDescription" : "Writing the tainted value to property \"cssText\" of \"mStyle\". Using untrusted data to construct a CSS element. An attacker may be able to exfiltrate sensitive information from the web page.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358463,
+    "mergeKey" : "2e689354f894f8564bd772eb3f4fd92e",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "URL_MANIPULATION",
+      "file" : "/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js",
+      "function" : "!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.post",
+      "extra" : "@\"ajax\",jQuery:\"!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.post\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 2377,
+      "mainEventDescription" : "Calling \"jQuery.ajax\" with the tainted value in property \"url\" of \"{\"url\" : url, \"type\" : method, \"dataType\" : type, \"data\" : data, \"success\" : callback}\". Constructing a URL using a tainted value. This may allow an attacker to access or modify critical or sensitive files, or redirect to a malicious website.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358464,
+    "mergeKey" : "68af9a053baa995e7bae4afd3e8f593f",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "DOM_XSS",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js",
+      "function" : "!jquery-1.10.2.js!%IIFE:%IPOL.globalEval",
+      "extra" : "@\"execScript\",window:\"!jquery-1.10.2.js!%IIFE:%IPOL.globalEval\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 625,
+      "mainEventDescription" : "Calling \"window.execScript || function\" with the tainted value in \"data\". This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358465,
+    "mergeKey" : "1fbec03665820953a2ea9e3866d5b51c",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "URL_MANIPULATION",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js",
+      "function" : "!jquery-1.10.2.js!%IIFE:%IPOL.getJSON",
+      "extra" : "@\"get\",jQuery:\"!jquery-1.10.2.js!%IIFE:%IPOL.getJSON\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 8279,
+      "mainEventDescription" : "Calling \"jQuery.get\" with the tainted value in \"url\". Constructing a URL using a tainted value. This may allow an attacker to access or modify critical or sensitive files, or redirect to a malicious website.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358466,
+    "mergeKey" : "878e77691277b68a3f8cb261c038db80",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "CONFIG.ASPNET_VERSION_HEADER",
+      "file" : "/testweb/Web.config",
+      "function" : "unknown",
+      "extra" : "/testweb/Web.config",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 13,
+      "mainEventDescription" : "The Web.config configuration file does not set the \"enableVersionHeader\" flag to false in the \"<httpRuntime>\" element. When \"<httpRuntime>\" element is not explicitly defined, the default value of \"enableVersionHeader\" is true.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358467,
+    "mergeKey" : "12ec5505b7bcb200cabe4bfe5abf37a8",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "CONFIG.HARDCODED_CREDENTIALS_AUDIT",
+      "file" : "/seeker/seeker.properties",
+      "function" : "unknown",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "hardcoded_credentials_audit",
+      "mainEventLineNumber" : 5,
+      "mainEventDescription" : "The credential is hardcoded in the configuration file.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358468,
+    "mergeKey" : "abb3bc39ecf4860fcf40ba34a0df7b26",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "DOM_XSS",
+      "file" : "/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js",
+      "function" : "!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.add",
+      "extra" : "@jQuery:\"!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.add\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 2993,
+      "mainEventDescription" : "Calling \"jQuery\" with the tainted value in \"selector\". This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356376,
+    "mergeKey" : "365129183d81597ad24b198209753b9c",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "CONFIG.COOKIES_MISSING_HTTPONLY",
+      "file" : "/testweb/obj/Release/TransformWebConfig/original/Web.config",
+      "function" : "unknown",
+      "extra" : "/original/Web.config",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 13,
+      "mainEventDescription" : "The Web.config configuration file does not set the \"HttpOnly\" flag in the cookies.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358469,
+    "mergeKey" : "e1925efe44ab8e4449f5fc253d5cf149",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "CONFIG.COOKIES_MISSING_HTTPONLY",
+      "file" : "/testweb/Web.config",
+      "function" : "unknown",
+      "extra" : "/testweb/Web.config",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 13,
+      "mainEventDescription" : "The Web.config configuration file does not set the \"HttpOnly\" flag in the cookies.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356274,
+    "mergeKey" : "85fa4d40d1b5c68ab391febb2332d30c",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "LOCALSTORAGE_WRITE",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/modernizr-2.6.2.js",
+      "function" : "!modernizr-2.6.2.js!%IIFE:tests.localstorage",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 813,
+      "mainEventDescription" : "Writing to \"localStorage\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356880,
+    "mergeKey" : "544cae01672624ddc2d4220197039e84",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "CSS_INJECTION",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/modernizr-2.6.2.js",
+      "function" : "!modernizr-2.6.2.js!%IIFE:%IIFE:isEventSupported",
+      "extra" : "@\"setAttribute\",element:\"!modernizr-2.6.2.js!%IIFE:%IIFE:isEventSupported\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 230,
+      "mainEventDescription" : "Calling \"element.setAttribute\" with the tainted value in \"eventName\". Using untrusted data to construct a CSS element. An attacker may be able to exfiltrate sensitive information from the web page.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358470,
+    "mergeKey" : "d0690913233f0b9fe4002d1678b14251",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "DOM_XSS",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js",
+      "function" : "!jquery-1.10.2.js!%IIFE:jQuery.prototype.init",
+      "extra" : "@\"parseHTML\",jQuery:\"!jquery-1.10.2.js!%IIFE:jQuery.prototype.init\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 164,
+      "mainEventDescription" : "Calling \"jQuery.parseHTML\" with the tainted value in \"match[1]\". This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358201,
+    "mergeKey" : "dd166f7d691e55975e482a06eb88e53f",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-07T14:07:27.486Z",
+    "occurrences" : [ {
+      "checker" : "DOM_XSS",
+      "file" : "/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js",
+      "function" : "!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.load:%COND_%IPFE",
+      "extra" : "\"parseHTML\",jQuery:responseText",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 4766,
+      "mainEventDescription" : "Calling \"jQuery.parseHTML\" with the tainted value in \"responseText\". This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358471,
+    "mergeKey" : "777c5f7d7386dcd5776278ec26078855",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "DOM_XSS",
+      "file" : "/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js",
+      "function" : "!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.delay:%IPFE",
+      "extra" : "@\"setTimeout\":\"!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.delay:%IPFE\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 3640,
+      "mainEventDescription" : "Calling \"setTimeout\" with the tainted value in \"next\". This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358472,
+    "mergeKey" : "9d75efb7b86378a91ee52b8c186f459d",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "URL_MANIPULATION",
+      "file" : "/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js",
+      "function" : "!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.getJSON",
+      "extra" : "@\"get\",jQuery:\"!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.getJSON\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 1841,
+      "mainEventDescription" : "Calling \"jQuery.get\" with the tainted value in \"url\". Constructing a URL using a tainted value. This may allow an attacker to access or modify critical or sensitive files, or redirect to a malicious website.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356283,
+    "mergeKey" : "21fbb610496033470cc05704a7dda327",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "DOM_XSS",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/modernizr-2.6.2.js",
+      "function" : "!modernizr-2.6.2.js!%IIFE:injectElementWithStyles",
+      "extra" : "@\"innerHTML\",body,div,fakeBody:\"!modernizr-2.6.2.js!%IIFE:injectElementWithStyles\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 148,
+      "mainEventDescription" : "Writing the tainted value to property \"innerHTML\" of \"body ? div : fakeBody\". This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358473,
+    "mergeKey" : "7651caab0cb79a94cdd5b0b77cdccebd",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "URL_MANIPULATION",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js",
+      "function" : "!jquery-1.10.2.js!%IIFE:%IPOL.getScript",
+      "extra" : "@\"get\",jQuery:\"!jquery-1.10.2.js!%IIFE:%IPOL.getScript\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 8283,
+      "mainEventDescription" : "Calling \"jQuery.get\" with the tainted value in \"url\". Constructing a URL using a tainted value. This may allow an attacker to access or modify critical or sensitive files, or redirect to a malicious website.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356469,
+    "mergeKey" : "f75cea68106ee563a075008a023a15a1",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "SCRIPT_CODE_INJECTION",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/bootstrap.js",
+      "function" : "!bootstrap.js!%IIFE%11:Affix.prototype.checkPositionWithEventLoop",
+      "extra" : "@\"setTimeout\":\"proxy\",$",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 1934,
+      "mainEventDescription" : "Calling \"setTimeout\" with the tainted value in \"$.proxy(this.checkPosition, this)\". This passes the tainted value to the code evaluation API and may thus allow an attacker to modify the behavior of the program.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358474,
+    "mergeKey" : "bb5598490e5017ddaa2c0173ba62a19f",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "DOM_XSS",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js",
+      "function" : "!jquery-1.10.2.js!%IIFE:%IPOL.add",
+      "extra" : "@jQuery:\"!jquery-1.10.2.js!%IIFE:%IPOL.add\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 5837,
+      "mainEventDescription" : "Calling \"jQuery\" with the tainted value in \"selector\". This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    }, {
+      "checker" : "DOM_XSS",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js",
+      "function" : "!jquery-1.10.2.js!%IIFE:%IPOL.add",
+      "extra" : "@jQuery:\"!jquery-1.10.2.js!%IIFE:%IPOL.add\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 5837,
+      "mainEventDescription" : "Calling \"jQuery\". This call uses \"selector\" for sensitive computation.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358475,
+    "mergeKey" : "69c27e3c3afeba797dea337bdb8078c3",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "URL_MANIPULATION",
+      "file" : "/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js",
+      "function" : "!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.getScript",
+      "extra" : "@\"get\",jQuery:\"!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.getScript\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 1854,
+      "mainEventDescription" : "Calling \"jQuery.get\" with the tainted value in \"url\". Constructing a URL using a tainted value. This may allow an attacker to access or modify critical or sensitive files, or redirect to a malicious website.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356647,
+    "mergeKey" : "73e48857ac8b87152adcd4d39754eac1",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "REGEX_INJECTION",
+      "file" : "/testweb/Scripts/jquery.validate-vsdoc.js",
+      "function" : "!jquery.validate-vsdoc.js!%IIFE:$.validator.format:%IPFE",
+      "extra" : "@\"RegExp\":\"!jquery.validate-vsdoc.js!%IIFE:$.validator.format:%IPFE\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 263,
+      "mainEventDescription" : "Calling \"RegExp\" with the tainted value in \"\"\\\\{\" + i + \"\\\\}\"\". This constructs a regular expression using the tainted value and may thus allow an attacker to retrieve sensitive information or alter the behavior of the program.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356895,
+    "mergeKey" : "975771c9fc2426b53224f8191831a5bf",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "SCRIPT_CODE_INJECTION",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/bootstrap.js",
+      "function" : "!bootstrap.js!%IIFE%3:Carousel.prototype.cycle",
+      "extra" : "@\"setInterval\":\"proxy\",$",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 340,
+      "mainEventDescription" : "Calling \"setInterval\" with the tainted value in \"$.proxy(this.next, this)\". This passes the tainted value to the code evaluation API and may thus allow an attacker to modify the behavior of the program.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356653,
+    "mergeKey" : "77842d84367b56b0bea95a75e67e1dc6",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "REGEX_INJECTION",
+      "file" : "/testweb/Scripts/jquery.validate-vsdoc.js",
+      "function" : "!jquery.validate-vsdoc.js!%IIFE:%IPOL.methods.accept",
+      "extra" : "@\"RegExp\":\"!jquery.validate-vsdoc.js!%IIFE:%IPOL.methods.accept\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 1204,
+      "mainEventDescription" : "Calling \"RegExp\" with the tainted value in \"\".(\" + param + \")$\"\". This constructs a regular expression using the tainted value and may thus allow an attacker to retrieve sensitive information or alter the behavior of the program.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356660,
+    "mergeKey" : "c87980e67a7601c5cea843d5baf8fe91",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "CONFIG.ENABLED_DEBUG_MODE",
+      "file" : "/testweb/obj/Release/TransformWebConfig/original/Web.config",
+      "function" : "unknown",
+      "extra" : "/original/Web.config",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 14,
+      "mainEventDescription" : "Debug is enabled for the web application via the Web.config configuration file. Debug information will be displayed when the application is deployed into production. Because potentially sensitive data such as server configuration and internal state is included in this information, debug should be disabled in production applications.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356662,
+    "mergeKey" : "620750fc271942fc5ca3f223a79939ce",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "NULL_RETURNS",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery.validate.js",
+      "function" : "!jquery.validate.js!%IIFE:%IPOL.prototype.formatAndAdd",
+      "extra" : "defaultMessage,this",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 637,
+      "mainEventDescription" : "Accessing a property of null-like value \"message\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358476,
+    "mergeKey" : "5cdd366b04d9b089d3b0578d44273802",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "DOM_XSS",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js",
+      "function" : "!jquery-1.10.2.js!%IIFE:jQuery",
+      "extra" : "@\"fn\",\"init\",jQuery:\"!jquery-1.10.2.js!%IIFE:jQuery\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 77,
+      "mainEventDescription" : "Calling \"jQuery.fn.init\". This call uses \"selector\" for sensitive computation.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356802,
+    "mergeKey" : "76d6d8589aa87e7f702e209bf8aba01e",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "REGEX_INJECTION",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery.validate.unobtrusive.js",
+      "function" : "!jquery.validate.unobtrusive.js!%IIFE:%IPFE%1",
+      "extra" : "@\"RegExp\":\"!jquery.validate.unobtrusive.js!%IIFE:%IPFE%1\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 348,
+      "mainEventDescription" : "Calling \"RegExp\" with the tainted value in \"params\". This constructs a regular expression using the tainted value and may thus allow an attacker to retrieve sensitive information or alter the behavior of the program.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358477,
+    "mergeKey" : "51cc678cd4f44d9f382ab6b76a6b2816",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "URL_MANIPULATION",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js",
+      "function" : "!jquery-1.10.2.js!%IIFE:%IPFE%12:%ANONYMOUS",
+      "extra" : "@\"ajax\",jQuery:\"!jquery-1.10.2.js!%IIFE:%IPFE%12:%ANONYMOUS\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 8296,
+      "mainEventDescription" : "Calling \"jQuery.ajax\" with the tainted value in property \"url\" of \"{\"url\" : url, \"type\" : method, \"dataType\" : type, \"data\" : data, \"success\" : callback}\". Constructing a URL using a tainted value. This may allow an attacker to access or modify critical or sensitive files, or redirect to a malicious website.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358478,
+    "mergeKey" : "6af3dd498da21b9ad980b2403872e501",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "REGEX_INJECTION",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js",
+      "function" : "!jquery-1.10.2.js!%IIFE:jQuery.event.trigger",
+      "extra" : "@\"RegExp\":\"!jquery-1.10.2.js!%IIFE:jQuery.event.trigger\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 4970,
+      "mainEventDescription" : "Calling \"RegExp\" with the tainted value in \"\"(^|\\\\.)\" + namespaces.join(\"\\\\.(?:.*\\\\.|)\") + \"(\\\\.|$)\"\". This constructs a regular expression using the tainted value and may thus allow an attacker to retrieve sensitive information or alter the behavior of the program.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358484,
+    "mergeKey" : "69a88177ee996aede311f2726d8135e3",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "REGEX_INJECTION",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js",
+      "function" : "!jquery-1.10.2.js!%IIFE:%IIFE:Sizzle.selectors.filter.CLASS",
+      "extra" : "@\"RegExp\":\"!jquery-1.10.2.js!%IIFE:%IIFE:Sizzle.selectors.filter.CLASS\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 2040,
+      "mainEventDescription" : "Calling \"RegExp\" with the tainted value in \"\"(^|\" + whitespace + \")\" + className + \"(\" + whitespace + \"|$)\"\". This constructs a regular expression using the tainted value and may thus allow an attacker to retrieve sensitive information or alter the behavior of the program.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356491,
+    "mergeKey" : "cc46b049d3d4fed5c168fb35b4239754",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "CONFIG.COOKIES_MISSING_HTTPONLY",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Views/Web.config",
+      "function" : "unknown",
+      "extra" : "/Views/Web.config",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 36,
+      "mainEventDescription" : "The Web.config configuration file does not set the \"HttpOnly\" flag in the cookies.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    }, {
+      "checker" : "CONFIG.COOKIES_MISSING_HTTPONLY",
+      "file" : "/testweb/Views/Web.config",
+      "function" : "unknown",
+      "extra" : "/Views/Web.config",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 36,
+      "mainEventDescription" : "The Web.config configuration file does not set the \"HttpOnly\" flag in the cookies.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356585,
+    "mergeKey" : "634be52c8530066c3e3ff16987ba361c",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "DOM_XSS",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/bootstrap.js",
+      "function" : "!bootstrap.js!%IIFE%11:Affix.prototype.checkPositionWithEventLoop",
+      "extra" : "@\"setTimeout\":\"proxy\",$",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 1934,
+      "mainEventDescription" : "Calling \"setTimeout\" with the tainted value in \"$.proxy(this.checkPosition, this)\". This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358487,
+    "mergeKey" : "51be26832547d5efe8353062ad0e64b5",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "DOM_XSS",
+      "file" : "/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js",
+      "function" : "!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.load:%COND_%IPFE",
+      "extra" : "@\"parseHTML\",jQuery:\"!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.load:%COND_%IPFE\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 4766,
+      "mainEventDescription" : "Calling \"jQuery.parseHTML\" with the tainted value in \"responseText\". This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358479,
+    "mergeKey" : "ed0f94cafed0982e9346649935adc518",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "DOM_XSS",
+      "file" : "/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js",
+      "function" : "!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.init",
+      "extra" : "@\"parseHTML\",jQuery:\"!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.init\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 4414,
+      "mainEventDescription" : "Calling \"jQuery.parseHTML\" with the tainted value in \"match[1]\". This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358480,
+    "mergeKey" : "c864f2ea17ebe0be646df73acb06e825",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "DOM_XSS",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js",
+      "function" : "!jquery-1.10.2.js!%IIFE:%IPOL.delay:%IPFE",
+      "extra" : "@\"setTimeout\":\"!jquery-1.10.2.js!%IIFE:%IPOL.delay:%IPFE\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 4021,
+      "mainEventDescription" : "Calling \"setTimeout\" with the tainted value in \"next\". This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358481,
+    "mergeKey" : "545ce42972b792accc5aec0bb496ede5",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "URL_MANIPULATION",
+      "file" : "/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js",
+      "function" : "!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.get",
+      "extra" : "@\"ajax\",jQuery:\"!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.get\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 1819,
+      "mainEventDescription" : "Calling \"jQuery.ajax\" with the tainted value in property \"url\" of \"{\"url\" : url, \"type\" : method, \"dataType\" : type, \"data\" : data, \"success\" : callback}\". Constructing a URL using a tainted value. This may allow an attacker to access or modify critical or sensitive files, or redirect to a malicious website.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356415,
+    "mergeKey" : "8f18ced7ab28e9b91edf697467d7de77",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "CONFIG.ASPNET_VERSION_HEADER",
+      "file" : "/testweb/obj/Release/TransformWebConfig/assist/Web.config",
+      "function" : "unknown",
+      "extra" : "/assist/Web.config",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 18,
+      "mainEventDescription" : "The Web.config configuration file does not set the \"enableVersionHeader\" flag to false in the \"<httpRuntime>\" element. When \"<httpRuntime>\" element is not explicitly defined, the default value of \"enableVersionHeader\" is true.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358483,
+    "mergeKey" : "cf88862dbd4ebbd9022afad5f75460b4",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "CONFIG.ENABLED_DEBUG_MODE",
+      "file" : "/testweb/bin/testweb.dll.config",
+      "function" : "unknown",
+      "extra" : "/bin/testweb.dll.config",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 14,
+      "mainEventDescription" : "Debug is enabled for the web application via the testweb.dll.config configuration file. Debug information will be displayed when the application is deployed into production. Because potentially sensitive data such as server configuration and internal state is included in this information, debug should be disabled in production applications.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358485,
+    "mergeKey" : "4f3c2b4b4d4e76da558963aacb197333",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "DOM_XSS",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js",
+      "function" : "!jquery-1.10.2.js!%IIFE:jQuery.prototype.init",
+      "extra" : "@\"constructor\",this:\"!jquery-1.10.2.js!%IIFE:jQuery.prototype.init\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 216,
+      "mainEventDescription" : "Calling \"this.constructor\" with the tainted value in \"context\". This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356911,
+    "mergeKey" : "1cacaba745a738013a8ba674af6e5125",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "DOM_XSS",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/modernizr-2.6.2.js",
+      "function" : "!modernizr-2.6.2.js!%IIFE:%IIFE%1:addStyleSheet",
+      "extra" : "@\"innerHTML\",p:\"!modernizr-2.6.2.js!%IIFE:%IIFE%1:addStyleSheet\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 1094,
+      "mainEventDescription" : "Writing the tainted value to property \"innerHTML\" of \"p\". This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358486,
+    "mergeKey" : "ad456caf8f3699de3e13000ba146f5ed",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "SCRIPT_CODE_INJECTION",
+      "file" : "/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js",
+      "function" : "!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.delay:%IPFE",
+      "extra" : "@\"setTimeout\":\"!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.delay:%IPFE\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 3640,
+      "mainEventDescription" : "Calling \"setTimeout\" with the tainted value in \"next\". This passes the tainted value to the code evaluation API and may thus allow an attacker to modify the behavior of the program.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356314,
+    "mergeKey" : "1bcf2517fb69d6d4e5c8fb1611d42b8d",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "DOM_XSS",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/respond.js",
+      "function" : "!respond.js!%IIFE:%ANONYMOUS",
+      "extra" : "@\"innerHTML\",div:\"!respond.js!%IIFE:%ANONYMOUS\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 33,
+      "mainEventDescription" : "Writing the tainted value to property \"innerHTML\" of \"div\". This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356424,
+    "mergeKey" : "8e166588bb4d571c8931c1130df652b7",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "CONFIG.COOKIES_MISSING_HTTPONLY",
+      "file" : "/testweb/obj/Release/TransformWebConfig/transformed/Web.config",
+      "function" : "unknown",
+      "extra" : "/transformed/Web.config",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 13,
+      "mainEventDescription" : "The Web.config configuration file does not set the \"HttpOnly\" flag in the cookies.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356677,
+    "mergeKey" : "8c2e2ee386aa4527a0b618aa99df7e5c",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "CONFIG.COOKIES_MISSING_HTTPONLY",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Web.config",
+      "function" : "unknown",
+      "extra" : "/PackageTmp/Web.config",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 13,
+      "mainEventDescription" : "The Web.config configuration file does not set the \"HttpOnly\" flag in the cookies.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358482,
+    "mergeKey" : "1c84863c83d37807b5a0e556a95fd25b",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "CONFIG.COOKIES_MISSING_HTTPONLY",
+      "file" : "/testweb/bin/testweb.dll.config",
+      "function" : "unknown",
+      "extra" : "/bin/testweb.dll.config",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 13,
+      "mainEventDescription" : "The testweb.dll.config configuration file does not set the \"HttpOnly\" flag in the cookies.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358491,
+    "mergeKey" : "17f4f97fcfbc3161e0b0ae4d3a802552",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "INSECURE_RANDOM",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js",
+      "function" : "!jquery-1.10.2.js!%IIFE:%IIFE:matcherFromGroupMatchers:superMatcher",
+      "extra" : "\"Math\",\"random\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "insecure_random_value",
+      "mainEventLineNumber" : 2738,
+      "mainEventDescription" : "Calling \"Math.random\" creates an insecure random value.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358494,
+    "mergeKey" : "5860baad90ca19b011f7bcdbf4c72aab",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "URL_MANIPULATION",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js",
+      "function" : "!jquery-1.10.2.js!%IIFE:jQuery.fn.load",
+      "extra" : "@\"ajax\",jQuery:\"!jquery-1.10.2.js!%IIFE:jQuery.fn.load\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 7759,
+      "mainEventDescription" : "Calling \"jQuery.ajax\" with the tainted value in property \"url\" of \"{\"url\" : url, \"type\" : type, \"dataType\" : \"html\", \"data\" : params}\". Constructing a URL using a tainted value. This may allow an attacker to access or modify critical or sensitive files, or redirect to a malicious website.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358495,
+    "mergeKey" : "69dc1948d25ab769a2605ecfe4c7807c",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "CONFIG.ASPNET_VERSION_HEADER",
+      "file" : "/testweb/bin/testweb.dll.config",
+      "function" : "unknown",
+      "extra" : "/bin/testweb.dll.config",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 13,
+      "mainEventDescription" : "The testweb.dll.config configuration file does not set the \"enableVersionHeader\" flag to false in the \"<httpRuntime>\" element. When \"<httpRuntime>\" element is not explicitly defined, the default value of \"enableVersionHeader\" is true.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358488,
+    "mergeKey" : "b6843a3ebe687c08e1719fddd80d2d0f",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "CONFIG.COOKIES_MISSING_HTTPONLY",
+      "file" : "/testweb/Web.Release.config",
+      "function" : "unknown",
+      "extra" : "/testweb/Web.Release.config",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 18,
+      "mainEventDescription" : "The Web.Release.config configuration file does not set the \"HttpOnly\" flag in the cookies.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C#"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358489,
+    "mergeKey" : "85886643fd0319b9f6418a16f58b40e5",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "DOM_XSS",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js",
+      "function" : "!jquery-1.10.2.js!%IIFE:%IPOL.converters.text?0020script",
+      "extra" : "@\"globalEval\",jQuery:\"!jquery-1.10.2.js!%IIFE:%IPOL.converters.text?0020script\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 8465,
+      "mainEventDescription" : "Calling \"jQuery.globalEval\" with the tainted value in \"text\". This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358490,
+    "mergeKey" : "1c33d7d702b02955ac30779daf7e3dd6",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "INSECURE_RANDOM",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js",
+      "function" : "!jquery-1.10.2.js!%IIFE",
+      "extra" : "\"Math\",\"random\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "insecure_random_value",
+      "mainEventLineNumber" : 395,
+      "mainEventDescription" : "Calling \"Math.random\" creates an insecure random value.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356760,
+    "mergeKey" : "74e3a0448233d118ceb0aa90db038dd3",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "DOM_XSS",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/bootstrap.js",
+      "function" : "!bootstrap.js!%IIFE%3:Carousel.prototype.cycle",
+      "extra" : "@\"setInterval\":\"proxy\",$",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 340,
+      "mainEventDescription" : "Calling \"setInterval\" with the tainted value in \"$.proxy(this.next, this)\". This allows a cross-site scripting attack: an attacker can execute arbitrary JavaScript code in another user's web browser.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358492,
+    "mergeKey" : "6f1194f89b003b2984fb985fc08f4161",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "SCRIPT_CODE_INJECTION",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js",
+      "function" : "!jquery-1.10.2.js!%IIFE:%IPOL.delay:%IPFE",
+      "extra" : "@\"setTimeout\":\"!jquery-1.10.2.js!%IIFE:%IPOL.delay:%IPFE\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 4021,
+      "mainEventDescription" : "Calling \"setTimeout\" with the tainted value in \"next\". This passes the tainted value to the code evaluation API and may thus allow an attacker to modify the behavior of the program.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 356527,
+    "mergeKey" : "c0b141b7f2924ca9d2b624e314e5fc66",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-11-19T19:56:16.013Z",
+    "occurrences" : [ {
+      "checker" : "REGEX_INJECTION",
+      "file" : "/testweb/obj/Release/Package/PackageTmp/Scripts/jquery.validate.js",
+      "function" : "!jquery.validate.js!%IIFE:$.validator.format:%IPFE",
+      "extra" : "@\"RegExp\":\"!jquery.validate.js!%IIFE:$.validator.format:%IPFE\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 219,
+      "mainEventDescription" : "Calling \"RegExp\" with the tainted value in \"\"\\\\{\" + i + \"\\\\}\"\". This constructs a regular expression using the tainted value and may thus allow an attacker to retrieve sensitive information or alter the behavior of the program.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358493,
+    "mergeKey" : "6fc53867d71e8f6ce6f682346a2db741",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "URL_MANIPULATION",
+      "file" : "/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js",
+      "function" : "!jquery-1.10.2-vsdoc.js!%IIFE:jQuery._evalUrl",
+      "extra" : "@\"ajax\",jQuery:\"!jquery-1.10.2-vsdoc.js!%IIFE:jQuery._evalUrl\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 468,
+      "mainEventDescription" : "Calling \"jQuery.ajax\" with the tainted value in property \"url\" of \"{\"url\" : url, \"type\" : \"GET\", \"dataType\" : \"script\", \"async\" : false, \"global\" : false, \"throws\" : true}\". Constructing a URL using a tainted value. This may allow an attacker to access or modify critical or sensitive files, or redirect to a malicious website.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358496,
+    "mergeKey" : "63770cad940aca27ddf098515e7565c1",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2021-12-14T10:25:04.756Z",
+    "occurrences" : [ {
+      "checker" : "URL_MANIPULATION",
+      "file" : "/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js",
+      "function" : "!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.load",
+      "extra" : "@\"ajax\",jQuery:\"!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.load\"",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 4754,
+      "mainEventDescription" : "Calling \"jQuery.ajax\" with the tainted value in property \"url\" of \"{\"url\" : url, \"type\" : type, \"dataType\" : \"html\", \"data\" : params}\". Constructing a URL using a tainted value. This may allow an attacker to access or modify critical or sensitive files, or redirect to a malicious website.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "JavaScript"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  } ]
+}

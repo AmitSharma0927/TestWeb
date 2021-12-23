@@ -1,0 +1,1258 @@
+No type resolving constraints for class RouteCollection referenced from C:/AEP/AppScantool/testweb/testweb/App_Start/RouteConfig.cs (TU 205) was found
+No type resolving constraints for class System.Web.HttpApplication referenced from C:/AEP/AppScantool/testweb/testweb/Global.asax.cs (TU 202) was found
+Generated classes:
+class Accessibility.IAccessible {
+}
+class Microsoft.Ajax.Utilities.CodeSettings {
+  public virtual void set_EvalTreatment(Microsoft.Ajax.Utilities.EvalTreatment);
+  public virtual void set_PreserveImportantComments(bool);
+  public CodeSettings();
+}
+class Microsoft.Ajax.Utilities.ContextError {
+}
+struct Microsoft.Ajax.Utilities.CssComment {
+}
+class Microsoft.Ajax.Utilities.CssSettings {
+  public virtual void set_CommentMode(Microsoft.Ajax.Utilities.CssComment);
+  public CssSettings();
+}
+struct Microsoft.Ajax.Utilities.EvalTreatment {
+}
+class Microsoft.Ajax.Utilities.Minifier {
+  public virtual System.String MinifyJavaScript(System.String, Microsoft.Ajax.Utilities.CodeSettings);
+  public virtual System.String MinifyStyleSheet(System.String, Microsoft.Ajax.Utilities.CssSettings);
+  public virtual System.Collections.Generic.ICollection<Microsoft.Ajax.Utilities.ContextError> get_ErrorList();
+  public Minifier();
+}
+AK_NONE class RouteCollection {
+}
+struct System.Boolean {
+  public override bool Equals(System.Object);
+  public override System.String ToString();
+  public virtual sealed System.String ToString(System.IFormatProvider);
+  public static bool Parse(System.String);
+  public static bool TryParse(System.String, out bool);
+}
+class System.Collections.Concurrent.ConcurrentDictionary<T0,T1> {
+  public virtual sealed bool ContainsKey(!0);
+  public virtual sealed bool TryGetValue(!0, out !1);
+  public virtual sealed System.Collections.Generic.ICollection<!1> Values { get; }
+  public !1 GetOrAdd(!0, System.Func<!0,!1>);
+  public bool TryAdd(!0, !1);
+  public ConcurrentDictionary();
+  public ConcurrentDictionary(System.Collections.Generic.IEqualityComparer<!0>);
+}
+class System.Collections.Concurrent.ConcurrentQueue<T0> {
+  public virtual sealed int Count { get; }
+  public void Enqueue(!0);
+  public bool TryDequeue(out !0);
+  public ConcurrentQueue();
+}
+class System.Collections.Generic.CollectionExtensions {
+  public static !!0[] AsArray<M0>(System.Collections.Generic.IEnumerable<!!0>);
+  public static System.Collections.Generic.List<!!0> AsList<M0>(System.Collections.Generic.IEnumerable<!!0>);
+  public static void RemoveFrom<M0>(System.Collections.Generic.List<!!0>, int);
+  public static !!0 SingleDefaultOrError<M0, M1>(System.Collections.Generic.IList<!!0>, System.Action<!!1>, !!1);
+  public static !!1 SingleOfTypeDefaultOrError<M0, M1, M2>(System.Collections.Generic.IList<!!0>, System.Action<!!2>, !!2);
+  public static !!0[] ToArrayWithoutNulls<M0>(System.Collections.Generic.ICollection<!!0>);
+  public static System.Collections.Generic.Dictionary<!!0,!!1> ToDictionaryFast<M0, M1>(!!1[], System.Func<!!1,!!0>, System.Collections.Generic.IEqualityComparer<!!0>);
+}
+class System.Collections.Generic.Dictionary<T0,T1> {
+  public virtual sealed void Add(!0, !1);
+  public virtual sealed void Clear();
+  public virtual sealed bool ContainsKey(!0);
+  public virtual sealed bool Remove(!0);
+  public virtual sealed bool TryGetValue(!0, out !1);
+  public virtual sealed int Count { get; }
+  public virtual sealed !1 this[!0] { get; set; }
+  public bool ContainsValue(!1);
+  public System.Collections.Generic.Dictionary<!0,!1>.Enumerator GetEnumerator();
+  public System.Collections.Generic.IEqualityComparer<!0> Comparer { get; }
+  public System.Collections.Generic.Dictionary<!0,!1>.KeyCollection Keys { get; }
+  public System.Collections.Generic.Dictionary<!0,!1>.ValueCollection Values { get; }
+  public Dictionary();
+  public Dictionary(System.Collections.Generic.IDictionary<!0,!1>);
+  public Dictionary(System.Collections.Generic.IDictionary<!0,!1>, System.Collections.Generic.IEqualityComparer<!0>);
+  public Dictionary(System.Collections.Generic.IEqualityComparer<!0>);
+  public Dictionary(int);
+  public Dictionary(int, System.Collections.Generic.IEqualityComparer<!0>);
+}
+class System.Collections.Generic.IDictionary<T0,T1> {
+  public abstract void Add(!0, !1);
+  public abstract bool ContainsKey(!0);
+  public abstract bool Remove(!0);
+  public abstract bool TryGetValue(!0, out !1);
+  public virtual abstract !1 this[!0] { get; set; }
+  public virtual abstract System.Collections.Generic.ICollection<!0> Keys { get; }
+  public virtual abstract System.Collections.Generic.ICollection<!1> Values { get; }
+}
+class System.ComponentModel.DataAnnotations.AssociatedMetadataTypeTypeDescriptionProvider {
+  public AssociatedMetadataTypeTypeDescriptionProvider(System.Type);
+}
+class System.ComponentModel.DataAnnotations.CompareAttribute {
+  public virtual System.String get_OtherProperty();
+  public virtual System.String get_OtherPropertyDisplayName();
+  public CompareAttribute(System.String);
+}
+class System.ComponentModel.DataAnnotations.CreditCardAttribute {
+}
+struct System.ComponentModel.DataAnnotations.DataType {
+}
+class System.ComponentModel.DataAnnotations.DataTypeAttribute {
+  public virtual System.String GetDataTypeName();
+  public virtual System.ComponentModel.DataAnnotations.DataType get_DataType();
+  public virtual System.ComponentModel.DataAnnotations.DisplayFormatAttribute get_DisplayFormat();
+}
+class System.ComponentModel.DataAnnotations.DisplayAttribute {
+  public virtual System.String GetDescription();
+  public virtual System.String GetName();
+  public virtual int? GetOrder();
+  public virtual System.String GetPrompt();
+  public virtual System.String GetShortName();
+}
+class System.ComponentModel.DataAnnotations.DisplayColumnAttribute {
+  public virtual System.String get_DisplayColumn();
+}
+class System.ComponentModel.DataAnnotations.DisplayFormatAttribute {
+  public virtual bool get_ApplyFormatInEditMode();
+  public virtual bool get_ConvertEmptyStringToNull();
+  public virtual System.String get_DataFormatString();
+  public virtual bool get_HtmlEncode();
+  public virtual System.String get_NullDisplayText();
+}
+class System.ComponentModel.DataAnnotations.EditableAttribute {
+  public virtual bool get_AllowEdit();
+}
+class System.ComponentModel.DataAnnotations.EmailAddressAttribute {
+}
+class System.ComponentModel.DataAnnotations.FileExtensionsAttribute {
+  public virtual System.String get_Extensions();
+}
+class System.ComponentModel.DataAnnotations.IValidatableObject {
+  public virtual System.Collections.Generic.IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> Validate(System.ComponentModel.DataAnnotations.ValidationContext);
+}
+class System.ComponentModel.DataAnnotations.MaxLengthAttribute {
+  public virtual int get_Length();
+}
+class System.ComponentModel.DataAnnotations.MinLengthAttribute {
+  public virtual int get_Length();
+}
+class System.ComponentModel.DataAnnotations.PhoneAttribute {
+}
+class System.ComponentModel.DataAnnotations.RangeAttribute {
+  public virtual System.Object get_Maximum();
+  public virtual System.Object get_Minimum();
+  public RangeAttribute(double, double);
+  public RangeAttribute(int, int);
+}
+class System.ComponentModel.DataAnnotations.RegularExpressionAttribute {
+  public virtual System.String get_Pattern();
+  public RegularExpressionAttribute(System.String);
+}
+class System.ComponentModel.DataAnnotations.RequiredAttribute {
+  public RequiredAttribute();
+}
+class System.ComponentModel.DataAnnotations.ScaffoldColumnAttribute {
+  public virtual bool get_Scaffold();
+}
+class System.ComponentModel.DataAnnotations.StringLengthAttribute {
+  public virtual int get_MaximumLength();
+  public virtual int get_MinimumLength();
+  public virtual void set_MinimumLength(int);
+  public StringLengthAttribute(int);
+}
+class System.ComponentModel.DataAnnotations.UIHintAttribute {
+  public virtual System.String get_PresentationLayer();
+  public virtual System.String get_UIHint();
+}
+class System.ComponentModel.DataAnnotations.UrlAttribute {
+}
+class System.ComponentModel.DataAnnotations.ValidationAttribute {
+  public virtual System.String FormatErrorMessage(System.String);
+  public virtual System.ComponentModel.DataAnnotations.ValidationResult GetValidationResult(System.Object, System.ComponentModel.DataAnnotations.ValidationContext);
+  public virtual bool IsValid(System.Object);
+  public virtual System.String get_ErrorMessage();
+  public virtual System.String get_ErrorMessageResourceName();
+  public virtual System.Type get_ErrorMessageResourceType();
+  public virtual System.String get_ErrorMessageString();
+  public virtual void set_ErrorMessage(System.String);
+  public virtual void set_ErrorMessageResourceName(System.String);
+  public virtual void set_ErrorMessageResourceType(System.Type);
+  public ValidationAttribute(System.String);
+}
+class System.ComponentModel.DataAnnotations.ValidationContext {
+  public virtual System.String get_DisplayName();
+  public virtual System.String get_MemberName();
+  public virtual System.Object get_ObjectInstance();
+  public virtual System.Type get_ObjectType();
+  public virtual void set_DisplayName(System.String);
+  public virtual void set_MemberName(System.String);
+  public ValidationContext(System.Object);
+  public ValidationContext(System.Object, System.IServiceProvider, System.Collections.Generic.IDictionary<System.Object,System.Object>);
+}
+class System.ComponentModel.DataAnnotations.ValidationResult {
+  public virtual System.String get_ErrorMessage();
+  public virtual System.Collections.Generic.IEnumerable<System.String> get_MemberNames();
+  public ValidationResult(System.String);
+  public ValidationResult(System.String, System.Collections.Generic.IEnumerable<System.String>);
+  public static System.ComponentModel.DataAnnotations.ValidationResult Success;
+}
+class System.Configuration.AppSettingsSection {
+  public virtual System.Configuration.KeyValueConfigurationCollection get_Settings();
+}
+class System.Configuration.Configuration {
+  public virtual System.Configuration.AppSettingsSection get_AppSettings();
+}
+class System.Configuration.ConfigurationElement {
+  public virtual System.Object get_Item(System.Configuration.ConfigurationProperty);
+}
+class System.Configuration.ConfigurationElementCollection {
+  public virtual System.Collections.IEnumerator GetEnumerator();
+}
+struct System.Configuration.ConfigurationElementCollectionType {
+}
+class System.Configuration.ConfigurationManager {
+  public static System.Collections.Specialized.NameValueCollection get_AppSettings();
+}
+class System.Configuration.ConfigurationProperty {
+  public ConfigurationProperty(System.String, System.Type, System.Object, System.Configuration.ConfigurationPropertyOptions);
+}
+class System.Configuration.ConfigurationPropertyCollection {
+}
+struct System.Configuration.ConfigurationPropertyOptions {
+}
+struct System.Configuration.ConfigurationSaveMode {
+}
+class System.Configuration.ConfigurationSection {
+  public ConfigurationSection();
+}
+class System.Configuration.ConfigurationSectionCollection {
+  public virtual System.Configuration.ConfigurationSection get_Item(System.String);
+}
+class System.Configuration.ConfigurationSectionGroup {
+  public virtual System.Configuration.ConfigurationSectionCollection get_Sections();
+  public ConfigurationSectionGroup();
+}
+class System.Configuration.ConfigurationValidatorAttribute {
+}
+class System.Configuration.ConfigurationValidatorBase {
+}
+class System.Configuration.ConnectionStringSettingsCollection {
+}
+class System.Configuration.Internal.IConfigErrorInfo {
+}
+class System.Configuration.Internal.IConfigurationManagerHelper {
+}
+class System.Configuration.Internal.IConfigurationManagerInternal {
+}
+class System.Configuration.KeyValueConfigurationCollection {
+}
+class System.Configuration.KeyValueConfigurationElement {
+  public virtual System.String get_Key();
+  public virtual System.String get_Value();
+}
+class System.Configuration.Provider.ProviderBase {
+}
+class System.Configuration.Provider.ProviderCollection {
+}
+class System.Configuration.ProviderSettingsCollection {
+}
+class System.Data.EntityState {
+}
+class System.Data.Linq.Binary {
+  public virtual byte[] ToArray();
+  public Binary(byte[]);
+  public static bool operator !=(System.Data.Linq.Binary, System.Data.Linq.Binary);
+}
+struct System.DateTime {
+  public virtual sealed int CompareTo(System.DateTime);
+  public virtual sealed System.String ToString(System.String, System.IFormatProvider);
+  public System.DateTime Add(System.TimeSpan);
+  public System.DateTime AddDays(double);
+  public System.DateTime AddSeconds(double);
+  public System.DateTime AddTicks(long);
+  public System.DateTime ToLocalTime();
+  public System.DateTime ToUniversalTime();
+  public int Hour { get; }
+  public System.DateTimeKind Kind { get; }
+  public int Minute { get; }
+  public int Second { get; }
+  public long Ticks { get; }
+  public DateTime(int, int, int, int, int, int);
+  public DateTime(long, System.DateTimeKind);
+  public static int DaysInMonth(int, int);
+  public static System.DateTime Parse(System.String, System.IFormatProvider, System.Globalization.DateTimeStyles);
+  public static System.DateTime ParseExact(System.String, System.String, System.IFormatProvider, System.Globalization.DateTimeStyles);
+  public static System.DateTime SpecifyKind(System.DateTime, System.DateTimeKind);
+  public static bool TryParse(System.String, out System.DateTime);
+  public static bool TryParse(System.String, System.IFormatProvider, System.Globalization.DateTimeStyles, out System.DateTime);
+  public static bool TryParseExact(System.String, System.String, System.IFormatProvider, System.Globalization.DateTimeStyles, out System.DateTime);
+  public static System.DateTime Now { get; }
+  public static System.DateTime UtcNow { get; }
+  public static bool operator ==(System.DateTime, System.DateTime);
+  public static bool operator !=(System.DateTime, System.DateTime);
+  public static readonly System.DateTime MaxValue;
+  public static readonly System.DateTime MinValue;
+}
+struct System.DateTimeOffset {
+  public virtual sealed int CompareTo(System.DateTimeOffset);
+  public virtual sealed System.String ToString(System.String, System.IFormatProvider);
+  public System.DateTimeOffset AddDays(double);
+  public System.DateTimeOffset ToUniversalTime();
+  public System.DateTime DateTime { get; }
+  public System.TimeSpan Offset { get; }
+  public System.DateTime UtcDateTime { get; }
+  public DateTimeOffset(System.DateTime);
+  public DateTimeOffset(System.DateTime, System.TimeSpan);
+  public DateTimeOffset(long, System.TimeSpan);
+  public static System.DateTimeOffset Parse(System.String, System.IFormatProvider);
+  public static System.DateTimeOffset Parse(System.String, System.IFormatProvider, System.Globalization.DateTimeStyles);
+  public static System.DateTimeOffset ParseExact(System.String, System.String, System.IFormatProvider, System.Globalization.DateTimeStyles);
+  public static bool TryParse(System.String, out System.DateTimeOffset);
+  public static bool TryParse(System.String, System.IFormatProvider, System.Globalization.DateTimeStyles, out System.DateTimeOffset);
+  public static bool TryParseExact(System.String, System.String, System.IFormatProvider, System.Globalization.DateTimeStyles, out System.DateTimeOffset);
+  public static System.DateTimeOffset Now { get; }
+  public static System.DateTimeOffset UtcNow { get; }
+  public static System.DateTimeOffset operator +(System.DateTimeOffset, System.TimeSpan);
+  public static bool operator ==(System.DateTimeOffset, System.DateTimeOffset);
+  public static bool operator >(System.DateTimeOffset, System.DateTimeOffset);
+  public static implicit operator DateTimeOffset(System.DateTime);
+  public static bool operator <(System.DateTimeOffset, System.DateTimeOffset);
+  public static System.TimeSpan operator -(System.DateTimeOffset, System.DateTimeOffset);
+  public static readonly System.DateTimeOffset MinValue;
+}
+struct System.Decimal {
+  public virtual sealed int CompareTo(decimal);
+  public virtual sealed bool Equals(decimal);
+  public virtual sealed System.String ToString(System.String, System.IFormatProvider);
+  public Decimal(int);
+  public static decimal Divide(decimal, decimal);
+  public static bool TryParse(System.String, System.Globalization.NumberStyles, System.IFormatProvider, out decimal);
+  public static decimal operator +(decimal, decimal);
+  public static decimal operator /(decimal, decimal);
+  public static bool operator ==(decimal, decimal);
+  public static implicit operator decimal(char);
+  public static implicit operator decimal(int);
+  public static implicit operator decimal(uint);
+  public static bool operator !=(decimal, decimal);
+  public static decimal operator *(decimal, decimal);
+  public static decimal operator -(decimal, decimal);
+}
+struct System.Double {
+  public virtual sealed int CompareTo(double);
+  public virtual sealed bool Equals(double);
+  public virtual sealed System.String ToString(System.String, System.IFormatProvider);
+  public static bool IsInfinity(double);
+  public static bool IsNaN(double);
+  public static bool TryParse(System.String, System.Globalization.NumberStyles, System.IFormatProvider, out double);
+}
+class System.Drawing.Graphics {
+  public void DrawImage(System.Drawing.Image, System.Drawing.Rectangle, int, int, int, int, System.Drawing.GraphicsUnit, System.Drawing.Imaging.ImageAttributes);
+  public void DrawImage(System.Drawing.Image, int, int, int, int);
+  public void DrawString(System.String, System.Drawing.Font, System.Drawing.Brush, System.Drawing.PointF);
+  public void FillRectangle(System.Drawing.Brush, int, int, int, int);
+  public System.Drawing.SizeF MeasureString(System.String, System.Drawing.Font, System.Drawing.SizeF, System.Drawing.StringFormat, out int, out int);
+  public void InterpolationMode { set; }
+  public void TextRenderingHint { set; }
+  public static System.Drawing.Graphics FromImage(System.Drawing.Image);
+}
+class System.Dynamic.DynamicObject {
+  public virtual bool TryConvert(System.Dynamic.ConvertBinder, out System.Object);
+  protected DynamicObject();
+}
+class System.EnterpriseServices.ITransaction {
+}
+class System.Enum {
+  public static System.Array GetValues(System.Type);
+  public static bool IsDefined(System.Type, System.Object);
+  public static System.Object Parse(System.Type, System.String, bool);
+  public static bool TryParse<TEnum>(System.String, out !!0) where TEnum : struct, System.ValueType, new();
+  public static bool TryParse<TEnum>(System.String, bool, out !!0) where TEnum : struct, System.ValueType, new();
+}
+struct System.Guid {
+  public virtual sealed int CompareTo(System.Guid);
+  public virtual sealed System.String ToString(System.String, System.IFormatProvider);
+  public byte[] ToByteArray();
+  public System.String ToString(System.String);
+  public Guid(byte[]);
+  public Guid(System.String);
+  public static System.Guid NewGuid();
+  public static bool TryParse(System.String, out System.Guid);
+  public static bool operator !=(System.Guid, System.Guid);
+}
+struct System.Int32 {
+  public virtual sealed int CompareTo(int);
+  public virtual sealed System.String ToString(System.IFormatProvider);
+  public virtual sealed System.String ToString(System.String, System.IFormatProvider);
+  public static int Parse(System.String, System.Globalization.NumberStyles, System.IFormatProvider);
+  public static int Parse(System.String, System.IFormatProvider);
+  public static bool TryParse(System.String, System.Globalization.NumberStyles, System.IFormatProvider, out int);
+  public static bool TryParse(System.String, out int);
+}
+struct System.Int64 {
+  public virtual sealed int CompareTo(long);
+  public override int GetHashCode();
+  public virtual sealed System.String ToString(System.IFormatProvider);
+  public virtual sealed System.String ToString(System.String, System.IFormatProvider);
+  public static bool TryParse(System.String, System.Globalization.NumberStyles, System.IFormatProvider, out long);
+  public static bool TryParse(System.String, out long);
+}
+class System.Management.ManagementBaseObject {
+  public virtual System.Object get_Item(System.String);
+}
+class System.Management.ManagementObject {
+}
+class System.Management.ManagementObjectCollection {
+  public virtual System.Management.ManagementObjectCollection.ManagementObjectEnumerator GetEnumerator();
+}
+class System.Management.ManagementObjectCollection.ManagementObjectEnumerator {
+  public virtual bool MoveNext();
+  public virtual System.Management.ManagementBaseObject get_Current();
+}
+class System.Management.ManagementObjectSearcher {
+  public virtual System.Management.ManagementObjectCollection Get();
+  public ManagementObjectSearcher(System.String);
+}
+class System.Math {
+  public static int DivRem(int, int, out int);
+  public static int Max(int, int);
+}
+class System.Net.IPAddress {
+  public System.Net.Sockets.AddressFamily AddressFamily { get; }
+  public static bool TryParse(System.String, out System.Net.IPAddress);
+}
+class System.Reflection.CustomAttributeExtensions {
+  public static !!0 GetCustomAttribute<T>(System.Reflection.MemberInfo, bool) where T : System.Attribute;
+}
+struct System.Runtime.AsyncCompletionResult {
+}
+class System.Runtime.AsyncEventArgs<T0> {
+}
+class System.Runtime.AsyncEventArgs<T0,T1> {
+}
+class System.Runtime.Caching.CacheItemPolicy {
+  public virtual void set_AbsoluteExpiration(System.DateTimeOffset);
+  public virtual void set_SlidingExpiration(System.TimeSpan);
+  public CacheItemPolicy();
+}
+class System.Runtime.Caching.MemoryCache {
+  public static System.Runtime.Caching.MemoryCache get_Default();
+}
+class System.Runtime.Caching.ObjectCache {
+  public virtual bool Add(System.String, System.Object, System.DateTimeOffset, System.String);
+  public virtual bool Add(System.String, System.Object, System.Runtime.Caching.CacheItemPolicy, System.String);
+  public virtual System.Object Get(System.String, System.String);
+  public virtual System.Object Remove(System.String, System.String);
+  public virtual void Set(System.String, System.Object, System.Runtime.Caching.CacheItemPolicy, System.String);
+  public virtual System.Object get_Item(System.String);
+}
+class System.Runtime.CompilerServices.CallSite<T0> {
+  public !0 Target;
+  public static System.Runtime.CompilerServices.CallSite<!0> Create(System.Runtime.CompilerServices.CallSiteBinder);
+}
+class System.Runtime.CompilerServices.ConditionalWeakTable<T0,T1> {
+  public void Add(!0, !1);
+  public bool Remove(!0);
+  public bool TryGetValue(!0, out !1);
+  public ConditionalWeakTable();
+}
+class System.Runtime.Diagnostics.EtwDiagnosticTrace {
+}
+struct System.Runtime.Diagnostics.EventDescriptor {
+}
+class System.Runtime.Diagnostics.EventLogger {
+}
+class System.Runtime.Diagnostics.TraceRecord {
+}
+class System.Runtime.ExceptionTrace {
+}
+class System.Runtime.Serialization.SerializationBinder {
+  public abstract System.Type BindToType(System.String, System.String);
+  public virtual void BindToName(System.Type, out System.String, out System.String);
+  protected SerializationBinder();
+}
+class System.Security.Cryptography.Xml.SignedXml {
+}
+class System.ServiceModel.Diagnostics.ExceptionUtility {
+}
+class System.ServiceModel.Diagnostics.LegacyDiagnosticTrace {
+}
+struct System.ServiceModel.Diagnostics.TraceSourceKind {
+}
+struct System.Single {
+  public static bool TryParse(System.String, System.Globalization.NumberStyles, System.IFormatProvider, out float);
+  public static bool TryParse(System.String, out float);
+}
+class System.Threading.Interlocked {
+  public static int Add(ref int, int);
+  public static long Add(ref long, long);
+  public static int CompareExchange(ref int, int, int);
+  public static long CompareExchange(ref long, long, long);
+  public static System.Object CompareExchange(ref System.Object, System.Object, System.Object);
+  public static float CompareExchange(ref float, float, float);
+  public static !!0 CompareExchange<T>(ref !!0, !!0, !!0) where T : class;
+  public static int Decrement(ref int);
+  public static int Exchange(ref int, int);
+  public static long Exchange(ref long, long);
+  public static !!0 Exchange<T>(ref !!0, !!0) where T : class;
+  public static int Increment(ref int);
+  public static long Increment(ref long);
+  public static long Read(ref long);
+}
+class System.Threading.LazyInitializer {
+  public static !!0 EnsureInitialized<T>(ref !!0) where T : class;
+  public static !!0 EnsureInitialized<T>(ref !!0, ref bool, ref System.Object, System.Func<!!0>);
+  public static !!0 EnsureInitialized<T>(ref !!0, System.Func<!!0>) where T : class;
+}
+struct System.TimeSpan {
+  public virtual sealed System.String ToString(System.String, System.IFormatProvider);
+  public double TotalMilliseconds { get; }
+  public TimeSpan(int, int, int, int, int);
+  public static System.TimeSpan FromMilliseconds(double);
+  public static System.TimeSpan FromMinutes(double);
+  public static System.TimeSpan FromSeconds(double);
+  public static System.TimeSpan Parse(System.String, System.IFormatProvider);
+  public static bool TryParse(System.String, System.IFormatProvider, out System.TimeSpan);
+  public static bool operator ==(System.TimeSpan, System.TimeSpan);
+  public static bool operator !=(System.TimeSpan, System.TimeSpan);
+  public static bool operator <=(System.TimeSpan, System.TimeSpan);
+  public static readonly System.TimeSpan Zero;
+}
+class System.Uri {
+  public Uri(System.String);
+  public Uri(System.String, System.UriKind);
+  public static bool TryCreate(System.String, System.UriKind, out System.Uri);
+  public static bool operator ==(System.Uri, System.Uri);
+  public static bool operator !=(System.Uri, System.Uri);
+}
+class System.Version {
+  public int Build { get; }
+  public int Major { get; }
+  public int Minor { get; }
+  public int Revision { get; }
+  public Version(int, int, int, int);
+  public Version(System.String);
+  public static bool TryParse(System.String, out System.Version);
+  public static bool operator ==(System.Version, System.Version);
+  public static bool operator !=(System.Version, System.Version);
+}
+struct System.Web.ApplicationShutdownReason {
+}
+class System.Web.Caching.Cache {
+  public virtual System.Object Add(System.String, System.Object, System.Web.Caching.CacheDependency, System.DateTime, System.TimeSpan, System.Web.Caching.CacheItemPriority, System.Web.Caching.CacheItemRemovedCallback);
+  public virtual System.Object Get(System.String);
+  public virtual void Insert(System.String, System.Object, System.Web.Caching.CacheDependency);
+  public virtual void Insert(System.String, System.Object, System.Web.Caching.CacheDependency, System.DateTime, System.TimeSpan);
+  public virtual void Insert(System.String, System.Object, System.Web.Caching.CacheDependency, System.DateTime, System.TimeSpan, System.Web.Caching.CacheItemPriority, System.Web.Caching.CacheItemRemovedCallback);
+  public virtual System.Object Remove(System.String);
+  public virtual int get_Count();
+  public virtual long get_EffectivePercentagePhysicalMemoryLimit();
+  public virtual long get_EffectivePrivateBytesLimit();
+  public virtual System.Object get_Item(System.String);
+  public static System.DateTime NoAbsoluteExpiration;
+  public static System.TimeSpan NoSlidingExpiration;
+}
+class System.Web.Caching.CacheDependency {
+  public CacheDependency(System.String, System.DateTime);
+}
+struct System.Web.Caching.CacheItemPriority {
+}
+class System.Web.Caching.CacheItemRemovedCallback {
+}
+struct System.Web.Caching.CacheItemRemovedReason {
+}
+class System.Web.Compilation.AssemblyBuilder {
+  public virtual void AddCodeCompileUnit(System.Web.Compilation.BuildProvider, System.CodeDom.CodeCompileUnit);
+  public virtual void GenerateTypeFactory(System.String);
+}
+class System.Web.Compilation.BuildManager {
+  public static void AddReferencedAssembly(System.Reflection.Assembly);
+  public static System.IO.Stream CreateCachedFile(System.String);
+  public static System.Object CreateInstanceFromVirtualPath(System.String, System.Type);
+  public static System.Type GetCompiledType(System.String);
+  public static System.Type GetGlobalAsaxType();
+  public static System.Web.Util.IWebObjectFactory GetObjectFactory(System.String, bool);
+  public static System.Collections.ICollection GetReferencedAssemblies();
+  public static System.Type GetType(System.String, bool, bool);
+  public static System.IO.Stream ReadCachedFile(System.String);
+}
+class System.Web.Compilation.BuildProvider {
+  public virtual System.Web.Compilation.CompilerType GetDefaultCompilerTypeForLanguage(System.String);
+  public virtual System.IO.TextReader OpenReader();
+  public virtual System.String get_VirtualPath();
+  public virtual System.Collections.ICollection get_VirtualPathDependencies();
+  public BuildProvider();
+  public static void RegisterBuildProvider(System.String, System.Type);
+}
+class System.Web.Compilation.CompilerType {
+  public virtual System.CodeDom.Compiler.CompilerParameters get_CompilerParameters();
+}
+class System.Web.Configuration.HttpModuleAction {
+  public HttpModuleAction(System.String, System.String);
+}
+class System.Web.Configuration.HttpModuleActionCollection {
+  public virtual void Add(System.Web.Configuration.HttpModuleAction);
+}
+class System.Web.Configuration.HttpModulesSection {
+  public virtual System.Web.Configuration.HttpModuleActionCollection get_Modules();
+}
+class System.Web.Configuration.NamespaceCollection {
+  public virtual bool get_AutoImportVBNamespace();
+}
+class System.Web.Configuration.NamespaceInfo {
+  public virtual System.String get_Namespace();
+}
+class System.Web.Configuration.PagesSection {
+  public virtual System.Web.Configuration.NamespaceCollection get_Namespaces();
+}
+class System.Web.Configuration.VirtualDirectoryMapping {
+  public VirtualDirectoryMapping(System.String, bool);
+}
+class System.Web.Configuration.VirtualDirectoryMappingCollection {
+  public virtual void Add(System.String, System.Web.Configuration.VirtualDirectoryMapping);
+}
+class System.Web.Configuration.WebConfigurationFileMap {
+  public virtual System.Web.Configuration.VirtualDirectoryMappingCollection get_VirtualDirectories();
+  public WebConfigurationFileMap();
+}
+class System.Web.Configuration.WebConfigurationManager {
+  public static System.Object GetSection(System.String);
+  public static System.Object GetSection(System.String, System.String);
+  public static System.Configuration.Configuration OpenMappedWebConfiguration(System.Web.Configuration.WebConfigurationFileMap, System.String);
+  public static System.Collections.Specialized.NameValueCollection get_AppSettings();
+}
+class System.Web.Hosting.HostingEnvironment {
+  public static System.String MapPath(System.String);
+  public static bool get_IsHosted();
+  public static System.Web.Hosting.VirtualPathProvider get_VirtualPathProvider();
+}
+class System.Web.Hosting.IRegisteredObject {
+}
+class System.Web.Hosting.SimpleWorkerRequest {
+  public SimpleWorkerRequest(System.String, System.String, System.IO.TextWriter);
+}
+class System.Web.Hosting.VirtualDirectory {
+  public virtual System.Collections.IEnumerable get_Directories();
+  public virtual System.Collections.IEnumerable get_Files();
+  public VirtualDirectory(System.String);
+}
+class System.Web.Hosting.VirtualFile {
+  public virtual System.IO.Stream Open();
+  public VirtualFile(System.String);
+}
+class System.Web.Hosting.VirtualFileBase {
+  public virtual System.String get_Name();
+  public virtual System.String get_VirtualPath();
+}
+class System.Web.Hosting.VirtualPathProvider {
+  public virtual bool DirectoryExists(System.String);
+  public virtual bool FileExists(System.String);
+  public virtual System.Web.Caching.CacheDependency GetCacheDependency(System.String, System.Collections.IEnumerable, System.DateTime);
+  public virtual System.Web.Hosting.VirtualDirectory GetDirectory(System.String);
+  public virtual System.Web.Hosting.VirtualFile GetFile(System.String);
+  public VirtualPathProvider();
+}
+class System.Web.HtmlString {
+  public virtual System.String ToHtmlString();
+  public HtmlString(System.String);
+}
+AK_NONE class System.Web.HttpApplication {
+  public virtual System.String GetOutputCacheProviderName(System.Web.HttpContext);
+  public virtual System.String GetVaryByCustomString(System.Web.HttpContext, System.String);
+  public virtual void add_BeginRequest(System.EventHandler);
+  public virtual void add_EndRequest(System.EventHandler);
+  public virtual void add_PostResolveRequestCache(System.EventHandler);
+  public virtual System.Web.HttpContext get_Context();
+}
+class System.Web.HttpApplicationStateBase {
+  public virtual System.Object get_Item(int);
+  public virtual System.Object get_Item(System.String);
+  public virtual void set_Item(System.String, System.Object);
+}
+class System.Web.HttpBrowserCapabilities {
+}
+class System.Web.HttpBrowserCapabilitiesBase {
+  public virtual bool get_IsMobileDevice();
+  public virtual System.String get_Type();
+}
+class System.Web.HttpBrowserCapabilitiesWrapper {
+  public HttpBrowserCapabilitiesWrapper(System.Web.HttpBrowserCapabilities);
+}
+class System.Web.HttpCachePolicyBase {
+  public virtual void AddValidationCallback(System.Web.HttpCacheValidateHandler, System.Object);
+  public virtual void SetCacheability(System.Web.HttpCacheability);
+  public virtual void SetExpires(System.DateTime);
+  public virtual void SetLastModified(System.DateTime);
+  public virtual void SetMaxAge(System.TimeSpan);
+  public virtual void SetOmitVaryStar(bool);
+  public virtual void SetProxyMaxAge(System.TimeSpan);
+  public virtual void SetSlidingExpiration(bool);
+  public virtual void SetValidUntilExpires(bool);
+  public virtual System.Web.HttpCacheVaryByContentEncodings get_VaryByContentEncodings();
+  public virtual System.Web.HttpCacheVaryByHeaders get_VaryByHeaders();
+  public virtual System.Web.HttpCacheVaryByParams get_VaryByParams();
+}
+class System.Web.HttpCacheValidateHandler {
+}
+class System.Web.HttpCacheVaryByContentEncodings {
+  public virtual void set_Item(System.String, bool);
+}
+class System.Web.HttpCacheVaryByHeaders {
+  public virtual void set_Item(System.String, bool);
+}
+class System.Web.HttpCacheVaryByParams {
+  public virtual void set_Item(System.String, bool);
+}
+struct System.Web.HttpCacheability {
+}
+class System.Web.HttpCompileException {
+  public HttpCompileException(System.String);
+}
+class System.Web.HttpContext {
+  public virtual System.Exception[] get_AllErrors();
+  public virtual System.Web.Caching.Cache get_Cache();
+  public virtual System.Web.IHttpHandler get_Handler();
+  public virtual bool get_IsDebuggingEnabled();
+  public virtual System.Collections.IDictionary get_Items();
+  public virtual System.Web.HttpRequest get_Request();
+  public virtual System.Web.HttpResponse get_Response();
+  public HttpContext(System.Web.HttpWorkerRequest);
+  public static System.Web.HttpContext get_Current();
+  public static void set_Current(System.Web.HttpContext);
+}
+class System.Web.HttpContextBase {
+  public virtual System.Object GetGlobalResourceObject(System.String, System.String, System.Globalization.CultureInfo);
+  public virtual System.Object GetService(System.Type);
+  public virtual void RemapHandler(System.Web.IHttpHandler);
+  public virtual void SetSessionStateBehavior(System.Web.SessionState.SessionStateBehavior);
+  public virtual System.Web.HttpApplicationStateBase get_Application();
+  public virtual System.Web.HttpApplication get_ApplicationInstance();
+  public virtual System.Web.Caching.Cache get_Cache();
+  public virtual bool get_IsCustomErrorEnabled();
+  public virtual System.Collections.IDictionary get_Items();
+  public virtual System.Web.Profile.ProfileBase get_Profile();
+  public virtual System.Web.HttpRequestBase get_Request();
+  public virtual System.Web.HttpResponseBase get_Response();
+  public virtual System.Web.HttpServerUtilityBase get_Server();
+  public virtual System.Web.HttpSessionStateBase get_Session();
+  public virtual System.DateTime get_Timestamp();
+  public virtual System.Security.Principal.IPrincipal get_User();
+  public virtual void set_User(System.Security.Principal.IPrincipal);
+  public HttpContextBase();
+}
+class System.Web.HttpContextWrapper {
+  public HttpContextWrapper(System.Web.HttpContext);
+}
+class System.Web.HttpCookie {
+  public virtual System.String get_Value();
+  public virtual void set_Expires(System.DateTime);
+  public virtual void set_HttpOnly(bool);
+  public virtual void set_Secure(bool);
+  public HttpCookie(System.String, System.String);
+}
+class System.Web.HttpCookieCollection {
+  public virtual void Add(System.Web.HttpCookie);
+  public virtual void Remove(System.String);
+  public virtual void Set(System.Web.HttpCookie);
+  public virtual System.String[] get_AllKeys();
+  public virtual System.Web.HttpCookie get_Item(System.String);
+}
+class System.Web.HttpException {
+  public virtual int GetHttpCode();
+  public HttpException();
+  public HttpException(int, System.String);
+  public HttpException(int, System.String, System.Exception);
+  public HttpException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext);
+  public HttpException(System.String);
+  public HttpException(System.String, System.Exception);
+}
+class System.Web.HttpFileCollectionBase {
+  public virtual System.String[] get_AllKeys();
+  public virtual System.Web.HttpPostedFileBase get_Item(int);
+  public virtual System.Web.HttpPostedFileBase get_Item(System.String);
+}
+class System.Web.HttpModuleCollection {
+  public virtual System.Web.IHttpModule Get(int);
+  public virtual System.String GetKey(int);
+}
+class System.Web.HttpParseException {
+  public HttpParseException(System.String, System.Exception, System.String, System.String, int);
+}
+class System.Web.HttpPostedFileBase {
+  public virtual int get_ContentLength();
+  public virtual System.String get_FileName();
+  public virtual System.IO.Stream get_InputStream();
+}
+class System.Web.HttpRequest {
+  public virtual void ValidateInput();
+  public virtual System.Web.HttpBrowserCapabilities get_Browser();
+  public virtual System.Collections.Specialized.NameValueCollection get_Form();
+  public virtual System.String get_HttpMethod();
+  public virtual System.Collections.Specialized.NameValueCollection get_QueryString();
+  public virtual System.Web.Routing.RequestContext get_RequestContext();
+  public virtual System.Web.UnvalidatedRequestValues get_Unvalidated();
+  public virtual System.Uri get_Url();
+  public virtual System.String get_UserAgent();
+}
+class System.Web.HttpRequestBase {
+  public virtual System.String MapPath(System.String);
+  public virtual void ValidateInput();
+  public virtual System.String get_AppRelativeCurrentExecutionFilePath();
+  public virtual System.String get_ApplicationPath();
+  public virtual System.Web.HttpBrowserCapabilitiesBase get_Browser();
+  public virtual System.String get_ContentType();
+  public virtual System.Web.HttpCookieCollection get_Cookies();
+  public virtual System.Web.HttpFileCollectionBase get_Files();
+  public virtual System.Collections.Specialized.NameValueCollection get_Form();
+  public virtual System.Collections.Specialized.NameValueCollection get_Headers();
+  public virtual System.String get_HttpMethod();
+  public virtual System.IO.Stream get_InputStream();
+  public virtual bool get_IsLocal();
+  public virtual bool get_IsSecureConnection();
+  public virtual System.String get_Item(System.String);
+  public virtual System.String get_Path();
+  public virtual System.String get_PathInfo();
+  public virtual System.Collections.Specialized.NameValueCollection get_QueryString();
+  public virtual System.String get_RawUrl();
+  public virtual System.Collections.Specialized.NameValueCollection get_ServerVariables();
+  public virtual System.Web.UnvalidatedRequestValuesBase get_Unvalidated();
+  public virtual System.Uri get_Url();
+  public virtual System.String get_UserAgent();
+  public virtual System.String get_UserHostAddress();
+  public virtual System.String[] get_UserLanguages();
+}
+class System.Web.HttpRequestWrapper {
+  public HttpRequestWrapper(System.Web.HttpRequest);
+}
+class System.Web.HttpResponse {
+  public virtual void BinaryWrite(byte[]);
+  public virtual void Clear();
+  public virtual int get_StatusCode();
+  public virtual void set_ContentType(System.String);
+}
+class System.Web.HttpResponseBase {
+  public virtual void AddHeader(System.String, System.String);
+  public virtual void AppendHeader(System.String, System.String);
+  public virtual void BinaryWrite(byte[]);
+  public virtual void Clear();
+  public virtual void End();
+  public virtual void Redirect(System.String);
+  public virtual void Redirect(System.String, bool);
+  public virtual void RedirectPermanent(System.String, bool);
+  public virtual void TransmitFile(System.String);
+  public virtual void Write(System.String);
+  public virtual System.Web.HttpCachePolicyBase get_Cache();
+  public virtual System.String get_ContentType();
+  public virtual System.Web.HttpCookieCollection get_Cookies();
+  public virtual System.IO.TextWriter get_Output();
+  public virtual System.IO.Stream get_OutputStream();
+  public virtual void set_Charset(System.String);
+  public virtual void set_ContentEncoding(System.Text.Encoding);
+  public virtual void set_ContentType(System.String);
+  public virtual void set_Output(System.IO.TextWriter);
+  public virtual void set_StatusCode(int);
+  public virtual void set_StatusDescription(System.String);
+  public virtual void set_TrySkipIisCustomErrors(bool);
+}
+class System.Web.HttpResponseWrapper {
+  public HttpResponseWrapper(System.Web.HttpResponse);
+}
+class System.Web.HttpRuntime {
+  public static void UnloadAppDomain();
+  public static System.String get_AppDomainAppId();
+  public static System.String get_AppDomainAppPath();
+  public static System.String get_AppDomainAppVirtualPath();
+  public static System.String get_AppDomainId();
+  public static System.String get_AspClientScriptPhysicalPath();
+  public static System.String get_AspClientScriptVirtualPath();
+  public static System.String get_AspInstallDirectory();
+  public static System.String get_BinDirectory();
+  public static System.Web.Caching.Cache get_Cache();
+  public static System.String get_ClrInstallDirectory();
+  public static System.String get_CodegenDir();
+  public static bool get_IsOnUNCShare();
+  public static System.String get_MachineConfigurationDirectory();
+}
+class System.Web.HttpServerUtility {
+  public static byte[] UrlTokenDecode(System.String);
+  public static System.String UrlTokenEncode(byte[]);
+}
+class System.Web.HttpServerUtilityBase {
+  public virtual void Execute(System.Web.IHttpHandler, System.IO.TextWriter, bool);
+}
+class System.Web.HttpSessionStateBase {
+  public virtual void Remove(System.String);
+  public virtual System.Object get_Item(System.String);
+  public virtual void set_Item(System.String, System.Object);
+}
+class System.Web.HttpUnhandledException {
+  public HttpUnhandledException(System.String, System.Exception);
+}
+struct System.Web.HttpValidationStatus {
+}
+class System.Web.HttpWorkerRequest {
+  public virtual System.String GetServerVariable(System.String);
+}
+class System.Web.IHtmlString {
+}
+class System.Web.IHttpAsyncHandler {
+  public virtual System.IAsyncResult BeginProcessRequest(System.Web.HttpContext, System.AsyncCallback, System.Object);
+  public virtual void EndProcessRequest(System.IAsyncResult);
+}
+class System.Web.IHttpHandler {
+  public virtual void ProcessRequest(System.Web.HttpContext);
+}
+class System.Web.IHttpModule {
+}
+class System.Web.MimeMapping {
+  public static System.String GetMimeMapping(System.String);
+}
+class System.Web.PreApplicationStartMethodAttribute {
+  public virtual System.String get_MethodName();
+  public virtual System.Type get_Type();
+}
+class System.Web.Profile.ProfileBase {
+}
+class System.Web.Razor.Parser.TokenizerBackedParser<T0,T1,T2> {
+  public virtual bool AcceptAndMoveNext();
+  public virtual void AcceptUntil(!2);
+  public virtual void AcceptWhile(!2);
+  public virtual bool At(!2);
+  public virtual bool EnsureCurrent();
+  public virtual bool NextToken();
+  public virtual bool Optional(!2);
+  public virtual void Output(System.Web.Razor.Parser.SyntaxTree.SpanKind);
+  public virtual void PutBack(!1);
+  public virtual void PutCurrentBack();
+  public virtual System.Web.Razor.Text.SourceLocation get_CurrentLocation();
+  public virtual !1 get_CurrentSymbol();
+  public virtual bool get_EndOfFile();
+  public virtual System.Web.Razor.Parser.SyntaxTree.SpanBuilder get_Span();
+}
+class System.Web.Routing.HttpMethodConstraint {
+  public HttpMethodConstraint(System.String[]);
+}
+class System.Web.Routing.IRouteConstraint {
+  public virtual bool Match(System.Web.HttpContextBase, System.Web.Routing.Route, System.String, System.Web.Routing.RouteValueDictionary, System.Web.Routing.RouteDirection);
+}
+class System.Web.Routing.IRouteHandler {
+}
+class System.Web.Routing.RequestContext {
+  public virtual System.Web.HttpContextBase get_HttpContext();
+  public virtual System.Web.Routing.RouteData get_RouteData();
+  public virtual void set_RouteData(System.Web.Routing.RouteData);
+  public RequestContext(System.Web.HttpContextBase, System.Web.Routing.RouteData);
+}
+class System.Web.Routing.Route {
+  public virtual System.Web.Routing.RouteValueDictionary get_Constraints();
+  public virtual System.Web.Routing.RouteValueDictionary get_DataTokens();
+  public virtual System.Web.Routing.RouteValueDictionary get_Defaults();
+  public virtual System.Web.Routing.IRouteHandler get_RouteHandler();
+  public virtual System.String get_Url();
+  public virtual void set_Constraints(System.Web.Routing.RouteValueDictionary);
+  public virtual void set_DataTokens(System.Web.Routing.RouteValueDictionary);
+  public virtual void set_Defaults(System.Web.Routing.RouteValueDictionary);
+  public Route(System.String, System.Web.Routing.IRouteHandler);
+  public Route(System.String, System.Web.Routing.RouteValueDictionary, System.Web.Routing.RouteValueDictionary, System.Web.Routing.RouteValueDictionary, System.Web.Routing.IRouteHandler);
+}
+class System.Web.Routing.RouteBase {
+  public virtual System.Web.Routing.RouteData GetRouteData(System.Web.HttpContextBase);
+  public virtual System.Web.Routing.VirtualPathData GetVirtualPath(System.Web.Routing.RequestContext, System.Web.Routing.RouteValueDictionary);
+  public RouteBase();
+}
+class System.Web.Routing.RouteCollection {
+  public virtual void Add(System.String, System.Web.Routing.RouteBase);
+  public virtual System.IDisposable GetReadLock();
+  public virtual System.Web.Routing.VirtualPathData GetVirtualPath(System.Web.Routing.RequestContext, System.String, System.Web.Routing.RouteValueDictionary);
+  public virtual System.Web.Routing.VirtualPathData GetVirtualPath(System.Web.Routing.RequestContext, System.Web.Routing.RouteValueDictionary);
+  public virtual bool get_AppendTrailingSlash();
+  public virtual bool get_LowercaseUrls();
+  public virtual bool get_RouteExistingFiles();
+  public virtual void set_AppendTrailingSlash(bool);
+  public virtual void set_LowercaseUrls(bool);
+  public virtual void set_RouteExistingFiles(bool);
+  public RouteCollection();
+}
+class System.Web.Routing.RouteData {
+  public virtual System.String GetRequiredString(System.String);
+  public virtual System.Web.Routing.RouteValueDictionary get_DataTokens();
+  public virtual System.Web.Routing.RouteBase get_Route();
+  public virtual System.Web.Routing.RouteValueDictionary get_Values();
+  public virtual void set_Route(System.Web.Routing.RouteBase);
+  public virtual void set_RouteHandler(System.Web.Routing.IRouteHandler);
+  public RouteData();
+}
+struct System.Web.Routing.RouteDirection {
+}
+class System.Web.Routing.RouteTable {
+  public static System.Web.Routing.RouteCollection get_Routes();
+}
+class System.Web.Routing.RouteValueDictionary {
+  public virtual void Add(System.String, System.Object);
+  public virtual bool ContainsKey(System.String);
+  public virtual System.Collections.Generic.Dictionary<System.String,System.Object>.Enumerator GetEnumerator();
+  public virtual bool Remove(System.String);
+  public virtual bool TryGetValue(System.String, ref System.Object);
+  public virtual int get_Count();
+  public virtual System.Object get_Item(System.String);
+  public virtual System.Collections.Generic.Dictionary<System.String,System.Object>.KeyCollection get_Keys();
+  public virtual void set_Item(System.String, System.Object);
+  public RouteValueDictionary();
+  public RouteValueDictionary(System.Collections.Generic.IDictionary<System.String,System.Object>);
+  public RouteValueDictionary(System.Object);
+}
+class System.Web.Routing.StopRoutingHandler {
+  public StopRoutingHandler();
+}
+class System.Web.Routing.UrlRoutingHandler {
+  public virtual void ProcessRequest(System.Web.HttpContextBase);
+  public UrlRoutingHandler();
+}
+class System.Web.Routing.VirtualPathData {
+  public virtual System.Web.Routing.RouteValueDictionary get_DataTokens();
+  public virtual System.Web.Routing.RouteBase get_Route();
+  public virtual System.String get_VirtualPath();
+}
+class System.Web.Script.Serialization.JavaScriptConverter {
+  public JavaScriptConverter();
+}
+class System.Web.Script.Serialization.JavaScriptSerializer {
+  public virtual System.Object Deserialize(System.String, System.Type);
+  public virtual System.Object DeserializeObject(System.String);
+  public virtual !!0 Deserialize<M0>(System.String);
+  public virtual void RegisterConverters(System.Collections.Generic.IEnumerable<System.Web.Script.Serialization.JavaScriptConverter>);
+  public virtual System.String Serialize(System.Object);
+  public virtual void set_MaxJsonLength(int);
+  public virtual void set_RecursionLimit(int);
+  public JavaScriptSerializer();
+}
+class System.Web.Security.FormsIdentity {
+}
+class System.Web.Security.MachineKey {
+  public static byte[] Protect(byte[], System.String[]);
+  public static byte[] Unprotect(byte[], System.String[]);
+}
+class System.Web.Security.MembershipPasswordAttribute {
+  public virtual int get_MinRequiredNonAlphanumericCharacters();
+  public virtual int get_MinRequiredPasswordLength();
+  public virtual System.String get_PasswordStrengthRegularExpression();
+}
+class System.Web.SessionState.IRequiresSessionState {
+}
+struct System.Web.SessionState.SessionStateBehavior {
+}
+class System.Web.UI.Control {
+  public virtual System.Web.UI.ControlCollection get_Controls();
+  public virtual System.Web.UI.Page get_Page();
+  public virtual System.Web.UI.Control get_Parent();
+  public virtual void set_ID(System.String);
+  public Control();
+}
+class System.Web.UI.ControlBuilder {
+  public virtual void Init(System.Web.UI.TemplateParser, System.Web.UI.ControlBuilder, System.Type, System.String, System.String, System.Collections.IDictionary);
+  public ControlBuilder();
+}
+class System.Web.UI.ControlCollection {
+  public virtual void Add(System.Web.UI.Control);
+}
+class System.Web.UI.DataBinder {
+  public static System.Object Eval(System.Object, System.String);
+}
+class System.Web.UI.DataVisualization.Charting.Axis {
+  public virtual void set_Maximum(double);
+  public virtual void set_Minimum(double);
+  public virtual void set_Title(System.String);
+}
+class System.Web.UI.DataVisualization.Charting.Chart {
+  public virtual void DataBindCrossTable(System.Collections.IEnumerable, System.String, System.String, System.String, System.String, System.Web.UI.DataVisualization.Charting.PointSortOrder);
+  public virtual void DataBindTable(System.Collections.IEnumerable, System.String);
+  public virtual void SaveImage(System.IO.Stream, System.Web.UI.DataVisualization.Charting.ChartImageFormat);
+  public virtual void SaveImage(System.String, System.Web.UI.DataVisualization.Charting.ChartImageFormat);
+  public virtual void SaveXml(System.String);
+  public virtual System.Web.UI.DataVisualization.Charting.ChartAreaCollection get_ChartAreas();
+  public virtual System.Web.UI.DataVisualization.Charting.LegendCollection get_Legends();
+  public virtual System.Web.UI.DataVisualization.Charting.ChartSerializer get_Serializer();
+  public virtual System.Web.UI.DataVisualization.Charting.SeriesCollection get_Series();
+  public virtual System.Web.UI.DataVisualization.Charting.TitleCollection get_Titles();
+  public virtual void set_RenderType(System.Web.UI.DataVisualization.Charting.RenderType);
+  public Chart();
+}
+class System.Web.UI.DataVisualization.Charting.ChartArea {
+  public virtual System.Web.UI.DataVisualization.Charting.Axis get_AxisX();
+  public virtual System.Web.UI.DataVisualization.Charting.Axis get_AxisY();
+  public ChartArea(System.String);
+}
+class System.Web.UI.DataVisualization.Charting.ChartAreaCollection {
+}
+class System.Web.UI.DataVisualization.Charting.ChartElement {
+  public virtual void Dispose();
+}
+struct System.Web.UI.DataVisualization.Charting.ChartImageFormat {
+}
+class System.Web.UI.DataVisualization.Charting.ChartNamedElement {
+  public virtual void set_Name(System.String);
+}
+class System.Web.UI.DataVisualization.Charting.ChartSerializer {
+  public virtual void Load(System.Xml.XmlReader);
+  public virtual void set_Content(System.Web.UI.DataVisualization.Charting.SerializationContents);
+  public virtual void set_IsResetWhenLoading(bool);
+  public virtual void set_IsTemplateMode(bool);
+  public virtual void set_SerializableContent(System.String);
+}
+class System.Web.UI.DataVisualization.Charting.DataPointCollection {
+  public virtual void DataBindXY(System.Collections.IEnumerable, System.Collections.IEnumerable[]);
+  public virtual void DataBindXY(System.Collections.IEnumerable, System.String, System.Collections.IEnumerable, System.String);
+}
+class System.Web.UI.DataVisualization.Charting.DataPointCustomProperties {
+  public virtual void set_AxisLabel(System.String);
+}
+class System.Web.UI.DataVisualization.Charting.Legend {
+  public virtual void set_Title(System.String);
+  public Legend();
+}
+class System.Web.UI.DataVisualization.Charting.LegendCollection {
+}
+struct System.Web.UI.DataVisualization.Charting.PointSortOrder {
+}
+struct System.Web.UI.DataVisualization.Charting.RenderType {
+}
+struct System.Web.UI.DataVisualization.Charting.SerializationContents {
+}
+class System.Web.UI.DataVisualization.Charting.Series {
+  public virtual System.Web.UI.DataVisualization.Charting.DataPointCollection get_Points();
+  public virtual void set_ChartArea(System.String);
+  public virtual void set_ChartType(System.Web.UI.DataVisualization.Charting.SeriesChartType);
+  public virtual void set_Legend(System.String);
+  public virtual void set_MarkerStep(int);
+  public Series();
+}
+struct System.Web.UI.DataVisualization.Charting.SeriesChartType {
+}
+class System.Web.UI.DataVisualization.Charting.SeriesCollection {
+}
+class System.Web.UI.DataVisualization.Charting.Title {
+  public virtual void set_Text(System.String);
+  public Title();
+}
+class System.Web.UI.DataVisualization.Charting.TitleCollection {
+}
+class System.Web.UI.FileLevelMasterPageControlBuilder {
+  public FileLevelMasterPageControlBuilder();
+}
+class System.Web.UI.FileLevelPageControlBuilder {
+  public FileLevelPageControlBuilder();
+}
+class System.Web.UI.FileLevelUserControlBuilder {
+  public FileLevelUserControlBuilder();
+}
+class System.Web.UI.HtmlTextWriter {
+  public virtual void AddAttribute(System.String, System.String, bool);
+  public virtual void RenderBeginTag(System.String);
+  public virtual void RenderEndTag();
+  public virtual void WriteEncodedText(System.String);
+  public HtmlTextWriter(System.IO.TextWriter);
+}
+class System.Web.UI.MasterPage {
+  public MasterPage();
+}
+struct System.Web.UI.OutputCacheLocation {
+}
+class System.Web.UI.OutputCacheParameters {
+  public virtual System.String get_CacheProfile();
+  public virtual int get_Duration();
+  public virtual System.Web.UI.OutputCacheLocation get_Location();
+  public virtual bool get_NoStore();
+  public virtual System.String get_SqlDependency();
+  public virtual System.String get_VaryByContentEncoding();
+  public virtual System.String get_VaryByCustom();
+  public virtual System.String get_VaryByHeader();
+  public virtual System.String get_VaryByParam();
+  public virtual void set_CacheProfile(System.String);
+  public virtual void set_Duration(int);
+  public virtual void set_Location(System.Web.UI.OutputCacheLocation);
+  public virtual void set_NoStore(bool);
+  public virtual void set_SqlDependency(System.String);
+  public virtual void set_VaryByContentEncoding(System.String);
+  public virtual void set_VaryByCustom(System.String);
+  public virtual void set_VaryByHeader(System.String);
+  public virtual void set_VaryByParam(System.String);
+  public OutputCacheParameters();
+}
+class System.Web.UI.Page {
+  public virtual void FrameworkInitialize();
+  public virtual void InitOutputCache(System.Web.UI.OutputCacheParameters);
+  public virtual void OnPreInit(System.EventArgs);
+  public virtual void ProcessRequest(System.Web.HttpContext);
+  public virtual void Render(System.Web.UI.HtmlTextWriter);
+  public virtual void set_MasterPageFile(System.String);
+  public Page();
+}
+class System.Web.UI.PageParser {
+  public static void set_EnableLongStringsAsResources(bool);
+}
+class System.Web.UI.PageParserFilter {
+  public virtual void ParseComplete(System.Web.UI.ControlBuilder);
+  public virtual void PreprocessDirective(System.String, System.Collections.IDictionary);
+  public PageParserFilter();
+}
+class System.Web.UI.TemplateControl {
+  public virtual System.String get_AppRelativeVirtualPath();
+}
+class System.Web.UI.TemplateParser {
+}
+class System.Web.UI.UserControl {
+  public UserControl();
+}
+struct System.Web.UI.VirtualReferenceType {
+}
+struct System.Web.UI.WebControls.DataBoundControlMode {
+}
+struct System.Web.UI.WebControls.HorizontalAlign {
+}
+struct System.Web.UI.WebControls.Unit {
+  public Unit(int);
+}
+struct System.Web.UI.WebControls.VerticalAlign {
+}
+class System.Web.UI.WebControls.WebControl {
+  public virtual void set_Height(System.Web.UI.WebControls.Unit);
+  public virtual void set_Width(System.Web.UI.WebControls.Unit);
+}
+class System.Web.UnvalidatedRequestValues {
+  public virtual System.Web.HttpCookieCollection get_Cookies();
+  public virtual System.Collections.Specialized.NameValueCollection get_Headers();
+  public virtual System.String get_Path();
+  public virtual System.Uri get_Url();
+}
+class System.Web.UnvalidatedRequestValuesBase {
+  public virtual System.Collections.Specialized.NameValueCollection get_Form();
+  public virtual System.String get_Item(System.String);
+  public virtual System.Collections.Specialized.NameValueCollection get_QueryString();
+}
+class System.Web.Util.IWebObjectFactory {
+  public virtual System.Object CreateInstance();
+}
+struct System.Web.Util.RequestValidationSource {
+}
+class System.Web.VirtualPathUtility {
+  public static System.String AppendTrailingSlash(System.String);
+  public static System.String Combine(System.String, System.String);
+  public static System.String GetDirectory(System.String);
+  public static System.String GetExtension(System.String);
+  public static bool IsAbsolute(System.String);
+  public static bool IsAppRelative(System.String);
+  public static System.String MakeRelative(System.String, System.String);
+  public static System.String ToAbsolute(System.String);
+  public static System.String ToAbsolute(System.String, System.String);
+  public static System.String ToAppRelative(System.String);
+  public static System.String ToAppRelative(System.String, System.String);
+}
+class System.Xml.Linq.Extensions {
+  public static System.Collections.Generic.IEnumerable<System.Xml.Linq.XElement> Descendants<T>(System.Collections.Generic.IEnumerable<!!0>) where T : System.Xml.Linq.XContainer;
+}
+class System.Xml.Xsl.Runtime.XmlQueryDataReader {
+}
+class System.Xml.Xsl.Runtime.XmlQueryDataWriter {
+}
+class System.Xml.Xsl.XsltOld.Debugger.IXsltDebugger {
+}

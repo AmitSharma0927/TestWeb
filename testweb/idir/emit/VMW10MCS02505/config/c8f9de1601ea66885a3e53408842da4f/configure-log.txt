@@ -1,0 +1,8 @@
+Native Compiler invocation: ./ --coverity_resp_file=C:\Temp\cov-s343416\68d38b7cb01c38a60436f2a7647f3bc8\fs-capture-resp-file1
+Working directory: C:\Program Files\Coverity\Coverity Static Analysis\bin
+Comptype: javascript
+* Configuring JavaScript Filesystem Capture (javascript)
+Checking for 'mount' command
+Checking for Cygwin registry keys
+           * HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Cygnus Solutions\Cygwin
+           * HKEY_CURRENT_USER\SOFTWARE\Wow6432Node\Cygnus Solutions\Cygwin

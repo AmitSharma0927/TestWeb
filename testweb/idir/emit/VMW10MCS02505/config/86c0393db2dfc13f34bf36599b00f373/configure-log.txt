@@ -1,0 +1,4 @@
+Native Compiler invocation: ./ --coverity_resp_file=C:\Temp\cov-s343416\7a56fa62c50f203090ef8f8bafb50414\fs-capture-resp-file1
+Working directory: C:\Program Files\Coverity\Coverity Static Analysis\bin
+Comptype: capture-config-files
+* Configuring Configuration Filesystem Capture

@@ -1,0 +1,65 @@
+[3A00:3B30][2021-12-03T17:42:07]i001: Burn v3.11.1.2318, Windows v10.0 (Build 19042: Service Pack 0), path: C:\ProgramData\Package Cache\{bdfcc36c-137c-4fdd-9b06-1fd2806b0130}\Seeker-Agent.exe
+[3A00:3B30][2021-12-03T17:42:07]i000: Initializing string variable 'InstallFolder' to value '[ProgramFiles6432Folder]Synopsys\Seeker\inline\agents'
+[3A00:3B30][2021-12-03T17:42:07]i009: Command Line: '"-burn.clean.room=C:\ProgramData\Package Cache\{bdfcc36c-137c-4fdd-9b06-1fd2806b0130}\Seeker-Agent.exe" -burn.filehandle.attached=680 -burn.filehandle.self=696 /uninstall /quiet /norestart /log Seeker-Agent.uninstall.log'
+[3A00:3B30][2021-12-03T17:42:07]i000: Setting string variable 'WixBundleLog' to value 'C:\AEP\AppScan tool\testweb\seeker\Seeker-Agent.uninstall.log'
+[3A00:3B30][2021-12-03T17:42:08]i000: Setting string variable 'WixBundleManufacturer' to value 'Synopsys'
+[3A00:3EAC][2021-12-03T17:42:08]i000: Setting numeric variable 'WixStdBALanguageId' to value 1033
+[3A00:3EAC][2021-12-03T17:42:08]i000: Setting version variable 'WixBundleFileVersion' to value '2021.10.0.0'
+[3A00:3B30][2021-12-03T17:42:08]i100: Detect begin, 4 packages
+[3A00:3B30][2021-12-03T17:42:08]i101: Detected package: vcredist_x86.exe, state: Absent, cached: None
+[3A00:3B30][2021-12-03T17:42:08]i101: Detected package: vcredist_x64.exe, state: Absent, cached: None
+[3A00:3B30][2021-12-03T17:42:08]i101: Detected package: Agent32, state: Absent, cached: None
+[3A00:3B30][2021-12-03T17:42:08]i101: Detected package: Agent64, state: Present, cached: Complete
+[3A00:3B30][2021-12-03T17:42:08]i199: Detect complete, result: 0x0
+[3A00:3B30][2021-12-03T17:42:08]i200: Plan begin, 4 packages, action: Uninstall
+[3A00:3B30][2021-12-03T17:42:08]i000: Setting string variable 'WixBundleRollbackLog_Agent64' to value 'C:\AEP\AppScan tool\testweb\seeker\Seeker-Agent.uninstall_000_Agent64_rollback.log'
+[3A00:3B30][2021-12-03T17:42:08]i000: Setting string variable 'WixBundleLog_Agent64' to value 'C:\AEP\AppScan tool\testweb\seeker\Seeker-Agent.uninstall_000_Agent64.log'
+[3A00:3B30][2021-12-03T17:42:08]w321: Skipping dependency registration on package with no dependency providers: vcredist_x64.exe
+[3A00:3B30][2021-12-03T17:42:08]w321: Skipping dependency registration on package with no dependency providers: vcredist_x86.exe
+[3A00:3B30][2021-12-03T17:42:08]i201: Planned package: Agent64, state: Present, default requested: Absent, ba requested: Absent, execute: Uninstall, rollback: Install, cache: No, uncache: Yes, dependency: Unregister
+[3A00:3B30][2021-12-03T17:42:08]i201: Planned package: Agent32, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: Unregister
+[3A00:3B30][2021-12-03T17:42:08]i201: Planned package: vcredist_x64.exe, state: Absent, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[3A00:3B30][2021-12-03T17:42:08]i201: Planned package: vcredist_x86.exe, state: Absent, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[3A00:3B30][2021-12-03T17:42:08]i299: Plan complete, result: 0x0
+[3A00:3B30][2021-12-03T17:42:08]i300: Apply begin
+[3A00:3B30][2021-12-03T17:42:08]i010: Launching elevated engine process.
+[3A00:3B30][2021-12-03T17:42:08]i011: Launched elevated engine process.
+[3A00:3B30][2021-12-03T17:42:08]i012: Connected to elevated engine.
+[3ABC:04CC][2021-12-03T17:42:08]i358: Pausing automatic updates.
+[3ABC:04CC][2021-12-03T17:42:08]i359: Paused automatic updates.
+[3ABC:04CC][2021-12-03T17:42:08]i360: Creating a system restore point.
+[3ABC:04CC][2021-12-03T17:42:08]w363: Could not create system restore point, error: 0x80070422. Continuing...
+[3ABC:04CC][2021-12-03T17:42:08]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{bdfcc36c-137c-4fdd-9b06-1fd2806b0130}, resume: Active, restart initiated: No, disable resume: No
+[3ABC:04CC][2021-12-03T17:42:08]i326: Removed dependency: {bdfcc36c-137c-4fdd-9b06-1fd2806b0130} on package provider: {9FDFA9C3-99A9-4DF8-A62D-DEC9E1E2A9FD}, package Agent64
+[3ABC:04CC][2021-12-03T17:42:08]i329: Removed package dependency provider: {9FDFA9C3-99A9-4DF8-A62D-DEC9E1E2A9FD}, package: Agent64
+[3ABC:04CC][2021-12-03T17:42:08]i301: Applying execute package: Agent64, action: Uninstall, path: (null), arguments: ' ALLUSERS="1" ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7" INSTALLDIR="C:\Program Files\Synopsys\Seeker\inline\agents" PROJECTKEY=""'
+[3A00:3B30][2021-12-03T17:42:25]i319: Applied execute package: Agent64, result: 0x0, restart: None
+[3ABC:04CC][2021-12-03T17:42:25]i329: Removed package dependency provider: {3FBEA523-66FA-4520-AC3D-F1DCE704999F}, package: Agent32
+[3ABC:04CC][2021-12-03T17:42:25]i351: Removing cached package: Agent64, from path: C:\ProgramData\Package Cache\{9FDFA9C3-99A9-4DF8-A62D-DEC9E1E2A9FD}v21.10.0.35719\
+[3ABC:04CC][2021-12-03T17:42:25]i372: Session end, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{bdfcc36c-137c-4fdd-9b06-1fd2806b0130}, resume: None, restart: None, disable resume: No
+[3ABC:04CC][2021-12-03T17:42:25]i330: Removed bundle dependency provider: {bdfcc36c-137c-4fdd-9b06-1fd2806b0130}
+[3ABC:04CC][2021-12-03T17:42:25]i352: Removing cached bundle: {bdfcc36c-137c-4fdd-9b06-1fd2806b0130}, from path: C:\ProgramData\Package Cache\{bdfcc36c-137c-4fdd-9b06-1fd2806b0130}\
+[3ABC:04CC][2021-12-03T17:42:25]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{bdfcc36c-137c-4fdd-9b06-1fd2806b0130}, resume: None, restart initiated: No, disable resume: No
+[3A00:3B30][2021-12-03T17:42:25]i399: Apply complete, result: 0x0, restart: None, ba requested restart:  No
+[3A00:3B30][2021-12-03T17:42:25]i500: Shutting down, exit code: 0x0
+[3A00:3B30][2021-12-03T17:42:25]i410: Variable: InstallFolder = C:\Program Files\Synopsys\Seeker\inline\agents
+[3A00:3B30][2021-12-03T17:42:25]i410: Variable: ProgramFiles6432Folder = C:\Program Files\
+[3A00:3B30][2021-12-03T17:42:25]i410: Variable: WixBundleAction = 3
+[3A00:3B30][2021-12-03T17:42:25]i410: Variable: WixBundleElevated = 1
+[3A00:3B30][2021-12-03T17:42:25]i410: Variable: WixBundleFileVersion = 2021.10.0.0
+[3A00:3B30][2021-12-03T17:42:25]i410: Variable: WixBundleInstalled = 1
+[3A00:3B30][2021-12-03T17:42:25]i410: Variable: WixBundleLog = C:\AEP\AppScan tool\testweb\seeker\Seeker-Agent.uninstall.log
+[3A00:3B30][2021-12-03T17:42:25]i410: Variable: WixBundleLog_Agent64 = C:\AEP\AppScan tool\testweb\seeker\Seeker-Agent.uninstall_000_Agent64.log
+[3A00:3B30][2021-12-03T17:42:25]i410: Variable: WixBundleManufacturer = Synopsys
+[3A00:3B30][2021-12-03T17:42:25]i410: Variable: WixBundleName = Seeker .NET Framework and .NET Core Agents
+[3A00:3B30][2021-12-03T17:42:25]i410: Variable: WixBundleOriginalSource = C:\AEP\AppScan tool\testweb\seeker\Seeker-Agent.exe
+[3A00:3B30][2021-12-03T17:42:25]i410: Variable: WixBundleOriginalSourceFolder = C:\AEP\AppScan tool\testweb\seeker\
+[3A00:3B30][2021-12-03T17:42:25]i410: Variable: WixBundleProviderKey = {bdfcc36c-137c-4fdd-9b06-1fd2806b0130}
+[3A00:3B30][2021-12-03T17:42:25]i410: Variable: WixBundleRollbackLog_Agent64 = C:\AEP\AppScan tool\testweb\seeker\Seeker-Agent.uninstall_000_Agent64_rollback.log
+[3A00:3B30][2021-12-03T17:42:25]i410: Variable: WixBundleSourceProcessFolder = C:\ProgramData\Package Cache\{bdfcc36c-137c-4fdd-9b06-1fd2806b0130}\
+[3A00:3B30][2021-12-03T17:42:25]i410: Variable: WixBundleSourceProcessPath = C:\ProgramData\Package Cache\{bdfcc36c-137c-4fdd-9b06-1fd2806b0130}\Seeker-Agent.exe
+[3A00:3B30][2021-12-03T17:42:25]i410: Variable: WixBundleTag = 
+[3A00:3B30][2021-12-03T17:42:25]i410: Variable: WixBundleUILevel = 2
+[3A00:3B30][2021-12-03T17:42:25]i410: Variable: WixBundleVersion = 2021.10.0.0
+[3A00:3B30][2021-12-03T17:42:25]i410: Variable: WixStdBALanguageId = 1033
+[3A00:3B30][2021-12-03T17:42:25]i007: Exit code: 0x0, restarting: No

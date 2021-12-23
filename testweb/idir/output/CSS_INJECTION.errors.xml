@@ -1,0 +1,130 @@
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>CSS_INJECTION</checker>
+<type>css_injection</type>
+<subtype>audit</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/modernizr-2.6.2.js</file>
+<function>!modernizr-2.6.2.js!%IIFE:setCss</function>
+<functionMergeName>!modernizr-%VERSION.js!%IIFE:setCss</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{str}}}}}}</description>
+<line>312</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = {1}.}{{code{mStyle.cssText}}}{{code{str}}}}}}</description>
+<line>313</line>
+</event>
+<event>
+<main>true</main>
+<tag>css_injection_sink</tag>
+<description>{CovLStrv2{{t{Writing the tainted value to property {0} of {1}.}{{code{cssText}}}{{code{mStyle}}}}{t{ Using untrusted data to construct a CSS element. An attacker may be able to exfiltrate sensitive information from the web page.}}}}</description>
+<line>313</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{If possible, accept only user inputs in a set of acceptable strings (whitelisting). If whitelisting is not feasible, ensure that the user input cannot contain characters that may be used to add new CSS directives.}}}}</description>
+<line>313</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>48</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/modernizr-2.6.2.js</file>
+<function>!modernizr-2.6.2.js!%IIFE</function>
+<key>32753abbfb61038ca37d6e827df036e2</key>
+<id>2</id>
+</model_ptr>
+</event>
+<extra>@&quot;cssText&quot;,mStyle:&quot;!modernizr-2.6.2.js!%IIFE:setCss&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>CSS_INJECTION</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/modernizr-2.6.2.js</file>
+<function>!modernizr-2.6.2.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>CSS_INJECTION</checker>
+<type>css_injection</type>
+<subtype>audit</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/modernizr-2.6.2.js</file>
+<function>!modernizr-2.6.2.js!%IIFE:%IIFE:isEventSupported</function>
+<functionMergeName>!modernizr-%VERSION.js!%IIFE:%IIFE:isEventSupported</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{eventName}}}}}}</description>
+<line>216</line>
+</event>
+<event>
+<tag>concat</tag>
+<description>{CovLStrv2{{t{Creating a tainted string using {0}.}{{code{eventName}}}}}}</description>
+<line>219</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning a tainted string to {0}.}{{code{eventName}}}}}}</description>
+<line>219</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{eventName}}}{{code{element.setAttribute}}}}}}</description>
+<line>230</line>
+</event>
+<event>
+<main>true</main>
+<tag>css_injection_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{element.setAttribute}}}{{code{eventName}}}}{t{ Using untrusted data to construct a CSS element. An attacker may be able to exfiltrate sensitive information from the web page.}}}}</description>
+<line>230</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{If possible, accept only user inputs in a set of acceptable strings (whitelisting). If whitelisting is not feasible, ensure that the user input cannot contain characters that may be used to add new CSS directives.}}}}</description>
+<line>230</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>sink</tag>
+<description>{CovLStrv2{{t{Calling {0}.}{{code{function}}}}{t{ This call passes tainted data to a sensitive sink.}}}}</description>
+<line>48</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/modernizr-2.6.2.js</file>
+<function>!modernizr-2.6.2.js!%IIFE</function>
+<key>32753abbfb61038ca37d6e827df036e2</key>
+<id>3</id>
+</model_ptr>
+</event>
+<extra>@&quot;setAttribute&quot;,element:&quot;!modernizr-2.6.2.js!%IIFE:%IIFE:isEventSupported&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>CSS_INJECTION</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/modernizr-2.6.2.js</file>
+<function>!modernizr-2.6.2.js!%SCRIPT</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>

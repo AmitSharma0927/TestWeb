@@ -1,0 +1,298 @@
+Encountered compiler invocation for first time, configuring it: c:/program files (x86)/dotnet/dotnet
+[STATUS] Using comptype dotnet
+[STATUS] Environment Variables
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=\\nanasvdi01\userdata$\s343416\Application Data
+CommonProgramFiles=C:\Program Files\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=VMW10MCS02505
+ComSpec=C:\WINDOWS\system32\cmd.exe
+COR_ENABLE_PROFILING=1
+COR_PROFILER={533c469a-ff6a-4383-96a2-4542da7745c4}
+COVERITY_BIN=C:\Program Files\Coverity\Coverity Static Analysis\bin
+COVERITY_BUILD_INVOCATION_ID=1
+COVERITY_BUILDLINE=C:\Temp\cov-s343416\a7a4839ee56606e6d9688c01b4c112b1/0ad32c029505e5c18307217b3b82030e
+COVERITY_COMMON_TEMP=C:\Temp
+COVERITY_COMPILER_PATH_MISMATCH_FILE=C:\AEP\AppScantool\testweb\idir\has_path_mismatches
+COVERITY_CONFIG_FILE=C:\AEP\AppScantool\testweb\idir\point-and-scan\build-compiler-configs\coverity_config.xml
+COVERITY_EMIT=C:\AEP\AppScantool\testweb\idir\emit
+COVERITY_ENABLE_CECS_WATCHDOG=1
+COVERITY_ENABLE_JAVA_ANNOTATION_FRAMEWORK_SUPPORT=1
+COVERITY_ENABLE_JAVA_PARSE_ERROR_RECOVERY=1
+COVERITY_IDIR=C:\AEP\AppScantool\testweb\idir
+COVERITY_JAVA_WOW64_WARNING_FILE=C:\AEP\AppScantool\testweb\idir\warn_about_32bit_java_compiles
+COVERITY_JAVA14_WARNING_FILE=C:\AEP\AppScantool\testweb\idir\warn_about_java14_compilations
+COVERITY_ORIG_OUTPUT=C:\AEP\AppScantool\testweb\idir\build-log.txt
+COVERITY_OUTPUT=pipe:\\.\pipe\cov-log-db0b0b853638f58a9626c079ccd4a612.s
+COVERITY_OUTPUT_ENCODING=windows-1252
+COVERITY_PATHLESS_CONFIGS_FILE=C:\AEP\AppScantool\testweb\idir\has_pathless_configs
+COVERITY_PREV_XML_CATALOG_FILES=
+COVERITY_REWRITE_FROM=
+COVERITY_REWRITE_TO=
+COVERITY_SITE_CC=apt;ar;c++;cc;cl;clang;clang++;csc;csc.dll;csc2;devenv;dotnet;g++;g++-3;g++-4;gcc;gcc-3;gcc-4;go;i686-w64-mingw32-c++;i686-w64-mingw32-g++;i686-w64-mingw32-g++-3;i686-w64-mingw32-g++-4;i686-w64-mingw32-gcc;i686-w64-mingw32-gcc-3;i686-w64-mingw32-gcc-4;java;javac;javaw;ld;lib;link;microsoft.aspnetcore.mvc.razor.viewcompilation;microsoft.aspnetcore.mvc.razor.viewcompilation-x64;microsoft.aspnetcore.mvc.razor.viewcompilation-x64.dll;microsoft.aspnetcore.mvc.razor.viewcompilation-x86;microsoft.aspnetcore.mvc.razor.viewcompilation-x86.dll;microsoft.aspnetcore.mvc.razor.viewcompilation.dll;mingw32-c++;mingw32-g++;mingw32-g++-3;mingw32-g++-4;mingw32-gcc;mingw32-gcc-3;mingw32-gcc-4;msbuild;razor;x86_64-w64-mingw32-c++;x86_64-w64-mingw32-g++;x86_64-w64-mingw32-g++-3;x86_64-w64-mingw32-g++-4;x86_64-w64-mingw32-gcc;x86_64-w64-mingw32-gcc-3;x86_64-w64-mingw32-gcc-4
+COVERITY_SITE_CC_CAPTURE_DESCENDANTS=dotnet
+COVERITY_SYSTEM_ENCODING=windows-1252
+COVERITY_TEMP=C:\Temp\cov-s343416\a7a4839ee56606e6d9688c01b4c112b1
+COVERITY_TOP_CONFIG=C:\Temp\cov-s343416\a7a4839ee56606e6d9688c01b4c112b1\cov-configure\coverity_config.xml
+DOTNET_CLI_TELEMETRY_OPTOUT=1
+DOTNET_CLI_TELEMETRY_SESSIONID=
+DOTNET_HOST_PATH=C:\Program Files (x86)\dotnet\dotnet.exe
+DriverData=C:\Windows\System32\Drivers\DriverData
+EGVMAGENT_INSTALL_DIR=C:\eGVmAgent
+EGVmAgent_PATH=C:\eGVmAgent\bin;C:\eGVmAgent\lib
+HOMEDRIVE=U:
+HOMEPATH=\
+HOMESHARE=\\corp\aepnas01\userdata2$\s343416
+JAVA_HOME=c:\Program Files (x86)\Java\jre1.8.0_251
+LDMS_LOCAL_DIR=C:\Program Files (x86)\LANDesk\LDClient\Data
+LDMS_PREFERRED_SERVER=VMAEPHQSM500.aepsc.com
+LOCALAPPDATA=C:\Users\s343416\AppData\Local
+LOGONSERVER=\\OHGRODCDC003
+MSBUILDDISABLENODEREUSE=1
+MSBuildExtensionsPath=C:\Program Files (x86)\dotnet\sdk\2.1.202\
+MSBuildSDKsPath=C:\Program Files (x86)\dotnet\sdk\2.1.202\Sdks
+NUMBER_OF_PROCESSORS=4
+ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+OS=Windows_NT
+PAS_LOG_FILE_STDERR=C:\Users\s343416\.synopsys\point-and-scan\service.stderr
+PAS_LOG_FILE_STDOUT=C:\Users\s343416\.synopsys\point-and-scan\service.stdout
+Path=C:\Oracle\ora64_112\Admin\bin;C:\Oracle\InstantClient_12_64;C:\Oracle\InstantClient_12_64\bin;C:\Program Files (x86)\Microsoft\Edge\Application;C:\Program Files (x86)\Java\jre1.8.0_251\bin\client;C:\Oracle\InstantClient_12_32;C:\Oracle\InstantClient_12_32\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Admin10\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Citrix\System32\;C:\Program Files\Citrix\ICAService\;C:\Program Files\Citrix\Virtual Desktop Agent\;C:\eGVmAgent\bin;C:\eGVmAgent\lib;C:\program files (x86)\java\jre1.8.0_251\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\s343416\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\Program Files (x86)\Sennheiser\SenncomSDK\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\s343416\AppData\Local\Microsoft\WindowsApps;C:\Users\s343416\.dotnet\tools
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 63 Stepping 0, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=3f00
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PROMPT=$P$G
+PSModulePath=C:\Program Files (x86)\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\Boldon James\Power Classifier for Files\;C:\Program Files\Citrix\Telemetry Service\
+PUBLIC=C:\Users\Public
+SEEKER_HOME_DIR=C:\Program Files\Synopsys\Seeker\inline\agents\dotnet\home
+SEEKER_SERVER_URL=https://poc34.seeker.synopsys.com:443
+SESSIONNAME=Console
+STTASKFOLDERPATH=Ivanti\PatchSDK\Deployments
+SystemDrive=C:
+SystemRoot=C:\WINDOWS
+TEMP=C:\Temp
+TMP=C:\Temp
+TNS_ADMIN=C:\Oracle\InstantAdmin
+USERDNSDOMAIN=CORP.AEPSC.COM
+USERDOMAIN=CORP
+USERDOMAIN_ROAMINGPROFILE=CORP
+USERNAME=s343416
+USERPROFILE=C:\Users\s343416
+UseSharedCompilation=false
+windir=C:\WINDOWS
+XML_CATALOG_FILES=
+Added template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/6c616ea110f93a2b5e8b9e422452e8d1/coverity_config.xml
+Using cached template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/6c616ea110f93a2b5e8b9e422452e8d1/coverity_config.xml
+Using cached template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/6c616ea110f93a2b5e8b9e422452e8d1/coverity_config.xml
+Using cached template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/6c616ea110f93a2b5e8b9e422452e8d1/coverity_config.xml
+Added template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/86c0393db2dfc13f34bf36599b00f373/coverity_config.xml
+Using cached template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/86c0393db2dfc13f34bf36599b00f373/coverity_config.xml
+Added template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/c8f9de1601ea66885a3e53408842da4f/coverity_config.xml
+Using cached template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/c8f9de1601ea66885a3e53408842da4f/coverity_config.xml
+Using cached template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/86c0393db2dfc13f34bf36599b00f373/coverity_config.xml
+Using cached template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/6c616ea110f93a2b5e8b9e422452e8d1/coverity_config.xml
+[WARNING] Could not stat compiler c:/program files (x86)/dotnet/sdk/2.1.202/roslyn/bincore/csc.dll, will create new template configuration instance for it.
+Encountered compiler invocation for first time, configuring it: c:/program files (x86)/dotnet/sdk/2.1.202/roslyn/bincore/csc.dll
+[STATUS] Using comptype csc
+[STATUS] Environment Variables
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=\\nanasvdi01\userdata$\s343416\Application Data
+CommonProgramFiles=C:\Program Files\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=VMW10MCS02505
+ComSpec=C:\WINDOWS\system32\cmd.exe
+COR_ENABLE_PROFILING=1
+COR_PROFILER={533c469a-ff6a-4383-96a2-4542da7745c4}
+COVERITY_BIN=C:\Program Files\Coverity\Coverity Static Analysis\bin
+COVERITY_BUILD_INVOCATION_ID=4
+COVERITY_BUILDLINE=C:\Temp\cov-s343416\c0570e6a5a0e279766ba55cb631e56f0/f870aabd5125449f108caf5186a3f704
+COVERITY_COMMON_TEMP=C:\Temp
+COVERITY_COMPILER_PATH_MISMATCH_FILE=C:\AEP\AppScantool\testweb\idir\has_path_mismatches
+COVERITY_CONFIG_FILE=C:\AEP\AppScantool\testweb\idir\point-and-scan\build-compiler-configs\coverity_config.xml
+COVERITY_EMIT=C:\AEP\AppScantool\testweb\idir\emit
+COVERITY_ENABLE_CECS_WATCHDOG=1
+COVERITY_ENABLE_JAVA_ANNOTATION_FRAMEWORK_SUPPORT=1
+COVERITY_ENABLE_JAVA_PARSE_ERROR_RECOVERY=1
+COVERITY_IDIR=C:\AEP\AppScantool\testweb\idir
+COVERITY_JAVA_WOW64_WARNING_FILE=C:\AEP\AppScantool\testweb\idir\warn_about_32bit_java_compiles
+COVERITY_JAVA14_WARNING_FILE=C:\AEP\AppScantool\testweb\idir\warn_about_java14_compilations
+COVERITY_ORIG_OUTPUT=C:\AEP\AppScantool\testweb\idir\build-log.txt
+COVERITY_OUTPUT=pipe:\\.\pipe\cov-log-db0b0b853638f58a9626c079ccd4a612.s
+COVERITY_OUTPUT_ENCODING=windows-1252
+COVERITY_PATHLESS_CONFIGS_FILE=C:\AEP\AppScantool\testweb\idir\has_pathless_configs
+COVERITY_PREV_XML_CATALOG_FILES=
+COVERITY_REWRITE_FROM=
+COVERITY_REWRITE_TO=
+COVERITY_SITE_CC=apt;ar;c++;cc;cl;clang;clang++;csc;csc.dll;csc2;devenv;dotnet;g++;g++-3;g++-4;gcc;gcc-3;gcc-4;go;i686-w64-mingw32-c++;i686-w64-mingw32-g++;i686-w64-mingw32-g++-3;i686-w64-mingw32-g++-4;i686-w64-mingw32-gcc;i686-w64-mingw32-gcc-3;i686-w64-mingw32-gcc-4;java;javac;javaw;ld;lib;link;microsoft.aspnetcore.mvc.razor.viewcompilation;microsoft.aspnetcore.mvc.razor.viewcompilation-x64;microsoft.aspnetcore.mvc.razor.viewcompilation-x64.dll;microsoft.aspnetcore.mvc.razor.viewcompilation-x86;microsoft.aspnetcore.mvc.razor.viewcompilation-x86.dll;microsoft.aspnetcore.mvc.razor.viewcompilation.dll;mingw32-c++;mingw32-g++;mingw32-g++-3;mingw32-g++-4;mingw32-gcc;mingw32-gcc-3;mingw32-gcc-4;msbuild;razor;x86_64-w64-mingw32-c++;x86_64-w64-mingw32-g++;x86_64-w64-mingw32-g++-3;x86_64-w64-mingw32-g++-4;x86_64-w64-mingw32-gcc;x86_64-w64-mingw32-gcc-3;x86_64-w64-mingw32-gcc-4
+COVERITY_SITE_CC_CAPTURE_DESCENDANTS=dotnet
+COVERITY_SYSTEM_ENCODING=windows-1252
+COVERITY_TEMP=C:\Temp\cov-s343416\c0570e6a5a0e279766ba55cb631e56f0
+COVERITY_TOP_CONFIG=C:\Temp\cov-s343416\c0570e6a5a0e279766ba55cb631e56f0\cov-configure\coverity_config.xml
+DOTNET_CLI_TELEMETRY_OPTOUT=1
+DOTNET_CLI_TELEMETRY_SESSIONID=
+DOTNET_HOST_PATH=C:\Program Files (x86)\dotnet\dotnet.exe
+DriverData=C:\Windows\System32\Drivers\DriverData
+EGVMAGENT_INSTALL_DIR=C:\eGVmAgent
+EGVmAgent_PATH=C:\eGVmAgent\bin;C:\eGVmAgent\lib
+HOMEDRIVE=U:
+HOMEPATH=\
+HOMESHARE=\\corp\aepnas01\userdata2$\s343416
+JAVA_HOME=c:\Program Files (x86)\Java\jre1.8.0_251
+LDMS_LOCAL_DIR=C:\Program Files (x86)\LANDesk\LDClient\Data
+LDMS_PREFERRED_SERVER=VMAEPHQSM500.aepsc.com
+LOCALAPPDATA=C:\Users\s343416\AppData\Local
+LOGONSERVER=\\OHGRODCDC003
+MSBUILDDISABLENODEREUSE=1
+MSBuildExtensionsPath=C:\Program Files (x86)\dotnet\sdk\2.1.202\
+MSBuildLoadMicrosoftTargetsReadOnly=true
+MSBuildSDKsPath=C:\Program Files (x86)\dotnet\sdk\2.1.202\Sdks
+NUMBER_OF_PROCESSORS=4
+ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+OS=Windows_NT
+PAS_LOG_FILE_STDERR=C:\Users\s343416\.synopsys\point-and-scan\service.stderr
+PAS_LOG_FILE_STDOUT=C:\Users\s343416\.synopsys\point-and-scan\service.stdout
+Path=C:\Oracle\ora64_112\Admin\bin;C:\Oracle\InstantClient_12_64;C:\Oracle\InstantClient_12_64\bin;C:\Program Files (x86)\Microsoft\Edge\Application;C:\Program Files (x86)\Java\jre1.8.0_251\bin\client;C:\Oracle\InstantClient_12_32;C:\Oracle\InstantClient_12_32\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Admin10\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Citrix\System32\;C:\Program Files\Citrix\ICAService\;C:\Program Files\Citrix\Virtual Desktop Agent\;C:\eGVmAgent\bin;C:\eGVmAgent\lib;C:\program files (x86)\java\jre1.8.0_251\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\s343416\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\Program Files (x86)\Sennheiser\SenncomSDK\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\s343416\AppData\Local\Microsoft\WindowsApps;C:\Users\s343416\.dotnet\tools
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 63 Stepping 0, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=3f00
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PROMPT=$P$G
+PSModulePath=C:\Program Files (x86)\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\Boldon James\Power Classifier for Files\;C:\Program Files\Citrix\Telemetry Service\
+PUBLIC=C:\Users\Public
+SEEKER_HOME_DIR=C:\Program Files\Synopsys\Seeker\inline\agents\dotnet\home
+SEEKER_SERVER_URL=https://poc34.seeker.synopsys.com:443
+SESSIONNAME=Console
+STTASKFOLDERPATH=Ivanti\PatchSDK\Deployments
+SystemDrive=C:
+SystemRoot=C:\WINDOWS
+TEMP=C:\Temp
+TMP=C:\Temp
+TNS_ADMIN=C:\Oracle\InstantAdmin
+USERDNSDOMAIN=CORP.AEPSC.COM
+USERDOMAIN=CORP
+USERDOMAIN_ROAMINGPROFILE=CORP
+USERNAME=s343416
+USERPROFILE=C:\Users\s343416
+UseSharedCompilation=false
+windir=C:\WINDOWS
+XML_CATALOG_FILES=
+Added template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/de3dfcb5ae554e8f66387ea1442aa8b9/coverity_config.xml
+Using cached template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/6c616ea110f93a2b5e8b9e422452e8d1/coverity_config.xml
+Using cached template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/6c616ea110f93a2b5e8b9e422452e8d1/coverity_config.xml
+Using cached template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/86c0393db2dfc13f34bf36599b00f373/coverity_config.xml
+Using cached template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/6c616ea110f93a2b5e8b9e422452e8d1/coverity_config.xml
+[WARNING] Could not stat compiler c:/program files (x86)/dotnet/sdk/2.1.202/roslyn/bincore/csc.dll, will create new template configuration instance for it.
+Encountered compiler invocation for first time, configuring it: c:/program files (x86)/dotnet/sdk/2.1.202/roslyn/bincore/csc.dll
+[STATUS] Using comptype csc
+[STATUS] Environment Variables
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=\\nanasvdi01\userdata$\s343416\Application Data
+CommonProgramFiles=C:\Program Files\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=VMW10MCS02505
+ComSpec=C:\WINDOWS\system32\cmd.exe
+COR_ENABLE_PROFILING=1
+COR_PROFILER={533c469a-ff6a-4383-96a2-4542da7745c4}
+COVERITY_BIN=C:\Program Files\Coverity\Coverity Static Analysis\bin
+COVERITY_BUILD_INVOCATION_ID=6
+COVERITY_BUILDLINE=C:\Temp\cov-s343416\c9eb21ad7ebddb90419208ebc70c6a0a/dc0bb67acb2c1b8eeb2662da1faea22b
+COVERITY_COMMON_TEMP=C:\Temp
+COVERITY_COMPILER_PATH_MISMATCH_FILE=C:\AEP\AppScantool\testweb\idir\has_path_mismatches
+COVERITY_CONFIG_FILE=C:\AEP\AppScantool\testweb\idir\point-and-scan\build-compiler-configs\coverity_config.xml
+COVERITY_EMIT=C:\AEP\AppScantool\testweb\idir\emit
+COVERITY_ENABLE_CECS_WATCHDOG=1
+COVERITY_ENABLE_JAVA_ANNOTATION_FRAMEWORK_SUPPORT=1
+COVERITY_ENABLE_JAVA_PARSE_ERROR_RECOVERY=1
+COVERITY_IDIR=C:\AEP\AppScantool\testweb\idir
+COVERITY_JAVA_WOW64_WARNING_FILE=C:\AEP\AppScantool\testweb\idir\warn_about_32bit_java_compiles
+COVERITY_JAVA14_WARNING_FILE=C:\AEP\AppScantool\testweb\idir\warn_about_java14_compilations
+COVERITY_ORIG_OUTPUT=C:\AEP\AppScantool\testweb\idir\build-log.txt
+COVERITY_OUTPUT=pipe:\\.\pipe\cov-log-db0b0b853638f58a9626c079ccd4a612.s
+COVERITY_OUTPUT_ENCODING=windows-1252
+COVERITY_PATHLESS_CONFIGS_FILE=C:\AEP\AppScantool\testweb\idir\has_pathless_configs
+COVERITY_PREV_XML_CATALOG_FILES=
+COVERITY_REWRITE_FROM=
+COVERITY_REWRITE_TO=
+COVERITY_SITE_CC=apt;ar;c++;cc;cl;clang;clang++;csc;csc.dll;csc2;devenv;dotnet;g++;g++-3;g++-4;gcc;gcc-3;gcc-4;go;i686-w64-mingw32-c++;i686-w64-mingw32-g++;i686-w64-mingw32-g++-3;i686-w64-mingw32-g++-4;i686-w64-mingw32-gcc;i686-w64-mingw32-gcc-3;i686-w64-mingw32-gcc-4;java;javac;javaw;ld;lib;link;microsoft.aspnetcore.mvc.razor.viewcompilation;microsoft.aspnetcore.mvc.razor.viewcompilation-x64;microsoft.aspnetcore.mvc.razor.viewcompilation-x64.dll;microsoft.aspnetcore.mvc.razor.viewcompilation-x86;microsoft.aspnetcore.mvc.razor.viewcompilation-x86.dll;microsoft.aspnetcore.mvc.razor.viewcompilation.dll;mingw32-c++;mingw32-g++;mingw32-g++-3;mingw32-g++-4;mingw32-gcc;mingw32-gcc-3;mingw32-gcc-4;msbuild;razor;x86_64-w64-mingw32-c++;x86_64-w64-mingw32-g++;x86_64-w64-mingw32-g++-3;x86_64-w64-mingw32-g++-4;x86_64-w64-mingw32-gcc;x86_64-w64-mingw32-gcc-3;x86_64-w64-mingw32-gcc-4
+COVERITY_SITE_CC_CAPTURE_DESCENDANTS=dotnet
+COVERITY_SYSTEM_ENCODING=windows-1252
+COVERITY_TEMP=C:\Temp\cov-s343416\c9eb21ad7ebddb90419208ebc70c6a0a
+COVERITY_TOP_CONFIG=C:\Temp\cov-s343416\c9eb21ad7ebddb90419208ebc70c6a0a\cov-configure\coverity_config.xml
+DOTNET_CLI_TELEMETRY_OPTOUT=1
+DOTNET_CLI_TELEMETRY_SESSIONID=
+DOTNET_HOST_PATH=C:\Program Files (x86)\dotnet\dotnet.exe
+DriverData=C:\Windows\System32\Drivers\DriverData
+EGVMAGENT_INSTALL_DIR=C:\eGVmAgent
+EGVmAgent_PATH=C:\eGVmAgent\bin;C:\eGVmAgent\lib
+HOMEDRIVE=U:
+HOMEPATH=\
+HOMESHARE=\\corp\aepnas01\userdata2$\s343416
+JAVA_HOME=c:\Program Files (x86)\Java\jre1.8.0_251
+LDMS_LOCAL_DIR=C:\Program Files (x86)\LANDesk\LDClient\Data
+LDMS_PREFERRED_SERVER=VMAEPHQSM500.aepsc.com
+LOCALAPPDATA=C:\Users\s343416\AppData\Local
+LOGONSERVER=\\OHGRODCDC003
+MSBUILDDISABLENODEREUSE=1
+MSBuildExtensionsPath=C:\Program Files (x86)\dotnet\sdk\2.1.202\
+MSBuildLoadMicrosoftTargetsReadOnly=true
+MSBuildSDKsPath=C:\Program Files (x86)\dotnet\sdk\2.1.202\Sdks
+NUMBER_OF_PROCESSORS=4
+ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+OS=Windows_NT
+PAS_LOG_FILE_STDERR=C:\Users\s343416\.synopsys\point-and-scan\service.stderr
+PAS_LOG_FILE_STDOUT=C:\Users\s343416\.synopsys\point-and-scan\service.stdout
+Path=C:\Oracle\ora64_112\Admin\bin;C:\Oracle\InstantClient_12_64;C:\Oracle\InstantClient_12_64\bin;C:\Program Files (x86)\Microsoft\Edge\Application;C:\Program Files (x86)\Java\jre1.8.0_251\bin\client;C:\Oracle\InstantClient_12_32;C:\Oracle\InstantClient_12_32\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Admin10\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Citrix\System32\;C:\Program Files\Citrix\ICAService\;C:\Program Files\Citrix\Virtual Desktop Agent\;C:\eGVmAgent\bin;C:\eGVmAgent\lib;C:\program files (x86)\java\jre1.8.0_251\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\s343416\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\Program Files (x86)\Sennheiser\SenncomSDK\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\s343416\AppData\Local\Microsoft\WindowsApps;C:\Users\s343416\.dotnet\tools
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 63 Stepping 0, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=3f00
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PROMPT=$P$G
+PSModulePath=C:\Program Files (x86)\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\Boldon James\Power Classifier for Files\;C:\Program Files\Citrix\Telemetry Service\
+PUBLIC=C:\Users\Public
+SEEKER_HOME_DIR=C:\Program Files\Synopsys\Seeker\inline\agents\dotnet\home
+SEEKER_SERVER_URL=https://poc34.seeker.synopsys.com:443
+SESSIONNAME=Console
+STTASKFOLDERPATH=Ivanti\PatchSDK\Deployments
+SystemDrive=C:
+SystemRoot=C:\WINDOWS
+TEMP=C:\Temp
+TMP=C:\Temp
+TNS_ADMIN=C:\Oracle\InstantAdmin
+USERDNSDOMAIN=CORP.AEPSC.COM
+USERDOMAIN=CORP
+USERDOMAIN_ROAMINGPROFILE=CORP
+USERNAME=s343416
+USERPROFILE=C:\Users\s343416
+UseSharedCompilation=false
+windir=C:\WINDOWS
+XML_CATALOG_FILES=
+Added template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/b167934d5d23059d07111733ed1e05fd/coverity_config.xml
+Using cached template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/6c616ea110f93a2b5e8b9e422452e8d1/coverity_config.xml
+Using cached template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/6c616ea110f93a2b5e8b9e422452e8d1/coverity_config.xml
+Using cached template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/86c0393db2dfc13f34bf36599b00f373/coverity_config.xml
+Using cached template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/6c616ea110f93a2b5e8b9e422452e8d1/coverity_config.xml
+Using cached template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/6c616ea110f93a2b5e8b9e422452e8d1/coverity_config.xml
+Using cached template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/c8f9de1601ea66885a3e53408842da4f/coverity_config.xml
+Using cached template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/c8f9de1601ea66885a3e53408842da4f/coverity_config.xml
+Using cached template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/86c0393db2dfc13f34bf36599b00f373/coverity_config.xml
+Using cached template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/86c0393db2dfc13f34bf36599b00f373/coverity_config.xml
+Using cached template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/86c0393db2dfc13f34bf36599b00f373/coverity_config.xml
+Using cached template compiler configuration instance C:/AEP/AppScantool/testweb/idir/emit/VMW10MCS02505/config/86c0393db2dfc13f34bf36599b00f373/coverity_config.xml

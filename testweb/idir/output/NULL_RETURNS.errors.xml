@@ -1,0 +1,154 @@
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>NULL_RETURNS</checker>
+<type>null_pointer_dereference_exception</type>
+<subtype>return_value</subtype>
+<template>null_returns_multievent_v1</template>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery.validate.js</file>
+<function>!jquery.validate.js!%IIFE:%IPOL.prototype.formatAndAdd</function>
+<functionMergeName>!jquery.validate.js!%IIFE:%IPOL.prototype.formatAndAdd</functionMergeName>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>returned_null</tag>
+<description>{CovLStrv2{{t{{0} returns {code{null}} or {code{undefined}} (checked {1} out of {2} times).}{{code{this.defaultMessage}}}{1}{2}}}}</description>
+<line>632</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery.validate.js</file>
+<function>!jquery.validate.js!%IIFE:%IPOL.prototype.defaultMessage</function>
+<key>d04373bd00d4d1c4dfa5a98c0782134b</key>
+<id>6</id>
+</model_ptr>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>example_assign</tag>
+<description>{CovLStrv2{{t{Example {0}: }{1}}{t{Assigning: {0} = return value from {1}.}{{code{message}}}{{code{this.defaultMessage(element, rule.method)}}}}}}</description>
+<line>632</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0} (cont.): }{1}}{t{{0} has its value checked in {1}.}{{code{message}}}{{code{typeof message === &quot;function&quot;}}}}}}</description>
+<line>634</line>
+</event>
+<event>
+<tag>var_assigned</tag>
+<description>{CovLStrv2{{t{Assigning {0} to the {code{null}} or {code{undefined}} return value from {1}.}{{code{message}}}{{code{this.defaultMessage}}}}}}</description>
+<line>632</line>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{typeof message === &quot;function&quot;}}}}}}</description>
+<line>634</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>else_branch</tag>
+<description>{CovLStrv2{{t{Reached else branch.}}}}</description>
+<line>636</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{theregex.test(message)}}}}}}</description>
+<line>636</line>
+<path_event></path_event>
+</event>
+<event>
+<main>true</main>
+<tag>property_access</tag>
+<description>{CovLStrv2{{t{Accessing a property of null-like value {0}.}{{code{message}}}}}}</description>
+<line>637</line>
+</event>
+<extra>defaultMessage,this</extra>
+<subcategory>none</subcategory>
+<eventSetCaptions>
+<eventSetCaption>Call to a function that returns null or undefined</eventSetCaption>
+<eventSetCaption>Examples where the return value was checked for null or undefined</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>NULL_RETURNS</checker>
+<type>null_pointer_dereference_exception</type>
+<subtype>return_value</subtype>
+<template>null_returns_multievent_v1</template>
+<file>C:/AEP/AppScantool/testweb/testweb/Scripts/jquery.validate-vsdoc.js</file>
+<function>!jquery.validate-vsdoc.js!%IIFE:%IPOL.prototype.formatAndAdd</function>
+<functionMergeName>!jquery.validate-vsdoc.js!%IIFE:%IPOL.prototype.formatAndAdd</functionMergeName>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>returned_null</tag>
+<description>{CovLStrv2{{t{{0} returns {code{null}} or {code{undefined}} (checked {1} out of {2} times).}{{code{this.defaultMessage}}}{1}{2}}}}</description>
+<line>679</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>C:/AEP/AppScantool/testweb/testweb/Scripts/jquery.validate-vsdoc.js</file>
+<function>!jquery.validate-vsdoc.js!%IIFE:%IPOL.prototype.defaultMessage</function>
+<key>3ed41630032c58618265456aa276db1b</key>
+<id>5</id>
+</model_ptr>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>example_assign</tag>
+<description>{CovLStrv2{{t{Example {0}: }{1}}{t{Assigning: {0} = return value from {1}.}{{code{message}}}{{code{this.defaultMessage(element, rule.method)}}}}}}</description>
+<line>679</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0} (cont.): }{1}}{t{{0} has its value checked in {1}.}{{code{message}}}{{code{typeof message == &quot;function&quot;}}}}}}</description>
+<line>681</line>
+</event>
+<event>
+<tag>var_assigned</tag>
+<description>{CovLStrv2{{t{Assigning {0} to the {code{null}} or {code{undefined}} return value from {1}.}{{code{message}}}{{code{this.defaultMessage}}}}}}</description>
+<line>679</line>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{typeof message == &quot;function&quot;}}}}}}</description>
+<line>681</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>else_branch</tag>
+<description>{CovLStrv2{{t{Reached else branch.}}}}</description>
+<line>683</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{theregex.test(message)}}}}}}</description>
+<line>683</line>
+<path_event></path_event>
+</event>
+<event>
+<main>true</main>
+<tag>property_access</tag>
+<description>{CovLStrv2{{t{Accessing a property of null-like value {0}.}{{code{message}}}}}}</description>
+<line>684</line>
+</event>
+<extra>defaultMessage,this</extra>
+<subcategory>none</subcategory>
+<eventSetCaptions>
+<eventSetCaption>Call to a function that returns null or undefined</eventSetCaption>
+<eventSetCaption>Examples where the return value was checked for null or undefined</eventSetCaption>
+</eventSetCaptions>
+</error>

@@ -1,0 +1,1707 @@
+timer                                                                                     ms      calls
+-------------------------------------------------------------------------------------------------------
+allAnalysis                                                                           252125          1
+  LOCK_FINDER_BOTTOMUP                                                                     0          1
+  RELAX_GETLOCK                                                                            0          1
+  RELAX_LOCKS                                                                              0          1
+  RELAX_UPDATE_STATE                                                                       0          1
+  RELAX_SERVLET_ATTRIBUTE                                                                  0          1
+  RELAX_LOCK_STATE                                                                         0          1
+  DUMMY_DERIVER_CONCURRENCY                                                                0          1
+  IFACE_TRACKER                                                                            0          7
+  LOCK_FINDER_TOPDOWN                                                                      0          1
+  LOCK_ORDER                                                                               0          1
+  THREAD_CONTEXT                                                                           0          1
+  ALLOC_FREE_MISMATCH                                                                      0          1
+  ASPNET_MVC_VERSION_HEADER                                                                0          1
+  ATTRIBUTE_NAME_CONFLICT                                                                  0          1
+  MISSING_PERMISSION_FOR_BROADCAST                                                         0          1
+  ARRAY_VS_SINGLETON                                                                       0          1
+  ASSERT_SIDE_EFFECT                                                                       0          1
+  SERVLET_ATOMICITY                                                                        0          1
+  BAD_ALLOC_ARITHMETIC                                                                     0          1
+  BAD_ALLOC_STRLEN                                                                         0          1
+  BAD_CHECK_OF_WAIT_COND                                                                   0          1
+  BAD_COMPARE                                                                              0          1
+  BAD_EQ                                                                                   0          1
+  BAD_EQ_TYPES                                                                             0          1
+  BAD_FREE                                                                                 0          1
+  IMPLICIT_INTENT                                                                          0          1
+  __BAD_CERT_VERIFICATION_ABSTRACT_INTERPRETATION                                          0          1
+  EXPOSED_PREFERENCES                                                                      0          1
+  BAD_LOCK_OBJECT                                                                          0          1
+  BAD_SHIFT                                                                                0          1
+  BAD_SIZEOF                                                                               0          1
+  CALL_SUPER                                                                               0          1
+  CHAR_IO                                                                                  0          1
+  CHECKED_RETURN                                                                           0          1
+  COM.BAD_FREE                                                                             0          1
+  COM.BSTR.CONV                                                                            0          1
+  CONSTANT_EXPRESSION_RESULT                                                               0          1
+  COPY_PASTE_ERROR                                                                         0          1
+  CUDA.DIVERGENCE_AT_COLLECTIVE_OPERATION                                                  0          1
+  STRING_GRAPH_CRYPTO                                                                      0          1
+  __RISKY_CRYPTO_ABSTRACT_INTERPRETATION                                                   0          1
+  CTOR_DTOR_LEAK                                                                           0          1
+  CUDA.INACTIVE_THREAD_AT_COLLECTIVE_WARP                                                  0          1
+  CUDA.INVALID_MEMORY_ACCESS                                                               0          1
+  CUDA.SHARE_FUNCTION                                                                      0          1
+  CUDA.SHARE_OBJECT_STREAM_ASSOCIATED                                                      0          1
+  DEADCODE                                                                                 0          1
+  DELETE_ARRAY                                                                             0          1
+  DELETE_VOID                                                                              0          1
+  USE_AFTER_FREE                                                                           0          1
+  DIVIDE_BY_ZERO                                                                           0          1
+  EVALUATION_ORDER                                                                         0          1
+  FORWARD_NULL                                                                             0          1
+  GUARDED_BY_VIOLATION                                                                     0          1
+  HIBERNATE_BAD_HASHCODE                                                                   0          1
+  ORM_UNNECESSARY_GET                                                                      0          1
+  IDENTIFIER_TYPO                                                                          0          1
+  IDENTICAL_BRANCHES                                                                       0          1
+  INCOMPATIBLE_CAST                                                                        0          1
+  INFINITE_LOOP                                                                            0          1
+  __INSECURE_COMMUNICATION_ABSTRACT_INTERPRETATION                                         0          1
+  INVALIDATE_ITERATOR                                                                      0          1
+    INVALIDATE_ITERATOR                                                                    0          2
+  LOCK_EVASION                                                                             0          1
+  LOCK_INVERSION                                                                           0          1
+  MISMATCHED_ITERATOR                                                                      0          1
+  MISSING_BREAK                                                                            0          1
+  MISSING_COMMA                                                                            0          1
+  MISSING_RESTORE                                                                          0          1
+  MISSING_RETURN                                                                           0          1
+  MISSING_THROW                                                                            0          1
+  NEGATIVE_RETURNS                                                                         0          1
+  NESTING_INDENT_MISMATCH                                                                  0          1
+  NO_EFFECT                                                                                0          1
+  NON_STATIC_GUARDING_STATIC                                                               0          1
+  NULL_RETURNS                                                                             0          1
+  ORM_LOAD_NULL_CHECK                                                                      0          1
+  OVERFLOW_BEFORE_WIDEN                                                                    0          1
+  OVERLAPPING_COPY_INTERNAL                                                                0          1
+  OVERRUN                                                                                  0          1
+  OVERRUN_SYMBOLIC                                                                         0          1
+  PASS_BY_VALUE                                                                            0          1
+  PREDICTABLE_RANDOM_SEED                                                                  0          1
+  PRINTF_ARGS                                                                              0          1
+  PRECEDENCE_ERROR                                                                         0          1
+  PROPERTY_MIXUP                                                                           0          1
+  READLINK                                                                                 0          1
+  REGEX_CONFUSION                                                                          0          1
+  RESOURCE_LEAK                                                                            0          1
+  RETURN_LOCAL                                                                             0          1
+  REVERSE_NEGATIVE                                                                         0          1
+  REVERSE_INULL                                                                            0          1
+  SIGN_EXTENSION                                                                           0          1
+  SINGLETON_RACE                                                                           0          1
+  SIZEOF_MISMATCH                                                                          0          1
+  STRAY_SEMICOLON                                                                          0          1
+  STREAM_FORMAT_STATE                                                                      0          1
+  SWAPPED_ARGUMENTS                                                                        0          1
+  USE_AFTER_MOVE                                                                           0          1
+  UNCAUGHT_EXCEPT_INTERNAL                                                                 0          1
+  UNEXPECTED_CONTROL_FLOW                                                                  0          1
+  UNINIT                                                                                   0          1
+  UNINIT_CTOR                                                                              0          1
+  UNINTENDED_GLOBAL                                                                        0          1
+  UNINTENDED_INTEGER_DIVISION                                                              0          1
+  UNLOGGED_SECURITY_EXCEPTION                                                              0          1
+  UNREACHABLE                                                                              0          1
+  UNRESTRICTED_ACCESS_TO_FILE_PRE                                                          0          1
+  UNUSED_VALUE                                                                             0          1
+  USELESS_CALL                                                                             0          1
+  VARARGS                                                                                  0          1
+  VIRTUAL_DTOR                                                                             0          1
+  VOLATILE_ATOMICITY                                                                       0          1
+  WRAPPER_ESCAPE                                                                           0          1
+  WRONG_METHOD                                                                             0          1
+  __XML_EXTERNAL_ENTITY_GO                                                                 0          1
+  EXTRACT_XREF_SUMMARY                                                                     0          1
+  FUNCTION_METRICS                                                                         0          1
+  DC.DEADLOCK                                                                              0          1
+  DC.DANGEROUS                                                                             0          1
+  CODEXM_FUNCTIONS_CHECKER_PASS_BEFORE_TUS                                                 0          1
+  RELAX_ACCESS_DBUFFER                                                                     0          1
+  RELAX_AFM_ALLOC                                                                          0          1
+  RELAX_AFM_FREE                                                                           0          1
+  RELAX_ALLOC                                                                              0          1
+  RELAX_CLOSE_RESOURCE                                                                     0          1
+  RELAX_CUDA_COLLECTIVE_OPERATION_SINK                                                     0          1
+  RELAX_CUDA_THREAD_IDX_SOURCE                                                             0          1
+  RELAX_BUFFER_SIZE                                                                        0          1
+  RELAX_CHECKED_RETURN                                                                     0          1
+  RELAX_CUDA_INACTIVE_THREAD_AT_COLLECTIVE_WARP_SINK                                       0          1
+  RELAX_CUDA_INVALID_MEMORY_ACCESS_SOURCE                                                  0          1
+  RELAX_CUDA_INVALID_MEMORY_ACCESS_SINK                                                    0          1
+  RELAX_CUDA_SHARE_FUNCTION                                                                0          1
+  RELAX_CUDA_SHARE_OBJECT_STREAM_ASSOCIATED_SINK                                           0          1
+  RELAX_DEREF_ARGS                                                                         0          1
+  RELAX_DIVISOR                                                                            0          1
+  RELAX_FREED_ARGS                                                                         0          1
+  RELAX_OBJECT_FREED                                                                       0          1
+  RELAX_OBJECT_USED                                                                        0          1
+  RELAX_INDEX_GENERIC                                                                      0          1
+  RELAX_MAYWRITE_NONPTR_FIELDS                                                             0          1
+  RELAX_ZERO_RETURN                                                                        0          1
+  RELAX_NEGATIVE_RETURN                                                                    0          1
+  RELAX_NEGATIVE_SINK                                                                      0          1
+  RELAX_NULL_RETURN                                                                        0          1
+  RELAX_NEW_ARRAY                                                                          0          1
+  RELAX_DELETE_ARRAY                                                                       0          1
+  RELAX_ITERATOR_RETURNS                                                                   0          1
+  RELAX_ITERATOR_SINKS                                                                     0          1
+  HBM_EQUALSORHASHCODE                                                                     0          1
+  HBM_MAYSETID                                                                             0          1
+  RELAX_ORM_LOAD                                                                           0          1
+  RELAX_STREAM_STATE                                                                       0          1
+  RELAX_JAVASCRIPT_OPTIONAL_CONSTRUCTOR                                                    0          1
+  RELAX_NOTHING                                                                            0          1
+  RELAX_ASPNET_MVC_VERSION_HEADER                                                          0          1
+  RELAX_DATAFLOW_PRIMITIVES                                                                0          1
+  RELAX_TAINT                                                                              0          1
+  RELAX_CRYPTO_PRIMITIVES                                                                  0          1
+  DERIVE_DYNAMIC_MAP_RW_MODELS                                                             0          1
+  RELAX_AUTHZ                                                                              0          1
+  RELAX_CSRF                                                                               0          1
+  RELAX_BAD_CERT_VERIFICATION                                                              0          1
+  RELAX_ANDROID_MISSING_PERMISSION                                                         0          1
+  RELAX_ANDROID_IMPLICIT_INTENT                                                            0          1
+  RELAX_PREDICTABLE_RANDOM_SEED                                                            0          1
+  RELAX_INSECURE_COMMUNICATION                                                             0          1
+  DUMMY_DERIVER_SECURITY                                                                   0          1
+  RELAX_PARAM_NAMES                                                                        0          1
+  RELAX_BENIGN_CLOSURE                                                                     0          1
+  RELAX_SIDE_EFFECT_FREE                                                                   0          1
+  RELAX_ANDROID_PERMISSIONS                                                                0          1
+  DUMMY_DERIVER_STACK_USE                                                                  0          1
+  RELAX_UNINIT                                                                             0          1
+  RELAX_UNINIT_ALLOC                                                                       0          1
+  DUMMY_DERIVER_UNINIT                                                                     0          1
+  DERIVE_PTR_ARITH                                                                         0          1
+  DUMMY_DERIVER_PTR_ARITH                                                                  0          1
+  RELAX_UNCAUGHT_EXCEPT                                                                    0          1
+  DUMMY_DERIVER_EXCEPTIONS                                                                 0          1
+  CHECKED_RETURN_STAT                                                                      0          1
+  CALL_SUPER_STAT                                                                          0          1
+  ADDR_ARG_STAT                                                                            0          1
+  BAD_EQ_STAT                                                                              0          1
+  BAD_LOCK_OBJECT_LOCK_SOURCE_STAT                                                         0          1
+  IDENTIFIER_TYPO_STAT                                                                     0          1
+  NON_STATIC_GUARDING_STATIC_STAT                                                          0          1
+  VOLATILE_ATOMICITY_STAT                                                                  0          1
+  CODEXM_FUNCTIONS_STAT_PASS                                                               0          1
+  DTOR_EMPTINESS_STAT                                                                      0          1
+  MOVE_ASSIGN_STAT                                                                         0          1
+  UNIQUE_SYMBOL_PREV_PASS_FUNCTION_ODR_HASH_GATHERER                                       0          1
+  BUILD_SINK_TYPE_GRAPH                                                                    0          1
+  DERIVE_EL_BEAN_RW                                                                        0          1
+  DERIVE_DYNAMIC_MAP_RW_ACCESSES                                                           0          1
+  RELAX_CSRF_FILTERS                                                                       0          1
+  FRAMEWORK_ANALYSIS_SPRING                                                                0          1
+  WEBFORMS_DOM                                                                             0          1
+  RAZOR_SECTIONS                                                                           0          1
+  BUILD_STRING_GRAPH                                                                       0          1
+  AUTHZ_STAT                                                                               0          1
+  CSRF_STAT                                                                                0          1
+  MISSING_PERMISSION_ON_EXPORTED_COMPONENT                                                 0          1
+  EL_INJECTION                                                                             0          1
+  __HEADER_INJECTION_STATICS                                                               0          1
+  JAVA_CODE_INJECTION                                                                      0          1
+  JCR_INJECTION                                                                            0          1
+  JSP_DYNAMIC_INCLUDE                                                                      0          1
+  JSP_SQL_INJECTION                                                                        0          1
+  LDAP_INJECTION                                                                           0          1
+  LOG_INJECTION                                                                            0          1
+  __NOSQL_QUERY_INJECTION_STATICS                                                          0          1
+  OGNL_INJECTION                                                                           0          1
+  __REGEX_INJECTION_STATICS                                                                0          1
+  __SCRIPT_CODE_INJECTION_STATICS                                                          0          1
+  SESSION_FIXATION                                                                         0          1
+  TRUST_BOUNDARY_VIOLATION                                                                 0          1
+  UNKNOWN_LANGUAGE_INJECTION                                                               0          1
+  UNRESTRICTED_DISPATCH                                                                    0          1
+  __UNSAFE_DESERIALIZATION_STATICS                                                         0          1
+  __UNSAFE_JNI_STATICS                                                                     0          1
+  UNSAFE_NAMED_QUERY                                                                       0          1
+  __XML_INJECTION_STATICS                                                                  0          1
+  __XPATH_INJECTION_STATICS                                                                0          1
+  __UNSAFE_REFLECTION_STATICS                                                              0          1
+  __TAINTED_ENVIRONMENT_WITH_EXECUTION_STATICS                                             0          1
+  DATAFLOW_INJECTION                                                                       0          1
+  __INSECURE_RANDOM_STRING_GRAPH                                                           0          1
+  __OS_CMD_INJECTION_STRING_GRAPH                                                          0          1
+  __PATH_MANIPULATION_STRING_GRAPH                                                         0          1
+  __URL_MANIPULATION_STRING_GRAPH                                                          0          1
+  __SENSITIVE_DATA_LEAK_STRING_GRAPH                                                       0          1
+  __SQLI_STRING_GRAPH                                                                      0          1
+  __TAINT_ASSERT_STRING_GRAPH                                                              0          1
+  __UNENCRYPTED_SENSITIVE_DATA_STRING_GRAPH                                                0          1
+  WEAK_GUARD_DATAFLOW_INJECTION                                                            0          1
+  __WEAK_GUARD_STRING_GRAPH                                                                0          1
+  __WEAK_PASSWORD_HASH_STRING_GRAPH                                                        0          1
+  __XML_EXTERNAL_ENTITY_STRING_GRAPH                                                       0          1
+  ANDROID_CAPABILITY_LEAK                                                                  0          1
+  __CSRF_JAVA_CSHARP                                                                       0          1
+  __HARDCODED_CREDENTIALS_STRING_GRAPH                                                     0          1
+  __OPEN_REDIRECT_STRING_GRAPH                                                             0          1
+  __MISSING_AUTHZ_JAVA_CSHARP                                                              0          1
+  __XSS_STRING_GRAPH                                                                       0          1
+  DATAFLOW_CALLGRAPH_CHECKER                                                               0          1
+  BUDA_DIRECTIVES_TYPE_INFERENCE_CHECKER                                                   0          1
+  TANDEM_DATAFLOW_CHECKER_INFRASTRUCTURE_DYNAMICS_1                                        0          1
+  __REGEX_INJECTION_BUDA                                                                   0          2
+  __HEADER_INJECTION_JS                                                                    0          2
+  __COOKIE_INJECTION_BUDA_JS                                                               0          2
+  __PATH_MANIPULATION_BUDA_JS                                                              0          2
+  __OS_CMD_INJECTION_BUDA.TANDEM                                                           0          2
+  __SCRIPT_CODE_INJECTION_BUDA_JS                                                          0          2
+  __NOSQL_QUERY_INJECTION_BUDA.TANDEM                                                      0          2
+  DOM_XSS                                                                                  0          2
+  LOCALSTORAGE_MANIPULATION                                                                0          2
+  SESSIONSTORAGE_MANIPULATION                                                              0          2
+  __URL_MANIPULATION_BUDA_DYNAMICS_JS                                                      0          2
+  __TAINTED_ENVIRONMENT_WITH_EXECUTION_BUDA                                                0          2
+  CSS_INJECTION                                                                            0          2
+  __XSS_BUDA.TANDEM                                                                        0          2
+  ANGULAR_EXPRESSION_INJECTION                                                             0          2
+  __UNSAFE_DESERIALIZATION_BUDA.TANDEM                                                     0          2
+  __TEMPLATE_INJECTION_BUDA_JS                                                             0          2
+  __REGEX_INJECTION_BUDA_PYTHON                                                            0          1
+  __PATH_MANIPULATION_BUDA_NONJS                                                           0          1
+  __SCRIPT_CODE_INJECTION_BUDA_NONJS                                                       0          1
+  __URL_MANIPULATION_BUDA_DYNAMICS_NOJS                                                    0          1
+  __UNSAFE_DESERIALIZATION_BUDA                                                            0          1
+  CODEXM_BUDA_CHECKER                                                                    328          1
+    parseBuiltinCheckers                                                                 328          1
+  __HEADER_INJECTION_BUDA                                                                  0          1
+  UNCHECKED_ORIGIN                                                                         0          1
+  __SQLI_BUDA_DYNAMICS                                                                     0          1
+  __SENSITIVE_DATA_LEAK_BUDA_DYNAMICS                                                      0          1
+  __RISKY_CRYPTO_BUDA                                                                      0          1
+  __INSECURE_SALT_BUDA                                                                     0          1
+  __MISSING_AUTHZ_BUDA_STATS                                                               0          1
+  __XML_EXTERNAL_ENTITY_BUDA_DYNAMICS                                                      0          1
+  __COOKIE_INJECTION_BUDA_PYTHON                                                           0          1
+  __OS_CMD_INJECTION_BUDA                                                                  0          1
+  __NOSQL_QUERY_INJECTION_BUDA                                                             0          1
+  __XSS_BUDA                                                                               0          1
+  SYMFONY_EL_INJECTION                                                                     0          1
+  __TEMPLATE_INJECTION_BUDA_PYTHON                                                         0          1
+  __HARDCODED_CREDENTIALS_BUDA_DYNAMICS                                                    0          1
+  __OPEN_REDIRECT_BUDA_DYNAMICS                                                            0          1
+  UNRESTRICTED_MESSAGE_TARGET                                                              0          1
+  MISSING_IFRAME_SANDBOX                                                                   0          1
+  __CSRF_BUDA                                                                              0          1
+  __INSECURE_RANDOM_BUDA_DYNAMICS                                                          0          1
+  __INSUFFICIENT_LOGGING_BUDA_DYNAMICS                                                     0          1
+  __UNSAFE_REFLECTION_BUDA                                                                 0          1
+  __XML_INJECTION_BUDA_DYNAMICS                                                            0          1
+  __MISSING_AUTHZ_BUDA                                                                     0          1
+  DATAFLOW_PREPASS_RESOLUTION_CHECKER                                                      0          1
+  TANDEM_DATAFLOW_CHECKER_INFRASTRUCTURE_STATICS                                           0          1
+  DISTRUSTED_DATA_DESERIALIZATION                                                          0          1
+  __HEADER_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH                                        0          1
+  __HEADER_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH2                                       0          2
+  __NOSQL_QUERY_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH                                   0          1
+  __PATH_MANIPULATION_BUDA_STATICS_NO_BUDA_CALLGRAPH                                       0          1
+  __TAINTED_ENVIRONMENT_WITH_EXECUTION_BUDA_STATICS_NO_BUDA_CALLGRAPH                      0          1
+  __TEMPLATE_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH                                      0          1
+  __URL_MANIPULATION_BUDA_STATICS_NO_BUDA_CALLGRAPH                                        0          1
+  __UNSAFE_DESERIALIZATION_BUDA_STATICS                                                    0          2
+  __UNSAFE_JNI_BUDA_STATICS_NO_BUDA_CALLGRAPH                                              0          2
+  __XPATH_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH                                         0          1
+  __XPATH_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH2                                        0          2
+  __XSS_BUDA_STATICS_NO_BUDA_CALLGRAPH                                                     0          1
+  __REGEX_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH                                         0          2
+  __WEAK_PASSWORD_HASH_BUDA_STATICS                                                        0          1
+  __HARDCODED_CREDENTIALS_BUDA_STATICS_NO_CALLGRAPH                                        0          1
+  __XML_EXTERNAL_ENTITY_BUDA_JAVA_DOTNET                                                   0          1
+  __INSECURE_RANDOM_BUDA_STATICS                                                           0          2
+  LDAP_NOT_CONSTANT                                                                        0          1
+  __OPEN_REDIRECT_BUDA_STATICS                                                             0          1
+  __OS_CMD_INJECTION_BUDA_STATICS                                                          0          1
+  __OS_CMD_INJECTION_BUDA_STATICS_TANDEM                                                   0          2
+  __PATH_MANIPULATION_BUDA_STATICS                                                         0          1
+  __RISKY_CRYPTO_BUDA_STATICS                                                              0          1
+  __SENSITIVE_DATA_LEAK_BUDA_STATICS                                                       0          1
+  __SQLI_BUDA_STATICS                                                                      0          1
+  __UNENCRYPTED_SENSITIVE_DATA_BUDA_STATICS_NO_CALLGRAPH                                   0          1
+  __URL_MANIPULATION_BUDA_STATICS                                                          0          2
+  __INSUFFICIENT_LOGGING_BUDA_STATICS                                                      0          1
+  __MOBILE_ID_MISUSE_BUDA_STATICS                                                          0          1
+  UNRESTRICTED_ACCESS_TO_FILE_BUDA_STATICS                                                 0          2
+  TANDEM_DATAFLOW_CHECKER_INFRASTRUCTURE_STATICS_WORMHOLING                                0          1
+  DISTRUSTED_DATA_DESERIALIZATION_WORMHOLING                                               0          1
+  __HEADER_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH_WORMHOLING                             0          1
+  __HEADER_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH2_WORMHOLING                            0          2
+  __NOSQL_QUERY_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH_WORMHOLING                        0          1
+  __PATH_MANIPULATION_BUDA_STATICS_NO_BUDA_CALLGRAPH_WORMHOLING                            0          1
+  __TAINTED_ENVIRONMENT_WITH_EXECUTION_BUDA_STATICS_NO_BUDA_CALLGRAPH_WORMHOLING           0          1
+  __TEMPLATE_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH_WORMHOLING                           0          1
+  __URL_MANIPULATION_BUDA_STATICS_NO_BUDA_CALLGRAPH_WORMHOLING                             0          1
+  __UNSAFE_DESERIALIZATION_BUDA_STATICS_WORMHOLING                                         0          2
+  __UNSAFE_JNI_BUDA_STATICS_NO_BUDA_CALLGRAPH_WORMHOLING                                   0          2
+  __XPATH_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH_WORMHOLING                              0          1
+  __XPATH_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH2_WORMHOLING                             0          2
+  __XSS_BUDA_STATICS_NO_BUDA_CALLGRAPH_WORMHOLING                                          0          1
+  __REGEX_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH_WORMHOLING                              0          2
+  __WEAK_PASSWORD_HASH_BUDA_STATICS_WORMHOLING                                             0          1
+  __HARDCODED_CREDENTIALS_BUDA_STATICS_NO_CALLGRAPH_WORMHOLING                             0          1
+  __XML_EXTERNAL_ENTITY_BUDA_JAVA_DOTNET_WORMHOLING                                        0          1
+  __INSECURE_RANDOM_BUDA_STATICS_WORMHOLING                                                0          2
+  LDAP_NOT_CONSTANT_WORMHOLING                                                             0          1
+  __OPEN_REDIRECT_BUDA_STATICS_WORMHOLING                                                  0          1
+  __OS_CMD_INJECTION_BUDA_STATICS_WORMHOLING                                               0          1
+  __OS_CMD_INJECTION_BUDA_STATICS_TANDEM_WORMHOLING                                        0          2
+  __PATH_MANIPULATION_BUDA_STATICS_WORMHOLING                                              0          1
+  __RISKY_CRYPTO_BUDA_STATICS_WORMHOLING                                                   0          1
+  __SENSITIVE_DATA_LEAK_BUDA_STATICS_WORMHOLING                                            0          1
+  __SQLI_BUDA_STATICS_WORMHOLING                                                           0          1
+  __UNENCRYPTED_SENSITIVE_DATA_BUDA_STATICS_NO_CALLGRAPH_WORMHOLING                        0          1
+  __URL_MANIPULATION_BUDA_STATICS_WORMHOLING                                               0          2
+  __INSUFFICIENT_LOGGING_BUDA_STATICS_WORMHOLING                                           0          1
+  __MOBILE_ID_MISUSE_BUDA_STATICS_WORMHOLING                                               0          1
+  UNRESTRICTED_ACCESS_TO_FILE_BUDA_STATICS_WORMHOLING                                      0          2
+  BAD_OVERRIDE                                                                             0          1
+  MISSING_MOVE_ASSIGNMENT                                                                  0          1
+  CODEXM_DECLS_STAT_PASS                                                                   0          1
+  CODEXM_TEXT_STAT_PASS                                                                    0          1
+  CODEXM_CLASSES_STAT_PASS                                                                 0          1
+  UNIQUE_SYMBOL_CHECKER                                                                    0          1
+  CONFIG.MISSING_CUSTOM_ERROR_PAGE                                                         0          1
+  __CONFIG.UNSAFE_SESSION_TIMEOUT_JAVA                                                     0          1
+  __CONFIG.SPRING_SECURITY_SESSION_FIXATION_JAVA                                           0          1
+  CONFIG.STRUTS2_CONFIG_BROWSER_PLUGIN                                                     0          1
+  CONFIG.HANA_XS_PREVENT_XSRF_DISABLED                                                     0          1
+  CONFIG.SYMFONY_CSRF_PROTECTION_DISABLED                                                  0          1
+  CONFIG.MYBATIS_MAPPER_SQLI                                                               0          1
+  ANDROID_DEBUG_MODE                                                                       0          1
+  CONFIG.COOKIES_MISSING_HTTPONLY                                                          0          1
+  CONFIG.DEAD_AUTHORIZATION_RULE                                                           0          1
+  __CONFIG.ENABLED_DEBUG_MODE_DOTNET                                                       0          1
+  CONFIG.ENABLED_TRACE_MODE                                                                0          1
+  CONFIG.ASP_VIEWSTATE_MAC                                                                 0          1
+  CONFIG.ASPNET_VERSION_HEADER                                                             0          1
+  CONFIG.DUPLICATE_SERVLET_DEFINITION                                                      0          1
+  CONFIG.DYNAMIC_DATA_HTML_COMMENT                                                         0          1
+  CONFIG.JAVAEE_MISSING_HTTPONLY                                                           0          1
+  __CONFIG.MISSING_GLOBAL_EXCEPTION_HANDLER_JAVA                                           0          1
+  CONFIG.MISSING_JSF2_SECURITY_CONSTRAINT                                                  0          1
+  __CONFIG.SPRING_SECURITY_DEBUG_MODE_JAVA                                                 0          1
+  CONFIG.SPRING_SECURITY_DISABLE_AUTH_TAGS                                                 0          1
+  CONFIG.SPRING_SECURITY_HARDCODED_CREDENTIALS                                             0          1
+  CONFIG.STRUTS2_DYNAMIC_METHOD_INVOCATION                                                 0          1
+  CONFIG.STRUTS2_ENABLED_DEV_MODE                                                          0          1
+  CONFIG.CONNECTION_STRING_PASSWORD                                                        0          1
+  CONFIG.HTTP_VERB_TAMPERING                                                               0          1
+  CODEXM_FUNCTIONS_CHECKER_PASS_AFTER_TUS                                                  0          1
+  SQL_NOT_CONSTANT                                                                         0          1
+  OVERLAPPING_COPY                                                                         0          1
+  UNCAUGHT_EXCEPT                                                                          0          1
+  CODEXM                                                                                   0          1
+  CONFIG.ANDROID_BACKUPS_ALLOWED                                                           0          1
+  CONFIG.ANDROID_GRADLE_OBFUSCATION_NOT_ENABLED                                            0          1
+  CONFIG.ANDROID_OUTDATED_TARGETSDKVERSION                                                 0          1
+  CONFIG.ANDROID_UNSAFE_MINSDKVERSION                                                      0          1
+  ANGULAR_BYPASS_SECURITY                                                                  0          1
+  ANGULAR_ELEMENT_REFERENCE                                                                0          1
+  ANGULAR_SCE_DISABLED                                                                     0          1
+  __ANONYMOUS_DB_CONNECTION_CODEXM_GO                                                      0          1
+  __ANONYMOUS_DB_CONNECTION_CODEXM_PYTHON                                                  0          1
+  AWS_SSL_DISABLED                                                                         0          1
+  AWS_VALIDATION_DISABLED                                                                  0          1
+  __BAD_CERT_VERIFICATION_CODEXM_GO                                                        0          1
+  __BAD_CERT_VERIFICATION_CODEXM_JAVA                                                      0          1
+  __BAD_CERT_VERIFICATION_CODEXM_JS                                                        0          1
+  __BAD_CERT_VERIFICATION_CODEXM_PYTHON                                                    0          1
+  CONFIG.BEEGO_CSRF_PROTECTION_DISABLED                                                    0          1
+  BUSBOY_MISCONFIGURATION                                                                  0          1
+  __CONFIG.UNSAFE_SESSION_TIMEOUT_CODEXM_JS                                                0          4
+  __CONFIG.COOKIE_SIGNING_DISABLED_CODEXM_GO                                               0          1
+  __CONFIG.COOKIE_SIGNING_DISABLED_CODEXM_JS                                               0          1
+  CONFIG.CORDOVA_EXCESSIVE_LOGGING                                                         0          1
+  CONFIG.CORDOVA_PERMISSIVE_ALLOWLIST                                                      0          1
+  __CORS_MISCONFIGURATION_AUDIT_CS                                                         0          2
+  __CORS_MISCONFIGURATION_AUDIT_CODEXM_GO                                                  0          1
+  __CORS_MISCONFIGURATION_AUDIT_JAVA                                                       0          2
+  __CORS_MISCONFIGURATION_CODEXM_JAVA                                                      0          2
+  __CORS_MISCONFIGURATION_AUDIT_CODEXM_JS                                                  0          1
+  __CORS_MISCONFIGURATION_CODEXM_JS                                                        0          2
+  __CORS_MISCONFIGURATION_CODEXM_CS                                                        0          2
+  __CORS_MISCONFIGURATION_CODEXM_GO                                                        0          1
+  CSRF_MISCONFIGURATION_HAPI_CRUMB                                                         0          1
+  CONFIG.CSURF_IGNORE_METHODS                                                              0          1
+  DISABLED_ENCRYPTION                                                                      0          1
+  CONFIG.DJANGO_CSRF_PROTECTION_DISABLED                                                   0          1
+  __CONFIG.ENABLED_DEBUG_MODE_CODEXM_JS                                                    0          1
+  __CONFIG.ENABLED_DEBUG_MODE_CODEXM_PYTHON                                                0          1
+  __EXPOSED_DIRECTORY_LISTING_CODEXM_GO                                                    0          1
+  __EXPOSED_DIRECTORY_LISTING_CODEXM_JS                                                    0          1
+  EXPRESS_SESSION_UNSAFE_MEMORYSTORE                                                       0          1
+  UNLESS_CASE_SENSITIVE_ROUTE_MATCHING                                                     0          1
+  EXPRESS_WINSTON_SENSITIVE_LOGGING                                                        0          1
+  FILE_UPLOAD_MISCONFIGURATION                                                             0          1
+  HAPI_SESSION_MONGO_MISSING_TLS                                                           0          1
+  __CONFIG.HARDCODED_CREDENTIALS_AUDIT_CODEXM_DOTNET                                       0          1
+  __CONFIG.HARDCODED_CREDENTIALS_AUDIT_CODEXM_JAVA                                         0          1
+  __CONFIG.HARDCODED_CREDENTIALS_AUDIT_CODEXM_JS                                           0          1
+  __HARDCODED_CREDENTIALS_URL                                                              0          1
+  __HARDCODED_CREDENTIALS_CODEXM_PYTHON                                                    0          1
+  CONFIG.HARDCODED_TOKEN                                                                   0          1
+  DNS_PREFETCHING                                                                          0          1
+  HPKP_MISCONFIGURATION                                                                    0          1
+  HOST_HEADER_VALIDATION_DISABLED                                                          0          1
+  INSECURE_ACL                                                                             0          1
+  __INSECURE_COMMUNICATION_CODEXM_CS                                                       0          1
+  __INSECURE_COMMUNICATION_CODEXM_GO                                                       0          1
+  __INSECURE_COMMUNICATION_CODEXM_JAVA                                                     0          1
+  __INSECURE_COMMUNICATION_CODEXM_PYTHON                                                   0          1
+  __INSECURE_COOKIE_CODEXM_CS                                                              0          2
+  __INSECURE_COOKIE_CODEXM_GO                                                              0          1
+  __INSECURE_COOKIE_CODEXM_JAVA                                                            0          1
+  __INSECURE_COOKIE_CODEXM_JS                                                              0          1
+  __INSECURE_COOKIE_CODEXM_PYTHON                                                          0          1
+  INSECURE_CSP                                                                             0          1
+  INSECURE_FILE_PERMISSIONS                                                                0          1
+  INSECURE_HTTP_FIREWALL                                                                   0          1
+  __INSECURE_NETWORK_BIND_CODEXM_GO                                                        0          1
+  __INSECURE_NETWORK_BIND_CODEXM_PYTHON                                                    0          1
+  __INSECURE_REFERRER_POLICY_CODEXM_JS                                                     0          1
+  __INSECURE_REFERRER_POLICY_CODEXM_PYTHON                                                 0          1
+  INSECURE_REMEMBER_ME_COOKIE                                                              0          1
+  INSUFFICIENT_PRESIGNED_URL_TIMEOUT                                                       0          2
+  JINJA2_AUTOESCAPE_DISABLED                                                               0          1
+  __JSONWEBTOKEN_UNTRUSTED_DECODE_CODEXM_GO                                                0          1
+  LOCALSTORAGE_WRITE                                                                       0          1
+  MISSING_HEADER_VALIDATION                                                                0          1
+  MISSING_PASSWORD_VALIDATOR                                                               0          1
+  MULTER_MISCONFIGURATION                                                                  0          1
+  CONFIG.MYSQL_SSL_VERIFY_DISABLED                                                         0          1
+  __OAUTH2_MISCONFIGURATION_CODEXM_GO                                                      0          1
+  REACT_DANGEROUS_INNERHTML                                                                0          1
+  __REVERSE_TABNABBING_CODEXM_JS                                                           0          1
+  __RISKY_CRYPTO_JS_CODEXM                                                                 0          1
+  __SECURE_TEMP_CODEXM_PYTHON                                                              0          1
+  __SOCKET_ACCEPT_ALL_ORIGINS_CODEXM_GO                                                    0          1
+  __SOCKET_ACCEPT_ALL_ORIGINS_CODEXM_JS                                                    0          1
+  __INSECURE_COMMUNICATION_SOCKETIO                                                        0          1
+  CONFIG.SOCKETIO_MAXHTTPBUFFERSIZE_SET_TOO_LARGE                                          0          1
+  CONFIG.SPRING_BOOT_ADMIN_ACCESS_ENABLED                                                  0          1
+  CONFIG.SPRING_BOOT_SENSITIVE_LOGGING                                                     0          1
+  CONFIG.SPRING_BOOT_SSL_DISABLED                                                          0          1
+  __CONFIG.SPRING_SECURITY_DEBUG_MODE_CODEXM_JAVA                                          0          1
+  CONFIG.SPRING_SECURITY_CSRF_PROTECTION_DISABLED                                          0          1
+  CONFIG.SPRING_SECURITY_DEPRECATED_XSS_HEADER                                             0          1
+  CONFIG.SPRING_SECURITY_EXPOSED_SESSIONID                                                 0          1
+  CONFIG.SPRING_SECURITY_LOGIN_OVER_HTTP                                                   0          1
+  __CONFIG.SPRING_SECURITY_SESSION_FIXATION_CODEXM_JAVA                                    0          1
+  CONFIG.SPRING_SECURITY_UNSAFE_AUTHENTICATION_FILTER                                      0          1
+  CONFIG.SPRING_SECURITY_WEAK_PASSWORD_HASH                                                0          1
+  STATIC_API_KEY                                                                           0          1
+  SUPPRESSED_ERROR                                                                         0          1
+  TEMPORARY_CREDENTIALS_DURATION                                                           0          1
+  UNLIMITED_CONCURRENT_SESSIONS                                                            0          1
+  __UNSAFE_BASIC_AUTH_CODEXM_GO                                                            0          1
+  UNSAFE_BUFFER_METHOD                                                                     0          1
+  __UNSAFE_FUNCTIONALITY_GO                                                                0          1
+  __CONFIG.UNSAFE_SESSION_TIMEOUT_CODEXM_GO                                                0          1
+  __UNSAFE_XML_PARSE_CONFIG_CODEXM_CS                                                      0          1
+  __UNSAFE_XML_PARSE_CONFIG_CODEXM_PYTHON                                                  0          1
+  VERBOSE_ERROR_REPORTING                                                                  0          1
+  CONFIG.VUE_ROUTER_PARAMS_EXPOSED_TO_PROPS                                                0          1
+  VUE_TEMPLATE_UNSAFE_VHTML_DIRECTIVE                                                      0          1
+  __WEAK_PASSWORD_HASH_CODEXM_PYTHON                                                       0          1
+  CONFIG.WEAK_SECURITY_CONSTRAINT                                                          0          1
+  __WEAK_URL_SANITIZATION_CODEXM_JAVA                                                      0          1
+  __WEAK_URL_SANITIZATION_CODEXM_JS                                                        0          1
+  __WEAK_URL_SANITIZATION_CODEXM_PYTHON                                                    0          1
+  WEAK_XML_SCHEMA                                                                          0          1
+  __CONFIG.MISSING_GLOBAL_EXCEPTION_HANDLER_CODEXM_JS                                      0          1
+  EXPRESS_X_POWERED_BY_ENABLED                                                             0          1
+  CUDA.COLLECTIVE_WARP_SHUFFLE_WIDTH                                                       0          1
+  CUDA.CUDEVICE_HANDLES                                                                    0          1
+  CUDA.DEVICE_DEPENDENT                                                                    0          1
+  CUDA.DEVICE_DEPENDENT_CALLBACKS                                                          0          1
+  CUDA.ERROR_INTERFACE                                                                     0          1
+  CUDA.ERROR_KERNEL_LAUNCH                                                                 0          1
+  CUDA.FORK                                                                                0          1
+  CUDA.INITIATION_OBJECT_DEVICE_THREAD_BLOCK                                               0          1
+  CUDA.SYNCHRONIZE_TERMINATION                                                             0          1
+  CUDA.SPECIFIERS_INCONSISTENCY                                                            0          1
+  __BAD_CERT_VERIFICATION_BRAKEMAN                                                         0          1
+  DENY_LIST_FOR_AUTHN                                                                      0          1
+  COOKIE_SERIALIZER_CONFIG                                                                 0          1
+  __CSRF_BRAKEMAN                                                                          0          1
+  __DIVIDE_BY_ZERO_BRAKEMAN                                                                0          1
+  DYNAMIC_OBJECT_ATTRIBUTES                                                                0          1
+  __HARDCODED_CREDENTIALS_BRAKEMAN                                                         0          1
+  __OPEN_REDIRECT_BRAKEMAN                                                                 0          1
+  __OS_CMD_INJECTION_BRAKEMAN                                                              0          1
+  __PATH_MANIPULATION_BRAKEMAN                                                             0          1
+  RAILS_DEFAULT_ROUTES                                                                     0          1
+  RAILS_DEVISE_CONFIG                                                                      0          1
+  RAILS_MISSING_FILTER_ACTION                                                              0          1
+  __REGEX_INJECTION_BRAKEMAN                                                               0          1
+  REGEX_MISSING_ANCHOR                                                                     0          1
+  __RESOURCE_LEAK_BRAKEMAN                                                                 0          1
+  __REVERSE_TABNABBING_BRAKEMAN                                                            0          1
+  RUBY_VULNERABLE_LIBRARY                                                                  0          1
+  __SCRIPT_CODE_INJECTION_BRAKEMAN                                                         0          1
+  __SENSITIVE_DATA_LEAK_BRAKEMAN                                                           0          1
+  SESSION_MANIPULATION                                                                     0          1
+  __SQLI_BRAKEMAN                                                                          0          1
+  STRICT_TRANSPORT_SECURITY                                                                0          1
+  __TEMPLATE_INJECTION_BRAKEMAN                                                            0          1
+  __UNSAFE_BASIC_AUTH_BRAKEMAN                                                             0          1
+  __UNSAFE_DESERIALIZATION_BRAKEMAN                                                        0          1
+  __UNSAFE_REFLECTION_BRAKEMAN                                                             0          1
+  UNSAFE_SESSION_SETTING                                                                   0          1
+  __WEAK_PASSWORD_HASH_BRAKEMAN                                                            0          1
+  __XSS_BRAKEMAN                                                                           0          1
+  ANONYMOUS_DB_CONNECTION                                                                  0          1
+  SOCKET_ACCEPT_ALL_ORIGINS                                                                0          1
+  SECURE_TEMP                                                                              0          1
+  INSECURE_NETWORK_BIND                                                                    0          1
+  INSECURE_COMMUNICATION                                                                   0          1
+  BAD_CERT_VERIFICATION                                                                    0          1
+  WEAK_PASSWORD_HASH                                                                       0          1
+  HARDCODED_CREDENTIALS                                                                    0          1
+  WEAK_GUARD                                                                               0          1
+  XSS                                                                                      0          1
+  SQLI                                                                                     0          1
+  PATH_MANIPULATION                                                                        0          1
+  OPEN_REDIRECT                                                                            0          1
+  OS_CMD_INJECTION                                                                         0          1
+  UNENCRYPTED_SENSITIVE_DATA                                                               0          1
+  CSRF                                                                                     0          1
+  COOKIE_INJECTION                                                                         0          1
+  HEADER_INJECTION                                                                         0          1
+  REGEX_INJECTION                                                                          0          1
+  NOSQL_QUERY_INJECTION                                                                    0          1
+  SCRIPT_CODE_INJECTION                                                                    0          1
+  XML_INJECTION                                                                            0          1
+  SENSITIVE_DATA_LEAK                                                                      0          1
+  INSECURE_COOKIE                                                                          0          1
+  CONFIG.COOKIE_SIGNING_DISABLED                                                           0          1
+  RISKY_CRYPTO                                                                             0          1
+  TAINT_ASSERT                                                                             0          1
+  UNRESTRICTED_ACCESS_TO_FILE                                                              0          1
+  TEMPLATE_INJECTION                                                                       0          1
+  MISSING_AUTHZ                                                                            0          1
+  UNSAFE_DESERIALIZATION                                                                   0          1
+  UNSAFE_REFLECTION                                                                        0          1
+  INSECURE_RANDOM                                                                          0          1
+  INSECURE_SALT                                                                            0          1
+  XPATH_INJECTION                                                                          0          1
+  URL_MANIPULATION                                                                         0          1
+  INSUFFICIENT_LOGGING                                                                     0          1
+  XML_EXTERNAL_ENTITY                                                                      0          1
+  TAINTED_ENVIRONMENT_WITH_EXECUTION                                                       0          1
+  MOBILE_ID_MISUSE                                                                         0          1
+  REVERSE_TABNABBING                                                                       0          1
+  CONFIG.UNSAFE_SESSION_TIMEOUT                                                            0          1
+  CORS_MISCONFIGURATION                                                                    0          1
+  CORS_MISCONFIGURATION_AUDIT                                                              0          1
+  CONFIG.MISSING_GLOBAL_EXCEPTION_HANDLER                                                  0          1
+  CONFIG.ENABLED_DEBUG_MODE                                                                0          1
+  CONFIG.HARDCODED_CREDENTIALS_AUDIT                                                       0          1
+  CONFIG.SPRING_SECURITY_DEBUG_MODE                                                        0          1
+  CONFIG.SPRING_SECURITY_SESSION_FIXATION                                                  0          1
+  WEAK_URL_SANITIZATION                                                                    0          1
+  INSECURE_REFERRER_POLICY                                                                 0          1
+  JSONWEBTOKEN_UNTRUSTED_DECODE                                                            0          1
+  UNSAFE_JNI                                                                               0          1
+  UNSAFE_BASIC_AUTH                                                                        0          1
+  EXPOSED_DIRECTORY_LISTING                                                                0          1
+  OAUTH2_MISCONFIGURATION                                                                  0          1
+  UNSAFE_FUNCTIONALITY                                                                     0          1
+  UNSAFE_XML_PARSE_CONFIG                                                                  0          1
+  sequential initialization                                                            11500          1
+    Looking for translation units                                                          0          1
+    Computing links for translation units                                               1922          1
+    xfer symbol cache                                                                    719          1
+    Computing virtual overrides for structural subtyping                                   0          1
+    Computing virtual overrides                                                           31          1
+    Framework Analyzer                                                                  3718          1
+    computing RTA                                                                        328          1
+    directive resolution pre-pass: master                                               1328          2
+    Computing callgraph                                                                  563          1
+    Topologically sorting functions                                                      125          1
+    startCalcXrefs                                                                      1157          1
+    (left over)                                                                         1609
+  run_sigma                                                                             7000          1
+  Computing node costs                                                                   172          1
+  Analysis run                                                                        221672          1
+    ANGULAR_BYPASS_SECURITY                                                                0          2
+    ANGULAR_ELEMENT_REFERENCE                                                              0          2
+    ANGULAR_SCE_DISABLED                                                                   0          2
+    AWS_SSL_DISABLED                                                                       0          2
+    AWS_VALIDATION_DISABLED                                                                0          2
+    BAD_CERT_VERIFICATION                                                                  0          2
+    BUSBOY_MISCONFIGURATION                                                                0          2
+    CODEXM                                                                                 0          2
+    CONFIG.COOKIE_SIGNING_DISABLED                                                         0          2
+    CONFIG.CORDOVA_EXCESSIVE_LOGGING                                                       0          2
+    CONFIG.CORDOVA_PERMISSIVE_ALLOWLIST                                                    0          2
+    CONFIG.CSURF_IGNORE_METHODS                                                            0          2
+    CONFIG.ENABLED_DEBUG_MODE                                                              0          2
+    CONFIG.HARDCODED_CREDENTIALS_AUDIT                                                     0          2
+    CONFIG.HARDCODED_TOKEN                                                                 0          2
+    CONFIG.MISSING_GLOBAL_EXCEPTION_HANDLER                                                0          2
+    CONFIG.MYSQL_SSL_VERIFY_DISABLED                                                       0          2
+    CONFIG.SOCKETIO_MAXHTTPBUFFERSIZE_SET_TOO_LARGE                                        0          2
+    CONFIG.SPRING_SECURITY_DEBUG_MODE                                                      0          2
+    CONFIG.SPRING_SECURITY_SESSION_FIXATION                                                0          2
+    CONFIG.UNSAFE_SESSION_TIMEOUT                                                          0          2
+    CONFIG.VUE_ROUTER_PARAMS_EXPOSED_TO_PROPS                                              0          2
+    COOKIE_INJECTION                                                                       0          2
+    CORS_MISCONFIGURATION                                                                  0          2
+    CORS_MISCONFIGURATION_AUDIT                                                            0          2
+    CSRF                                                                                   0          2
+    CSRF_MISCONFIGURATION_HAPI_CRUMB                                                       0          2
+    DNS_PREFETCHING                                                                        0          2
+    EXPOSED_DIRECTORY_LISTING                                                              0          2
+    EXPRESS_SESSION_UNSAFE_MEMORYSTORE                                                     0          2
+    EXPRESS_WINSTON_SENSITIVE_LOGGING                                                      0          2
+    EXPRESS_X_POWERED_BY_ENABLED                                                           0          2
+    FILE_UPLOAD_MISCONFIGURATION                                                           0          2
+    HAPI_SESSION_MONGO_MISSING_TLS                                                         0          2
+    HARDCODED_CREDENTIALS                                                                  0          2
+    HEADER_INJECTION                                                                       0          2
+    HPKP_MISCONFIGURATION                                                                  0          2
+    INSECURE_ACL                                                                           0          2
+    INSECURE_COMMUNICATION                                                                 0          2
+    INSECURE_COOKIE                                                                        0          2
+    INSECURE_RANDOM                                                                        0          2
+    INSECURE_REFERRER_POLICY                                                               0          2
+    INSECURE_SALT                                                                          0          2
+    INSUFFICIENT_LOGGING                                                                   0          2
+    INSUFFICIENT_PRESIGNED_URL_TIMEOUT                                                     0          4
+    LOCALSTORAGE_WRITE                                                                     0          2
+    MISSING_AUTHZ                                                                          0          2
+    MULTER_MISCONFIGURATION                                                                0          2
+    NOSQL_QUERY_INJECTION                                                                  0          2
+    OPEN_REDIRECT                                                                          0          2
+    OS_CMD_INJECTION                                                                       0          2
+    PATH_MANIPULATION                                                                      0          2
+    REACT_DANGEROUS_INNERHTML                                                              0          2
+    REGEX_INJECTION                                                                        0          2
+    REVERSE_TABNABBING                                                                     0          2
+    RISKY_CRYPTO                                                                           0          2
+    SCRIPT_CODE_INJECTION                                                                  0          2
+    SENSITIVE_DATA_LEAK                                                                    0          2
+    SOCKET_ACCEPT_ALL_ORIGINS                                                              0          2
+    SQLI                                                                                   0          2
+    SQL_NOT_CONSTANT                                                                       0          2
+    TAINTED_ENVIRONMENT_WITH_EXECUTION                                                     0          2
+    TAINT_ASSERT                                                                           0          2
+    TEMPLATE_INJECTION                                                                     0          2
+    TEMPORARY_CREDENTIALS_DURATION                                                         0          2
+    UNENCRYPTED_SENSITIVE_DATA                                                             0          2
+    UNLESS_CASE_SENSITIVE_ROUTE_MATCHING                                                   0          2
+    UNSAFE_BUFFER_METHOD                                                                   0          2
+    UNSAFE_DESERIALIZATION                                                                 0          2
+    UNSAFE_XML_PARSE_CONFIG                                                                0          2
+    URL_MANIPULATION                                                                       0          2
+    VUE_TEMPLATE_UNSAFE_VHTML_DIRECTIVE                                                    0          2
+    WEAK_PASSWORD_HASH                                                                     0          2
+    WEAK_URL_SANITIZATION                                                                  0          2
+    XML_EXTERNAL_ENTITY                                                                    0          2
+    XML_INJECTION                                                                          0          2
+    XPATH_INJECTION                                                                        0          2
+    XSS                                                                                    0          2
+    __BAD_CERT_VERIFICATION_CODEXM_JS                                                      0          2
+    __CONFIG.COOKIE_SIGNING_DISABLED_CODEXM_JS                                             0          2
+    __CONFIG.ENABLED_DEBUG_MODE_CODEXM_JS                                                  0          2
+    __CONFIG.HARDCODED_CREDENTIALS_AUDIT_CODEXM_DOTNET                                     0          2
+    __CONFIG.HARDCODED_CREDENTIALS_AUDIT_CODEXM_JS                                         0          2
+    __CONFIG.MISSING_GLOBAL_EXCEPTION_HANDLER_CODEXM_JS                                    0          2
+    __CONFIG.UNSAFE_SESSION_TIMEOUT_CODEXM_JS                                              0          8
+    __CORS_MISCONFIGURATION_AUDIT_CODEXM_JS                                                0          2
+    __CORS_MISCONFIGURATION_AUDIT_CS                                                       0          4
+    __CORS_MISCONFIGURATION_CODEXM_CS                                                      0          4
+    __CORS_MISCONFIGURATION_CODEXM_JS                                                      0          4
+    __EXPOSED_DIRECTORY_LISTING_CODEXM_JS                                                  0          2
+    __HARDCODED_CREDENTIALS_URL                                                            0          2
+    __INSECURE_COMMUNICATION_CODEXM_CS                                                     0          2
+    __INSECURE_COMMUNICATION_SOCKETIO                                                      0          2
+    __INSECURE_COOKIE_CODEXM_CS                                                            0          4
+    __INSECURE_COOKIE_CODEXM_JS                                                            0          2
+    __INSECURE_REFERRER_POLICY_CODEXM_JS                                                   0          2
+    __REVERSE_TABNABBING_CODEXM_JS                                                         0          2
+    __RISKY_CRYPTO_JS_CODEXM                                                               0          2
+    __SOCKET_ACCEPT_ALL_ORIGINS_CODEXM_JS                                                  0          2
+    __UNSAFE_XML_PARSE_CONFIG_CODEXM_CS                                                    0          2
+    __WEAK_URL_SANITIZATION_CODEXM_JS                                                      0          2
+    BAD_EQ_STAT                                                                            0          2
+    BAD_LOCK_OBJECT_LOCK_SOURCE_STAT                                                       0          2
+    CALL_SUPER_STAT                                                                        0          2
+    CHECKED_RETURN_STAT                                                                    0          2
+    CODEXM_FUNCTIONS_STAT_PASS                                                             0          2
+    IDENTIFIER_TYPO_STAT                                                                   0          2
+    NON_STATIC_GUARDING_STATIC_STAT                                                        0          2
+    VOLATILE_ATOMICITY_STAT                                                                0          2
+    loadFromEmit                                                                       15129      28288
+      CODEXM_FUNCTIONS_STAT_PASS                                                           0       3608
+      DATAFLOW_CALLGRAPH_CHECKER                                                        1437       4420
+      RELAX_ALLOC                                                                          0       1110
+      RELAX_NULL_RETURN                                                                   32       6122
+      CODEXM_FUNCTIONS_CHECKER_PASS_BEFORE_TUS                                            77       3608
+      IDENTIFIER_TYPO                                                                     78       3528
+      NULL_RETURNS                                                                         0       3602
+      BAD_EQ                                                                               0         74
+      BAD_LOCK_OBJECT                                                                      0         74
+      CALL_SUPER                                                                           0         74
+      LOCK_EVASION                                                                         0         74
+      NON_STATIC_GUARDING_STATIC                                                           0         74
+      OVERFLOW_BEFORE_WIDEN                                                                0         74
+      VOLATILE_ATOMICITY                                                                   0         74
+      PROPERTY_MIXUP                                                                       0          8
+      LDAP_NOT_CONSTANT                                                                    0         57
+      BUDA_DIRECTIVES_TYPE_INFERENCE_CHECKER                                               0       2691
+      DERIVE_EL_BEAN_RW                                                                    0       1110
+      BUILD_STRING_GRAPH                                                                  16        171
+      CSRF_STAT                                                                            0         57
+      __HARDCODED_CREDENTIALS_BUDA_DYNAMICS                                                0       2691
+      __OPEN_REDIRECT_BUDA_DYNAMICS                                                        0       2691
+      UNRESTRICTED_MESSAGE_TARGET                                                          0       2691
+      MISSING_IFRAME_SANDBOX                                                               0       2691
+      __CSRF_BUDA                                                                          0       2691
+      __INSECURE_RANDOM_BUDA_DYNAMICS                                                      0       2691
+      __INSUFFICIENT_LOGGING_BUDA_DYNAMICS                                                 0       2691
+      CODEXM_BUDA_CHECKER                                                                 15       8073
+      UNCHECKED_ORIGIN                                                                     0       2691
+      __SQLI_BUDA_DYNAMICS                                                                 0       2691
+      __SENSITIVE_DATA_LEAK_BUDA_DYNAMICS                                                  0       2691
+      __RISKY_CRYPTO_BUDA                                                                  0       2691
+      __INSECURE_SALT_BUDA                                                                 0       2691
+      __MISSING_AUTHZ_BUDA_STATS                                                           0       2691
+      __XML_EXTERNAL_ENTITY_BUDA_DYNAMICS                                                  0       2691
+      __REGEX_INJECTION_BUDA                                                               0       2691
+      __HEADER_INJECTION_JS                                                                0       2691
+      __COOKIE_INJECTION_BUDA_JS                                                           0       2691
+      __PATH_MANIPULATION_BUDA_JS                                                          0       2691
+      __OS_CMD_INJECTION_BUDA.TANDEM                                                       0       2691
+      __SCRIPT_CODE_INJECTION_BUDA_JS                                                      0       2691
+      __NOSQL_QUERY_INJECTION_BUDA.TANDEM                                                  0       2691
+      DOM_XSS                                                                              0       2691
+      LOCALSTORAGE_MANIPULATION                                                            0       2691
+      SESSIONSTORAGE_MANIPULATION                                                          0       2691
+      __URL_MANIPULATION_BUDA_DYNAMICS_JS                                                  0       2691
+      __TAINTED_ENVIRONMENT_WITH_EXECUTION_BUDA                                            0       2691
+      CSS_INJECTION                                                                        0       2691
+      __XSS_BUDA.TANDEM                                                                    0       2691
+      ANGULAR_EXPRESSION_INJECTION                                                         0       2691
+      __UNSAFE_DESERIALIZATION_BUDA.TANDEM                                                 0       2691
+      __TEMPLATE_INJECTION_BUDA_JS                                                         0       2691
+      __MISSING_AUTHZ_JAVA_CSHARP                                                         15       1110
+      __CSRF_JAVA_CSHARP                                                                   0         74
+      __MISSING_AUTHZ_BUDA                                                                 0       8073
+      (left over)                                                                      13459
+    DATAFLOW_CALLGRAPH_CHECKER                                                          3098       4422
+    DERIVE_DYNAMIC_MAP_RW_MODELS                                                           0          2
+    DUMMY_DERIVER_SECURITY                                                                 0          2
+    IFACE_TRACKER                                                                          0          6
+    LOCK_FINDER_BOTTOMUP                                                                   0          2
+    RELAX_ALLOC                                                                            0          2
+    RELAX_ASPNET_MVC_VERSION_HEADER                                                        0          2
+    RELAX_AUTHZ                                                                            0          2
+    RELAX_BENIGN_CLOSURE                                                                   0          2
+    RELAX_CHECKED_RETURN                                                                   0          2
+    RELAX_CLOSE_RESOURCE                                                                   0          2
+    RELAX_CRYPTO_PRIMITIVES                                                                0          2
+    RELAX_CSRF                                                                             0          2
+    RELAX_DATAFLOW_PRIMITIVES                                                              0          2
+    RELAX_DEREF_ARGS                                                                       0          2
+    RELAX_DIVISOR                                                                          0          2
+    RELAX_GETLOCK                                                                          0          2
+    RELAX_INSECURE_COMMUNICATION                                                           0          2
+    RELAX_JAVASCRIPT_OPTIONAL_CONSTRUCTOR                                                  0          2
+    RELAX_LOCKS                                                                            0          2
+    RELAX_NOTHING                                                                          0          2
+    RELAX_NULL_RETURN                                                                      0          2
+    RELAX_PARAM_NAMES                                                                      0          2
+    RELAX_SIDE_EFFECT_FREE                                                                 0          2
+    RELAX_ZERO_RETURN                                                                      0          2
+    CODEXM_TEXT_STAT_PASS                                                              13999         82
+      CONFIG.ANDROID_BACKUPS_ALLOWED                                                       0         80
+      CONFIG.ANDROID_GRADLE_OBFUSCATION_NOT_ENABLED                                        0         80
+      CONFIG.ANDROID_OUTDATED_TARGETSDKVERSION                                             0         80
+      CONFIG.ANDROID_UNSAFE_MINSDKVERSION                                                  0         80
+      CONFIG.BEEGO_CSRF_PROTECTION_DISABLED                                                0         80
+      CONFIG.COOKIE_SIGNING_DISABLED                                                       0         80
+      CONFIG.CORDOVA_EXCESSIVE_LOGGING                                                     0         80
+      CONFIG.CORDOVA_PERMISSIVE_ALLOWLIST                                                  0         80
+      CORS_MISCONFIGURATION_AUDIT                                                       1483        160
+      CORS_MISCONFIGURATION                                                             2300        160
+      EXPOSED_DIRECTORY_LISTING                                                            0         80
+      CONFIG.HARDCODED_CREDENTIALS_AUDIT                                                3061        240
+      CONFIG.HARDCODED_TOKEN                                                               0         80
+      HOST_HEADER_VALIDATION_DISABLED                                                      0         80
+      INSECURE_COMMUNICATION                                                             859        160
+      INSECURE_COOKIE                                                                    423        240
+      INSECURE_HTTP_FIREWALL                                                            2517         80
+      INSECURE_NETWORK_BIND                                                                0         80
+      CONFIG.SPRING_BOOT_ADMIN_ACCESS_ENABLED                                            312         80
+      CONFIG.SPRING_BOOT_SENSITIVE_LOGGING                                                 0         80
+      CONFIG.SPRING_BOOT_SSL_DISABLED                                                      0         80
+      CONFIG.SPRING_SECURITY_DEBUG_MODE                                                    0         80
+      CONFIG.SPRING_SECURITY_CSRF_PROTECTION_DISABLED                                    173         80
+      CONFIG.SPRING_SECURITY_DEPRECATED_XSS_HEADER                                       249         80
+      CONFIG.SPRING_SECURITY_EXPOSED_SESSIONID                                           391         80
+      CONFIG.SPRING_SECURITY_WEAK_PASSWORD_HASH                                         1216         80
+      CONFIG.UNSAFE_SESSION_TIMEOUT                                                        0         80
+      VERBOSE_ERROR_REPORTING                                                              0         80
+      VUE_TEMPLATE_UNSAFE_VHTML_DIRECTIVE                                                 79         80
+      CONFIG.WEAK_SECURITY_CONSTRAINT                                                    905         80
+      WEAK_XML_SCHEMA                                                                      0         80
+      (left over)                                                                         31
+    CONFIG.ASPNET_VERSION_HEADER                                                           0         27
+    CONFIG.ASP_VIEWSTATE_MAC                                                               0         27
+    CONFIG.CONNECTION_STRING_PASSWORD                                                      0         27
+    CONFIG.COOKIES_MISSING_HTTPONLY                                                        0         27
+    CONFIG.DEAD_AUTHORIZATION_RULE                                                         0         27
+    CONFIG.DUPLICATE_SERVLET_DEFINITION                                                    0          2
+    CONFIG.DYNAMIC_DATA_HTML_COMMENT                                                       0         12
+    CONFIG.ENABLED_TRACE_MODE                                                              0         27
+    CONFIG.HANA_XS_PREVENT_XSRF_DISABLED                                                   0          2
+    CONFIG.HTTP_VERB_TAMPERING                                                             0          2
+    CONFIG.JAVAEE_MISSING_HTTPONLY                                                         0          2
+    CONFIG.MISSING_CUSTOM_ERROR_PAGE                                                       0         27
+    CONFIG.MISSING_JSF2_SECURITY_CONSTRAINT                                                0          2
+    CONFIG.MYBATIS_MAPPER_SQLI                                                            62         43
+    CONFIG.SPRING_SECURITY_DISABLE_AUTH_TAGS                                               0          3
+    CONFIG.SPRING_SECURITY_HARDCODED_CREDENTIALS                                           0          2
+    CONFIG.STRUTS2_CONFIG_BROWSER_PLUGIN                                                   0          2
+    CONFIG.STRUTS2_DYNAMIC_METHOD_INVOCATION                                               0          2
+    CONFIG.STRUTS2_ENABLED_DEV_MODE                                                        0          2
+    CONFIG.SYMFONY_CSRF_PROTECTION_DISABLED                                              348         43
+    __CONFIG.ENABLED_DEBUG_MODE_DOTNET                                                     0         27
+    __CONFIG.MISSING_GLOBAL_EXCEPTION_HANDLER_JAVA                                         0          2
+    __CONFIG.SPRING_SECURITY_DEBUG_MODE_JAVA                                               0          2
+    __CONFIG.SPRING_SECURITY_SESSION_FIXATION_JAVA                                         0          2
+    __CONFIG.UNSAFE_SESSION_TIMEOUT_JAVA                                                   0          2
+    LOCK_FINDER_TOPDOWN                                                                    0          2
+    ASPNET_MVC_VERSION_HEADER                                                              0          2
+    BAD_EQ                                                                                 0          2
+    BAD_EQ_TYPES                                                                           0          2
+    BAD_LOCK_OBJECT                                                                        0          2
+    BAD_SHIFT                                                                              0          2
+    CALL_SUPER                                                                             0          2
+    CODEXM_FUNCTIONS_CHECKER_PASS_BEFORE_TUS                                               0          2
+    CONSTANT_EXPRESSION_RESULT                                                             0          2
+    COPY_PASTE_ERROR                                                                       0          2
+    DEADCODE                                                                               0          2
+    DIVIDE_BY_ZERO                                                                         0          2
+    EXTRACT_XREF_SUMMARY                                                                 140       2693
+      finishCalcXrefs                                                                      0          1
+    FORWARD_NULL                                                                           0          2
+    FUNCTION_METRICS                                                                     220       2730
+    GUARDED_BY_VIOLATION                                                                   0          2
+    IDENTICAL_BRANCHES                                                                     0          2
+    IDENTIFIER_TYPO                                                                        0          2
+    INFINITE_LOOP                                                                          0          2
+    LOCK_EVASION                                                                           0          2
+    MISSING_BREAK                                                                          0          2
+    MISSING_RESTORE                                                                        0          2
+    MISSING_THROW                                                                          0          2
+    NESTING_INDENT_MISMATCH                                                                0          2
+    NON_STATIC_GUARDING_STATIC                                                             0          2
+    NO_EFFECT                                                                              0          2
+    NULL_RETURNS                                                                           0          2
+    OVERFLOW_BEFORE_WIDEN                                                                  0          2
+    PROPERTY_MIXUP                                                                         0          2
+    RESOURCE_LEAK                                                                          0          2
+    REVERSE_INULL                                                                          0          2
+    STRAY_SEMICOLON                                                                        0          2
+    STRING_GRAPH_CRYPTO                                                                    0          2
+    SWAPPED_ARGUMENTS                                                                      0          2
+    UNEXPECTED_CONTROL_FLOW                                                                0          2
+    UNINTENDED_GLOBAL                                                                      0          2
+    UNINTENDED_INTEGER_DIVISION                                                            0          2
+    UNLOGGED_SECURITY_EXCEPTION                                                            0          2
+    UNREACHABLE                                                                            0          2
+    UNUSED_VALUE                                                                           0          2
+    USELESS_CALL                                                                           0          2
+    VOLATILE_ATOMICITY                                                                     0          2
+    __INSECURE_COMMUNICATION_ABSTRACT_INTERPRETATION                                       0          2
+    __RISKY_CRYPTO_ABSTRACT_INTERPRETATION                                                 0          2
+    LDAP_NOT_CONSTANT                                                                     16         59
+    BUDA_DIRECTIVES_TYPE_INFERENCE_CHECKER                                               687       2693
+    BUILD_SINK_TYPE_GRAPH                                                                  0        372
+    DERIVE_DYNAMIC_MAP_RW_ACCESSES                                                         0         12
+    DERIVE_EL_BEAN_RW                                                                      0        372
+    RAZOR_SECTIONS                                                                         0         26
+    RELAX_CSRF_FILTERS                                                                     0          3
+    WEBFORMS_DOM                                                                           0          2
+    LDAP_NOT_CONSTANT_WORMHOLING                                                          31          2
+    AUTHZ_STAT                                                                             0          2
+    BUILD_STRING_GRAPH                                                                  1015         59
+    CSRF_STAT                                                                              0          2
+    MISSING_IFRAME_SANDBOX                                                                15       2693
+    UNRESTRICTED_MESSAGE_TARGET                                                            0       2693
+    __CSRF_BUDA                                                                           16       2693
+    __HARDCODED_CREDENTIALS_BUDA_DYNAMICS                                                 16       2693
+    __INSECURE_RANDOM_BUDA_DYNAMICS                                                       15       2693
+    __INSUFFICIENT_LOGGING_BUDA_DYNAMICS                                                   0       2693
+    __OPEN_REDIRECT_BUDA_DYNAMICS                                                         16       2693
+    CODEXM_BUDA_CHECKER                                                                   15       2693
+    UNCHECKED_ORIGIN                                                                       0       2693
+    __INSECURE_SALT_BUDA                                                                  16       2693
+    __MISSING_AUTHZ_BUDA_STATS                                                            15       2693
+    __RISKY_CRYPTO_BUDA                                                                   16       2693
+    __SENSITIVE_DATA_LEAK_BUDA_DYNAMICS                                                    0       2693
+    __SQLI_BUDA_DYNAMICS                                                                  95       2693
+    __XML_EXTERNAL_ENTITY_BUDA_DYNAMICS                                                   16       2693
+    ANGULAR_EXPRESSION_INJECTION                                                           0       2693
+    CSS_INJECTION                                                                          0       2693
+    DOM_XSS                                                                                0       2693
+    LOCALSTORAGE_MANIPULATION                                                              0       2693
+    SESSIONSTORAGE_MANIPULATION                                                            0       2693
+    TANDEM_DATAFLOW_CHECKER_INFRASTRUCTURE_DYNAMICS_1                                    250          2
+      __REGEX_INJECTION_BUDA                                                              16          2
+      __HEADER_INJECTION_JS                                                               31          2
+      __COOKIE_INJECTION_BUDA_JS                                                          16          2
+      __PATH_MANIPULATION_BUDA_JS                                                          0          2
+      __OS_CMD_INJECTION_BUDA.TANDEM                                                       0          2
+      __SCRIPT_CODE_INJECTION_BUDA_JS                                                     31          2
+      __NOSQL_QUERY_INJECTION_BUDA.TANDEM                                                  0          2
+      DOM_XSS                                                                             31          2
+      LOCALSTORAGE_MANIPULATION                                                           31          2
+      SESSIONSTORAGE_MANIPULATION                                                          0          2
+      __URL_MANIPULATION_BUDA_DYNAMICS_JS                                                 32          2
+      __TAINTED_ENVIRONMENT_WITH_EXECUTION_BUDA                                            0          2
+      CSS_INJECTION                                                                        0          2
+      __XSS_BUDA.TANDEM                                                                   31          2
+      ANGULAR_EXPRESSION_INJECTION                                                         0          2
+      __UNSAFE_DESERIALIZATION_BUDA.TANDEM                                                31          2
+      __TEMPLATE_INJECTION_BUDA_JS                                                         0          2
+      (left over)                                                                          0
+    __COOKIE_INJECTION_BUDA_JS                                                             0       2693
+    __HEADER_INJECTION_JS                                                                  0       2693
+    __NOSQL_QUERY_INJECTION_BUDA.TANDEM                                                    0       2693
+    __OS_CMD_INJECTION_BUDA.TANDEM                                                         0       2693
+    __PATH_MANIPULATION_BUDA_JS                                                            0       2693
+    __REGEX_INJECTION_BUDA                                                                 0       2693
+    __SCRIPT_CODE_INJECTION_BUDA_JS                                                        0       2693
+    __TAINTED_ENVIRONMENT_WITH_EXECUTION_BUDA                                              0       2693
+    __TEMPLATE_INJECTION_BUDA_JS                                                           0       2693
+    __UNSAFE_DESERIALIZATION_BUDA.TANDEM                                                   0       2693
+    __URL_MANIPULATION_BUDA_DYNAMICS_JS                                                    0       2693
+    __XSS_BUDA.TANDEM                                                                      0       2693
+    DATAFLOW_INJECTION                                                                   235        372
+      EL_INJECTION                                                                         0          2
+      __HEADER_INJECTION_STATICS                                                           0          2
+      JAVA_CODE_INJECTION                                                                  0          2
+      JCR_INJECTION                                                                        0          2
+      JSP_DYNAMIC_INCLUDE                                                                  0          2
+      JSP_SQL_INJECTION                                                                    0          2
+      LDAP_INJECTION                                                                       0          2
+      LOG_INJECTION                                                                        0          2
+      __NOSQL_QUERY_INJECTION_STATICS                                                      0          2
+      OGNL_INJECTION                                                                       0          2
+      __REGEX_INJECTION_STATICS                                                            0          2
+      __SCRIPT_CODE_INJECTION_STATICS                                                      0          2
+      SESSION_FIXATION                                                                     0          2
+      TRUST_BOUNDARY_VIOLATION                                                             0          2
+      UNKNOWN_LANGUAGE_INJECTION                                                           0          2
+      UNRESTRICTED_DISPATCH                                                                0          2
+      __UNSAFE_DESERIALIZATION_STATICS                                                     0          2
+      __UNSAFE_JNI_STATICS                                                                 0          2
+      UNSAFE_NAMED_QUERY                                                                   0          2
+      __XML_INJECTION_STATICS                                                              0          2
+      __XPATH_INJECTION_STATICS                                                            0          2
+      __UNSAFE_REFLECTION_STATICS                                                          0          2
+      __TAINTED_ENVIRONMENT_WITH_EXECUTION_STATICS                                         0          2
+      __INSECURE_RANDOM_STRING_GRAPH_INTERNAL                                              0          2
+      __OS_CMD_INJECTION_STRING_GRAPH_INTERNAL                                             0          2
+      __PATH_MANIPULATION_STRING_GRAPH_INTERNAL                                            0          2
+      URL_MANIPULATION                                                                     0          2
+      SENSITIVE_DATA_LEAK_INTERNAL                                                         0          2
+      __SQLI_STRING_GRAPH_INTERNAL                                                         0          2
+      UNENCRYPTED_SENSITIVE_DATA_INTERNAL                                                  0          2
+      __WEAK_PASSWORD_HASH_STRING_GRAPH_INTERNAL                                           0          2
+      __XML_EXTERNAL_ENTITY_STRING_GRAPH_INTERNAL                                          0          2
+    LDAP_INJECTION                                                                         0          2
+    LOG_INJECTION                                                                          0          2
+    UNKNOWN_LANGUAGE_INJECTION                                                             0          2
+    UNRESTRICTED_DISPATCH                                                                  0          2
+    UNSAFE_NAMED_QUERY                                                                     0          2
+    __CSRF_JAVA_CSHARP                                                                     0          2
+    __HARDCODED_CREDENTIALS_STRING_GRAPH                                                   0          2
+    __HEADER_INJECTION_STATICS                                                             0          2
+    __INSECURE_RANDOM_STRING_GRAPH                                                         0          2
+    __NOSQL_QUERY_INJECTION_STATICS                                                        0          2
+    __OPEN_REDIRECT_STRING_GRAPH                                                           0          2
+    __OS_CMD_INJECTION_STRING_GRAPH                                                        0          2
+    __PATH_MANIPULATION_STRING_GRAPH                                                       0          2
+    __REGEX_INJECTION_STATICS                                                              0          2
+    __SCRIPT_CODE_INJECTION_STATICS                                                        0          2
+    __SENSITIVE_DATA_LEAK_STRING_GRAPH                                                     0          2
+    __SQLI_STRING_GRAPH                                                                    0          2
+    __TAINT_ASSERT_STRING_GRAPH                                                            0          2
+    __UNENCRYPTED_SENSITIVE_DATA_STRING_GRAPH                                              0          2
+    __UNSAFE_DESERIALIZATION_STATICS                                                       0          2
+    __WEAK_PASSWORD_HASH_STRING_GRAPH                                                      0          2
+    __XML_EXTERNAL_ENTITY_STRING_GRAPH                                                     0          2
+    __XML_INJECTION_STATICS                                                                0          2
+    __XPATH_INJECTION_STATICS                                                              0          2
+    __XSS_STRING_GRAPH                                                                   406          2
+    __MISSING_AUTHZ_JAVA_CSHARP                                                            0          2
+    __CSRF_JAVA_CSHARP_pass1                                                              15         37
+    __MISSING_AUTHZ_BUDA                                                                  16       2693
+    (left over)                                                                       185754
+  finishCalcXrefs                                                                          0          1
+  finish_jshint                                                                            0          1
+  finish_detekt                                                                            0          1
+  finish_pmd                                                                               0          1
+  (left over)                                                                          11453
+
+activity                                                                                  ms      calls
+-------------------------------------------------------------------------------------------------------
+allAnalysis                                                                           252125          1
+CUDA.SPECIFIERS_INCONSISTENCY                                                              0          1
+OVERLAPPING_COPY                                                                           0          1
+LOCK_FINDER_BOTTOMUP                                                                       0          3
+RELAX_GETLOCK                                                                              0          3
+RELAX_LOCKS                                                                                0          3
+RELAX_UPDATE_STATE                                                                         0          1
+RELAX_SERVLET_ATTRIBUTE                                                                    0          1
+RELAX_LOCK_STATE                                                                           0          1
+DUMMY_DERIVER_CONCURRENCY                                                                  0          1
+IFACE_TRACKER                                                                              0         13
+LOCK_FINDER_TOPDOWN                                                                        0          3
+LOCK_ORDER                                                                                 0          1
+THREAD_CONTEXT                                                                             0          1
+ALLOC_FREE_MISMATCH                                                                        0          1
+ASPNET_MVC_VERSION_HEADER                                                                  0          3
+ATTRIBUTE_NAME_CONFLICT                                                                    0          1
+MISSING_PERMISSION_FOR_BROADCAST                                                           0          1
+ARRAY_VS_SINGLETON                                                                         0          1
+ASSERT_SIDE_EFFECT                                                                         0          1
+SERVLET_ATOMICITY                                                                          0          1
+BAD_ALLOC_ARITHMETIC                                                                       0          1
+BAD_ALLOC_STRLEN                                                                           0          1
+BAD_CHECK_OF_WAIT_COND                                                                     0          1
+BAD_COMPARE                                                                                0          1
+BAD_EQ                                                                                     0         77
+BAD_EQ_TYPES                                                                               0          3
+BAD_FREE                                                                                   0          1
+IMPLICIT_INTENT                                                                            0          1
+__BAD_CERT_VERIFICATION_ABSTRACT_INTERPRETATION                                            0          1
+EXPOSED_PREFERENCES                                                                        0          1
+BAD_LOCK_OBJECT                                                                            0         77
+BAD_SHIFT                                                                                  0          3
+BAD_SIZEOF                                                                                 0          1
+CALL_SUPER                                                                                 0         77
+CHAR_IO                                                                                    0          1
+CHECKED_RETURN                                                                             0          1
+COM.BAD_FREE                                                                               0          1
+COM.BSTR.CONV                                                                              0          1
+CONSTANT_EXPRESSION_RESULT                                                                 0          3
+COPY_PASTE_ERROR                                                                           0          3
+CUDA.DIVERGENCE_AT_COLLECTIVE_OPERATION                                                    0          1
+STRING_GRAPH_CRYPTO                                                                        0          3
+__RISKY_CRYPTO_ABSTRACT_INTERPRETATION                                                     0          3
+CTOR_DTOR_LEAK                                                                             0          1
+CUDA.INACTIVE_THREAD_AT_COLLECTIVE_WARP                                                    0          1
+CUDA.INVALID_MEMORY_ACCESS                                                                 0          1
+CUDA.SHARE_FUNCTION                                                                        0          1
+CUDA.SHARE_OBJECT_STREAM_ASSOCIATED                                                        0          1
+DEADCODE                                                                                   0          3
+DELETE_ARRAY                                                                               0          1
+DELETE_VOID                                                                                0          1
+USE_AFTER_FREE                                                                             0          1
+DIVIDE_BY_ZERO                                                                             0          3
+EVALUATION_ORDER                                                                           0          1
+FORWARD_NULL                                                                               0          3
+GUARDED_BY_VIOLATION                                                                       0          3
+HIBERNATE_BAD_HASHCODE                                                                     0          1
+ORM_UNNECESSARY_GET                                                                        0          1
+IDENTIFIER_TYPO                                                                           78       3531
+IDENTICAL_BRANCHES                                                                         0          3
+INCOMPATIBLE_CAST                                                                          0          1
+INFINITE_LOOP                                                                              0          3
+__INSECURE_COMMUNICATION_ABSTRACT_INTERPRETATION                                           0          3
+INVALIDATE_ITERATOR                                                                        0          3
+LOCK_EVASION                                                                               0         77
+LOCK_INVERSION                                                                             0          1
+MISMATCHED_ITERATOR                                                                        0          1
+MISSING_BREAK                                                                              0          3
+MISSING_COMMA                                                                              0          1
+MISSING_RESTORE                                                                            0          3
+MISSING_RETURN                                                                             0          1
+MISSING_THROW                                                                              0          3
+NEGATIVE_RETURNS                                                                           0          1
+NESTING_INDENT_MISMATCH                                                                    0          3
+NO_EFFECT                                                                                  0          3
+NON_STATIC_GUARDING_STATIC                                                                 0         77
+NULL_RETURNS                                                                               0       3605
+ORM_LOAD_NULL_CHECK                                                                        0          1
+OVERFLOW_BEFORE_WIDEN                                                                      0         77
+OVERLAPPING_COPY_INTERNAL                                                                  0          1
+OVERRUN                                                                                    0          1
+OVERRUN_SYMBOLIC                                                                           0          1
+PASS_BY_VALUE                                                                              0          1
+PREDICTABLE_RANDOM_SEED                                                                    0          1
+PRINTF_ARGS                                                                                0          1
+PRECEDENCE_ERROR                                                                           0          1
+PROPERTY_MIXUP                                                                             0         11
+READLINK                                                                                   0          1
+REGEX_CONFUSION                                                                            0          1
+RESOURCE_LEAK                                                                              0          3
+RETURN_LOCAL                                                                               0          1
+REVERSE_NEGATIVE                                                                           0          1
+REVERSE_INULL                                                                              0          3
+SIGN_EXTENSION                                                                             0          1
+SINGLETON_RACE                                                                             0          1
+SIZEOF_MISMATCH                                                                            0          1
+STRAY_SEMICOLON                                                                            0          3
+STREAM_FORMAT_STATE                                                                        0          1
+SWAPPED_ARGUMENTS                                                                          0          3
+USE_AFTER_MOVE                                                                             0          1
+UNCAUGHT_EXCEPT_INTERNAL                                                                   0          1
+UNEXPECTED_CONTROL_FLOW                                                                    0          3
+UNINIT                                                                                     0          1
+UNINIT_CTOR                                                                                0          1
+UNINTENDED_GLOBAL                                                                          0          3
+UNINTENDED_INTEGER_DIVISION                                                                0          3
+UNLOGGED_SECURITY_EXCEPTION                                                                0          3
+UNREACHABLE                                                                                0          3
+UNRESTRICTED_ACCESS_TO_FILE_PRE                                                            0          1
+UNUSED_VALUE                                                                               0          3
+USELESS_CALL                                                                               0          3
+VARARGS                                                                                    0          1
+VIRTUAL_DTOR                                                                               0          1
+VOLATILE_ATOMICITY                                                                         0         77
+WRAPPER_ESCAPE                                                                             0          1
+WRONG_METHOD                                                                               0          1
+__XML_EXTERNAL_ENTITY_GO                                                                   0          1
+EXTRACT_XREF_SUMMARY                                                                     140       2694
+FUNCTION_METRICS                                                                         220       2731
+DC.DEADLOCK                                                                                0          1
+DC.DANGEROUS                                                                               0          1
+CODEXM                                                                                     0          3
+CODEXM_FUNCTIONS_STAT_PASS                                                                 0       3611
+CODEXM_CLASSES_STAT_PASS                                                                   0          1
+CODEXM_DECLS_STAT_PASS                                                                     0          1
+CODEXM_TEXT_STAT_PASS                                                                  13999         83
+CODEXM_FUNCTIONS_CHECKER_PASS_BEFORE_TUS                                                  77       3611
+CODEXM_FUNCTIONS_CHECKER_PASS_AFTER_TUS                                                    0          1
+CODEXM_BUDA_CHECKER                                                                      358      10767
+CONFIG.ANDROID_BACKUPS_ALLOWED                                                             0         81
+CONFIG.ANDROID_GRADLE_OBFUSCATION_NOT_ENABLED                                              0         81
+CONFIG.ANDROID_OUTDATED_TARGETSDKVERSION                                                   0         81
+CONFIG.ANDROID_UNSAFE_MINSDKVERSION                                                        0         81
+ANGULAR_BYPASS_SECURITY                                                                    0          3
+ANGULAR_ELEMENT_REFERENCE                                                                  0          3
+ANGULAR_SCE_DISABLED                                                                       0          3
+__ANONYMOUS_DB_CONNECTION_CODEXM_GO                                                        0          1
+__ANONYMOUS_DB_CONNECTION_CODEXM_PYTHON                                                    0          1
+AWS_SSL_DISABLED                                                                           0          3
+AWS_VALIDATION_DISABLED                                                                    0          3
+__BAD_CERT_VERIFICATION_CODEXM_GO                                                          0          1
+__BAD_CERT_VERIFICATION_CODEXM_JAVA                                                        0          1
+__BAD_CERT_VERIFICATION_CODEXM_JS                                                          0          3
+__BAD_CERT_VERIFICATION_CODEXM_PYTHON                                                      0          1
+CONFIG.BEEGO_CSRF_PROTECTION_DISABLED                                                      0         81
+BUSBOY_MISCONFIGURATION                                                                    0          3
+__CONFIG.UNSAFE_SESSION_TIMEOUT_CODEXM_JS                                                  0         12
+__CONFIG.COOKIE_SIGNING_DISABLED_CODEXM_GO                                                 0          1
+__CONFIG.COOKIE_SIGNING_DISABLED_CODEXM_JS                                                 0          3
+CONFIG.CORDOVA_EXCESSIVE_LOGGING                                                           0         83
+CONFIG.CORDOVA_PERMISSIVE_ALLOWLIST                                                        0         83
+__CORS_MISCONFIGURATION_AUDIT_CS                                                           0          6
+__CORS_MISCONFIGURATION_AUDIT_CODEXM_GO                                                    0          1
+__CORS_MISCONFIGURATION_AUDIT_JAVA                                                         0          2
+__CORS_MISCONFIGURATION_CODEXM_JAVA                                                        0          2
+__CORS_MISCONFIGURATION_AUDIT_CODEXM_JS                                                    0          3
+__CORS_MISCONFIGURATION_CODEXM_JS                                                          0          6
+__CORS_MISCONFIGURATION_CODEXM_CS                                                          0          6
+__CORS_MISCONFIGURATION_CODEXM_GO                                                          0          1
+CSRF_MISCONFIGURATION_HAPI_CRUMB                                                           0          3
+CONFIG.CSURF_IGNORE_METHODS                                                                0          3
+DISABLED_ENCRYPTION                                                                        0          1
+CONFIG.DJANGO_CSRF_PROTECTION_DISABLED                                                     0          1
+__CONFIG.ENABLED_DEBUG_MODE_CODEXM_JS                                                      0          3
+__CONFIG.ENABLED_DEBUG_MODE_CODEXM_PYTHON                                                  0          1
+__EXPOSED_DIRECTORY_LISTING_CODEXM_GO                                                      0          1
+__EXPOSED_DIRECTORY_LISTING_CODEXM_JS                                                      0          3
+EXPRESS_SESSION_UNSAFE_MEMORYSTORE                                                         0          3
+UNLESS_CASE_SENSITIVE_ROUTE_MATCHING                                                       0          3
+EXPRESS_WINSTON_SENSITIVE_LOGGING                                                          0          3
+FILE_UPLOAD_MISCONFIGURATION                                                               0          3
+HAPI_SESSION_MONGO_MISSING_TLS                                                             0          3
+__CONFIG.HARDCODED_CREDENTIALS_AUDIT_CODEXM_DOTNET                                         0          3
+__CONFIG.HARDCODED_CREDENTIALS_AUDIT_CODEXM_JAVA                                           0          1
+__CONFIG.HARDCODED_CREDENTIALS_AUDIT_CODEXM_JS                                             0          3
+__HARDCODED_CREDENTIALS_URL                                                                0          3
+__HARDCODED_CREDENTIALS_CODEXM_PYTHON                                                      0          1
+CONFIG.HARDCODED_TOKEN                                                                     0         83
+DNS_PREFETCHING                                                                            0          3
+HPKP_MISCONFIGURATION                                                                      0          3
+HOST_HEADER_VALIDATION_DISABLED                                                            0         81
+INSECURE_ACL                                                                               0          3
+__INSECURE_COMMUNICATION_CODEXM_CS                                                         0          3
+__INSECURE_COMMUNICATION_CODEXM_GO                                                         0          1
+__INSECURE_COMMUNICATION_CODEXM_JAVA                                                       0          1
+__INSECURE_COMMUNICATION_CODEXM_PYTHON                                                     0          1
+__INSECURE_COOKIE_CODEXM_CS                                                                0          6
+__INSECURE_COOKIE_CODEXM_GO                                                                0          1
+__INSECURE_COOKIE_CODEXM_JAVA                                                              0          1
+__INSECURE_COOKIE_CODEXM_JS                                                                0          3
+__INSECURE_COOKIE_CODEXM_PYTHON                                                            0          1
+INSECURE_CSP                                                                               0          1
+INSECURE_FILE_PERMISSIONS                                                                  0          1
+INSECURE_HTTP_FIREWALL                                                                  2517         81
+__INSECURE_NETWORK_BIND_CODEXM_GO                                                          0          1
+__INSECURE_NETWORK_BIND_CODEXM_PYTHON                                                      0          1
+__INSECURE_REFERRER_POLICY_CODEXM_JS                                                       0          3
+__INSECURE_REFERRER_POLICY_CODEXM_PYTHON                                                   0          1
+INSECURE_REMEMBER_ME_COOKIE                                                                0          1
+INSUFFICIENT_PRESIGNED_URL_TIMEOUT                                                         0          6
+JINJA2_AUTOESCAPE_DISABLED                                                                 0          1
+__JSONWEBTOKEN_UNTRUSTED_DECODE_CODEXM_GO                                                  0          1
+LOCALSTORAGE_WRITE                                                                         0          3
+MISSING_HEADER_VALIDATION                                                                  0          1
+MISSING_PASSWORD_VALIDATOR                                                                 0          1
+MULTER_MISCONFIGURATION                                                                    0          3
+CONFIG.MYSQL_SSL_VERIFY_DISABLED                                                           0          3
+__OAUTH2_MISCONFIGURATION_CODEXM_GO                                                        0          1
+REACT_DANGEROUS_INNERHTML                                                                  0          3
+__REVERSE_TABNABBING_CODEXM_JS                                                             0          3
+__RISKY_CRYPTO_JS_CODEXM                                                                   0          3
+__SECURE_TEMP_CODEXM_PYTHON                                                                0          1
+__SOCKET_ACCEPT_ALL_ORIGINS_CODEXM_GO                                                      0          1
+__SOCKET_ACCEPT_ALL_ORIGINS_CODEXM_JS                                                      0          3
+__INSECURE_COMMUNICATION_SOCKETIO                                                          0          3
+CONFIG.SOCKETIO_MAXHTTPBUFFERSIZE_SET_TOO_LARGE                                            0          3
+CONFIG.SPRING_BOOT_ADMIN_ACCESS_ENABLED                                                  312         81
+CONFIG.SPRING_BOOT_SENSITIVE_LOGGING                                                       0         81
+CONFIG.SPRING_BOOT_SSL_DISABLED                                                            0         81
+__CONFIG.SPRING_SECURITY_DEBUG_MODE_CODEXM_JAVA                                            0          1
+CONFIG.SPRING_SECURITY_CSRF_PROTECTION_DISABLED                                          173         81
+CONFIG.SPRING_SECURITY_DEPRECATED_XSS_HEADER                                             249         81
+CONFIG.SPRING_SECURITY_EXPOSED_SESSIONID                                                 391         81
+CONFIG.SPRING_SECURITY_LOGIN_OVER_HTTP                                                     0          1
+__CONFIG.SPRING_SECURITY_SESSION_FIXATION_CODEXM_JAVA                                      0          1
+CONFIG.SPRING_SECURITY_UNSAFE_AUTHENTICATION_FILTER                                        0          1
+CONFIG.SPRING_SECURITY_WEAK_PASSWORD_HASH                                               1216         81
+STATIC_API_KEY                                                                             0          1
+SUPPRESSED_ERROR                                                                           0          1
+TEMPORARY_CREDENTIALS_DURATION                                                             0          3
+UNLIMITED_CONCURRENT_SESSIONS                                                              0          1
+__UNSAFE_BASIC_AUTH_CODEXM_GO                                                              0          1
+UNSAFE_BUFFER_METHOD                                                                       0          3
+__UNSAFE_FUNCTIONALITY_GO                                                                  0          1
+__CONFIG.UNSAFE_SESSION_TIMEOUT_CODEXM_GO                                                  0          1
+__UNSAFE_XML_PARSE_CONFIG_CODEXM_CS                                                        0          3
+__UNSAFE_XML_PARSE_CONFIG_CODEXM_PYTHON                                                    0          1
+VERBOSE_ERROR_REPORTING                                                                    0         81
+CONFIG.VUE_ROUTER_PARAMS_EXPOSED_TO_PROPS                                                  0          3
+VUE_TEMPLATE_UNSAFE_VHTML_DIRECTIVE                                                       79         83
+__WEAK_PASSWORD_HASH_CODEXM_PYTHON                                                         0          1
+CONFIG.WEAK_SECURITY_CONSTRAINT                                                          905         81
+__WEAK_URL_SANITIZATION_CODEXM_JAVA                                                        0          1
+__WEAK_URL_SANITIZATION_CODEXM_JS                                                          0          3
+__WEAK_URL_SANITIZATION_CODEXM_PYTHON                                                      0          1
+WEAK_XML_SCHEMA                                                                            0         81
+__CONFIG.MISSING_GLOBAL_EXCEPTION_HANDLER_CODEXM_JS                                        0          3
+EXPRESS_X_POWERED_BY_ENABLED                                                               0          3
+CUDA.COLLECTIVE_WARP_SHUFFLE_WIDTH                                                         0          1
+CUDA.CUDEVICE_HANDLES                                                                      0          1
+CUDA.DEVICE_DEPENDENT                                                                      0          1
+CUDA.DEVICE_DEPENDENT_CALLBACKS                                                            0          1
+CUDA.ERROR_INTERFACE                                                                       0          1
+CUDA.ERROR_KERNEL_LAUNCH                                                                   0          1
+CUDA.FORK                                                                                  0          1
+CUDA.INITIATION_OBJECT_DEVICE_THREAD_BLOCK                                                 0          1
+CUDA.SYNCHRONIZE_TERMINATION                                                               0          1
+RELAX_ACCESS_DBUFFER                                                                       0          1
+RELAX_AFM_ALLOC                                                                            0          1
+RELAX_AFM_FREE                                                                             0          1
+RELAX_ALLOC                                                                                0       1113
+RELAX_CLOSE_RESOURCE                                                                       0          3
+RELAX_CUDA_COLLECTIVE_OPERATION_SINK                                                       0          1
+RELAX_CUDA_THREAD_IDX_SOURCE                                                               0          1
+RELAX_BUFFER_SIZE                                                                          0          1
+RELAX_CHECKED_RETURN                                                                       0          3
+RELAX_CUDA_INACTIVE_THREAD_AT_COLLECTIVE_WARP_SINK                                         0          1
+RELAX_CUDA_INVALID_MEMORY_ACCESS_SOURCE                                                    0          1
+RELAX_CUDA_INVALID_MEMORY_ACCESS_SINK                                                      0          1
+RELAX_CUDA_SHARE_FUNCTION                                                                  0          1
+RELAX_CUDA_SHARE_OBJECT_STREAM_ASSOCIATED_SINK                                             0          1
+RELAX_DEREF_ARGS                                                                           0          3
+RELAX_DIVISOR                                                                              0          3
+RELAX_FREED_ARGS                                                                           0          1
+RELAX_OBJECT_FREED                                                                         0          1
+RELAX_OBJECT_USED                                                                          0          1
+RELAX_INDEX_GENERIC                                                                        0          1
+RELAX_MAYWRITE_NONPTR_FIELDS                                                               0          1
+RELAX_ZERO_RETURN                                                                          0          3
+RELAX_NEGATIVE_RETURN                                                                      0          1
+RELAX_NEGATIVE_SINK                                                                        0          1
+RELAX_NULL_RETURN                                                                         32       6125
+RELAX_NEW_ARRAY                                                                            0          1
+RELAX_DELETE_ARRAY                                                                         0          1
+RELAX_ITERATOR_RETURNS                                                                     0          1
+RELAX_ITERATOR_SINKS                                                                       0          1
+HBM_EQUALSORHASHCODE                                                                       0          1
+HBM_MAYSETID                                                                               0          1
+RELAX_ORM_LOAD                                                                             0          1
+RELAX_STREAM_STATE                                                                         0          1
+RELAX_JAVASCRIPT_OPTIONAL_CONSTRUCTOR                                                      0          3
+RELAX_NOTHING                                                                              0          3
+DERIVE_PTR_ARITH                                                                           0          1
+DUMMY_DERIVER_PTR_ARITH                                                                    0          1
+RELAX_ASPNET_MVC_VERSION_HEADER                                                            0          3
+RELAX_DATAFLOW_PRIMITIVES                                                                  0          3
+RELAX_TAINT                                                                                0          1
+RELAX_CRYPTO_PRIMITIVES                                                                    0          3
+DERIVE_DYNAMIC_MAP_RW_MODELS                                                               0          3
+RELAX_AUTHZ                                                                                0          3
+RELAX_CSRF                                                                                 0          3
+RELAX_BAD_CERT_VERIFICATION                                                                0          1
+RELAX_ANDROID_MISSING_PERMISSION                                                           0          1
+RELAX_ANDROID_IMPLICIT_INTENT                                                              0          1
+RELAX_PREDICTABLE_RANDOM_SEED                                                              0          1
+RELAX_INSECURE_COMMUNICATION                                                               0          3
+DUMMY_DERIVER_SECURITY                                                                     0          3
+RELAX_PARAM_NAMES                                                                          0          3
+RELAX_BENIGN_CLOSURE                                                                       0          3
+RELAX_SIDE_EFFECT_FREE                                                                     0          3
+RELAX_ANDROID_PERMISSIONS                                                                  0          1
+DUMMY_DERIVER_STACK_USE                                                                    0          1
+RELAX_UNINIT                                                                               0          1
+RELAX_UNINIT_ALLOC                                                                         0          1
+DUMMY_DERIVER_UNINIT                                                                       0          1
+RELAX_UNCAUGHT_EXCEPT                                                                      0          1
+DUMMY_DERIVER_EXCEPTIONS                                                                   0          1
+CHECKED_RETURN_STAT                                                                        0          3
+CALL_SUPER_STAT                                                                            0          3
+ADDR_ARG_STAT                                                                              0          1
+BAD_EQ_STAT                                                                                0          3
+BAD_LOCK_OBJECT_LOCK_SOURCE_STAT                                                           0          3
+IDENTIFIER_TYPO_STAT                                                                       0          3
+NON_STATIC_GUARDING_STATIC_STAT                                                            0          3
+VOLATILE_ATOMICITY_STAT                                                                    0          3
+DTOR_EMPTINESS_STAT                                                                        0          1
+MOVE_ASSIGN_STAT                                                                           0          1
+UNIQUE_SYMBOL_CHECKER                                                                      0          1
+UNIQUE_SYMBOL_PREV_PASS_FUNCTION_ODR_HASH_GATHERER                                         0          1
+BUILD_SINK_TYPE_GRAPH                                                                      0        373
+DERIVE_EL_BEAN_RW                                                                          0       1483
+DERIVE_DYNAMIC_MAP_RW_ACCESSES                                                             0         13
+RELAX_CSRF_FILTERS                                                                         0          4
+FRAMEWORK_ANALYSIS_SPRING                                                                  0          1
+WEBFORMS_DOM                                                                               0          3
+RAZOR_SECTIONS                                                                             0         27
+BUILD_STRING_GRAPH                                                                      1031        231
+AUTHZ_STAT                                                                                 0          3
+CSRF_STAT                                                                                  0         60
+MISSING_PERMISSION_ON_EXPORTED_COMPONENT                                                   0          1
+EL_INJECTION                                                                               0          3
+DATAFLOW_INJECTION                                                                       235        373
+__HEADER_INJECTION_STATICS                                                                 0          5
+JAVA_CODE_INJECTION                                                                        0          3
+JCR_INJECTION                                                                              0          3
+JSP_DYNAMIC_INCLUDE                                                                        0          3
+JSP_SQL_INJECTION                                                                          0          3
+LDAP_INJECTION                                                                             0          5
+LOG_INJECTION                                                                              0          5
+__NOSQL_QUERY_INJECTION_STATICS                                                            0          5
+OGNL_INJECTION                                                                             0          3
+__REGEX_INJECTION_STATICS                                                                  0          5
+__SCRIPT_CODE_INJECTION_STATICS                                                            0          5
+SESSION_FIXATION                                                                           0          3
+TRUST_BOUNDARY_VIOLATION                                                                   0          3
+UNKNOWN_LANGUAGE_INJECTION                                                                 0          5
+UNRESTRICTED_DISPATCH                                                                      0          5
+__UNSAFE_DESERIALIZATION_STATICS                                                           0          5
+__UNSAFE_JNI_STATICS                                                                       0          3
+UNSAFE_NAMED_QUERY                                                                         0          5
+__XML_INJECTION_STATICS                                                                    0          5
+__XPATH_INJECTION_STATICS                                                                  0          5
+__UNSAFE_REFLECTION_STATICS                                                                0          3
+__TAINTED_ENVIRONMENT_WITH_EXECUTION_STATICS                                               0          3
+__INSECURE_RANDOM_STRING_GRAPH_INTERNAL                                                    0          2
+__INSECURE_RANDOM_STRING_GRAPH                                                             0          3
+__OS_CMD_INJECTION_STRING_GRAPH_INTERNAL                                                   0          2
+__OS_CMD_INJECTION_STRING_GRAPH                                                            0          3
+__PATH_MANIPULATION_STRING_GRAPH                                                           0          3
+__PATH_MANIPULATION_STRING_GRAPH_INTERNAL                                                  0          2
+__URL_MANIPULATION_STRING_GRAPH                                                            0          1
+URL_MANIPULATION                                                                           0          5
+__SENSITIVE_DATA_LEAK_STRING_GRAPH                                                         0          3
+SENSITIVE_DATA_LEAK_INTERNAL                                                               0          2
+__SQLI_STRING_GRAPH_INTERNAL                                                               0          2
+__SQLI_STRING_GRAPH                                                                        0          3
+__TAINT_ASSERT_STRING_GRAPH                                                                0          3
+__UNENCRYPTED_SENSITIVE_DATA_STRING_GRAPH                                                  0          3
+UNENCRYPTED_SENSITIVE_DATA_INTERNAL                                                        0          2
+WEAK_GUARD_DATAFLOW_INJECTION                                                              0          1
+__WEAK_GUARD_STRING_GRAPH                                                                  0          1
+__WEAK_PASSWORD_HASH_STRING_GRAPH                                                          0          3
+__WEAK_PASSWORD_HASH_STRING_GRAPH_INTERNAL                                                 0          2
+__XML_EXTERNAL_ENTITY_STRING_GRAPH_INTERNAL                                                0          2
+__XML_EXTERNAL_ENTITY_STRING_GRAPH                                                         0          3
+ANDROID_CAPABILITY_LEAK                                                                    0          1
+__CSRF_JAVA_CSHARP                                                                         0         77
+__HARDCODED_CREDENTIALS_STRING_GRAPH                                                       0          3
+__OPEN_REDIRECT_STRING_GRAPH                                                               0          3
+__MISSING_AUTHZ_JAVA_CSHARP                                                               15       1113
+__XSS_STRING_GRAPH                                                                       406          3
+DATAFLOW_CALLGRAPH_CHECKER                                                              4535       8843
+BUDA_DIRECTIVES_TYPE_INFERENCE_CHECKER                                                   687       5385
+__REGEX_INJECTION_BUDA                                                                    16       5388
+__REGEX_INJECTION_BUDA_PYTHON                                                              0          1
+__HEADER_INJECTION_JS                                                                     31       5388
+__COOKIE_INJECTION_BUDA_JS                                                                16       5388
+__COOKIE_INJECTION_BUDA_PYTHON                                                             0          1
+__PATH_MANIPULATION_BUDA_JS                                                                0       5388
+__PATH_MANIPULATION_BUDA_NONJS                                                             0          1
+__OS_CMD_INJECTION_BUDA                                                                    0          1
+__OS_CMD_INJECTION_BUDA.TANDEM                                                             0       5388
+__SCRIPT_CODE_INJECTION_BUDA_JS                                                           31       5388
+__SCRIPT_CODE_INJECTION_BUDA_NONJS                                                         0          1
+__NOSQL_QUERY_INJECTION_BUDA                                                               0          1
+__NOSQL_QUERY_INJECTION_BUDA.TANDEM                                                        0       5388
+DOM_XSS                                                                                   31       5388
+LOCALSTORAGE_MANIPULATION                                                                 31       5388
+SESSIONSTORAGE_MANIPULATION                                                                0       5388
+__URL_MANIPULATION_BUDA_DYNAMICS_JS                                                       32       5388
+__URL_MANIPULATION_BUDA_DYNAMICS_NOJS                                                      0          1
+__TAINTED_ENVIRONMENT_WITH_EXECUTION_BUDA                                                  0       5388
+CSS_INJECTION                                                                              0       5388
+__XSS_BUDA                                                                                 0          1
+__XSS_BUDA.TANDEM                                                                         31       5388
+ANGULAR_EXPRESSION_INJECTION                                                               0       5388
+__UNSAFE_DESERIALIZATION_BUDA                                                              0          1
+__UNSAFE_DESERIALIZATION_BUDA.TANDEM                                                      31       5388
+SYMFONY_EL_INJECTION                                                                       0          1
+__TEMPLATE_INJECTION_BUDA_JS                                                               0       5388
+__TEMPLATE_INJECTION_BUDA_PYTHON                                                           0          1
+__HARDCODED_CREDENTIALS_BUDA_DYNAMICS                                                     16       5385
+__HEADER_INJECTION_BUDA                                                                    0          1
+__OPEN_REDIRECT_BUDA_DYNAMICS                                                             16       5385
+UNCHECKED_ORIGIN                                                                           0       5385
+UNRESTRICTED_MESSAGE_TARGET                                                                0       5385
+__SQLI_BUDA_DYNAMICS                                                                      95       5385
+MISSING_IFRAME_SANDBOX                                                                    15       5385
+__SENSITIVE_DATA_LEAK_BUDA_DYNAMICS                                                        0       5385
+__CSRF_BUDA                                                                               16       5385
+__RISKY_CRYPTO_BUDA                                                                       16       5385
+__INSECURE_RANDOM_BUDA_DYNAMICS                                                           15       5385
+__INSECURE_SALT_BUDA                                                                      16       5385
+__INSUFFICIENT_LOGGING_BUDA_DYNAMICS                                                       0       5385
+__MISSING_AUTHZ_BUDA_STATS                                                                15       5385
+__UNSAFE_REFLECTION_BUDA                                                                   0          1
+__XML_EXTERNAL_ENTITY_BUDA_DYNAMICS                                                       16       5385
+__XML_INJECTION_BUDA_DYNAMICS                                                              0          1
+TANDEM_DATAFLOW_CHECKER_INFRASTRUCTURE_DYNAMICS_1                                        250          3
+__MISSING_AUTHZ_BUDA                                                                      16      10767
+DATAFLOW_PREPASS_RESOLUTION_CHECKER                                                        0          1
+TANDEM_DATAFLOW_CHECKER_INFRASTRUCTURE_STATICS                                             0          1
+DISTRUSTED_DATA_DESERIALIZATION                                                            0          1
+__HEADER_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH                                          0          1
+__HEADER_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH2                                         0          2
+__NOSQL_QUERY_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH                                     0          1
+__PATH_MANIPULATION_BUDA_STATICS_NO_BUDA_CALLGRAPH                                         0          1
+__TAINTED_ENVIRONMENT_WITH_EXECUTION_BUDA_STATICS_NO_BUDA_CALLGRAPH                        0          1
+__TEMPLATE_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH                                        0          1
+__URL_MANIPULATION_BUDA_STATICS_NO_BUDA_CALLGRAPH                                          0          1
+__UNSAFE_DESERIALIZATION_BUDA_STATICS                                                      0          2
+__UNSAFE_JNI_BUDA_STATICS_NO_BUDA_CALLGRAPH                                                0          2
+__XPATH_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH                                           0          1
+__XPATH_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH2                                          0          2
+__XSS_BUDA_STATICS_NO_BUDA_CALLGRAPH                                                       0          1
+__REGEX_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH                                           0          2
+__WEAK_PASSWORD_HASH_BUDA_STATICS                                                          0          1
+__HARDCODED_CREDENTIALS_BUDA_STATICS_NO_CALLGRAPH                                          0          1
+__XML_EXTERNAL_ENTITY_BUDA_JAVA_DOTNET                                                     0          1
+__INSECURE_RANDOM_BUDA_STATICS                                                             0          2
+LDAP_NOT_CONSTANT                                                                         16        117
+__OPEN_REDIRECT_BUDA_STATICS                                                               0          1
+__OS_CMD_INJECTION_BUDA_STATICS                                                            0          1
+__OS_CMD_INJECTION_BUDA_STATICS_TANDEM                                                     0          2
+__PATH_MANIPULATION_BUDA_STATICS                                                           0          1
+__RISKY_CRYPTO_BUDA_STATICS                                                                0          1
+__SENSITIVE_DATA_LEAK_BUDA_STATICS                                                         0          1
+__SQLI_BUDA_STATICS                                                                        0          1
+__UNENCRYPTED_SENSITIVE_DATA_BUDA_STATICS_NO_CALLGRAPH                                     0          1
+__URL_MANIPULATION_BUDA_STATICS                                                            0          2
+__INSUFFICIENT_LOGGING_BUDA_STATICS                                                        0          1
+__MOBILE_ID_MISUSE_BUDA_STATICS                                                            0          1
+UNRESTRICTED_ACCESS_TO_FILE_BUDA_STATICS                                                   0          2
+TANDEM_DATAFLOW_CHECKER_INFRASTRUCTURE_STATICS_WORMHOLING                                  0          1
+DISTRUSTED_DATA_DESERIALIZATION_WORMHOLING                                                 0          1
+__HEADER_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH_WORMHOLING                               0          1
+__HEADER_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH2_WORMHOLING                              0          2
+__NOSQL_QUERY_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH_WORMHOLING                          0          1
+__PATH_MANIPULATION_BUDA_STATICS_NO_BUDA_CALLGRAPH_WORMHOLING                              0          1
+__TAINTED_ENVIRONMENT_WITH_EXECUTION_BUDA_STATICS_NO_BUDA_CALLGRAPH_WORMHOLING             0          1
+__TEMPLATE_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH_WORMHOLING                             0          1
+__URL_MANIPULATION_BUDA_STATICS_NO_BUDA_CALLGRAPH_WORMHOLING                               0          1
+__UNSAFE_DESERIALIZATION_BUDA_STATICS_WORMHOLING                                           0          2
+__UNSAFE_JNI_BUDA_STATICS_NO_BUDA_CALLGRAPH_WORMHOLING                                     0          2
+__XPATH_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH_WORMHOLING                                0          1
+__XPATH_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH2_WORMHOLING                               0          2
+__XSS_BUDA_STATICS_NO_BUDA_CALLGRAPH_WORMHOLING                                            0          1
+__REGEX_INJECTION_BUDA_STATICS_NO_BUDA_CALLGRAPH_WORMHOLING                                0          2
+__WEAK_PASSWORD_HASH_BUDA_STATICS_WORMHOLING                                               0          1
+__HARDCODED_CREDENTIALS_BUDA_STATICS_NO_CALLGRAPH_WORMHOLING                               0          1
+__XML_EXTERNAL_ENTITY_BUDA_JAVA_DOTNET_WORMHOLING                                          0          1
+__INSECURE_RANDOM_BUDA_STATICS_WORMHOLING                                                  0          2
+LDAP_NOT_CONSTANT_WORMHOLING                                                              31          3
+__OPEN_REDIRECT_BUDA_STATICS_WORMHOLING                                                    0          1
+__OS_CMD_INJECTION_BUDA_STATICS_WORMHOLING                                                 0          1
+__OS_CMD_INJECTION_BUDA_STATICS_TANDEM_WORMHOLING                                          0          2
+__PATH_MANIPULATION_BUDA_STATICS_WORMHOLING                                                0          1
+__RISKY_CRYPTO_BUDA_STATICS_WORMHOLING                                                     0          1
+__SENSITIVE_DATA_LEAK_BUDA_STATICS_WORMHOLING                                              0          1
+__SQLI_BUDA_STATICS_WORMHOLING                                                             0          1
+__UNENCRYPTED_SENSITIVE_DATA_BUDA_STATICS_NO_CALLGRAPH_WORMHOLING                          0          1
+__URL_MANIPULATION_BUDA_STATICS_WORMHOLING                                                 0          2
+__INSUFFICIENT_LOGGING_BUDA_STATICS_WORMHOLING                                             0          1
+__MOBILE_ID_MISUSE_BUDA_STATICS_WORMHOLING                                                 0          1
+UNRESTRICTED_ACCESS_TO_FILE_BUDA_STATICS_WORMHOLING                                        0          2
+BAD_OVERRIDE                                                                               0          1
+MISSING_MOVE_ASSIGNMENT                                                                    0          1
+CONFIG.MISSING_CUSTOM_ERROR_PAGE                                                           0         28
+__CONFIG.UNSAFE_SESSION_TIMEOUT_JAVA                                                       0          3
+__CONFIG.SPRING_SECURITY_SESSION_FIXATION_JAVA                                             0          3
+CONFIG.STRUTS2_CONFIG_BROWSER_PLUGIN                                                       0          3
+CONFIG.HANA_XS_PREVENT_XSRF_DISABLED                                                       0          3
+CONFIG.SYMFONY_CSRF_PROTECTION_DISABLED                                                  348         44
+CONFIG.MYBATIS_MAPPER_SQLI                                                                62         44
+ANDROID_DEBUG_MODE                                                                         0          1
+CONFIG.COOKIES_MISSING_HTTPONLY                                                            0         28
+CONFIG.DEAD_AUTHORIZATION_RULE                                                             0         28
+__CONFIG.ENABLED_DEBUG_MODE_DOTNET                                                         0         28
+CONFIG.ENABLED_TRACE_MODE                                                                  0         28
+CONFIG.ASP_VIEWSTATE_MAC                                                                   0         28
+CONFIG.ASPNET_VERSION_HEADER                                                               0         28
+CONFIG.DUPLICATE_SERVLET_DEFINITION                                                        0          3
+CONFIG.DYNAMIC_DATA_HTML_COMMENT                                                           0         13
+CONFIG.JAVAEE_MISSING_HTTPONLY                                                             0          3
+__CONFIG.MISSING_GLOBAL_EXCEPTION_HANDLER_JAVA                                             0          3
+CONFIG.MISSING_JSF2_SECURITY_CONSTRAINT                                                    0          3
+__CONFIG.SPRING_SECURITY_DEBUG_MODE_JAVA                                                   0          3
+CONFIG.SPRING_SECURITY_DISABLE_AUTH_TAGS                                                   0          4
+CONFIG.SPRING_SECURITY_HARDCODED_CREDENTIALS                                               0          3
+CONFIG.STRUTS2_DYNAMIC_METHOD_INVOCATION                                                   0          3
+CONFIG.STRUTS2_ENABLED_DEV_MODE                                                            0          3
+CONFIG.CONNECTION_STRING_PASSWORD                                                          0         28
+CONFIG.HTTP_VERB_TAMPERING                                                                 0          3
+SQL_NOT_CONSTANT                                                                           0          3
+UNCAUGHT_EXCEPT                                                                            0          1
+__BAD_CERT_VERIFICATION_BRAKEMAN                                                           0          1
+DENY_LIST_FOR_AUTHN                                                                        0          1
+COOKIE_SERIALIZER_CONFIG                                                                   0          1
+__CSRF_BRAKEMAN                                                                            0          1
+__DIVIDE_BY_ZERO_BRAKEMAN                                                                  0          1
+DYNAMIC_OBJECT_ATTRIBUTES                                                                  0          1
+__HARDCODED_CREDENTIALS_BRAKEMAN                                                           0          1
+__OPEN_REDIRECT_BRAKEMAN                                                                   0          1
+__OS_CMD_INJECTION_BRAKEMAN                                                                0          1
+__PATH_MANIPULATION_BRAKEMAN                                                               0          1
+RAILS_DEFAULT_ROUTES                                                                       0          1
+RAILS_DEVISE_CONFIG                                                                        0          1
+RAILS_MISSING_FILTER_ACTION                                                                0          1
+__REGEX_INJECTION_BRAKEMAN                                                                 0          1
+REGEX_MISSING_ANCHOR                                                                       0          1
+__RESOURCE_LEAK_BRAKEMAN                                                                   0          1
+__REVERSE_TABNABBING_BRAKEMAN                                                              0          1
+RUBY_VULNERABLE_LIBRARY                                                                    0          1
+__SCRIPT_CODE_INJECTION_BRAKEMAN                                                           0          1
+__SENSITIVE_DATA_LEAK_BRAKEMAN                                                             0          1
+SESSION_MANIPULATION                                                                       0          1
+__SQLI_BRAKEMAN                                                                            0          1
+STRICT_TRANSPORT_SECURITY                                                                  0          1
+__TEMPLATE_INJECTION_BRAKEMAN                                                              0          1
+__UNSAFE_BASIC_AUTH_BRAKEMAN                                                               0          1
+__UNSAFE_DESERIALIZATION_BRAKEMAN                                                          0          1
+__UNSAFE_REFLECTION_BRAKEMAN                                                               0          1
+UNSAFE_SESSION_SETTING                                                                     0          1
+__WEAK_PASSWORD_HASH_BRAKEMAN                                                              0          1
+__XSS_BRAKEMAN                                                                             0          1
+ANONYMOUS_DB_CONNECTION                                                                    0          1
+SOCKET_ACCEPT_ALL_ORIGINS                                                                  0          3
+SECURE_TEMP                                                                                0          1
+INSECURE_NETWORK_BIND                                                                      0         81
+INSECURE_COMMUNICATION                                                                   859        163
+BAD_CERT_VERIFICATION                                                                      0          3
+WEAK_PASSWORD_HASH                                                                         0          3
+HARDCODED_CREDENTIALS                                                                      0          3
+WEAK_GUARD                                                                                 0          1
+XSS                                                                                        0          3
+SQLI                                                                                       0          3
+PATH_MANIPULATION                                                                          0          3
+OPEN_REDIRECT                                                                              0          3
+OS_CMD_INJECTION                                                                           0          3
+UNENCRYPTED_SENSITIVE_DATA                                                                 0          3
+CSRF                                                                                       0          3
+COOKIE_INJECTION                                                                           0          3
+HEADER_INJECTION                                                                           0          3
+REGEX_INJECTION                                                                            0          3
+NOSQL_QUERY_INJECTION                                                                      0          3
+SCRIPT_CODE_INJECTION                                                                      0          3
+XML_INJECTION                                                                              0          3
+SENSITIVE_DATA_LEAK                                                                        0          3
+INSECURE_COOKIE                                                                          423        243
+CONFIG.COOKIE_SIGNING_DISABLED                                                             0         83
+RISKY_CRYPTO                                                                               0          3
+TAINT_ASSERT                                                                               0          3
+UNRESTRICTED_ACCESS_TO_FILE                                                                0          1
+TEMPLATE_INJECTION                                                                         0          3
+MISSING_AUTHZ                                                                              0          3
+UNSAFE_DESERIALIZATION                                                                     0          3
+UNSAFE_REFLECTION                                                                          0          1
+INSECURE_RANDOM                                                                            0          3
+INSECURE_SALT                                                                              0          3
+XPATH_INJECTION                                                                            0          3
+INSUFFICIENT_LOGGING                                                                       0          3
+XML_EXTERNAL_ENTITY                                                                        0          3
+TAINTED_ENVIRONMENT_WITH_EXECUTION                                                         0          3
+MOBILE_ID_MISUSE                                                                           0          1
+REVERSE_TABNABBING                                                                         0          3
+CONFIG.UNSAFE_SESSION_TIMEOUT                                                              0         83
+CORS_MISCONFIGURATION                                                                   2300        163
+CORS_MISCONFIGURATION_AUDIT                                                             1483        163
+CONFIG.MISSING_GLOBAL_EXCEPTION_HANDLER                                                    0          3
+CONFIG.ENABLED_DEBUG_MODE                                                                  0          3
+CONFIG.HARDCODED_CREDENTIALS_AUDIT                                                      3061        243
+CONFIG.SPRING_SECURITY_DEBUG_MODE                                                          0         83
+CONFIG.SPRING_SECURITY_SESSION_FIXATION                                                    0          3
+WEAK_URL_SANITIZATION                                                                      0          3
+INSECURE_REFERRER_POLICY                                                                   0          3
+JSONWEBTOKEN_UNTRUSTED_DECODE                                                              0          1
+UNSAFE_JNI                                                                                 0          1
+UNSAFE_BASIC_AUTH                                                                          0          1
+EXPOSED_DIRECTORY_LISTING                                                                  0         83
+OAUTH2_MISCONFIGURATION                                                                    0          1
+UNSAFE_FUNCTIONALITY                                                                       0          1
+UNSAFE_XML_PARSE_CONFIG                                                                    0          3
+parseBuiltinCheckers                                                                     328          1
+sequential initialization                                                              11500          1
+Looking for translation units                                                              0          1
+Computing links for translation units                                                   1922          1
+xfer symbol cache                                                                        719          1
+Computing virtual overrides for structural subtyping                                       0          1
+Computing virtual overrides                                                               31          1
+Framework Analyzer                                                                      3718          1
+computing RTA                                                                            328          1
+directive resolution pre-pass: master                                                   1328          2
+Computing callgraph                                                                      563          1
+Topologically sorting functions                                                          125          1
+startCalcXrefs                                                                          1157          1
+run_sigma                                                                               7000          1
+Computing node costs                                                                     172          1
+Analysis run                                                                          221672          1
+loadFromEmit                                                                           15129      28288
+finishCalcXrefs                                                                            0          2
+__CSRF_JAVA_CSHARP_pass1                                                                  15         37
+finish_jshint                                                                              0          1
+finish_detekt                                                                              0          1
+finish_pmd                                                                                 0          1

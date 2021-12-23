@@ -1,0 +1,370 @@
+{
+  "rule" : "default_component_owner",
+  "assignments" : [
+    {
+      "mergeKey" : "123bda4f8d612cc03187a97630a2daca",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "12ec5505b7bcb200cabe4bfe5abf37a8",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "13b3badf3a403046ca8c237d7ae5bd80",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "16c1a691e3fc399e34ad3cdd5b0006d1",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "17f4f97fcfbc3161e0b0ae4d3a802552",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "1bcf2517fb69d6d4e5c8fb1611d42b8d",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "1c33d7d702b02955ac30779daf7e3dd6",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "1c84863c83d37807b5a0e556a95fd25b",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "1cacaba745a738013a8ba674af6e5125",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "1fbec03665820953a2ea9e3866d5b51c",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "21fbb610496033470cc05704a7dda327",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "2e689354f894f8564bd772eb3f4fd92e",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "365129183d81597ad24b198209753b9c",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "47c9159020ed657317da222db28ad721",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "4f3c2b4b4d4e76da558963aacb197333",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "51be26832547d5efe8353062ad0e64b5",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "51cc678cd4f44d9f382ab6b76a6b2816",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "544cae01672624ddc2d4220197039e84",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "545ce42972b792accc5aec0bb496ede5",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "5860baad90ca19b011f7bcdbf4c72aab",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "5cdd366b04d9b089d3b0578d44273802",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "6109e74425805a40af4421b1348bd89e",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "620750fc271942fc5ca3f223a79939ce",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "634be52c8530066c3e3ff16987ba361c",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "63770cad940aca27ddf098515e7565c1",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "6826f4de14dc9087e7de728a79069616",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "682a9eb5e8051b116a1687be1ed55325",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "68af9a053baa995e7bae4afd3e8f593f",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "69a88177ee996aede311f2726d8135e3",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "69c27e3c3afeba797dea337bdb8078c3",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "69dc1948d25ab769a2605ecfe4c7807c",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "6af3dd498da21b9ad980b2403872e501",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "6f1194f89b003b2984fb985fc08f4161",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "6fc53867d71e8f6ce6f682346a2db741",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "73e48857ac8b87152adcd4d39754eac1",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "74e3a0448233d118ceb0aa90db038dd3",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "754cfc1a52fd2d9b6b220d76aa973963",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "7651caab0cb79a94cdd5b0b77cdccebd",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "76d6d8589aa87e7f702e209bf8aba01e",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "777c5f7d7386dcd5776278ec26078855",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "77842d84367b56b0bea95a75e67e1dc6",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "7b33ce4beab729a63fe91b3d9576cb67",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "85886643fd0319b9f6418a16f58b40e5",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "85fa4d40d1b5c68ab391febb2332d30c",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "878e77691277b68a3f8cb261c038db80",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "8b1c50499255fc18761fc67fafc921bb",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "8c2e2ee386aa4527a0b618aa99df7e5c",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "8e166588bb4d571c8931c1130df652b7",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "8f18ced7ab28e9b91edf697467d7de77",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "975771c9fc2426b53224f8191831a5bf",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "9d75efb7b86378a91ee52b8c186f459d",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "aa1bc6bd0560446450323e5780aeff87",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "abb3bc39ecf4860fcf40ba34a0df7b26",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "ad456caf8f3699de3e13000ba146f5ed",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "b6843a3ebe687c08e1719fddd80d2d0f",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "b9a9d883a66e961aee39252fcf066ef8",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "ba38f51fbcb923170970f0171a38ace6",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "bb4d7ccf939e5500eb656add92a00c4c",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "bb5598490e5017ddaa2c0173ba62a19f",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "c0b141b7f2924ca9d2b624e314e5fc66",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "c864f2ea17ebe0be646df73acb06e825",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "c87980e67a7601c5cea843d5baf8fe91",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "cc46b049d3d4fed5c168fb35b4239754",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "cf88862dbd4ebbd9022afad5f75460b4",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "d0690913233f0b9fe4002d1678b14251",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "dd166f7d691e55975e482a06eb88e53f",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "e1925efe44ab8e4449f5fc253d5cf149",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "e71ae2c2fc66f7437fcb477c086b2522",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "ed0f94cafed0982e9346649935adc518",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "f14a176610df44dd8da907f234aa91b3",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "f75cea68106ee563a075008a023a15a1",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "f9542537c49176ee828e045b7715c283",
+      "cimUsername" : null,
+      "ldapServer" : null
+    },
+    {
+      "mergeKey" : "fa01c013842cfb5ec36e4266f453754a",
+      "cimUsername" : null,
+      "ldapServer" : null
+    }
+  ]
+}

@@ -1,0 +1,1223 @@
+Translation unit:
+202 -> C:/AEP/AppScantool/testweb/testweb/Global.asax.cs
+cov-emit-cs invocation time (seconds): 72
+Translation unit:
+203 -> C:/AEP/AppScantool/testweb/testweb/App_Start/BundleConfig.cs
+cov-emit-cs invocation time (seconds): 72
+Translation unit:
+204 -> C:/AEP/AppScantool/testweb/testweb/App_Start/FilterConfig.cs
+cov-emit-cs invocation time (seconds): 72
+Translation unit:
+205 -> C:/AEP/AppScantool/testweb/testweb/App_Start/RouteConfig.cs
+cov-emit-cs invocation time (seconds): 72
+Translation unit:
+206 -> C:/AEP/AppScantool/testweb/testweb/Controllers/HomeController.cs
+cov-emit-cs invocation time (seconds): 72
+Translation unit:
+214 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+cov-emit-cs invocation time (seconds): 72
+Translation unit:
+213 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+cov-emit-cs invocation time (seconds): 72
+Translation unit:
+212 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+cov-emit-cs invocation time (seconds): 72
+Translation unit:
+211 -> C:/AEP/AppScantool/testweb/testweb/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+cov-emit-cs invocation time (seconds): 72
+Translation unit:
+210 -> C:/AEP/AppScantool/testweb/testweb/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+cov-emit-cs invocation time (seconds): 72
+Translation unit:
+209 -> C:/AEP/AppScantool/testweb/testweb/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+cov-emit-cs invocation time (seconds): 72
+Translation unit:
+208 -> C:/AEP/AppScantool/testweb/testweb/Properties/AssemblyInfo.cs
+cov-emit-cs invocation time (seconds): 72
+Translation unit:
+207 -> C:/AEP/AppScantool/testweb/testweb/Controllers/StudentController.cs
+cov-emit-cs invocation time (seconds): 72
+Translation unit:
+123 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.ObjectModel.dll
+Translation unit:
+115 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Net.Requests.dll
+Translation unit:
+122 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Numerics.dll
+Translation unit:
+121 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Net.dll
+Translation unit:
+120 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Net.WebSockets.dll
+Translation unit:
+119 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Net.WebSockets.Client.dll
+Translation unit:
+118 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Net.WebHeaderCollection.dll
+Translation unit:
+117 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Net.Sockets.dll
+Translation unit:
+116 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Net.Security.dll
+Translation unit:
+107 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Linq.Parallel.dll
+Translation unit:
+124 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Reflection.Extensions.dll
+Translation unit:
+125 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Reflection.Primitives.dll
+Translation unit:
+126 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Reflection.dll
+Translation unit:
+127 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Resources.Reader.dll
+Translation unit:
+128 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Resources.ResourceManager.dll
+Translation unit:
+129 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Resources.Writer.dll
+Translation unit:
+130 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Runtime.CompilerServices.VisualC.dll
+Translation unit:
+131 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Runtime.Extensions.dll
+Translation unit:
+132 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Runtime.Handles.dll
+Translation unit:
+133 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Runtime.InteropServices.RuntimeInformation.dll
+Translation unit:
+104 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.IO.UnmanagedMemoryStream.dll
+Translation unit:
+95 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.IO.Compression.ZipFile.dll
+Translation unit:
+96 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.IO.Compression.dll
+Translation unit:
+97 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.IO.FileSystem.DriveInfo.dll
+Translation unit:
+98 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.IO.FileSystem.Primitives.dll
+Translation unit:
+99 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.IO.FileSystem.Watcher.dll
+Translation unit:
+100 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.IO.FileSystem.dll
+Translation unit:
+101 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.IO.IsolatedStorage.dll
+Translation unit:
+102 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.IO.MemoryMappedFiles.dll
+Translation unit:
+103 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.IO.Pipes.dll
+Translation unit:
+114 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Net.Primitives.dll
+Translation unit:
+105 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.IO.dll
+Translation unit:
+106 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Linq.Expressions.dll
+Translation unit:
+141 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Runtime.dll
+Translation unit:
+108 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Linq.Queryable.dll
+Translation unit:
+109 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Linq.dll
+Translation unit:
+110 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Net.Http.dll
+Translation unit:
+111 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Net.NameResolution.dll
+Translation unit:
+112 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Net.NetworkInformation.dll
+Translation unit:
+113 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Net.Ping.dll
+Translation unit:
+164 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Windows.dll
+Translation unit:
+155 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Threading.Tasks.Parallel.dll
+Translation unit:
+156 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Threading.Tasks.dll
+Translation unit:
+157 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Threading.Thread.dll
+Translation unit:
+158 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Threading.ThreadPool.dll
+Translation unit:
+159 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Threading.Timer.dll
+Translation unit:
+160 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Threading.dll
+Translation unit:
+161 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Transactions.dll
+Translation unit:
+162 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.ValueTuple.dll
+Translation unit:
+163 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Web.dll
+Translation unit:
+154 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Threading.Overlapped.dll
+Translation unit:
+165 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Xml.Linq.dll
+Translation unit:
+166 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Xml.ReaderWriter.dll
+Translation unit:
+167 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Xml.Serialization.dll
+Translation unit:
+168 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Xml.XDocument.dll
+Translation unit:
+169 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Xml.XPath.XDocument.dll
+Translation unit:
+170 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Xml.XPath.dll
+Translation unit:
+171 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Xml.XmlDocument.dll
+Translation unit:
+172 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Xml.XmlSerializer.dll
+Translation unit:
+173 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Xml.dll
+Translation unit:
+144 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Security.Cryptography.Csp.dll
+Translation unit:
+135 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Runtime.Numerics.dll
+Translation unit:
+136 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Runtime.Serialization.Formatters.dll
+Translation unit:
+137 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Runtime.Serialization.Json.dll
+Translation unit:
+138 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Runtime.Serialization.Primitives.dll
+Translation unit:
+139 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Runtime.Serialization.Xml.dll
+Translation unit:
+140 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Runtime.Serialization.dll
+Translation unit:
+87 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Diagnostics.Tracing.dll
+Translation unit:
+142 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Security.Claims.dll
+Translation unit:
+143 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Security.Cryptography.Algorithms.dll
+Translation unit:
+134 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Runtime.InteropServices.dll
+Translation unit:
+145 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Security.Cryptography.Encoding.dll
+Translation unit:
+146 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Security.Cryptography.Primitives.dll
+Translation unit:
+147 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Security.Cryptography.X509Certificates.dll
+Translation unit:
+148 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Security.Principal.dll
+Translation unit:
+149 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Security.SecureString.dll
+Translation unit:
+150 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.ServiceModel.Web.dll
+Translation unit:
+151 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Text.Encoding.Extensions.dll
+Translation unit:
+152 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Text.Encoding.dll
+Translation unit:
+153 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Text.RegularExpressions.dll
+Translation unit:
+65 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.AppContext.dll
+Translation unit:
+74 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.ComponentModel.dll
+Translation unit:
+73 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.ComponentModel.TypeConverter.dll
+Translation unit:
+72 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.ComponentModel.Primitives.dll
+Translation unit:
+71 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.ComponentModel.EventBasedAsync.dll
+Translation unit:
+70 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.ComponentModel.Composition.dll
+Translation unit:
+69 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Collections.dll
+Translation unit:
+68 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Collections.Specialized.dll
+Translation unit:
+67 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Collections.NonGeneric.dll
+Translation unit:
+66 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Collections.Concurrent.dll
+Translation unit:
+93 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Globalization.dll
+Translation unit:
+64 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll
+Translation unit:
+63 -> C:/AEP/AppScantool/testweb/ClassLibrary1/obj/Debug/netstandard2.0/ClassLibrary1.AssemblyInfo.cs
+cov-emit-cs invocation time (seconds): 62
+cov-translate invocation time (seconds): 64
+cov-build invocation time (seconds): 69
+Translation unit:
+62 -> C:/Temp/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+cov-emit-cs invocation time (seconds): 62
+cov-translate invocation time (seconds): 64
+cov-build invocation time (seconds): 69
+Translation unit:
+61 -> C:/AEP/AppScantool/testweb/ClassLibrary1/Class1.cs
+cov-emit-cs invocation time (seconds): 62
+cov-translate invocation time (seconds): 64
+cov-build invocation time (seconds): 69
+Translation unit:
+174 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.dll
+Translation unit:
+175 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/mscorlib.dll
+Translation unit:
+176 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/netstandard.dll (reference assembly)
+Translation unit:
+94 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.IO.Compression.FileSystem.dll
+Translation unit:
+76 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Core.dll
+Translation unit:
+92 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Globalization.Extensions.dll
+Translation unit:
+91 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Globalization.Calendars.dll
+Translation unit:
+90 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Dynamic.Runtime.dll
+Translation unit:
+89 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Drawing.dll
+Translation unit:
+88 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Drawing.Primitives.dll
+Translation unit:
+75 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Console.dll
+Translation unit:
+86 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Diagnostics.TraceSource.dll
+Translation unit:
+85 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Diagnostics.Tools.dll
+Translation unit:
+84 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Diagnostics.TextWriterTraceListener.dll
+Translation unit:
+83 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Diagnostics.StackTrace.dll
+Translation unit:
+82 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Diagnostics.Process.dll
+Translation unit:
+81 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Diagnostics.FileVersionInfo.dll
+Translation unit:
+80 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Diagnostics.Debug.dll
+Translation unit:
+79 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Diagnostics.Contracts.dll
+Translation unit:
+78 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Data.dll
+Translation unit:
+77 -> C:/Users/s343416/.nuget/packages/netstandard.library/2.0.3/build/netstandard2.0/ref/System.Data.Common.dll
+Translation unit:
+186 -> C:/Temp/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+cov-emit-cs invocation time (seconds): 14
+cov-translate invocation time (seconds): 15
+cov-build invocation time (seconds): 21
+Translation unit:
+187 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.7.2/Microsoft.CSharp.dll (reference assembly)
+Translation unit:
+182 -> C:/AEP/AppScantool/testweb/WindowsFormsApp1/Program.cs
+cov-emit-cs invocation time (seconds): 14
+cov-translate invocation time (seconds): 15
+cov-build invocation time (seconds): 21
+Translation unit:
+189 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.7.2/System.Data.DataSetExtensions.dll (reference assembly)
+Translation unit:
+191 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.7.2/System.Deployment.dll (reference assembly)
+Translation unit:
+193 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.7.2/System.Net.Http.dll (reference assembly)
+Translation unit:
+194 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.7.2/System.Windows.Forms.dll (reference assembly)
+Translation unit:
+184 -> C:/AEP/AppScantool/testweb/WindowsFormsApp1/Properties/Resources.Designer.cs
+cov-emit-cs invocation time (seconds): 14
+cov-translate invocation time (seconds): 15
+cov-build invocation time (seconds): 21
+Translation unit:
+183 -> C:/AEP/AppScantool/testweb/WindowsFormsApp1/Properties/AssemblyInfo.cs
+cov-emit-cs invocation time (seconds): 14
+cov-translate invocation time (seconds): 15
+cov-build invocation time (seconds): 21
+Translation unit:
+181 -> C:/AEP/AppScantool/testweb/WindowsFormsApp1/Form1.Designer.cs
+cov-emit-cs invocation time (seconds): 14
+cov-translate invocation time (seconds): 15
+cov-build invocation time (seconds): 21
+Translation unit:
+180 -> C:/AEP/AppScantool/testweb/WindowsFormsApp1/Form1.cs
+cov-emit-cs invocation time (seconds): 14
+cov-translate invocation time (seconds): 15
+cov-build invocation time (seconds): 21
+Translation unit:
+185 -> C:/AEP/AppScantool/testweb/WindowsFormsApp1/Properties/Settings.Designer.cs
+cov-emit-cs invocation time (seconds): 14
+cov-translate invocation time (seconds): 15
+cov-build invocation time (seconds): 21
+Translation unit:
+33 -> C:/AEP/AppScantool/testweb/Scripts/jquery.validate.min.js
+cov-internal-emit-misc invocation time (seconds): 11
+cov-translate invocation time (seconds): 12
+cov-build invocation time (seconds): 21
+Translation unit:
+28 -> C:/AEP/AppScantool/testweb/Scripts/bootstrap.js
+cov-internal-emit-misc invocation time (seconds): 11
+cov-translate invocation time (seconds): 12
+cov-build invocation time (seconds): 21
+Translation unit:
+29 -> C:/AEP/AppScantool/testweb/Scripts/bootstrap.min.js
+cov-internal-emit-misc invocation time (seconds): 11
+cov-translate invocation time (seconds): 12
+cov-build invocation time (seconds): 21
+Translation unit:
+30 -> C:/AEP/AppScantool/testweb/Scripts/jquery-1.10.2.js
+cov-internal-emit-misc invocation time (seconds): 11
+cov-translate invocation time (seconds): 12
+cov-build invocation time (seconds): 21
+Translation unit:
+31 -> C:/AEP/AppScantool/testweb/Scripts/jquery-1.10.2.min.js
+cov-internal-emit-misc invocation time (seconds): 11
+cov-translate invocation time (seconds): 12
+cov-build invocation time (seconds): 21
+Translation unit:
+32 -> C:/AEP/AppScantool/testweb/Scripts/jquery.validate.js
+cov-internal-emit-misc invocation time (seconds): 11
+cov-translate invocation time (seconds): 12
+cov-build invocation time (seconds): 21
+Translation unit:
+34 -> C:/AEP/AppScantool/testweb/Scripts/jquery.validate.unobtrusive.js
+cov-internal-emit-misc invocation time (seconds): 11
+cov-translate invocation time (seconds): 12
+cov-build invocation time (seconds): 21
+Translation unit:
+35 -> C:/AEP/AppScantool/testweb/Scripts/jquery.validate.unobtrusive.min.js
+cov-internal-emit-misc invocation time (seconds): 11
+cov-translate invocation time (seconds): 12
+cov-build invocation time (seconds): 21
+Translation unit:
+36 -> C:/AEP/AppScantool/testweb/Scripts/modernizr-2.6.2.js
+cov-internal-emit-misc invocation time (seconds): 11
+cov-translate invocation time (seconds): 12
+cov-build invocation time (seconds): 21
+Translation unit:
+38 -> C:/AEP/AppScantool/testweb/Scripts/respond.min.js
+cov-internal-emit-misc invocation time (seconds): 11
+cov-translate invocation time (seconds): 12
+cov-build invocation time (seconds): 21
+Translation unit:
+37 -> C:/AEP/AppScantool/testweb/Scripts/respond.js
+cov-internal-emit-misc invocation time (seconds): 11
+cov-translate invocation time (seconds): 12
+cov-build invocation time (seconds): 21
+Translation unit:
+47 -> C:/Program Files/Coverity/Coverity Static Analysis/closure-compiler/externs/window.js
+cov-internal-emit-misc invocation time (seconds): 11
+cov-translate invocation time (seconds): 12
+cov-build invocation time (seconds): 21
+Translation unit:
+46 -> C:/Program Files/Coverity/Coverity Static Analysis/closure-compiler/externs/w3c_dom1.js
+cov-internal-emit-misc invocation time (seconds): 11
+cov-translate invocation time (seconds): 12
+cov-build invocation time (seconds): 21
+Translation unit:
+45 -> C:/Program Files/Coverity/Coverity Static Analysis/closure-compiler/externs/w3c_css.js
+cov-internal-emit-misc invocation time (seconds): 11
+cov-translate invocation time (seconds): 12
+cov-build invocation time (seconds): 21
+Translation unit:
+44 -> C:/Program Files/Coverity/Coverity Static Analysis/closure-compiler/externs/html5.js
+cov-internal-emit-misc invocation time (seconds): 11
+cov-translate invocation time (seconds): 12
+cov-build invocation time (seconds): 21
+Translation unit:
+43 -> C:/Program Files/Coverity/Coverity Static Analysis/closure-compiler/externs/fileapi.js
+cov-internal-emit-misc invocation time (seconds): 11
+cov-translate invocation time (seconds): 12
+cov-build invocation time (seconds): 21
+Translation unit:
+42 -> C:/Program Files/Coverity/Coverity Static Analysis/closure-compiler/externs/es5.js
+cov-internal-emit-misc invocation time (seconds): 11
+cov-translate invocation time (seconds): 12
+cov-build invocation time (seconds): 21
+Translation unit:
+41 -> C:/Program Files/Coverity/Coverity Static Analysis/closure-compiler/externs/es3.js
+cov-internal-emit-misc invocation time (seconds): 11
+cov-translate invocation time (seconds): 12
+cov-build invocation time (seconds): 21
+Translation unit:
+40 -> C:/AEP/AppScantool/testweb/packages/Microsoft.jQuery.Unobtrusive.Validation.3.2.3/Content/Scripts/jquery.validate.unobtrusive.min.js
+cov-internal-emit-misc invocation time (seconds): 11
+cov-translate invocation time (seconds): 12
+cov-build invocation time (seconds): 21
+Translation unit:
+39 -> C:/AEP/AppScantool/testweb/packages/Microsoft.jQuery.Unobtrusive.Validation.3.2.3/Content/Scripts/jquery.validate.unobtrusive.js
+cov-internal-emit-misc invocation time (seconds): 11
+cov-translate invocation time (seconds): 12
+cov-build invocation time (seconds): 21
+Translation unit:
+369 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery.validate.min.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+368 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery.validate.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+367 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.min.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+366 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+365 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/bootstrap.min.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+364 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/bootstrap.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+363 -> C:/AEP/AppScantool/testweb/testweb/Scripts/respond.min.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+371 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery.validate.unobtrusive.min.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+372 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/modernizr-2.6.2.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+373 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/respond.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+370 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery.validate.unobtrusive.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+374 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/respond.min.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+59 -> C:/AEP/AppScantool/testweb/packages/jQuery.Validation.1.11.1/Content/Scripts/jquery.validate.min.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 21
+Translation unit:
+48 -> C:/AEP/AppScantool/testweb/packages/Modernizr.2.6.2/Content/Scripts/modernizr-2.6.2.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 21
+Translation unit:
+49 -> C:/AEP/AppScantool/testweb/packages/Respond.1.2.0/content/Scripts/respond.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 21
+Translation unit:
+50 -> C:/AEP/AppScantool/testweb/packages/Respond.1.2.0/content/Scripts/respond.min.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 21
+Translation unit:
+51 -> C:/AEP/AppScantool/testweb/packages/bootstrap.3.0.0/content/Scripts/bootstrap.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 21
+Translation unit:
+52 -> C:/AEP/AppScantool/testweb/packages/bootstrap.3.0.0/content/Scripts/bootstrap.min.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 21
+Translation unit:
+53 -> C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 21
+Translation unit:
+54 -> C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 21
+Translation unit:
+55 -> C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2.min.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 21
+Translation unit:
+56 -> C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Tools/jquery-1.10.2.intellisense.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 21
+Translation unit:
+57 -> C:/AEP/AppScantool/testweb/packages/jQuery.Validation.1.11.1/Content/Scripts/jquery.validate-vsdoc.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 21
+Translation unit:
+58 -> C:/AEP/AppScantool/testweb/packages/jQuery.Validation.1.11.1/Content/Scripts/jquery.validate.js
+cov-internal-emit-misc invocation time (seconds): 7
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 21
+Translation unit:
+352 -> C:/AEP/AppScantool/testweb/testweb/Scripts/bootstrap.min.js
+cov-internal-emit-misc invocation time (seconds): 6
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+351 -> C:/AEP/AppScantool/testweb/testweb/Scripts/bootstrap.js
+cov-internal-emit-misc invocation time (seconds): 6
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+354 -> C:/AEP/AppScantool/testweb/testweb/Scripts/jquery-1.10.2.js
+cov-internal-emit-misc invocation time (seconds): 6
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+353 -> C:/AEP/AppScantool/testweb/testweb/Scripts/jquery-1.10.2.intellisense.js
+cov-internal-emit-misc invocation time (seconds): 6
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+355 -> C:/AEP/AppScantool/testweb/testweb/Scripts/jquery-1.10.2.min.js
+cov-internal-emit-misc invocation time (seconds): 6
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+356 -> C:/AEP/AppScantool/testweb/testweb/Scripts/jquery.validate-vsdoc.js
+cov-internal-emit-misc invocation time (seconds): 6
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+358 -> C:/AEP/AppScantool/testweb/testweb/Scripts/jquery.validate.min.js
+cov-internal-emit-misc invocation time (seconds): 6
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+359 -> C:/AEP/AppScantool/testweb/testweb/Scripts/jquery.validate.unobtrusive.js
+cov-internal-emit-misc invocation time (seconds): 6
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+360 -> C:/AEP/AppScantool/testweb/testweb/Scripts/jquery.validate.unobtrusive.min.js
+cov-internal-emit-misc invocation time (seconds): 6
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+357 -> C:/AEP/AppScantool/testweb/testweb/Scripts/jquery.validate.js
+cov-internal-emit-misc invocation time (seconds): 6
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+361 -> C:/AEP/AppScantool/testweb/testweb/Scripts/modernizr-2.6.2.js
+cov-internal-emit-misc invocation time (seconds): 6
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+362 -> C:/AEP/AppScantool/testweb/testweb/Scripts/respond.js
+cov-internal-emit-misc invocation time (seconds): 6
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 17
+Translation unit:
+294 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Runtime.Numerics.dll (reference assembly)
+Translation unit:
+295 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Runtime.Serialization.Formatters.dll (reference assembly)
+Translation unit:
+296 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Runtime.Serialization.Json.dll (reference assembly)
+Translation unit:
+297 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Runtime.Serialization.Primitives.dll (reference assembly)
+Translation unit:
+298 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Runtime.Serialization.Xml.dll (reference assembly)
+Translation unit:
+299 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/System.Runtime.Serialization.dll (reference assembly)
+Translation unit:
+300 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Runtime.dll (reference assembly)
+Translation unit:
+301 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Security.Claims.dll (reference assembly)
+Translation unit:
+302 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Security.Cryptography.Algorithms.dll (reference assembly)
+Translation unit:
+303 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Security.Cryptography.Csp.dll (reference assembly)
+Translation unit:
+304 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Security.Cryptography.Encoding.dll (reference assembly)
+Translation unit:
+305 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Security.Cryptography.Primitives.dll (reference assembly)
+Translation unit:
+306 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Security.Cryptography.X509Certificates.dll (reference assembly)
+Translation unit:
+307 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Security.Principal.dll (reference assembly)
+Translation unit:
+308 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Security.SecureString.dll (reference assembly)
+Translation unit:
+309 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.ServiceModel.Duplex.dll (reference assembly)
+Translation unit:
+310 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.ServiceModel.Http.dll (reference assembly)
+Translation unit:
+311 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.ServiceModel.NetTcp.dll (reference assembly)
+Translation unit:
+275 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Net.WebSockets.Client.dll (reference assembly)
+Translation unit:
+312 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.ServiceModel.Primitives.dll (reference assembly)
+Translation unit:
+284 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Reflection.dll (reference assembly)
+Translation unit:
+272 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Net.Security.dll (reference assembly)
+Translation unit:
+276 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Net.WebSockets.dll (reference assembly)
+Translation unit:
+277 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/System.Numerics.dll (reference assembly)
+Translation unit:
+278 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.ObjectModel.dll (reference assembly)
+Translation unit:
+279 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Reflection.Emit.ILGeneration.dll (reference assembly)
+Translation unit:
+280 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Reflection.Emit.Lightweight.dll (reference assembly)
+Translation unit:
+281 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Reflection.Emit.dll (reference assembly)
+Translation unit:
+282 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Reflection.Extensions.dll (reference assembly)
+Translation unit:
+283 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Reflection.Primitives.dll (reference assembly)
+Translation unit:
+293 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Runtime.InteropServices.dll (reference assembly)
+Translation unit:
+285 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Resources.Reader.dll (reference assembly)
+Translation unit:
+286 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Resources.ResourceManager.dll (reference assembly)
+Translation unit:
+287 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Resources.Writer.dll (reference assembly)
+Translation unit:
+288 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Runtime.CompilerServices.VisualC.dll (reference assembly)
+Translation unit:
+289 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Runtime.Extensions.dll (reference assembly)
+Translation unit:
+290 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Runtime.Handles.dll (reference assembly)
+Translation unit:
+291 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Runtime.InteropServices.RuntimeInformation.dll (reference assembly)
+Translation unit:
+292 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Runtime.InteropServices.WindowsRuntime.dll (reference assembly)
+Translation unit:
+342 -> C:/AEP/AppScantool/testweb/testweb/Views/Home/Index.cshtml
+cov-emit-cs invocation time (seconds): 3
+Translation unit:
+333 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Xml.XDocument.dll (reference assembly)
+Translation unit:
+334 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Xml.XPath.XDocument.dll (reference assembly)
+Translation unit:
+335 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Xml.XPath.dll (reference assembly)
+Translation unit:
+336 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Xml.XmlDocument.dll (reference assembly)
+Translation unit:
+337 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Xml.XmlSerializer.dll (reference assembly)
+Translation unit:
+338 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/netstandard.dll (reference assembly)
+Translation unit:
+339 -> C:/AEP/AppScantool/testweb/testweb/Views/_ViewStart.cshtml
+cov-emit-cs invocation time (seconds): 3
+Translation unit:
+340 -> C:/AEP/AppScantool/testweb/testweb/Views/Home/About.cshtml
+cov-emit-cs invocation time (seconds): 3
+Translation unit:
+341 -> C:/AEP/AppScantool/testweb/testweb/Views/Home/Contact.cshtml
+cov-emit-cs invocation time (seconds): 3
+Translation unit:
+332 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Xml.ReaderWriter.dll (reference assembly)
+Translation unit:
+343 -> C:/AEP/AppScantool/testweb/idir/point-and-scan/capture-cs/razor-outputs/testweb/testweb/Razor/Views/Shared/Error.g.cshtml.cs
+cov-emit-cs invocation time (seconds): 3
+Translation unit:
+344 -> C:/AEP/AppScantool/testweb/testweb/Views/Shared/_Layout.cshtml
+cov-emit-cs invocation time (seconds): 3
+Translation unit:
+345 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Views/_ViewStart.cshtml
+cov-emit-cs invocation time (seconds): 3
+Translation unit:
+346 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Views/Home/About.cshtml
+cov-emit-cs invocation time (seconds): 3
+Translation unit:
+347 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Views/Home/Contact.cshtml
+cov-emit-cs invocation time (seconds): 3
+Translation unit:
+348 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Views/Home/Index.cshtml
+cov-emit-cs invocation time (seconds): 3
+Translation unit:
+349 -> C:/AEP/AppScantool/testweb/idir/point-and-scan/capture-cs/razor-outputs/testweb/testweb/Razor/obj/Release/Package/PackageTmp/Views/Shared/Error.g.cshtml.cs
+cov-emit-cs invocation time (seconds): 3
+Translation unit:
+350 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Views/Shared/_Layout.cshtml
+cov-emit-cs invocation time (seconds): 3
+Translation unit:
+323 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Threading.dll (reference assembly)
+Translation unit:
+314 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Text.Encoding.Extensions.dll (reference assembly)
+Translation unit:
+315 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Text.Encoding.dll (reference assembly)
+Translation unit:
+316 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Text.RegularExpressions.dll (reference assembly)
+Translation unit:
+317 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Threading.Overlapped.dll (reference assembly)
+Translation unit:
+318 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Threading.Tasks.Parallel.dll (reference assembly)
+Translation unit:
+319 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Threading.Tasks.dll (reference assembly)
+Translation unit:
+320 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Threading.Thread.dll (reference assembly)
+Translation unit:
+321 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Threading.ThreadPool.dll (reference assembly)
+Translation unit:
+322 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Threading.Timer.dll (reference assembly)
+Translation unit:
+313 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.ServiceModel.Security.dll (reference assembly)
+Translation unit:
+324 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.ValueTuple.dll (reference assembly)
+Translation unit:
+325 -> C:/Users/s343416/.nuget/packages/microsoft.aspnet.webpages/3.2.3/lib/net45/System.Web.Helpers.dll
+Translation unit:
+326 -> C:/Users/s343416/.nuget/packages/microsoft.aspnet.mvc/5.2.3/lib/net45/System.Web.Mvc.dll
+Translation unit:
+327 -> C:/Users/s343416/.nuget/packages/microsoft.aspnet.web.optimization/1.1.3/lib/net40/System.Web.Optimization.dll
+Translation unit:
+328 -> C:/Users/s343416/.nuget/packages/microsoft.aspnet.razor/3.2.3/lib/net45/System.Web.Razor.dll
+Translation unit:
+329 -> C:/Users/s343416/.nuget/packages/microsoft.aspnet.webpages/3.2.3/lib/net45/System.Web.WebPages.Deployment.dll
+Translation unit:
+330 -> C:/Users/s343416/.nuget/packages/microsoft.aspnet.webpages/3.2.3/lib/net45/System.Web.WebPages.Razor.dll
+Translation unit:
+331 -> C:/Users/s343416/.nuget/packages/microsoft.aspnet.webpages/3.2.3/lib/net45/System.Web.WebPages.dll
+Translation unit:
+233 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.ComponentModel.Primitives.dll (reference assembly)
+Translation unit:
+225 -> C:/Users/s343416/.nuget/packages/newtonsoft.json/6.0.4/lib/net45/Newtonsoft.Json.dll
+Translation unit:
+226 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.AppContext.dll (reference assembly)
+Translation unit:
+227 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Collections.Concurrent.dll (reference assembly)
+Translation unit:
+228 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Collections.NonGeneric.dll (reference assembly)
+Translation unit:
+229 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Collections.Specialized.dll (reference assembly)
+Translation unit:
+230 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Collections.dll (reference assembly)
+Translation unit:
+231 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.ComponentModel.Annotations.dll (reference assembly)
+Translation unit:
+232 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.ComponentModel.EventBasedAsync.dll (reference assembly)
+Translation unit:
+224 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/Microsoft.Win32.Primitives.dll (reference assembly)
+Translation unit:
+234 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.ComponentModel.TypeConverter.dll (reference assembly)
+Translation unit:
+235 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.ComponentModel.dll (reference assembly)
+Translation unit:
+236 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Console.dll (reference assembly)
+Translation unit:
+237 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Data.Common.dll (reference assembly)
+Translation unit:
+238 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Diagnostics.Contracts.dll (reference assembly)
+Translation unit:
+239 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Diagnostics.Debug.dll (reference assembly)
+Translation unit:
+240 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Diagnostics.FileVersionInfo.dll (reference assembly)
+Translation unit:
+216 -> C:/Users/s343416/.nuget/packages/microsoft.applicationinsights.dependencycollector/2.2.0/lib/net45/Microsoft.AI.DependencyCollector.dll
+Translation unit:
+188 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.7.2/System.Core.dll (reference assembly)
+Translation unit:
+190 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.7.2/System.Data.dll (reference assembly)
+Translation unit:
+192 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.7.2/System.Drawing.dll (reference assembly)
+Translation unit:
+195 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.7.2/System.Xml.Linq.dll (reference assembly)
+Translation unit:
+196 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.7.2/System.Xml.dll (reference assembly)
+Translation unit:
+197 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.7.2/System.dll (reference assembly)
+Translation unit:
+198 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.7.2/mscorlib.dll (reference assembly)
+Translation unit:
+215 -> C:/Users/s343416/.nuget/packages/microsoft.applicationinsights.agent.intercept/2.0.6/lib/net45/Microsoft.AI.Agent.Intercept.dll
+Translation unit:
+273 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Net.Sockets.dll (reference assembly)
+Translation unit:
+217 -> C:/Users/s343416/.nuget/packages/microsoft.applicationinsights.perfcountercollector/2.2.0/lib/net45/Microsoft.AI.PerfCounterCollector.dll
+Translation unit:
+218 -> C:/Users/s343416/.nuget/packages/microsoft.applicationinsights.windowsserver.telemetrychannel/2.2.0/lib/net45/Microsoft.AI.ServerTelemetryChannel.dll
+Translation unit:
+219 -> C:/Users/s343416/.nuget/packages/microsoft.applicationinsights.web/2.2.0/lib/net45/Microsoft.AI.Web.dll
+Translation unit:
+220 -> C:/Users/s343416/.nuget/packages/microsoft.applicationinsights.windowsserver/2.2.0/lib/net45/Microsoft.AI.WindowsServer.dll
+Translation unit:
+221 -> C:/Users/s343416/.nuget/packages/microsoft.applicationinsights/2.2.0/lib/net46/Microsoft.ApplicationInsights.dll
+Translation unit:
+222 -> C:/Users/s343416/.nuget/packages/microsoft.codedom.providers.dotnetcompilerplatform/1.0.7/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+Translation unit:
+223 -> C:/Users/s343416/.nuget/packages/microsoft.web.infrastructure/1.0.0/lib/net40/Microsoft.Web.Infrastructure.dll
+Translation unit:
+266 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Net.Http.Rtc.dll (reference assembly)
+Translation unit:
+258 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.IO.MemoryMappedFiles.dll (reference assembly)
+Translation unit:
+259 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.IO.Pipes.dll (reference assembly)
+Translation unit:
+260 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.IO.UnmanagedMemoryStream.dll (reference assembly)
+Translation unit:
+261 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.IO.dll (reference assembly)
+Translation unit:
+262 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Linq.Expressions.dll (reference assembly)
+Translation unit:
+263 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Linq.Parallel.dll (reference assembly)
+Translation unit:
+264 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Linq.Queryable.dll (reference assembly)
+Translation unit:
+265 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Linq.dll (reference assembly)
+Translation unit:
+242 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Diagnostics.StackTrace.dll (reference assembly)
+Translation unit:
+274 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Net.WebHeaderCollection.dll (reference assembly)
+Translation unit:
+241 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Diagnostics.Process.dll (reference assembly)
+Translation unit:
+271 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Net.Requests.dll (reference assembly)
+Translation unit:
+270 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Net.Primitives.dll (reference assembly)
+Translation unit:
+269 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Net.Ping.dll (reference assembly)
+Translation unit:
+268 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Net.NetworkInformation.dll (reference assembly)
+Translation unit:
+267 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Net.NameResolution.dll (reference assembly)
+Translation unit:
+256 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.IO.FileSystem.dll (reference assembly)
+Translation unit:
+243 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Diagnostics.TextWriterTraceListener.dll (reference assembly)
+Translation unit:
+244 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Diagnostics.Tools.dll (reference assembly)
+Translation unit:
+245 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Diagnostics.TraceSource.dll (reference assembly)
+Translation unit:
+246 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Drawing.Primitives.dll (reference assembly)
+Translation unit:
+247 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Dynamic.Runtime.dll (reference assembly)
+Translation unit:
+248 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Globalization.Calendars.dll (reference assembly)
+Translation unit:
+249 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Globalization.Extensions.dll (reference assembly)
+Translation unit:
+250 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.Globalization.dll (reference assembly)
+Translation unit:
+251 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/System.IO.Compression.FileSystem.dll (reference assembly)
+Translation unit:
+252 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.IO.Compression.ZipFile.dll (reference assembly)
+Translation unit:
+253 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.IO.FileSystem.DriveInfo.dll (reference assembly)
+Translation unit:
+254 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.IO.FileSystem.Primitives.dll (reference assembly)
+Translation unit:
+255 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.IO.FileSystem.Watcher.dll (reference assembly)
+Translation unit:
+257 -> C:/Users/s343416/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/build/.NETFramework/v4.7.2/Facades/System.IO.IsolatedStorage.dll (reference assembly)
+Translation unit:
+376 -> C:/AEP/AppScantool/testweb/testweb/Content/bootstrap.css (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 17
+Translation unit:
+375 -> C:/AEP/AppScantool/testweb/testweb/Content/Site.css (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 17
+Translation unit:
+377 -> C:/AEP/AppScantool/testweb/testweb/Content/bootstrap.min.css (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 17
+Translation unit:
+27 -> C:/AEP/AppScantool/testweb/packages/Newtonsoft.Json.6.0.4/lib/portable-net45%2Bwp80%2Bwin8%2Bwpa81/Newtonsoft.Json.xml (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 6
+Translation unit:
+26 -> C:/AEP/AppScantool/testweb/packages/Newtonsoft.Json.6.0.4/lib/portable-net40%2Bsl5%2Bwp80%2Bwin8%2Bwpa81/Newtonsoft.Json.xml (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 6
+Translation unit:
+25 -> C:/AEP/AppScantool/testweb/packages/Newtonsoft.Json.6.0.4/lib/netcore45/Newtonsoft.Json.xml (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 6
+Translation unit:
+378 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Content/Site.css (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 17
+Translation unit:
+24 -> C:/AEP/AppScantool/testweb/packages/Newtonsoft.Json.6.0.4/lib/net45/Newtonsoft.Json.xml (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 6
+Translation unit:
+22 -> C:/AEP/AppScantool/testweb/packages/Newtonsoft.Json.6.0.4/lib/net35/Newtonsoft.Json.xml (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 6
+Translation unit:
+21 -> C:/AEP/AppScantool/testweb/packages/Newtonsoft.Json.6.0.4/lib/net20/Newtonsoft.Json.xml (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 6
+Translation unit:
+20 -> C:/AEP/AppScantool/testweb/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 6
+Translation unit:
+19 -> C:/AEP/AppScantool/testweb/packages/Microsoft.AspNet.WebPages.3.2.3/lib/net45/System.Web.WebPages.xml (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 6
+Translation unit:
+18 -> C:/AEP/AppScantool/testweb/packages/Microsoft.AspNet.WebPages.3.2.3/lib/net45/System.Web.WebPages.Razor.xml (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 6
+Translation unit:
+17 -> C:/AEP/AppScantool/testweb/packages/Microsoft.AspNet.WebPages.3.2.3/lib/net45/System.Web.WebPages.Deployment.xml (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 6
+Translation unit:
+16 -> C:/AEP/AppScantool/testweb/packages/Microsoft.AspNet.WebPages.3.2.3/lib/net45/System.Web.Helpers.xml (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 6
+Translation unit:
+15 -> C:/AEP/AppScantool/testweb/packages/Microsoft.AspNet.Web.Optimization.1.1.3/lib/net40/system.web.optimization.xml (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 6
+Translation unit:
+379 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Content/bootstrap.css (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 17
+Translation unit:
+380 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Content/bootstrap.min.css (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 17
+Translation unit:
+23 -> C:/AEP/AppScantool/testweb/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 6
+Translation unit:
+391 -> C:/AEP/AppScantool/testweb/testweb/bin/Microsoft.ApplicationInsights.xml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+420 -> C:/AEP/AppScantool/testweb/testweb/packages.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+392 -> C:/AEP/AppScantool/testweb/testweb/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+393 -> C:/AEP/AppScantool/testweb/testweb/bin/Newtonsoft.Json.xml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+394 -> C:/AEP/AppScantool/testweb/testweb/bin/System.Web.Helpers.xml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+395 -> C:/AEP/AppScantool/testweb/testweb/bin/System.Web.Mvc.xml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+396 -> C:/AEP/AppScantool/testweb/testweb/bin/System.Web.Optimization.xml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+397 -> C:/AEP/AppScantool/testweb/testweb/bin/System.Web.Razor.xml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+398 -> C:/AEP/AppScantool/testweb/testweb/bin/System.Web.WebPages.Deployment.xml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+399 -> C:/AEP/AppScantool/testweb/testweb/bin/System.Web.WebPages.Razor.xml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+400 -> C:/AEP/AppScantool/testweb/testweb/bin/System.Web.WebPages.xml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+411 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/bin/roslyn/VBCSCompiler.exe.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+1 -> C:/AEP/AppScantool/testweb/packages/Microsoft.ApplicationInsights.2.2.0/lib/net40/Microsoft.ApplicationInsights.XML (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 6
+Translation unit:
+419 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/testweb.csproj.FileListAbsolute.txt (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+418 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/_WPPLastBuildInfo.txt (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+417 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/TransformWebConfig/transformed/Web.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+416 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/TransformWebConfig/original/Web.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+415 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/TransformWebConfig/assist/Web.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+414 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/bin/roslyn/vbc.exe.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+413 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/bin/roslyn/csi.exe.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+412 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/bin/roslyn/csc.exe.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+401 -> C:/AEP/AppScantool/testweb/testweb/bin/roslyn/VBCSCompiler.exe.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+410 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/bin/ApplicationInsights.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+409 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Web.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+408 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Views/Web.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+407 -> C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/ApplicationInsights.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+406 -> C:/AEP/AppScantool/testweb/testweb/obj/Debug/testweb.csproj.FileListAbsolute.txt (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+405 -> C:/AEP/AppScantool/testweb/testweb/bin/testweb.dll.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+404 -> C:/AEP/AppScantool/testweb/testweb/bin/roslyn/vbc.exe.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+403 -> C:/AEP/AppScantool/testweb/testweb/bin/roslyn/csi.exe.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+402 -> C:/AEP/AppScantool/testweb/testweb/bin/roslyn/csc.exe.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+177 -> C:/AEP/AppScantool/testweb/ClassLibrary1/bin/Debug/netstandard2.0/ClassLibrary1.deps.json (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 1
+Translation unit:
+2 -> C:/AEP/AppScantool/testweb/packages/Microsoft.ApplicationInsights.2.2.0/lib/net45/Microsoft.ApplicationInsights.XML (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 6
+Translation unit:
+3 -> C:/AEP/AppScantool/testweb/packages/Microsoft.ApplicationInsights.2.2.0/lib/net46/Microsoft.ApplicationInsights.XML (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 6
+Translation unit:
+4 -> C:/AEP/AppScantool/testweb/packages/Microsoft.ApplicationInsights.2.2.0/lib/netstandard1.5/Microsoft.ApplicationInsights.XML (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 6
+Translation unit:
+5 -> C:/AEP/AppScantool/testweb/packages/Microsoft.ApplicationInsights.DependencyCollector.2.2.0/lib/net40/Microsoft.AI.DependencyCollector.XML (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 6
+Translation unit:
+6 -> C:/AEP/AppScantool/testweb/packages/Microsoft.ApplicationInsights.DependencyCollector.2.2.0/lib/net45/Microsoft.AI.DependencyCollector.XML (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 6
+Translation unit:
+7 -> C:/AEP/AppScantool/testweb/packages/Microsoft.ApplicationInsights.Web.2.2.0/lib/net40/Microsoft.AI.Web.XML (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 6
+Translation unit:
+8 -> C:/AEP/AppScantool/testweb/packages/Microsoft.ApplicationInsights.Web.2.2.0/lib/net45/Microsoft.AI.Web.XML (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 6
+Translation unit:
+9 -> C:/AEP/AppScantool/testweb/packages/Microsoft.ApplicationInsights.WindowsServer.2.2.0/lib/net40/Microsoft.AI.WindowsServer.XML (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 6
+Translation unit:
+10 -> C:/AEP/AppScantool/testweb/packages/Microsoft.ApplicationInsights.WindowsServer.2.2.0/lib/net45/Microsoft.AI.WindowsServer.XML (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 6
+Translation unit:
+11 -> C:/AEP/AppScantool/testweb/packages/Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0/lib/net40/Microsoft.AI.ServerTelemetryChannel.XML (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 6
+Translation unit:
+12 -> C:/AEP/AppScantool/testweb/packages/Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0/lib/net45/Microsoft.AI.ServerTelemetryChannel.XML (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 6
+Translation unit:
+13 -> C:/AEP/AppScantool/testweb/packages/Microsoft.AspNet.Mvc.5.2.3/lib/net45/System.Web.Mvc.xml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 6
+Translation unit:
+14 -> C:/AEP/AppScantool/testweb/packages/Microsoft.AspNet.Razor.3.2.3/lib/net45/System.Web.Razor.xml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 6
+Translation unit:
+60 -> C:/AEP/AppScantool/testweb/seeker/seeker.properties (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+390 -> C:/AEP/AppScantool/testweb/testweb/bin/Microsoft.AI.WindowsServer.xml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+178 -> C:/AEP/AppScantool/testweb/ClassLibrary1/obj/Debug/netstandard2.0/ClassLibrary1.csproj.FileListAbsolute.txt (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 1
+Translation unit:
+179 -> C:/AEP/AppScantool/testweb/ClassLibrary1/obj/project.assets.json (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 1
+Translation unit:
+199 -> C:/AEP/AppScantool/testweb/WindowsFormsApp1/App.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+200 -> C:/AEP/AppScantool/testweb/WindowsFormsApp1/bin/Debug/WindowsFormsApp1.exe.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+201 -> C:/AEP/AppScantool/testweb/WindowsFormsApp1/obj/Debug/WindowsFormsApp1.csproj.FileListAbsolute.txt (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+381 -> C:/AEP/AppScantool/testweb/testweb/ApplicationInsights.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+382 -> C:/AEP/AppScantool/testweb/testweb/Views/Web.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+383 -> C:/AEP/AppScantool/testweb/testweb/Web.Debug.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+384 -> C:/AEP/AppScantool/testweb/testweb/Web.Release.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+385 -> C:/AEP/AppScantool/testweb/testweb/Web.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+386 -> C:/AEP/AppScantool/testweb/testweb/bin/ApplicationInsights.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+387 -> C:/AEP/AppScantool/testweb/testweb/bin/Microsoft.AI.DependencyCollector.xml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+388 -> C:/AEP/AppScantool/testweb/testweb/bin/Microsoft.AI.ServerTelemetryChannel.xml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4
+Translation unit:
+389 -> C:/AEP/AppScantool/testweb/testweb/bin/Microsoft.AI.Web.xml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 4

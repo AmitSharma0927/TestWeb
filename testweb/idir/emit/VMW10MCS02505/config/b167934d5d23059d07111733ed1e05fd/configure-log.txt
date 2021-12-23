@@ -1,0 +1,4 @@
+Native Compiler invocation: C:/Program Files (x86)/dotnet/sdk/2.1.202/Roslyn/bincore/csc.dll --dotnet-home C:\Program Files (x86)\dotnet /noconfig @C:\Temp\tmp3a39efcb7dc64b6eb5ec846554c97656.rsp
+Working directory: C:\AEP\AppScantool\testweb\WindowsFormsApp1
+Comptype: csc
+* Configuring C:\Program Files (x86)\dotnet\sdk\2.1.202\Roslyn\bincore\csc.dll as a C# compiler

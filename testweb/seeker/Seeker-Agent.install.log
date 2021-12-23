@@ -1,0 +1,86 @@
+[341C:3820][2021-12-03T17:42:28]i001: Burn v3.11.1.2318, Windows v10.0 (Build 19042: Service Pack 0), path: C:\WINDOWS\Temp\{E2FBBDB1-690F-44B5-A7C3-5F976ECE6FD4}\.cr\Seeker-Agent.exe
+[341C:3820][2021-12-03T17:42:28]i000: Initializing string variable 'InstallFolder' to value '[ProgramFiles6432Folder]Synopsys\Seeker\inline\agents'
+[341C:3820][2021-12-03T17:42:28]i009: Command Line: '"-burn.clean.room=C:\AEP\AppScan tool\testweb\seeker\Seeker-Agent.exe" -burn.filehandle.attached=672 -burn.filehandle.self=664 /install /quiet /norestart /log Seeker-Agent.install.log PROJECTKEY=225588'
+[341C:3820][2021-12-03T17:42:28]i000: Setting string variable 'WixBundleOriginalSource' to value 'C:\AEP\AppScan tool\testweb\seeker\Seeker-Agent.exe'
+[341C:3820][2021-12-03T17:42:28]i000: Setting string variable 'WixBundleOriginalSourceFolder' to value 'C:\AEP\AppScan tool\testweb\seeker\'
+[341C:3820][2021-12-03T17:42:28]i000: Setting string variable 'WixBundleLog' to value 'C:\AEP\AppScan tool\testweb\seeker\Seeker-Agent.install.log'
+[341C:3820][2021-12-03T17:42:28]i000: Setting string variable 'WixBundleName' to value 'Seeker .NET Framework and .NET Core Agents'
+[341C:3820][2021-12-03T17:42:28]i000: Setting string variable 'WixBundleManufacturer' to value 'Synopsys'
+[341C:1104][2021-12-03T17:42:28]i000: Setting string variable 'PROJECTKEY' to value '225588'
+[341C:1104][2021-12-03T17:42:28]i000: Setting numeric variable 'WixStdBALanguageId' to value 1033
+[341C:1104][2021-12-03T17:42:28]i000: Setting version variable 'WixBundleFileVersion' to value '2021.10.0.0'
+[341C:3820][2021-12-03T17:42:28]i100: Detect begin, 4 packages
+[341C:3820][2021-12-03T17:42:28]i101: Detected package: vcredist_x86.exe, state: Absent, cached: None
+[341C:3820][2021-12-03T17:42:28]i101: Detected package: vcredist_x64.exe, state: Absent, cached: None
+[341C:3820][2021-12-03T17:42:28]i101: Detected package: Agent32, state: Absent, cached: None
+[341C:3820][2021-12-03T17:42:28]i101: Detected package: Agent64, state: Absent, cached: None
+[341C:3820][2021-12-03T17:42:28]i199: Detect complete, result: 0x0
+[341C:3820][2021-12-03T17:42:28]i200: Plan begin, 4 packages, action: Install
+[341C:3820][2021-12-03T17:42:28]w321: Skipping dependency registration on package with no dependency providers: vcredist_x86.exe
+[341C:3820][2021-12-03T17:42:28]i000: Setting string variable 'WixBundleLog_vcredist_x86.exe' to value 'C:\AEP\AppScan tool\testweb\seeker\Seeker-Agent.install_000_vcredist_x86.exe.log'
+[341C:3820][2021-12-03T17:42:28]i052: Condition 'VersionNT64' evaluates to true.
+[341C:3820][2021-12-03T17:42:28]w321: Skipping dependency registration on package with no dependency providers: vcredist_x64.exe
+[341C:3820][2021-12-03T17:42:28]i000: Setting string variable 'WixBundleLog_vcredist_x64.exe' to value 'C:\AEP\AppScan tool\testweb\seeker\Seeker-Agent.install_001_vcredist_x64.exe.log'
+[341C:3820][2021-12-03T17:42:28]i052: Condition 'NOT VersionNT64' evaluates to false.
+[341C:3820][2021-12-03T17:42:28]i052: Condition 'VersionNT64' evaluates to true.
+[341C:3820][2021-12-03T17:42:28]i000: Setting string variable 'WixBundleRollbackLog_Agent64' to value 'C:\AEP\AppScan tool\testweb\seeker\Seeker-Agent.install_002_Agent64_rollback.log'
+[341C:3820][2021-12-03T17:42:28]i000: Setting string variable 'WixBundleLog_Agent64' to value 'C:\AEP\AppScan tool\testweb\seeker\Seeker-Agent.install_002_Agent64.log'
+[341C:3820][2021-12-03T17:42:28]i201: Planned package: vcredist_x86.exe, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: None, cache: Yes, uncache: Yes, dependency: None
+[341C:3820][2021-12-03T17:42:28]i201: Planned package: vcredist_x64.exe, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: None, cache: Yes, uncache: Yes, dependency: None
+[341C:3820][2021-12-03T17:42:28]i201: Planned package: Agent32, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[341C:3820][2021-12-03T17:42:28]i201: Planned package: Agent64, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: No, dependency: Register
+[341C:3820][2021-12-03T17:42:28]i299: Plan complete, result: 0x0
+[341C:3820][2021-12-03T17:42:28]i300: Apply begin
+[341C:3820][2021-12-03T17:42:28]i010: Launching elevated engine process.
+[341C:3820][2021-12-03T17:42:28]i011: Launched elevated engine process.
+[341C:3820][2021-12-03T17:42:28]i012: Connected to elevated engine.
+[3C8C:29DC][2021-12-03T17:42:28]i358: Pausing automatic updates.
+[3C8C:29DC][2021-12-03T17:42:29]i359: Paused automatic updates.
+[3C8C:29DC][2021-12-03T17:42:29]i360: Creating a system restore point.
+[3C8C:29DC][2021-12-03T17:42:29]w363: Could not create system restore point, error: 0x80070422. Continuing...
+[3C8C:29DC][2021-12-03T17:42:29]i370: Session begin, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{bdfcc36c-137c-4fdd-9b06-1fd2806b0130}, options: 0x7, disable resume: No
+[3C8C:29DC][2021-12-03T17:42:29]i000: Caching bundle from: 'C:\WINDOWS\Temp\{063C0CC9-F32E-465D-B587-37E1AD67DC3C}\.be\Seeker-Agent.exe' to: 'C:\ProgramData\Package Cache\{bdfcc36c-137c-4fdd-9b06-1fd2806b0130}\Seeker-Agent.exe'
+[3C8C:29DC][2021-12-03T17:42:29]i320: Registering bundle dependency provider: {bdfcc36c-137c-4fdd-9b06-1fd2806b0130}, version: 2021.10.0.0
+[3C8C:29DC][2021-12-03T17:42:29]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{bdfcc36c-137c-4fdd-9b06-1fd2806b0130}, resume: Active, restart initiated: No, disable resume: No
+[3C8C:0308][2021-12-03T17:42:30]i305: Verified acquired payload: vcredist_x86.exe at path: C:\ProgramData\Package Cache\.unverified\vcredist_x86.exe, moving to: C:\ProgramData\Package Cache\3EE9622151E4B50837FCDFAC1B085430F0181F4E\Redist\vcredist_x86.exe.
+[3C8C:0308][2021-12-03T17:42:31]i305: Verified acquired payload: vcredist_x64.exe at path: C:\ProgramData\Package Cache\.unverified\vcredist_x64.exe, moving to: C:\ProgramData\Package Cache\1BA9C101BF77557D5EE9DA6F967D94E1CA629F00\Redist\vcredist_x64.exe.
+[3C8C:0308][2021-12-03T17:42:31]i305: Verified acquired payload: Agent64 at path: C:\ProgramData\Package Cache\.unverified\Agent64, moving to: C:\ProgramData\Package Cache\{9FDFA9C3-99A9-4DF8-A62D-DEC9E1E2A9FD}v21.10.0.35719\Seeker-Agent-x64.msi.
+[3C8C:29DC][2021-12-03T17:42:31]i301: Applying execute package: vcredist_x86.exe, action: Install, path: C:\ProgramData\Package Cache\3EE9622151E4B50837FCDFAC1B085430F0181F4E\Redist\vcredist_x86.exe, arguments: '"C:\ProgramData\Package Cache\3EE9622151E4B50837FCDFAC1B085430F0181F4E\Redist\vcredist_x86.exe" /install /quiet /norestart /log C:\AEP\AppScan tool\testweb\seeker\Seeker-Agent.install_000_vcredist_x86.exe.log'
+[341C:3820][2021-12-03T17:42:33]i319: Applied execute package: vcredist_x86.exe, result: 0x0, restart: None
+[3C8C:29DC][2021-12-03T17:42:33]i301: Applying execute package: vcredist_x64.exe, action: Install, path: C:\ProgramData\Package Cache\1BA9C101BF77557D5EE9DA6F967D94E1CA629F00\Redist\vcredist_x64.exe, arguments: '"C:\ProgramData\Package Cache\1BA9C101BF77557D5EE9DA6F967D94E1CA629F00\Redist\vcredist_x64.exe" /install /quiet /norestart /log C:\AEP\AppScan tool\testweb\seeker\Seeker-Agent.install_001_vcredist_x64.exe.log'
+[341C:3820][2021-12-03T17:42:35]i319: Applied execute package: vcredist_x64.exe, result: 0x0, restart: None
+[3C8C:29DC][2021-12-03T17:42:35]i323: Registering package dependency provider: {9FDFA9C3-99A9-4DF8-A62D-DEC9E1E2A9FD}, version: 21.10.0.35719, package: Agent64
+[3C8C:29DC][2021-12-03T17:42:35]i301: Applying execute package: Agent64, action: Install, path: C:\ProgramData\Package Cache\{9FDFA9C3-99A9-4DF8-A62D-DEC9E1E2A9FD}v21.10.0.35719\Seeker-Agent-x64.msi, arguments: ' ALLUSERS="1" ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7" INSTALLDIR="C:\Program Files\Synopsys\Seeker\inline\agents" PROJECTKEY="225588"'
+[341C:3820][2021-12-03T17:42:41]i319: Applied execute package: Agent64, result: 0x0, restart: None
+[3C8C:29DC][2021-12-03T17:42:41]i325: Registering dependency: {bdfcc36c-137c-4fdd-9b06-1fd2806b0130} on package provider: {9FDFA9C3-99A9-4DF8-A62D-DEC9E1E2A9FD}, package: Agent64
+[3C8C:29DC][2021-12-03T17:42:41]i351: Removing cached package: vcredist_x86.exe, from path: C:\ProgramData\Package Cache\3EE9622151E4B50837FCDFAC1B085430F0181F4E\
+[3C8C:29DC][2021-12-03T17:42:41]i351: Removing cached package: vcredist_x64.exe, from path: C:\ProgramData\Package Cache\1BA9C101BF77557D5EE9DA6F967D94E1CA629F00\
+[3C8C:29DC][2021-12-03T17:42:41]i372: Session end, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{bdfcc36c-137c-4fdd-9b06-1fd2806b0130}, resume: ARP, restart: None, disable resume: No
+[3C8C:29DC][2021-12-03T17:42:41]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{bdfcc36c-137c-4fdd-9b06-1fd2806b0130}, resume: ARP, restart initiated: No, disable resume: No
+[341C:3820][2021-12-03T17:42:41]i399: Apply complete, result: 0x0, restart: None, ba requested restart:  No
+[341C:3820][2021-12-03T17:42:41]i500: Shutting down, exit code: 0x0
+[341C:3820][2021-12-03T17:42:41]i410: Variable: InstallFolder = C:\Program Files\Synopsys\Seeker\inline\agents
+[341C:3820][2021-12-03T17:42:41]i410: Variable: ProgramFiles6432Folder = C:\Program Files\
+[341C:3820][2021-12-03T17:42:41]i410: Variable: PROJECTKEY = 225588
+[341C:3820][2021-12-03T17:42:41]i410: Variable: VersionNT64 = 10.0.0.0
+[341C:3820][2021-12-03T17:42:41]i410: Variable: WixBundleAction = 5
+[341C:3820][2021-12-03T17:42:41]i410: Variable: WixBundleElevated = 1
+[341C:3820][2021-12-03T17:42:41]i410: Variable: WixBundleFileVersion = 2021.10.0.0
+[341C:3820][2021-12-03T17:42:41]i410: Variable: WixBundleInstalled = 0
+[341C:3820][2021-12-03T17:42:41]i410: Variable: WixBundleLog = C:\AEP\AppScan tool\testweb\seeker\Seeker-Agent.install.log
+[341C:3820][2021-12-03T17:42:41]i410: Variable: WixBundleLog_Agent64 = C:\AEP\AppScan tool\testweb\seeker\Seeker-Agent.install_002_Agent64.log
+[341C:3820][2021-12-03T17:42:41]i410: Variable: WixBundleLog_vcredist_x64.exe = C:\AEP\AppScan tool\testweb\seeker\Seeker-Agent.install_001_vcredist_x64.exe.log
+[341C:3820][2021-12-03T17:42:41]i410: Variable: WixBundleLog_vcredist_x86.exe = C:\AEP\AppScan tool\testweb\seeker\Seeker-Agent.install_000_vcredist_x86.exe.log
+[341C:3820][2021-12-03T17:42:41]i410: Variable: WixBundleManufacturer = Synopsys
+[341C:3820][2021-12-03T17:42:41]i410: Variable: WixBundleName = Seeker .NET Framework and .NET Core Agents
+[341C:3820][2021-12-03T17:42:41]i410: Variable: WixBundleOriginalSource = C:\AEP\AppScan tool\testweb\seeker\Seeker-Agent.exe
+[341C:3820][2021-12-03T17:42:41]i410: Variable: WixBundleOriginalSourceFolder = C:\AEP\AppScan tool\testweb\seeker\
+[341C:3820][2021-12-03T17:42:41]i410: Variable: WixBundleProviderKey = {bdfcc36c-137c-4fdd-9b06-1fd2806b0130}
+[341C:3820][2021-12-03T17:42:41]i410: Variable: WixBundleRollbackLog_Agent64 = C:\AEP\AppScan tool\testweb\seeker\Seeker-Agent.install_002_Agent64_rollback.log
+[341C:3820][2021-12-03T17:42:41]i410: Variable: WixBundleSourceProcessFolder = C:\AEP\AppScan tool\testweb\seeker\
+[341C:3820][2021-12-03T17:42:41]i410: Variable: WixBundleSourceProcessPath = C:\AEP\AppScan tool\testweb\seeker\Seeker-Agent.exe
+[341C:3820][2021-12-03T17:42:41]i410: Variable: WixBundleTag = 
+[341C:3820][2021-12-03T17:42:41]i410: Variable: WixBundleUILevel = 2
+[341C:3820][2021-12-03T17:42:41]i410: Variable: WixBundleVersion = 2021.10.0.0
+[341C:3820][2021-12-03T17:42:41]i410: Variable: WixStdBALanguageId = 1033
+[341C:3820][2021-12-03T17:42:41]i007: Exit code: 0x0, restarting: No

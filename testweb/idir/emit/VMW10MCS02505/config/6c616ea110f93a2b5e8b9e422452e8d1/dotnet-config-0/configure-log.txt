@@ -1,0 +1,2 @@
+Failed to find header C:/Program Files/Coverity/Coverity Static Analysis/config/templates/dotnet/cc.h
+Failed to find header C:/Program Files/Coverity/Coverity Static Analysis/config/templates/dotnet/compiler-compat-dotnet.h

@@ -1,0 +1,19 @@
+C:\AEP\AppScantool\testweb\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\AEP\AppScantool\testweb\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\AEP\AppScantool\testweb\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\testweb.csproj\WindowsFormsApp1.exe.config
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\testweb.csproj\WindowsFormsApp1.exe
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\testweb.csproj\WindowsFormsApp1.pdb
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\ClassLibrary1.csproj\WindowsFormsApp1.exe.config
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\ClassLibrary1.csproj\WindowsFormsApp1.exe
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\ClassLibrary1.csproj\WindowsFormsApp1.pdb
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\WindowsFormsApp1.csproj\WindowsFormsApp1.exe.config
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\WindowsFormsApp1.csproj\WindowsFormsApp1.exe
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\WindowsFormsApp1.csproj\WindowsFormsApp1.pdb
+C:\AEP\AppScantool\testweb\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\AEP\AppScantool\testweb\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\AEP\AppScantool\testweb\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\AEP\AppScantool\testweb\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\AEP\AppScantool\testweb\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\AEP\AppScantool\testweb\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\AEP\AppScantool\testweb\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

@@ -1,0 +1,72 @@
+<error>
+<domain>STATIC_CS</domain>
+<lang>C#</lang>
+<checker>CONFIG.ENABLED_DEBUG_MODE</checker>
+<type>debug_mode</type>
+<subtype>asp.net</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/bin/testweb.dll.config</file>
+<function>unknown</function>
+<ordered>true</ordered>
+<event>
+<main>true</main>
+<tag>misconfiguration</tag>
+<description>{CovLStrv2{{t{Debug is enabled for the web application via the {0} configuration file. Debug information will be displayed when the application is deployed into production. Because potentially sensitive data such as server configuration and internal state is included in this information, debug should be disabled in production applications.}{testweb.dll.config}}}}</description>
+<line>14</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{Set the {code{enabled}} attribute of the {code{debug}} element to {code{false}}.}}}}</description>
+<line>14</line>
+</event>
+<extra>/bin/testweb.dll.config</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_CS</domain>
+<lang>C#</lang>
+<checker>CONFIG.ENABLED_DEBUG_MODE</checker>
+<type>debug_mode</type>
+<subtype>asp.net</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/TransformWebConfig/original/Web.config</file>
+<function>unknown</function>
+<ordered>true</ordered>
+<event>
+<main>true</main>
+<tag>misconfiguration</tag>
+<description>{CovLStrv2{{t{Debug is enabled for the web application via the {0} configuration file. Debug information will be displayed when the application is deployed into production. Because potentially sensitive data such as server configuration and internal state is included in this information, debug should be disabled in production applications.}{Web.config}}}}</description>
+<line>14</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{Set the {code{enabled}} attribute of the {code{debug}} element to {code{false}}.}}}}</description>
+<line>14</line>
+</event>
+<extra>/original/Web.config</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_CS</domain>
+<lang>C#</lang>
+<checker>CONFIG.ENABLED_DEBUG_MODE</checker>
+<type>debug_mode</type>
+<subtype>asp.net</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/Web.config</file>
+<function>unknown</function>
+<ordered>true</ordered>
+<event>
+<main>true</main>
+<tag>misconfiguration</tag>
+<description>{CovLStrv2{{t{Debug is enabled for the web application via the {0} configuration file. Debug information will be displayed when the application is deployed into production. Because potentially sensitive data such as server configuration and internal state is included in this information, debug should be disabled in production applications.}{Web.config}}}}</description>
+<line>14</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{Set the {code{enabled}} attribute of the {code{debug}} element to {code{false}}.}}}}</description>
+<line>14</line>
+</event>
+<extra>/testweb/Web.config</extra>
+<subcategory>none</subcategory>
+</error>

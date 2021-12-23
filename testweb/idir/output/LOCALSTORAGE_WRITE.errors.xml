@@ -1,0 +1,24 @@
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>LOCALSTORAGE_WRITE</checker>
+<type>localstorage_write</type>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/modernizr-2.6.2.js</file>
+<function>!modernizr-2.6.2.js!%IIFE:tests.localstorage</function>
+<functionMergeName>!modernizr-%VERSION.js!%IIFE:tests.localstorage</functionMergeName>
+<ordered>true</ordered>
+<event>
+<main>true</main>
+<tag>localstorage_write</tag>
+<description>{CovLStrv2{{t{Writing to {code{localStorage}}.}}}}</description>
+<line>813</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{Audit the data entering{code{localStorage}} to make sure it isn't sensitive.  Store sensitive data on the server and manage with sessions.}}}}</description>
+<line>813</line>
+</event>
+<extra></extra>
+<subcategory>none</subcategory>
+</error>

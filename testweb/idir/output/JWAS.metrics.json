@@ -1,0 +1,764 @@
+{
+  "basic-metrics" : {
+    "web-app-entry-points" : 23,
+    "web-app-views-unused" : 10,
+    "string-graph-nodes" : 572,
+    "string-graph-edges" : 571,
+    "string-graph-tainted-node-percent" : "1.57",
+    "string-graph-sink-reachable-node-percent" : "20.98",
+    "string-graph-tainted-fn-percent" : "2.21",
+    "string-graph-sink-reachable-fn-percent" : "14.71",
+    "injection_sites" : 10,
+    "entry nodes" : 23,
+    "head symbols" : 112,
+    "unique parse states" : 1,
+    "total rules" : 112,
+    "non-terminal nodes" : 92,
+    "total symbols" : 173,
+    "rules with one symbol" : 61,
+    "elided node entries" : 40,
+    "total components" : 1,
+    "total keys in components" : 2,
+    "average keys in a component" : "2.00",
+    "max key in a component" : 2,
+    "max key in a component" : 2
+  },
+  "memory-metrics" : {
+    "predicted-string-graph-memory" : 335432,
+    "analyze_dataflow1_post_DATAFLOW_ANALYSIS1_phase" : {
+      "resident_memory" : 605315072,
+      "peak_resident_memory" : 0,
+      "virtual_memory" : 0,
+      "peak_virtual_memory" : 549408768
+    },
+    "analyze_dataflow1_pre_DATAFLOW_ANALYSIS1_phase" : {
+      "resident_memory" : 605143040,
+      "peak_resident_memory" : 0,
+      "virtual_memory" : 0,
+      "peak_virtual_memory" : 549408768
+    },
+    "analyze_dataflow2_post_DATAFLOW_ANALYSIS2_phase" : {
+      "resident_memory" : 615788544,
+      "peak_resident_memory" : 0,
+      "virtual_memory" : 0,
+      "peak_virtual_memory" : 562307072
+    },
+    "analyze_dataflow2_pre_DATAFLOW_ANALYSIS2_phase" : {
+      "resident_memory" : 615809024,
+      "peak_resident_memory" : 0,
+      "virtual_memory" : 0,
+      "peak_virtual_memory" : 562307072
+    },
+    "xss_XSS_after_creating_rules" : {
+      "resident_memory" : 615976960,
+      "peak_resident_memory" : 0,
+      "virtual_memory" : 0,
+      "peak_virtual_memory" : 562909184
+    },
+    "xss_XSS_after_finding_states" : {
+      "resident_memory" : 616017920,
+      "peak_resident_memory" : 0,
+      "virtual_memory" : 0,
+      "peak_virtual_memory" : 562909184
+    },
+    "xss_XSS_before_creating_rules" : {
+      "resident_memory" : 615907328,
+      "peak_resident_memory" : 0,
+      "virtual_memory" : 0,
+      "peak_virtual_memory" : 562909184
+    },
+    "xss_XSS_before_finding_states" : {
+      "resident_memory" : 616001536,
+      "peak_resident_memory" : 0,
+      "virtual_memory" : 0,
+      "peak_virtual_memory" : 562909184
+    },
+    "xss_after_XSS_checker_cleanup" : {
+      "resident_memory" : 616054784,
+      "peak_resident_memory" : 0,
+      "virtual_memory" : 0,
+      "peak_virtual_memory" : 562909184
+    },
+    "xss_after_XSS_checker_run" : {
+      "resident_memory" : 616038400,
+      "peak_resident_memory" : 0,
+      "virtual_memory" : 0,
+      "peak_virtual_memory" : 562909184
+    },
+    "xss_after_creating_XSS_defects" : {
+      "resident_memory" : 616038400,
+      "peak_resident_memory" : 0,
+      "virtual_memory" : 0,
+      "peak_virtual_memory" : 562909184
+    },
+    "xss_before_XSS_checker_run" : {
+      "resident_memory" : 615878656,
+      "peak_resident_memory" : 0,
+      "virtual_memory" : 0,
+      "peak_virtual_memory" : 562909184
+    }
+  },
+  "state-derivation-search-metrics" : {},
+  "candidate-graph-search-metrics" : {
+    "EL_INJECTION_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "JAVA_CODE_INJECTION_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "JCR_INJECTION_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "JSP_DYNAMIC_INCLUDE_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "JSP_SQL_INJECTION_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "LDAP_INJECTION_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "LOG_INJECTION_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "OGNL_INJECTION_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "SENSITIVE_DATA_LEAK_INTERNAL_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "SESSION_FIXATION_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "TRUST_BOUNDARY_VIOLATION_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "UNENCRYPTED_SENSITIVE_DATA_INTERNAL_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "UNKNOWN_LANGUAGE_INJECTION_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "UNRESTRICTED_DISPATCH_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "UNSAFE_NAMED_QUERY_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "URL_MANIPULATION_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "__HEADER_INJECTION_STATICS_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "__INSECURE_RANDOM_STRING_GRAPH_INTERNAL_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "__NOSQL_QUERY_INJECTION_STATICS_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "__OS_CMD_INJECTION_STRING_GRAPH_INTERNAL_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "__PATH_MANIPULATION_STRING_GRAPH_INTERNAL_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "__REGEX_INJECTION_STATICS_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "__SCRIPT_CODE_INJECTION_STATICS_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "__SQLI_STRING_GRAPH_INTERNAL_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "__TAINTED_ENVIRONMENT_WITH_EXECUTION_STATICS_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "__UNSAFE_DESERIALIZATION_STATICS_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "__UNSAFE_JNI_STATICS_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "__UNSAFE_REFLECTION_STATICS_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "__WEAK_PASSWORD_HASH_STRING_GRAPH_INTERNAL_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "__XML_EXTERNAL_ENTITY_STRING_GRAPH_INTERNAL_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "__XML_INJECTION_STATICS_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "__XPATH_INJECTION_STATICS_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    },
+    "xss_stats" : {
+      "node_limit" : 0,
+      "confidence_penalty_limit" : 0,
+      "edge_limit" : 0,
+      "fields_limit" : 0,
+      "subset_stats" : {
+        "success_guard" : {
+          "node_limit" : 0
+        },
+        "fail_guard" : {
+          "node_limit" : 0
+        },
+        "success_stats" : {
+          "node_limit" : 0
+        },
+        "fail_stats" : {
+          "node_limit" : 0
+        }
+      }
+    }
+  }
+}

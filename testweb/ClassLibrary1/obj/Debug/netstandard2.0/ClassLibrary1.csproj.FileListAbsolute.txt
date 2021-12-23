@@ -1,0 +1,18 @@
+C:\AEP\AppScantool\testweb\ClassLibrary1\bin\Debug\netstandard2.0\ClassLibrary1.deps.json
+C:\AEP\AppScantool\testweb\ClassLibrary1\bin\Debug\netstandard2.0\ClassLibrary1.dll
+C:\AEP\AppScantool\testweb\ClassLibrary1\bin\Debug\netstandard2.0\ClassLibrary1.pdb
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\testweb.csproj\ClassLibrary1.deps.json
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\testweb.csproj\ClassLibrary1.dll
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\testweb.csproj\ClassLibrary1.pdb
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\WindowsFormsApp1.csproj\ClassLibrary1.deps.json
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\WindowsFormsApp1.csproj\ClassLibrary1.dll
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\WindowsFormsApp1.csproj\ClassLibrary1.pdb
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\ClassLibrary1.csproj\ClassLibrary1.deps.json
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\ClassLibrary1.csproj\ClassLibrary1.dll
+\\nanasvdi01\userdata$\s343416\Application Data\Synopsys\desktop\extension\buildoutputs\testweb.sln\ClassLibrary1.csproj\ClassLibrary1.pdb
+C:\AEP\AppScantool\testweb\ClassLibrary1\obj\Debug\netstandard2.0\ClassLibrary1.csprojAssemblyReference.cache
+C:\AEP\AppScantool\testweb\ClassLibrary1\obj\Debug\netstandard2.0\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\AEP\AppScantool\testweb\ClassLibrary1\obj\Debug\netstandard2.0\ClassLibrary1.AssemblyInfoInputs.cache
+C:\AEP\AppScantool\testweb\ClassLibrary1\obj\Debug\netstandard2.0\ClassLibrary1.AssemblyInfo.cs
+C:\AEP\AppScantool\testweb\ClassLibrary1\obj\Debug\netstandard2.0\ClassLibrary1.dll
+C:\AEP\AppScantool\testweb\ClassLibrary1\obj\Debug\netstandard2.0\ClassLibrary1.pdb

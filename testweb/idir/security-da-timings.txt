@@ -1,0 +1,24 @@
+timer                                              ms      calls
+----------------------------------------------------------------
+cov_security_da::run                            22578          1
+  cov_security_da::doSecurityDA                 22578          1
+    Looking for translation units                  15          1
+    Computing links for translation units       13437          1
+    xfer symbol cache                             688          1
+    Dump bytecode TUs                             375          1
+      dumpBytecode                                375          1
+    runSecurityDA                                7938          1
+      runDotNetSecurityDA                        7938          1
+    (left over)                                   125
+
+activity                                           ms      calls
+----------------------------------------------------------------
+cov_security_da::run                            22578          1
+cov_security_da::doSecurityDA                   22578          1
+Looking for translation units                      15          1
+Computing links for translation units           13437          1
+xfer symbol cache                                 688          1
+Dump bytecode TUs                                 375          1
+dumpBytecode                                      375          1
+runSecurityDA                                    7938          1
+runDotNetSecurityDA                              7938          1

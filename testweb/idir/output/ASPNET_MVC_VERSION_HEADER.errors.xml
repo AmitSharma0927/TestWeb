@@ -1,0 +1,19 @@
+<error>
+<domain>STATIC_CS</domain>
+<lang>C#</lang>
+<checker>ASPNET_MVC_VERSION_HEADER</checker>
+<type>information_exposure</type>
+<subtype>aspnet_mvc_version_header</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/Global.asax.cs</file>
+<function>System.Void testweb.MvcApplication::Application_Start()</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>aspnet_mvc_version_header</tag>
+<description>{CovLStrv2{{t{{code{MvcHandler.DisableMvcResponseHeader}} should be set to {code{true}} in method {code{Application_Start}}.}}}}</description>
+<line>13</line>
+</event>
+<extra></extra>
+<subcategory>none</subcategory>
+</error>

@@ -1,0 +1,184 @@
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>SCRIPT_CODE_INJECTION</checker>
+<type>script_code_injection</type>
+<subtype>audit</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/bootstrap.js</file>
+<function>!bootstrap.js!%IIFE%3:Carousel.prototype.cycle</function>
+<functionMergeName>!bootstrap.js!%IIFE:Carousel.prototype.cycle</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>audit_taint</tag>
+<description>{CovLStrv2{{t{{0} invokes an unknown or unresolved function which might return untrusted data.}{{code{$.proxy(this.next, this)}}}}}}</description>
+<line>342</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{$.proxy(this.next, this)}}}{{code{setInterval}}}}}}</description>
+<line>340</line>
+</event>
+<event>
+<main>true</main>
+<tag>script_code_injection_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{setInterval}}}{{code{$.proxy(this.next, this)}}}}{t{ This passes the tainted value to the code evaluation API and may thus allow an attacker to modify the behavior of the program.}}}}</description>
+<line>340</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{User-controllable dynamic data should not be used as part of scripts that are executed on the server.}}}}</description>
+<line>340</line>
+</event>
+<extra>@&quot;setInterval&quot;:&quot;proxy&quot;,$</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>SCRIPT_CODE_INJECTION</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/bootstrap.js</file>
+<function>!bootstrap.js!%IIFE%3:Carousel.prototype.cycle</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>SCRIPT_CODE_INJECTION</checker>
+<type>script_code_injection</type>
+<subtype>audit</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:%IPOL.delay:%IPFE</function>
+<functionMergeName>!jquery-%VERSION.js!%IIFE:%IPOL.delay:%IPFE</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{next}}}}}}</description>
+<line>4020</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{next}}}{{code{setTimeout}}}}}}</description>
+<line>4021</line>
+</event>
+<event>
+<main>true</main>
+<tag>script_code_injection_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{setTimeout}}}{{code{next}}}}{t{ This passes the tainted value to the code evaluation API and may thus allow an attacker to modify the behavior of the program.}}}}</description>
+<line>4021</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{User-controllable dynamic data should not be used as part of scripts that are executed on the server.}}}}</description>
+<line>4021</line>
+</event>
+<extra>@&quot;setTimeout&quot;:&quot;!jquery-1.10.2.js!%IIFE:%IPOL.delay:%IPFE&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>SCRIPT_CODE_INJECTION</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js</file>
+<function>!jquery-1.10.2.js!%IIFE:%IPOL.delay:%IPFE</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>SCRIPT_CODE_INJECTION</checker>
+<type>script_code_injection</type>
+<subtype>audit</subtype>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.delay:%IPFE</function>
+<functionMergeName>!jquery-%VERSION-vsdoc.js!%IIFE:jQuery.prototype.delay:%IPFE</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>argument_audit</tag>
+<description>{CovLStrv2{{t{{0} may assume any value when called by an unknown or untrusted caller.}{{code{next}}}}}}</description>
+<line>3639</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{next}}}{{code{setTimeout}}}}}}</description>
+<line>3640</line>
+</event>
+<event>
+<main>true</main>
+<tag>script_code_injection_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{setTimeout}}}{{code{next}}}}{t{ This passes the tainted value to the code evaluation API and may thus allow an attacker to modify the behavior of the program.}}}}</description>
+<line>3640</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{User-controllable dynamic data should not be used as part of scripts that are executed on the server.}}}}</description>
+<line>3640</line>
+</event>
+<extra>@&quot;setTimeout&quot;:&quot;!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.delay:%IPFE&quot;</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>SCRIPT_CODE_INJECTION</checker>
+<file>C:/AEP/AppScantool/testweb/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js</file>
+<function>!jquery-1.10.2-vsdoc.js!%IIFE:jQuery.prototype.delay:%IPFE</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>OTHER</domain>
+<lang>JavaScript</lang>
+<checker>SCRIPT_CODE_INJECTION</checker>
+<type>script_code_injection</type>
+<subtype>audit</subtype>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/bootstrap.js</file>
+<function>!bootstrap.js!%IIFE%11:Affix.prototype.checkPositionWithEventLoop</function>
+<functionMergeName>!bootstrap.js!%IIFE:Affix.prototype.checkPositionWithEventLoop</functionMergeName>
+<ordered>true</ordered>
+<event>
+<tag>audit_taint</tag>
+<description>{CovLStrv2{{t{{0} invokes an unknown or unresolved function which might return untrusted data.}{{code{$.proxy(this.checkPosition, this)}}}}}}</description>
+<line>1934</line>
+</event>
+<event>
+<tag>pass</tag>
+<description>{CovLStrv2{{t{Passing {0} to {1}.}{{code{$.proxy(this.checkPosition, this)}}}{{code{setTimeout}}}}}}</description>
+<line>1934</line>
+</event>
+<event>
+<main>true</main>
+<tag>script_code_injection_sink</tag>
+<description>{CovLStrv2{{t{Calling {0} with the tainted value in {1}.}{{code{setTimeout}}}{{code{$.proxy(this.checkPosition, this)}}}}{t{ This passes the tainted value to the code evaluation API and may thus allow an attacker to modify the behavior of the program.}}}}</description>
+<line>1934</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{User-controllable dynamic data should not be used as part of scripts that are executed on the server.}}}}</description>
+<line>1934</line>
+</event>
+<extra>@&quot;setTimeout&quot;:&quot;proxy&quot;,$</extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<domain>OTHER</domain>
+<checker>SCRIPT_CODE_INJECTION</checker>
+<file>C:/AEP/AppScantool/testweb/testweb/obj/Release/Package/PackageTmp/Scripts/bootstrap.js</file>
+<function>!bootstrap.js!%IIFE%11:Affix.prototype.checkPositionWithEventLoop</function>
+<extra></extra>
+</antecedentMerge>
+<eventSetCaptions>
+<eventSetCaption>Flow of tainted data to a vulnerable sink</eventSetCaption>
+<eventSetCaption>Additional context</eventSetCaption>
+</eventSetCaptions>
+</error>
