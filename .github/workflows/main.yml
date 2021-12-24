@@ -32,3 +32,11 @@ jobs:
           blackduck.url: https://poc46.blackduck.synopsys.com/
           blackduck.api.token: ZjJlNTFkMmItNmNiMS00NmI2LTk3NTYtZDA2ZDZlODRmYWYxOmViODg0NTE4LTNkZmItNDNmNy04MjI1LTQwNjNlOWY3MzIzOQ==
           args: --detect.risk.report.pdf=true
+          
+      - name: Synopsys Scan
+        uses: seekersoftware/github-action@v2.2
+        with:
+          version: 7
+          blackduck.url: https://poc34.seeker.synopsys.com/
+          seeker.api.token: e4m23c2mf95kt2v3fkqljgjld491u7bicp7v75ie7anepovnqu00
+          args: --detect.risk.report.pdf=true
