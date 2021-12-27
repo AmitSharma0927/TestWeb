@@ -38,18 +38,18 @@ jobs:
         with:
           version: 21.2.0                                      # On-prem customers should specify a client version that matches their ScanCentral environment
                                                                # FoD customers usually should not specify a version but rather rely on the default version
-          client-auth-token: ${{ P2VqJERGM2RsbStYSlJlSzdQeEs4YWFKTnI1M1dD0}}  # Optional, but required if ScanCentral Controller requires client authentication
+          client-auth-token: P2VqJERGM2RsbStYSlJlSzdQeEs4YWFKTnI1M1dD0  # Optional, but required if ScanCentral Controller requires client authentication
 
       ### Run Fortify ScanCentral Client ###
       # Update BUILD_OPTS based on the ScanCentral Client documentation and your project's included tech stack(s).
       #   ScanCentral Client will download dependencies for maven, gradle and msbuild projects.
       #   For other build tools, add your build commands to the workflow to download necessary dependencies and prepare according to Fortify SCA documentation.
       - name: Perform SAST Scan
-        run: scancentral -url ${https://ams.fortify.com/} start $BUILD_OPTS -upload -application $APPLICATION -version $VERSION -uptoken P2VqJERGM2RsbStYSlJlSzdQeEs4YWFKTnI1M1dD0
+        run: scancentral -url https://ams.fortify.com/ start $BUILD_OPTS -upload -application TestWeb -version $VERSION -uptoken P2VqJERGM2RsbStYSlJlSzdQeEs4YWFKTnI1M1dD0
         env:                                            
-          SC_CONTROLLER_URL: ${{ https://ams.fortify.com/ }}
-          SSC_UPLOAD_TOKEN: ${{ P2VqJERGM2RsbStYSlJlSzdQeEs4YWFKTnI1M1dD0 }}
-          APPLICATION: "Ecommerce"
+          SC_CONTROLLER_URL:  https://ams.fortify.com/
+          SSC_UPLOAD_TOKEN: P2VqJERGM2RsbStYSlJlSzdQeEs4YWFKTnI1M1dD0
+          APPLICATION: "TestWeb"
           VERSION: "1.0"
           BUILD_OPTS: "-bt mvn"
 
