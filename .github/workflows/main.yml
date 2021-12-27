@@ -25,11 +25,14 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Run Polaris tests
-        uses: loadbalancerorg/polaris-action@v1.1
+      
+      - name: Synopsys Scan
+        uses: blackducksoftware/github-action@v2.2
         with:
-          server_url: ${{ https://poc18.coverity.synopsys.com }} # (Required)
-          access_token: ${{ e4m23c2mf95kt2v3fkqljgjld491u7bicp7v75ie7anepovnqu00 }} # (Required)
+          version: 7
+          blackduck.url: https://poc46.blackduck.synopsys.com/
+          blackduck.api.token: ZjJlNTFkMmItNmNiMS00NmI2LTk3NTYtZDA2ZDZlODRmYWYxOmViODg0NTE4LTNkZmItNDNmNy04MjI1LTQwNjNlOWY3MzIzOQ==
+          args: --detect.risk.report.pdf=true
           
           
       
