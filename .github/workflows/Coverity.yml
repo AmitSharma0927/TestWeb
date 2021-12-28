@@ -30,11 +30,9 @@ jobs:
           version: 7
           blackduck.url: https://poc46.blackduck.synopsys.com/
           blackduck.api.token: ZjJlNTFkMmItNmNiMS00NmI2LTk3NTYtZDA2ZDZlODRmYWYxOmViODg0NTE4LTNkZmItNDNmNy04MjI1LTQwNjNlOWY3MzIzOQ==
-          args: --detect.risk.report.pdf=true
-		  
+          args: --detect.risk.report.pdf=true	  
       - name: Coverity
       - uses: actions/checkout@v2
-
       - env:
          COV_URL:  https://poc18.coverity.synopsys.com
          COV_USER: Jasim_Mandal
