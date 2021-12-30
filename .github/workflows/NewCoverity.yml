@@ -34,24 +34,6 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
-      - name: Maven Build
-        run: mvn clean package -DskipTests
-        
-      - name: Install SAST Full Scan
-        run: |
-          curl -fLsS --user $COV_USER:$COVERITY_PASSPHRASE $COV_URL/downloadFile.htm?fn=$CSA.tar.gz | tar -C /tmp -xzf -
-          curl -fLsS --user $COV_USER:$COVERITY_PASSPHRASE -o /tmp/$CSA/bin/license.dat $COV_URL/downloadFile.htm?fn=license.dat
-          /tmp/$CSA/bin/cov-configure --java
-
-      - name: Full Scan (SAST)
-        run: |
-          export PATH=$PATH:/tmp/$CSA/bin
-          set -x
-          cov-build --dir idir --fs-capture-search $GITHUB_WORKSPACE $BLDCMD
-          cov-analyze --dir idir --ticker-mode none --strip-path $GITHUB_WORKSPACE $CHECKERS
-          cov-commit-defects --dir idir --ticker-mode none --url $COV_URL --stream $COVERITY_PROJECT-${GITHUB_BASE_REF##*/} --scm git \
-            --description $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID --target $RUNNER_OS --version $GITHUB_SHA
         
         
       - name: Full Scan (SCA)
