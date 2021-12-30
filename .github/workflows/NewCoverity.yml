@@ -31,10 +31,15 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+    - name: Install SAST Full Scan
+      run: |
+        curl -fLsS --user $COV_USER:$COVERITY_PASSPHRASE $COV_URL/downloadFile.htm?fn=$CSA.tar.gz | tar -C /tmp -xzf -
+        curl -fLsS --user $COV_USER:$COVERITY_PASSPHRASE -o /tmp/$CSA/bin/license.dat $COV_URL/downloadFile.htm?fn=license.dat
+        /tmp/$CSA/bin/cov-configure --java
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-      - name: Full Scan (SAST)
-        run: |
+    - uses: actions/checkout@v2
+    - name: Full Scan (SAST)
+      run: |
           export PATH=$PATH:/tmp/$CSA/bin
           set -x
           cov-build --dir idir --fs-capture-search $GITHUB_WORKSPACE $BLDCMD
@@ -45,9 +50,9 @@ jobs:
         
         
         
-      - name: Full Scan (SCA)
-        uses: blackducksoftware/github-action@v2.2
-        with:
+    - name: Full Scan (SCA)
+      uses: blackducksoftware/github-action@v2.2
+      with:
           version: 7
           blackduck.url: ${{ secrets.BLACKDUCK_URL }}
           blackduck.api.token: ${{ secrets.BLACKDUCK_API_TOKEN }}
