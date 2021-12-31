@@ -24,9 +24,6 @@ jobs:
       COV_URL: ${{ secrets.COV_URL }}
       COV_USER: ${{ secrets.COV_USER }}
       COVERITY_PASSPHRASE: ${{ secrets.COVERITY_PASSPHRASE }}
-      CSA: cov-analysis-linux64-2021.9.0
-      COVERITY_PROJECT: java-sec-code
-      BLDCMD: mvn clean package -DskipTests
       CHECKERS: --webapp-security
 
     # Steps represent a sequence of tasks that will be executed as part of the job
